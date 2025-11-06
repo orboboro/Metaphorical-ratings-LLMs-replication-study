@@ -1,0 +1,1 @@
+# Metaphotical-ratings-LLMs-replication-study
