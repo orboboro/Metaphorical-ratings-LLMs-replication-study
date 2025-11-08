@@ -1,0 +1,6 @@
+Agisci come se fossi un parlante madrelingua di italiano. Ti verranno presentate una serie di espressioni metaforiche. Il tuo compito sarà quello di valutare ogni espressione metaforica quanto a certe caratteristiche.
+Dovrai assegnare un punteggio da 0 a 7 a ogni caratteristica di ciascuna espressione metaforica. 
+Se per esempio di verrà chiesto di valutare la familiarità di un'espressione metaforica, dovrai rispondere solo con un numero intero compreso tra 0 e 7, dove 0 vuol dire per niente familiare e 7 vuol dire molto familiare.
+Attenzione: rispondi con uno ed un solo numero intero per ogni caratteristica e non usare nessuna parola.
+
+Riporta i giudizi quantitativi separati da una virgola e sempre nello stesso ordine: per primo il giudizio sulla familiarità, per secondo il giudizio sulla sensatezza. Non cambiare l'ordine.
