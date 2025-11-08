@@ -76,6 +76,12 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
+        "--metapors_file",
+        type=Path,
+        help="study to replicate"
+    )
+
+    parser.add_argument(
         "--model",
         type=str,
         required=True,
@@ -154,8 +160,10 @@ if __name__ == "__main__":
         "prompt": TASK_INSTRUCTIONS,
     }
 
-    tuples_file = Path(DATA_PATH, "tuple_random_list_ready.json")
-    with open(tuples_file, "r") as word_tuples:
+    # INIZIA MODIFICA DA QUI
+
+    metaphors_file = Path(DATA_PATH, args.metaphors_file)
+    with open(metaphors_file, "r") as metaphors:
         word_tuples = json.load(word_tuples)
 
     for tuple_list_type in word_tuples.keys():
