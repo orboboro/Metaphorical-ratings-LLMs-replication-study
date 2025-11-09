@@ -6,7 +6,7 @@ from langchain_core.prompts import (
     MessagesPlaceholder,
     PromptTemplate,
 )
-from langchain.output_parsers import CommaSeparatedListOutputParser
+from langchain_core.output_parsers import CommaSeparatedListOutputParser
 import json
 from pathlib import Path
 import pandas as pd
@@ -16,7 +16,7 @@ import argparse
 
 def reply_to_values(response):
     response_str = response.content
-    values_list = response_str.split(",")
+    values_list = response_str.split(", ")
     return values_list
 
 def annotate(metaphor, history=False):
@@ -51,12 +51,12 @@ if __name__ == "__main__":
     start_time = datetime.now()
 
     parser = argparse.ArgumentParser(
-        description="BWS Annotation Script with llms, langchain and Ollama API",
-        usage="python langchain_bws.py --model 'mistral:instruct' --prompt specificity_task_instructions_1.txt [--raters 1 --history --testing]",
+        description="Metaphors Ratings Script with llms, langchain and Ollama API",
+        usage="python langchain_met_ratings.py --model 'llama3' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --history",
     )
 
     parser.add_argument(
-        "--metapors_file",
+        "--metaphors_file",
         type=Path,
         help="study to replicate"
     )
@@ -81,7 +81,7 @@ if __name__ == "__main__":
         "--raters",
         type=int,
         default=1,
-        help="number of raters to annotate each tuple",
+        help="number of raters to annotate each metaphor",
     )
 
     parser.add_argument(
@@ -106,14 +106,14 @@ if __name__ == "__main__":
     else:
         TESTING = False
 
-    DATA_PATH = "../data"
+    DATA_PATH = "../data/new_datasets/" + str(args.metaphors_file)
     RATERS = args.raters
 
     model_name = MODEL.replace(":", "-")
     if TESTING:
-        out_file_name = "_TESTING_bws_llm-langchain_"
+        out_file_name = "_TESTING_met_ratings_llm-langchain_"
     else:
-        out_file_name = "bws_llm-langchain_"
+        out_file_name = "met_ratings_llm-langchain_"
 
     if KEEP_HISTORY:
         out_file_name += "keep-history_"
@@ -140,9 +140,7 @@ if __name__ == "__main__":
         "prompt": TASK_INSTRUCTIONS,
     }
 
-    # INIZIA MODIFICA DA QUI
-
-    metaphors_file = Path(DATA_PATH, args.metaphors_file)
+    metaphors_file = Path(DATA_PATH)
     df_metaphors = pd.read_csv(metaphors_file)
     metaphor_list = df_metaphors["Metaphor"]
     print(type(metaphor_list))
@@ -175,19 +173,50 @@ if __name__ == "__main__":
             print(rater, idx + 1, "of", len(metaphor_list))
 
             reply = annotate(metaphor, history=KEEP_HISTORY)
+            print(reply.content)
             values=reply_to_values(reply)
+            print(values)
 
             if "MB" in args.prompt:
 
                 row = {
-                    "Annotator": rater,
-                    "Metaphor": metaphor,
-                    "FamMetabody_Met" : values[0],
-                    "SensMetabody_Met" : values[1],
-                    "BodyMetabody_Met" : values[2]
+                    "annotator": rater,
+                    "metaphor": metaphor,
+                    "familiarity" : values[0],
+                    "meaningfulness" : values[1],
+                    "bodey relatedness" : values[2]
                 }
-            if KEEP_HISTORY and best is not None and worst is not None:
-                chat_history.append(HumanMessage(content=promptize_tuple(tup)))
+
+            if "ME" in args.prompt:
+
+                row = {
+                    "annotator": rater,
+                    "metaphor": metaphor,
+                    "familiarity" : values[0],
+                    "meaningfulness" : values[1],
+                    "difficulty" : values[2]
+                }
+
+            if "MI" in args.prompt:
+
+                row = {
+                    "annotator": rater,
+                    "metaphor": metaphor,
+                    "phisicality" : values[0],
+                    "imageability" : values[1],
+                }
+
+            if "MM" in args.prompt:
+
+                row = {
+                    "annotator": rater,
+                    "metaphor": metaphor,
+                    "familiarity" : values[0],
+                    "meaningfulness" : values[1],
+                }
+
+            if KEEP_HISTORY and None not in values:
+                chat_history.append(HumanMessage(content=metaphor))
                 chat_history.append(AIMessage(content=reply))
 
             write_out(out_annotation_file, row)
@@ -197,4 +226,4 @@ if __name__ == "__main__":
     with open(str(out_annotation_file.absolute()) + "_CONFIG.json", "w") as f:
         json.dump(run_config, f)
 
-    print("BWS completed in: {}".format(datetime.now() - start_time))
+    print("Metaphor rating completed in: {}".format(datetime.now() - start_time))
