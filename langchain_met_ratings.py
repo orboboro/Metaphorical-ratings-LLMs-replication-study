@@ -15,8 +15,11 @@ import csv
 import argparse
 
 def reply_to_values(response):
-    values_list = response.split(", ")
+    values_list = response.split(",")
+    for idx, value in enumerate(values_list):
+        values_list[idx] = "".join([c for c in value if c.isdigit()])
     return values_list
+
 
 def annotate(metaphor, history=False):
     if history:
@@ -41,7 +44,7 @@ def write_out(out_file_name, results_dict):
             writer.writeheader()
             writer.writerow(results_dict)
     else:
-        with out_annotation_file.open("a", newline="") as f:
+        with out_annotation_file.open("a", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
@@ -51,7 +54,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
         description="Metaphors Ratings Script with llms, langchain and Ollama API",
-        usage="python langchain_met_ratings.py --model 'llama3' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --history --test",
+        usage="python langchain_met_ratings.py --model 'gemma3:1b' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --test",
     )
 
     parser.add_argument(
@@ -141,10 +144,11 @@ if __name__ == "__main__":
 
     metaphors_file = Path(DATA_PATH, str(args.metaphors_file))
     df_metaphors = pd.read_csv(metaphors_file, encoding="utf-8")
+
     if args.test:
         df_metaphors=df_metaphors[:5]
+
     metaphor_list = df_metaphors["Metaphor"]
-    print(type(metaphor_list))
 
     for n in range(RATERS):
         rater_time = datetime.now()
@@ -174,19 +178,21 @@ if __name__ == "__main__":
             print(rater, idx + 1, "of", len(metaphor_list))
 
             reply = annotate(metaphor, history=KEEP_HISTORY)
-            print(type(reply))
+            print("output: ", reply)
             values=reply_to_values(reply)
-            print(values)
+            print("values: ", values)
 
             if "MB" in args.prompt:
 
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "familiarity" : values[0],
-                    "meaningfulness" : values[1],
-                    "bodey relatedness" : values[2]
+                    "familiarity" : int(values[0]),
+                    "meaningfulness" : int(values[1]),
+                    "bodey relatedness" : int(values[2])
                 }
+
+#################################################################
 
             if "ME" in args.prompt:
 
@@ -215,6 +221,8 @@ if __name__ == "__main__":
                     "familiarity" : values[0],
                     "meaningfulness" : values[1],
                 }
+
+############################################################################
 
             if KEEP_HISTORY and None not in values:
                 chat_history.append(HumanMessage(content=metaphor))
