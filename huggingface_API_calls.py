@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
         description="Metaphors Ratings Script with llms, langchain and Ollama API",
-        usage="python huggingface_API_calls.py --model 'meta-llama/Meta-Llama-3-70B-Instruct:novita' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --history --test",
+        usage="python huggingface_API_calls.py --model 'google/gemma-3-27b-it:nebius' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --history --test",
     )
 
     parser.add_argument(
@@ -78,7 +78,7 @@ if __name__ == "__main__":
     else:
         KEEP_HISTORY = False
 
-    TASK_INSTRUCTIONS = open(args.prompt, "r").read()
+    TASK_INSTRUCTIONS = open(args.prompt, "r", encoding="utf-8").read()
 
     if args.test:
         TEST = True
@@ -88,7 +88,6 @@ if __name__ == "__main__":
     DATA_PATH = "data/new_datasets/"
     RATERS = args.raters
 
-    model_name = MODEL.replace(":", "-")
     if TEST:
         out_file_name = "_TEST_met_ratings_llm-langchain_"
     else:
@@ -98,6 +97,9 @@ if __name__ == "__main__":
         out_file_name += "keep-history_"
     else:
         out_file_name += "no-history_"
+
+    model_name = MODEL.replace(":", "-").replace("/", "-")
+
     out_annotation_file = Path(
         DATA_PATH,
         "synthetic_annotations",
@@ -130,12 +132,13 @@ if __name__ == "__main__":
     for n in range(RATERS):
         rater_time = datetime.now()
         rater = f"rater_{n + 1}"
-        print("rater: ", rater)
+        print("RATER: ", rater, "\n")
 
         conversation = [
             {
                 "role": "system",
-                "content": {"type": "text", "text": TASK_INSTRUCTIONS},
+                "content": [{"type": "text", "text": TASK_INSTRUCTIONS}]
+                ,
                 },
             {
                 "role": "user",
@@ -143,10 +146,11 @@ if __name__ == "__main__":
                 }
         ]
 
+
         for idx, metaphor in list(enumerate(metaphor_list)):
             print(rater, idx + 1, "of", len(metaphor_list))
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN"])
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider="nebius")
 
             conversation[-1]["content"][0]["text"] = metaphor
             completion = client.chat.completions.create(
@@ -154,17 +158,17 @@ if __name__ == "__main__":
                 messages=conversation
                 )
 
-            reply = completion.choices[0].message["content"][0]["text"]
-            print("output: ", reply)
+            reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
+            print("output: ", reply, "\n")
 
             if KEEP_HISTORY:
 
                 conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
                 conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
-                print(conversation)
+                print("Conversation so far: ", conversation, "\n")
 
             values=reply_to_values(reply)
-            print("values: ", values)
+            print("values: ", values, "\n")
 
             if "MB" in args.prompt:
 
