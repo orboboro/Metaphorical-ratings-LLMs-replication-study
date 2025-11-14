@@ -1,4 +1,2 @@
-transformers
-langchain
-langchain-huggingface
-groq
+pandas
+huggingface_hub

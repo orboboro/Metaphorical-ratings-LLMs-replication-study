@@ -1,56 +1,17 @@
+import json
+from pathlib import Path
+import pandas as pd
+from datetime import datetime
+import csv
+import argparse
 import os
 from huggingface_hub import InferenceClient
-
-client = InferenceClient(
-    api_key=os.environ["HF_TOKEN"],
-)
-
-completion = client.chat.completions.create(
-    model="google/gemma-3-27b-it:nebius",
-    messages=[
-        {
-            "role": "user",
-            "content": [
-                {
-                    "type": "text",
-                    "text": "Describe this image in one sentence."
-                },
-                {
-                    "type": "image_url",
-                    "image_url": {
-                        "url": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg"
-                    }
-                }
-            ]
-        }
-    ],
-)
-
-print(completion.choices[0].message)
-
-########################################################################
 
 def reply_to_values(response):
     values_list = response.split(",")
     for idx, value in enumerate(values_list):
         values_list[idx] = "".join([c for c in value if c.isdigit()])
     return values_list
-
-
-def annotate(metaphor, history=False):
-    if history:
-        request = {
-            "chat_history": chat_history,
-            "input": metaphor,
-        }
-    else:
-        request = {
-            "input": metaphor,
-        }
-
-    response = chain.invoke(request)
-
-    return response
 
 def write_out(out_file_name, results_dict):
     out_annotation_file = Path(str(out_file_name.absolute()))
@@ -70,7 +31,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
         description="Metaphors Ratings Script with llms, langchain and Ollama API",
-        usage="python langchain_met_ratings.py --model 'gemma3:1b' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --history --test",
+        usage="python huggingface_API_calls.py --model 'meta-llama/Meta-Llama-3-70B-Instruct:novita' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --history --test",
     )
 
     parser.add_argument(
@@ -110,7 +71,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    MODEL = args.model
+    MODEL = (args.model).replace(":", "-")
 
     if args.history:
         KEEP_HISTORY = True
@@ -171,72 +132,37 @@ if __name__ == "__main__":
         rater = f"rater_{n + 1}"
         print("rater: ", rater)
 
-###########################################################################################
-
-        client = InferenceClient(api_key=os.environ["HF_TOKEN"])
-
-        if KEEP_HISTORY:
-        
-            completion = client.chat.completions.create(
-                model=MODEL,
-                messages=[
-                    {
-                        "role": "system",
-                        "content": {"type": "text", "text": TASK_INSTRUCTIONS},
-                        },
-                    {},
-                    {
-                        "role": "user",
-                        "content": {"type": "text", "text": "{input}"}}
-                ]
-            )
-
-        else:
-
-            completion = client.chat.completions.create(
-                model=MODEL,
-                messages=[
-                    {
-                        "role": "system",
-                        "content": {"type": "text", "text": TASK_INSTRUCTIONS},
-                        },
-                    {
-                        "role": "user",
-                        "content": {"type": "text", "text": "{input}"}}
-                ]
-            )
-
-
-
-    print(completion.choices[0].message)
-
-
-        llm = Ollama(model=MODEL, num_predict=48)  # , temperature=0.2)
-        if KEEP_HISTORY:
-            chat_history = []
-            prompt_template = ChatPromptTemplate.from_messages(
-                [
-                    ("system", TASK_INSTRUCTIONS),
-                    MessagesPlaceholder(variable_name="chat_history"),
-                    ("user", "{input}"),
-                ]
-            )
-        else:
-            prompt_template = ChatPromptTemplate.from_messages(
-                [
-                    ("system", TASK_INSTRUCTIONS),
-                    ("user", "{input}"),
-                ]
-            )
-        chain = prompt_template | llm
-    
-    ###############################################################################
+        conversation = [
+            {
+                "role": "system",
+                "content": {"type": "text", "text": TASK_INSTRUCTIONS},
+                },
+            {
+                "role": "user",
+                "content": [{"type": "text", "text": ""}]
+                }
+        ]
 
         for idx, metaphor in list(enumerate(metaphor_list)):
             print(rater, idx + 1, "of", len(metaphor_list))
 
-            reply = annotate(metaphor, history=KEEP_HISTORY)
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"])
+
+            conversation[-1]["content"][0]["text"] = metaphor
+            completion = client.chat.completions.create(
+                model=MODEL,
+                messages=conversation
+                )
+
+            reply = completion.choices[0].message["content"][0]["text"]
             print("output: ", reply)
+
+            if KEEP_HISTORY:
+
+                conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
+                conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
+                print(conversation)
+
             values=reply_to_values(reply)
             print("values: ", values)
 
@@ -249,8 +175,6 @@ if __name__ == "__main__":
                     "meaningfulness" : int(values[1]),
                     "body relatedness" : int(values[2])
                 }
-
-#################################################################
 
             if "ME" in args.prompt:
 
@@ -281,10 +205,6 @@ if __name__ == "__main__":
                 }
 
 ############################################################################
-
-            if KEEP_HISTORY and None not in values:
-                chat_history.append(HumanMessage(content=metaphor))
-                chat_history.append(AIMessage(content=reply))
 
             write_out(out_annotation_file, row)
 
