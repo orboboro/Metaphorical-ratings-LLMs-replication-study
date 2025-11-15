@@ -159,7 +159,7 @@ def main():
         for idx, metaphor in list(enumerate(metaphor_list)):
             print(rater, idx + 1, "of", len(metaphor_list))
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider="nebius")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"])
 
             conversation[-1]["content"][0]["text"] = metaphor
 
