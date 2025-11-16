@@ -199,9 +199,9 @@ def main():
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "familiarity" : values[0],
-                    "meaningfulness" : values[1],
-                    "difficulty" : values[2]
+                    "familiarity" : int(values[0]),
+                    "meaningfulness" : int(values[1]),
+                    "difficulty" : int(values[2])
                 }
 
             if "MI" in args.prompt:
@@ -209,8 +209,8 @@ def main():
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "phisicality" : values[0],
-                    "imageability" : values[1],
+                    "phisicality" : int(values[0]),
+                    "imageability" : int(values[1]),
                 }
 
             if "MM" in args.prompt:
@@ -218,8 +218,8 @@ def main():
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "familiarity" : values[0],
-                    "meaningfulness" : values[1],
+                    "familiarity" : int(values[0]),
+                    "meaningfulness" : int(values[1]),
                 }
 
             write_out(out_annotation_file, row)
