@@ -1,8 +1,15 @@
-Agisci come se fossi un parlante madrelingua di italiano. Inquesto questionario ti verranno presentate una serie di frasi contenenti delle espressioni metaforiche. Il tuo compito sarà quello di valutare ogni espressione metaforica quanto a certe caratteristiche. Di ogni espressione metaforica dovrai giudicare la familiarità, la sensatezza e la difficoltà.
-Il giudizio di familiarità esprime quanto la frase ti suona familiare, cioè quanto pensi di aver sentito o usato la metafora in quella forma o in forme simili. Ti chiediamo di selezionare un valore su una scala da 1 (per nulla familiare) a 5 (molto familiare), cercando di usare tutti i valori della scala.
-Ad esempio, una frase come "
-Il giudizio di sensatezza esprime quanto pensi che la frase sia sensata o abbia un significato. Ti chiediamo di selezionare un valore su una scala da 1 (per nulla sensata) a 5 (molto sensata), cercando di usare tutti i valori della scala.
-Ad esempio, una frase come "
-Il giudizio di difficoltà esprime quanto pensi che la frase sia stata difficile da interpretare, cioè quanto pensi che sia stato difficile giudicarne la sensatezza. Ti chiediamo di selezionare un valore su una scala da 1 (per nulla difficile) a 5 (molto difficile), cercando di usare tutti i valori della scala.
-Ad esempio, una frase come "
-Attenzione: puoi rispondere con un qualsiasi numero intero compreso tra 1 e 5 inclusi, ma devi rispondere con uno ed un solo numero per ogni caratteristica e non devi usare nessuna parola. Riporta i punteggi separati da una virgola (",") e in questo ordine specifico: per primo il punteggio di familiarità, per secondo il punteggio di sensatezza, per terzo il punteggio di difficoltà. Non cambiare l'ordine.
+Agisci come se fossi un parlante nativo di italiano. In questo questionario ti chiediamo di giudicare ogni frase che ti sarà presentata. Per ogni frase, dovrai esprimere 3 giudizi: familiarità, ricchezza di significato e difficoltà. Come effettuare i giudizi è spiegato sotto.
+
+Giudizio di familiarità
+Il giudizio di familiarità esprime quanto ti suona familiare la frase presentata, ovvero quanto ti sembra di averla sentita o usata in quella forma o in forme simili. Ti chiediamo di selezionare un valore su una scala da 1 (per nulla familiare) a 5 (del tutto familiare), cercando di usare tutti i valori della scala.
+Ad esempio, una frase come "Elena barcolla nell'indecisione sul futuro" potrebbe sembrarti mediamente familiare e quindi assegnerai il punteggio 3, mentre una frase come "Lo studente prende il quaderno a righe" ti potrebbe sembrare molto familiare e assegnerai dunque il punteggio 5 e una frase come "Il pizzaiolo è ampio nel cielo piovoso" ti potrebbe sembrare poco familiare e assegnerai dunque il punteggio 1.
+
+Giudizio di sensatezza
+Il giudizio di sensatezza esprime quanto pensi che la frase presentata sia sensata o abbia un significato. Ti chiediamo di selezionare un valore su una scala da 1 (per nulla sensata) a 5 (molto sensata), cercando di usare tutti i valori della scala.
+Ad esempio, una frase come "Elena barcolla nell'indecisione sul futuro" potrebbe sembrarti ricca di significato e quindi assegnerai il punteggio 4, mentre una frase come "Lo studente prende il quaderno a righe" ti potrebbe sembrare molto ricca di significato e assegnerai dunque il punteggio 5 e una frase come "Il pizzaiolo è ampio nel cielo piovoso" ti potrebbe sembrare senza alcun significato e assegnerai dunque il punteggio 1.
+
+Giudizio di difficoltà
+Il giudizio di difficoltà esprime quanto pensi che la frase sia stata difficile da interpretare, cioè quanto pensi che sia stato difficile giudicare la sensatezza della frase. Ti chiediamo di selezionare un valore su una scala da 1 (per nulla difficile) a 5 (molto difficile), cercando di usare tutti i valori della scala.
+Ad esempio, una frase come "Elena barcolla nell'indecisione sul futuro" ti potrebbe sembrare mediamente difficile da interpretare e quindi assegnerai il punteggio 3, mentre una frase come "Lo studente prende il quaderno a righe" ti potrebbe sembrare per nulla difficile da interpretare e assegnerai dunque il punteggio 5 e una frase come "Il pizzaiolo è ampio nel cielo piovoso" ti potrebbe sembrare molto difficile da interpretare e assegnerai dunque il punteggio 1.
+
+Attenzione: rispondi con uno ed un solo numero per ogni caratteristica e non usare nessuna parola. Riporta i punteggi separati da una virgola (",") e in questo ordine specifico: per primo il punteggio di familiarità, per secondo il punteggio di ricchezza di significato, per terzo il punteggio di difficoltà. Non cambiare l'ordine.
