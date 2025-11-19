@@ -40,7 +40,7 @@ def main():
 
     parser = argparse.ArgumentParser(
         description="Metaphors Ratings Script with llms, langchain and Ollama API",
-        usage="python huggingface_API_calls.py --model 'google/gemma-3-27b-it:nebius' --metaphors_file new_MB.csv --prompt MB_task_instructions.txt --history --test",
+        usage="python huggingface_API_calls.py --model 'google/gemma-3-27b-it:nebius' --metaphors_file clean_MB.csv --prompt MB_task_instructions.txt --history --test",
     )
 
     parser.add_argument(
@@ -139,6 +139,7 @@ def main():
         df_metaphors=df_metaphors[:5]
 
     metaphor_list = df_metaphors["Metaphor"]
+    structure_list = df_metaphors["Metaphor_structure"]
 
     for n in range(RATERS):
         rater_time = datetime.now()
@@ -157,7 +158,9 @@ def main():
         ]
 
         for idx, metaphor in list(enumerate(metaphor_list)):
+            
             print(rater, idx + 1, "of", len(metaphor_list))
+            structure = structure_list[idx]
 
             client = InferenceClient(api_key=os.environ["HF_TOKEN"])
 
@@ -189,8 +192,9 @@ def main():
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "familiarity" : int(values[0]),
-                    "meaningfulness" : int(values[1]),
+                    "metaphor_structure" : structure,
+                    "FAMILIARITY_synthetic" : int(values[0]),
+                    "MEANINGFULNESS_synthetic" : int(values[1]),
                     "body relatedness" : int(values[2])
                 }
 
@@ -199,9 +203,10 @@ def main():
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "familiarity" : int(values[0]),
-                    "meaningfulness" : int(values[1]),
-                    "difficulty" : int(values[2])
+                    "metaphor_structure" : structure,
+                    "FAMILIARITY_synthetic" : int(values[0]),
+                    "MEANINGFULNESS_synthetic" : int(values[1]),
+                    "DIFFICULTY_synthetic" : int(values[2])
                 }
 
             if "MI" in args.prompt:
@@ -209,8 +214,9 @@ def main():
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "phisicality" : int(values[0]),
-                    "imageability" : int(values[1]),
+                    "metaphor_structure" : structure,
+                    "PHISICALITY_synthetic" : int(values[0]),
+                    "IMAGEBILITY_synthetic" : int(values[1]),
                 }
 
             if "MM" in args.prompt:
@@ -218,8 +224,9 @@ def main():
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "familiarity" : int(values[0]),
-                    "meaningfulness" : int(values[1]),
+                    "metaphor_structure" : structure,
+                    "FAMILIARITY_synthetic" : int(values[0]),
+                    "MEANINGFULNESS_synthetic" : int(values[1]),
                 }
 
             write_out(out_annotation_file, row)
