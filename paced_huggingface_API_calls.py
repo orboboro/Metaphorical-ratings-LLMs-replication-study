@@ -5,6 +5,7 @@ from datetime import datetime
 import csv
 import argparse
 import os
+import ast
 from huggingface_hub import InferenceClient
 
 def reply_to_values(response):
@@ -25,22 +26,13 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def track_conversation(out_file_name, conversation):
-    out_annotation_file = Path(str(out_file_name.absolute()) + "_CONVERSATION")
-    if not out_annotation_file.exists():
-        with out_annotation_file.open("w", encoding="utf-8", newline="") as f:
-            f.write(str(conversation) + "\n\n")
-    else:
-        with out_annotation_file.open("a", encoding="utf-8", newline="") as f:
-            f.write(str(conversation) + "\n\n")
-
 def main():
 
     start_time = datetime.now()
 
     parser = argparse.ArgumentParser(
         description="Metaphors Ratings Script with llms using Huggingface API",
-        usage="python paced_huggingface_API_calls.py --model 'google/gemma-3-27b-it:nebius' --dataset clean_MB.csv --prompt MB_task_instructions.txt --history --test",
+        usage="python paced_huggingface_API_calls.py --model meta-llama/Llama-3.3-70B-Instruct --dataset clean_MB.csv --prompt MB_task_instructions.txt",
     )
 
     parser.add_argument(
@@ -63,11 +55,6 @@ def main():
     )
 
     parser.add_argument(
-        "--history",
-        action="store_true",
-        help="Keep history")
-
-    parser.add_argument(
         "--raters",
         type=int,
         default=1,
@@ -82,13 +69,8 @@ def main():
 
     args = parser.parse_args()
 
+    DATASET = str(args.dataset)
     MODEL = (args.model).replace(":", "-")
-
-    if args.history:
-        KEEP_HISTORY = True
-    else:
-        KEEP_HISTORY = False
-
     TASK_INSTRUCTIONS = open(args.prompt, "r", encoding="utf-8").read()
 
     if args.test:
@@ -99,24 +81,19 @@ def main():
     DATA_PATH = "data/new_datasets/"
     RATERS = args.raters
 
-    if TEST:
-        out_file_name = "_TEST_met_ratings_llm_"
-    else:
-        out_file_name = "met_ratings_llm_"
+    out_file_name = "synthetic_" + DATASET
 
-    if KEEP_HISTORY:
-        out_file_name += "keep-history_"
-    else:
-        out_file_name += "no-history_"
+    if TEST:
+        out_file_name = "TEST_" + out_file_name
 
     model_name = MODEL.replace(":", "-").replace("/", "-")
 
     out_annotation_file = Path(
         DATA_PATH,
         "synthetic_annotations",
-        out_file_name,
-        model_name,
-        ".csv"
+        out_file_name
+        + model_name
+        + ".csv"
     )
 
     run_config = {
@@ -124,43 +101,15 @@ def main():
         "n_raters": RATERS,
         "method": "API calls with huggingface_hub",
         "model": MODEL,
-        "keep_history": KEEP_HISTORY,
         "prompt": TASK_INSTRUCTIONS,
     }
 
-    dataset = Path(DATA_PATH, str(args.dataset))
+    dataset = Path(DATA_PATH, DATASET)
     dataset_df = pd.read_csv(dataset, encoding="utf-8")
+
     checkpoint_file = Path("checkpoint.csv")
 
-    if not checkpoint_file.exists():
-        dataset_df.to_csv(checkpoint_file, index = False)
-        checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
-
-        with open("current_rater.txt", "W", encoding = "utf-8") as f:
-            f.write(str(1))
-
-    else:
-        checkpoint_df = pd.read_csv(checkpoint_file, encoding = "utf-8")
-
-        if not checkpoint_df:
-            dataset_df.to_csv(checkpoint_file, index = False)
-
-            with open("current_rater.txt", "r+", encoding = "utf-8") as f:
-                previous_rater = int(f.read().strip)
-                f.write(str(previous_rater + 1))
-
-    with open("current_rater.txt", "r", encoding = "utf-8") as f:
-        rater = f.read().strip()
-
-
-    if rater < RATERS:
-
-        metaphors_list = check_point_df["Metaphor"]
-        structures_list = check_point_df["Met_structure"]
-
-        rater_time = datetime.now()
-
-        conversation = [
+    conversation = [
             {
                 "role": "system",
                 "content": [{"type": "text", "text": TASK_INSTRUCTIONS}]
@@ -170,6 +119,39 @@ def main():
                 "content": [{"type": "text", "text": ""}]
                 }
         ]
+
+    if not checkpoint_file.exists():
+        dataset_df.to_csv(checkpoint_file, index = False)
+        checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
+
+        with open("current_rater.txt", "w", encoding = "utf-8") as f:
+            f.write(str(1))
+
+    else:
+        checkpoint_df = pd.read_csv(checkpoint_file, encoding = "utf-8")
+
+        if checkpoint_df.empty:
+            dataset_df.to_csv(checkpoint_file, index = False)
+
+            with open("current_rater.txt", "r+", encoding = "utf-8") as f:
+                previous_rater = int(f.read().strip())
+                f.write(str(previous_rater + 1))
+        else:
+            with open("current_rater.txt", "r", encoding = "utf-8") as f:
+                rater = f.read().strip()
+            with open(f"rater_{rater}_conversation_" + model_name + ".txt", "r", encoding = "utf-8")as f:
+                content = f.read()
+                conversation = ast.literal_eval(content)
+
+    with open("current_rater.txt", "r", encoding = "utf-8") as f:
+        rater = f.read().strip()
+
+    if int(rater) < RATERS:
+
+        metaphors_list = checkpoint_df["Metaphor"]
+        structures_list = checkpoint_df["Met_structure"]
+
+        rater_time = datetime.now()
 
         for idx, metaphor in list(enumerate(metaphors_list)):
             
@@ -188,14 +170,14 @@ def main():
             reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
             print("output: ", reply)
 
-            check_point_df = check_point_df[1:]
+            checkpoint_df = checkpoint_df[1:]
+            checkpoint_df.to_csv(checkpoint_file, index = False)
 
-            if KEEP_HISTORY:
+            conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
+            conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
 
-                conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
-                conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
-
-            track_conversation(f"rater_{rater}_conversation" + str(out_annotation_file), conversation)
+            with open((f"rater_{rater}_conversation_" + model_name + ".txt"), "w", encoding = "utf-8") as f:
+                f.write(str(conversation))
 
             values=reply_to_values(reply)
             print("values: ", values, "\n")
@@ -243,6 +225,9 @@ def main():
                 }
 
             write_out(out_annotation_file, row)
+
+            if TEST:
+                break
 
         print(f"{rater} completed in: {datetime.now() - rater_time}")
 
