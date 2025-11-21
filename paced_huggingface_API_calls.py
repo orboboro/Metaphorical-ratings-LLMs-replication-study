@@ -120,6 +120,10 @@ def main():
 
     if not checkpoint_file.exists():
         dataset_df.to_csv(checkpoint_file, index = False)
+
+        if TEST:
+            dataset_df = dataset_df[:1]
+
         checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
 
         with open(rater_file, "w", encoding = "utf-8") as f:
@@ -137,6 +141,7 @@ def main():
         else:
             with open(rater_file, "r", encoding = "utf-8") as f:
                 rater = f.read().strip()
+                
             with open(f"rater_{rater}_conversation_" + model_name + ".txt", "r", encoding = "utf-8")as f:
                 content = f.read()
                 conversation = ast.literal_eval(content)
@@ -223,9 +228,6 @@ def main():
                 }
 
             write_out(out_annotation_file, row)
-
-            if TEST:
-                break
 
         print(f"{rater} completed in: {datetime.now() - rater_time}")
 
