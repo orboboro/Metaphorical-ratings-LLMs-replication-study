@@ -29,11 +29,9 @@ def write_out(out_file_name, results_dict):
 
 def main():
 
-    start_time = datetime.now()
-
     parser = argparse.ArgumentParser(
         description="Metaphors Ratings Script with llms using Huggingface API",
-        usage="python paced_huggingface_API_calls.py --model meta-llama/Llama-3.3-70B-Instruct --dataset human_MB.csv"
+        usage="python paced_groq_API_calls.py --model llama-3.3-70b-versatile --dataset human_MB.csv"
     )
 
     parser.add_argument(
