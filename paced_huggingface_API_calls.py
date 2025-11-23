@@ -15,7 +15,7 @@ def reply_to_values(response):
     return values_list
 
 def write_out(out_file_name, results_dict):
-    out_annotation_file = Path(str(out_file_name.absolute()))
+    out_annotation_file = Path(out_file_name)
     if not out_annotation_file.exists():
         with out_annotation_file.open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
@@ -78,7 +78,9 @@ def main():
     TRACKING_DATA_PATH = "tracking_data"
     RATERS = args.raters
 
-    out_file_name = "synthetic_" + DATASET_ID + "_"
+    model_name = MODEL.replace(":", "-").replace("/", "-")
+
+    out_file_name = f"synthetic_{DATASET_ID}_{model_name}_"
 
     if TEST:
         out_file_name = "TEST_" + out_file_name
@@ -89,7 +91,6 @@ def main():
         DATA_PATH,
         "synthetic_datasets",
         out_file_name
-        + model_name
         + ".csv"
     )
 
@@ -132,6 +133,8 @@ def main():
 
         if checkpoint_df.empty:
             dataset_df.to_csv(checkpoint_file, index = False)
+            checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
+
 
             with open(rater_file, "r", encoding = "utf-8") as f:
                 previous_rater = int(f.read().strip())
@@ -140,7 +143,7 @@ def main():
         else:
             with open(rater_file, "r", encoding = "utf-8") as f:
                 rater = f.read().strip()
-            with open(f"rater_{rater}_conversation_" + model_name + ".txt", "r", encoding = "utf-8") as f:
+            with open(f"rater_{rater}_conversation_" + out_file_name + ".txt", "r", encoding = "utf-8") as f:
                 content = f.read()
                 conversation = ast.literal_eval(content)
 
