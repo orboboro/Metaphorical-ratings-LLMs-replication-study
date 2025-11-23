@@ -7,6 +7,7 @@ import argparse
 import os
 import ast
 from huggingface_hub import InferenceClient
+from groq import Groq
 
 def reply_to_values(response):
     values_list = response.split(",")
@@ -103,15 +104,9 @@ def main():
     rater_file = Path(TRACKING_DATA_PATH, "current_rater.txt")
 
     conversation = [
-            {
-                "role": "system",
-                "content": [{"type": "text", "text": TASK_INSTRUCTIONS}]
-                },
-            {
-                "role" : "user",
-                "content": [{"type": "text", "text": ""}]
-                }
-        ]
+            {"role": "system", "content": TASK_INSTRUCTIONS},
+            {"role" : "user", "content": ""}
+    ]
 
     if not checkpoint_file.exists():
         dataset_df.to_csv(checkpoint_file, index = False)
@@ -152,24 +147,22 @@ def main():
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN"])
-
-            conversation[-1]["content"][0]["text"] = metaphor
-
-            completion = client.chat.completions.create(
-                model = MODEL,
+            client = Groq(api_key=os.environ["GROQ_API_KEY"])
+            conversation[-1]["content"] = metaphor
+            chat_completion = client.chat.completions.create(
                 messages = conversation,
-                max_tokens = 10
+                model = MODEL,
+                temperature = 0.8
             )
 
-            reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
+            reply = chat_completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
             print("output: ", reply)
 
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
 
-            conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
-            conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
+            conversation.append({"role" : "assistant", "content": reply})
+            conversation.append({"role" : "user", "content": ""})
 
             with open((Path("conversations", f"rater_{rater}_conversation_" + model_name + ".txt")), "w", encoding = "utf-8") as f:
                 f.write(str(conversation))
@@ -227,6 +220,9 @@ def main():
 
         with open(str(out_annotation_file) + "_CONFIG.json", "w") as f:
             json.dump(run_config, f)
+
+        os.remove(checkpoint_file)
+        os.remove(rater_file)
 
         print("Metaphor rating completed with success")
 
