@@ -1,12 +1,10 @@
 import json
 from pathlib import Path
 import pandas as pd
-from datetime import datetime
 import csv
-import argparse
 import os
 import ast
-from huggingface_hub import InferenceClient
+import time
 from groq import Groq
 
 def reply_to_values(response):
@@ -27,49 +25,17 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def main():
+def groq_API_calling(dataset, model, raters, test = False):
 
-    parser = argparse.ArgumentParser(
-        description="Metaphors Ratings Script with llms using Huggingface API",
-        usage="python paced_groq_API_calls.py --model llama-3.3-70b-versatile --dataset human_MB.csv"
-    )
-
-    parser.add_argument(
-        "--dataset",
-        type=Path,
-        help="Target study for replication"
-    )
-
-    parser.add_argument(
-        "--model",
-        type=str,
-        required=True,
-        help="Model name",
-    )
-
-    parser.add_argument(
-        "--raters",
-        type=int,
-        default=1,
-        help="Number of raters to annotate each metaphor",
-    )
-
-    parser.add_argument(
-        "--test",
-        action="store_true",
-        help="Run in testing mode",
-    )
-
-    args = parser.parse_args()
-
-    DATASET = str(args.dataset)
+    DATASET = str(dataset)
     DATASET_ID = DATASET[-6:-4]
-    MODEL = (args.model).replace(":", "-")
+    MODEL = (model).replace(":", "-")
     TASK_INSTRUCTIONS = open(Path("instructions", DATASET_ID + "_task_instructions.txt"), "r", encoding="utf-8").read()
-    TEST = args.test
+    RATERS = raters
     DATA_PATH = "data"
     TRACKING_DATA_PATH = "tracking_data"
-    RATERS = args.raters
+    TEST = test
+    
 
     model_name = MODEL.replace(":", "-").replace("/", "-")
 
@@ -141,6 +107,10 @@ def main():
         structures_list = checkpoint_df["Met_structure"]
 
         for idx, metaphor in list(enumerate(metaphors_list)):
+
+            if idx != 0 and idx % 25 == 0:
+                minuto = 60
+                time.sleep(5 * minuto)
             
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
@@ -162,7 +132,7 @@ def main():
             conversation.append({"role" : "assistant", "content": reply})
             conversation.append({"role" : "user", "content": ""})
 
-            with open((Path("conversations", f"rater_{rater}_conversation_" + model_name + ".txt")), "w", encoding = "utf-8") as f:
+            with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                 f.write(str(conversation))
 
             values=reply_to_values(reply)
@@ -214,6 +184,8 @@ def main():
 
         print(f"{rater} rated all metaphors")
 
+        return False
+
     else:
 
         with open(str(out_annotation_file) + "_CONFIG.json", "w") as f:
@@ -222,17 +194,6 @@ def main():
         os.remove(checkpoint_file)
         os.remove(rater_file)
 
-        print("Metaphor rating completed with success")
+        print(f"Metaphor ratings for {DATASET_ID} with {MODEL} completed with success")
 
-if __name__ == "__main__": # La variabile speciale __name__ viene inizializzata uguale a "__main__" quando un file python viene eseguito
-    main()                 # direttamente. Dunque la condizione __name__ == "__main__ è rispettata e quindi il contenuto delle funzione
-                            # main viene eseguito. invece, se il file .py viene importato in un altro file, il suo contenuto non verrà
-                            # eseguito, perché dal momento che il file non è eseguito direttamente, __name__ non sarà uguale alla stringa
-                            # "__main__", ma al nome stesso del file .py. Insomma questa condizione serve a far sì che una funzione
-                            # contenuta in un file venga eseguita solo quando è chiamata firettamente da terminale e nonquando è importata
-                            # come modulo da altri file. 
-                            # Reference: https://www.youtube.com/watch?v=sugvnHA7ElY
-
-
-# import time
-# time.sleep(300)   # 300 secondi = 5 minuti
+        return True
