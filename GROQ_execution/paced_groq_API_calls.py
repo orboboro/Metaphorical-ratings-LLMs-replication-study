@@ -110,7 +110,7 @@ def groq_API_calling(dataset, model, raters, test = False):
 
             #if idx != 0 and idx % 25 == 0:
             minuto = 60
-            time.sleep(26 * minuto)
+            time.sleep(15 * minuto)
             
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
