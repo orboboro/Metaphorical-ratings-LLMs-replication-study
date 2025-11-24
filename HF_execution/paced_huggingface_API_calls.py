@@ -5,7 +5,7 @@ import csv
 import os
 import ast
 import time
-from groq import Groq
+from huggingface_hub import InferenceClient
 
 def reply_to_values(response):
     values_list = response.split(",")
@@ -25,7 +25,7 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def groq_API_calling(dataset, model, raters, test = False):
+def huggingface_API_calling(dataset, model, raters, test = False):
 
     DATASET = str(dataset)
     DATASET_ID = DATASET[-6:-4]
@@ -67,9 +67,16 @@ def groq_API_calling(dataset, model, raters, test = False):
     checkpoint_file = Path(TRACKING_DATA_PATH, "checkpoint.csv")
     rater_file = Path(TRACKING_DATA_PATH, "current_rater.txt")
 
+    
     conversation = [
-            {"role": "system", "content": TASK_INSTRUCTIONS},
-            {"role" : "user", "content": ""}
+            {
+                "role": "system",
+                "content": [{"type": "text", "text": TASK_INSTRUCTIONS}]
+                },
+            {
+                "role" : "user",
+                "content": [{"type": "text", "text": ""}]
+                }
     ]
 
     if not checkpoint_file.exists():
@@ -111,18 +118,17 @@ def groq_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = Groq(api_key=os.environ["GROQ_API_KEY"])
-            conversation[-1]["content"] = metaphor
-            chat_completion = client.chat.completions.create(
-                messages = conversation,
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"])
+
+            conversation[-1]["content"][0]["text"] = metaphor
+
+            completion = client.chat.completions.create(
                 model = MODEL,
-                temperature = 0.8
+                messages = conversation,
+                max_tokens = 10
             )
 
-            minuto = 60
-            time.sleep(15 * minuto)
-
-            reply = chat_completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
+            reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
             print("output: ", reply)
 
             checkpoint_df = checkpoint_df[1:]
@@ -180,6 +186,9 @@ def groq_API_calling(dataset, model, raters, test = False):
                 }
 
             write_out(out_annotation_file, row)
+
+            minuto = 60
+            time.sleep(15 * minuto)
 
         print(f"{rater} rated all metaphors")
 

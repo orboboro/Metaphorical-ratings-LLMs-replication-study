@@ -53,7 +53,7 @@ def groq_API_calling(dataset, model, raters, test = False):
 
     run_config = {
         "n_raters": RATERS,
-        "method": "API calls with huggingface_hub",
+        "method": "API calls with Groq",
         "model": MODEL,
         "prompt": TASK_INSTRUCTIONS,
     }
@@ -119,9 +119,6 @@ def groq_API_calling(dataset, model, raters, test = False):
                 temperature = 0.8
             )
 
-            minuto = 60
-            time.sleep(15 * minuto)
-
             reply = chat_completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
             print("output: ", reply)
 
@@ -180,6 +177,9 @@ def groq_API_calling(dataset, model, raters, test = False):
                 }
 
             write_out(out_annotation_file, row)
+
+            minuto = 60
+            time.sleep(15 * minuto)
 
         print(f"{rater} rated all metaphors")
 
