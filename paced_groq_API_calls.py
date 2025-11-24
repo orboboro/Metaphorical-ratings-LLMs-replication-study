@@ -108,9 +108,9 @@ def groq_API_calling(dataset, model, raters, test = False):
 
         for idx, metaphor in list(enumerate(metaphors_list)):
 
-            if idx != 0 and idx % 25 == 0:
-                minuto = 60
-                time.sleep(5 * minuto)
+            #if idx != 0 and idx % 25 == 0:
+            minuto = 60
+            time.sleep(26 * minuto)
             
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
