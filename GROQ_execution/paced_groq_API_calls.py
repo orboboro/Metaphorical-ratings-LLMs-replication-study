@@ -179,7 +179,7 @@ def groq_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(5 * minuto)
+            time.sleep(14 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
