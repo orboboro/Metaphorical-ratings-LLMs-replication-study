@@ -118,14 +118,15 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN"])
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"], base_url="https://api.novita.ai/v1")
 
             conversation[-1]["content"][0]["text"] = metaphor
 
             completion = client.chat.completions.create(
-                model = MODEL,
+                model = MODEL + ":novita",
                 messages = conversation,
                 max_tokens = 10
+                temperature = 0.8
             )
 
             reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
@@ -188,7 +189,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(2 * minuto)
+            time.sleep(1 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
