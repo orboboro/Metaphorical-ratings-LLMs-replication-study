@@ -134,8 +134,8 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
 
-            conversation.append({"role" : "assistant", "content": reply})
-            conversation.append({"role" : "user", "content": ""})
+            conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
+            conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
 
             with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                 f.write(str(conversation))
@@ -188,7 +188,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(15 * minuto)
+            #time.sleep(1 * minuto)
 
         print(f"{rater} rated all metaphors")
 
