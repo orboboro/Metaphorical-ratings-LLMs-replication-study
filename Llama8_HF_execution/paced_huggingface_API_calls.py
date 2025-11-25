@@ -125,7 +125,8 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
-                max_tokens = 10
+                max_tokens = 10,
+                temperature = 0.8
             )
 
             reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
