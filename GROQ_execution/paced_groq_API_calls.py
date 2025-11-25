@@ -181,7 +181,7 @@ def groq_API_calling(dataset, model, raters, test = False):
             minuto = 60
             time.sleep(1 * minuto)
 
-        print(f"{rater} rated all metaphors")
+        print(f"{rater} rated all metaphors\n")
 
         return False
 
