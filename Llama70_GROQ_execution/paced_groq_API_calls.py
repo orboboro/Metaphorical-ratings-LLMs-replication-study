@@ -142,7 +142,7 @@ def groq_API_calling(dataset, model, raters, test = False):
                     "metaphor_structure" : structure,
                     "FAMILIARITY_synthetic" : int(values[0]),
                     "MEANINGFULNESS_synthetic" : int(values[1]),
-                    "body relatedness" : int(values[2])
+                    "BODY_RELATEDNESS_synthetic" : int(values[2])
                 }
 
             if DATASET_ID == "ME":
