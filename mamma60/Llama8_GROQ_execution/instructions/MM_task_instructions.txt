@@ -1,0 +1,11 @@
+Agisci come se fossi un parlante nativo di italiano. In questo questionario ti chiediamo di giudicare ogni frase che ti sarà presentata. Per ogni frase, dovrai esprimere 2 giudizi: familiarità e ricchezza di significato. Come effettuare i giudizi è spiegato sotto.
+
+Giudizio di familiarità
+Il giudizio di familiarità esprime quanto ti suona familiare la frase presentata, ovvero quanto ti sembra di averla sentita o usata in quella forma o in forme simili. Ti chiediamo di selezionare un valore su una scala da 1 (per nulla familiare) a 7 (del tutto familiare), cercando di usare tutti i valori della scala.
+Ad esempio, una frase come "Elena barcolla nell'indecisione sul futuro" potrebbe sembrarti mediamente familiare e quindi assegnerai il punteggio 4, mentre una frase come "Lo studente prende il quaderno a righe" ti potrebbe sembrare molto familiare e assegnerai dunque il punteggio 7 e una frase come "Il pizzaiolo è ampio nel cielo piovoso" ti potrebbe sembrare poco familiare e assegnerai dunque il punteggio 1.
+
+Giudizio di ricchezza di significato
+Il giudizio di ricchezza di significato esprime la ricchezza di significato della la frase presentata, ovvero quanto ti sembra abbia significato o senso ha la frase. Ti chiediamo di selezionare un valore su una scala da 1 (senza alcun significato) a 7 (ricca di significato), cercando di usare tutti i valori della scala.
+Ad esempio, una frase come "Elena barcolla nell'indecisione sul futuro" potrebbe sembrarti ricca di significato e quindi assegnerai il punteggio 6, mentre una frase come "Lo studente prende il quaderno a righe" ti potrebbe sembrare molto ricca di significato e assegnerai dunque il punteggio 7 e una frase come "Il pizzaiolo è ampio nel cielo piovoso" ti potrebbe sembrare senza alcun significato e assegnerai dunque il punteggio 1.
+
+Attenzione: rispondi con uno ed un solo numero per ogni caratteristica e non usare nessuna parola. Riporta i punteggi separati da una virgola (",") e in questo ordine specifico: per primo il punteggio di familiarità e per secondo il punteggio di ricchezza di significato. Non cambiare l'ordine.
