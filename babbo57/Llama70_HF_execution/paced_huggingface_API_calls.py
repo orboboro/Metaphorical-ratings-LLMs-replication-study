@@ -118,7 +118,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN_BABBO"], provider = "novita")
 
             conversation[-1]["content"][0]["text"] = metaphor
 
@@ -152,7 +152,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     "metaphor_structure" : structure,
                     "FAMILIARITY_synthetic" : int(values[0]),
                     "MEANINGFULNESS_synthetic" : int(values[1]),
-                    "body relatedness" : int(values[2])
+                    "BODY_RELATEDNESS_synthetic" : int(values[2])
                 }
 
             if DATASET_ID == "ME":
@@ -189,7 +189,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(1.5 * minuto)
+            time.sleep(2 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
