@@ -191,7 +191,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(2 * minuto)
+            time.sleep(1.5 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
