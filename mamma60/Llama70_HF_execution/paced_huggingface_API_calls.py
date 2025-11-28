@@ -93,7 +93,6 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             dataset_df.to_csv(checkpoint_file, index = False)
             checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
 
-
             with open(rater_file, "r", encoding = "utf-8") as f:
                 previous_rater = int(f.read().strip())
             with open(rater_file, "w", encoding = "utf-8") as f:
@@ -192,7 +191,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(3 * minuto)
+            time.sleep(1 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
