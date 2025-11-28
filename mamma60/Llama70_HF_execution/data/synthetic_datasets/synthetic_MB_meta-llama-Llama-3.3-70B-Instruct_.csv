@@ -432,3 +432,8 @@ annotator,metaphor,metaphor_structure,FAMILIARITY_synthetic,MEANINGFULNESS_synth
 7,Quel libro è una lanterna,Nominal predicative,4,5,1
 7,Quell'automobile è un missile,Nominal predicative,5,6,1
 7,Quel cavo è un gomitolo,Nominal predicative,5,5,2
+7,Quel cappello è un fungo,Nominal predicative,4,5,2
+7,Quella grondaia è uno scolapasta,Nominal predicative,3,4,2
+7,Quella casa è un gioiello,Nominal predicative,5,6,1
+7,Quell'ospedale è un labirinto,Nominal predicative,5,6,1
+7,Quel diario è una miniera,Nominal predicative,4,5,1

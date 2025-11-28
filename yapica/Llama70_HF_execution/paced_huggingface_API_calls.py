@@ -5,7 +5,7 @@ import csv
 import os
 import ast
 import time
-from groq import Groq
+from huggingface_hub import InferenceClient
 
 def reply_to_values(response):
     values_list = response.split(",")
@@ -25,7 +25,7 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def groq_API_calling(dataset, model, raters, test = False):
+def huggingface_API_calling(dataset, model, raters, test = False):
 
     DATASET = str(dataset)
     DATASET_ID = DATASET[-6:-4]
@@ -53,7 +53,7 @@ def groq_API_calling(dataset, model, raters, test = False):
 
     run_config = {
         "n_raters": RATERS,
-        "method": "API calls with Groq",
+        "method": "API calls with huggingface_hub",
         "model": MODEL,
         "prompt": TASK_INSTRUCTIONS,
     }
@@ -67,9 +67,16 @@ def groq_API_calling(dataset, model, raters, test = False):
     checkpoint_file = Path(TRACKING_DATA_PATH, "checkpoint.csv")
     rater_file = Path(TRACKING_DATA_PATH, "current_rater.txt")
 
+    
     conversation = [
-            {"role": "system", "content": TASK_INSTRUCTIONS},
-            {"role" : "user", "content": ""}
+            {
+                "role": "system",
+                "content": [{"type": "text", "text": TASK_INSTRUCTIONS}]
+                },
+            {
+                "role" : "user",
+                "content": [{"type": "text", "text": ""}]
+                }
     ]
 
     if not checkpoint_file.exists():
@@ -85,7 +92,6 @@ def groq_API_calling(dataset, model, raters, test = False):
         if checkpoint_df.empty:
             dataset_df.to_csv(checkpoint_file, index = False)
             checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
-
 
             with open(rater_file, "r", encoding = "utf-8") as f:
                 previous_rater = int(f.read().strip())
@@ -111,28 +117,34 @@ def groq_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = Groq(api_key=os.environ["GROQ_API_KEY"])
-            conversation[-1]["content"] = metaphor
-            chat_completion = client.chat.completions.create(
-                messages = conversation,
+            client = InferenceClient(api_key=os.environ["HF_TOKEN_BABBO"], provider = "nebius")
+
+            conversation[-1]["content"][0]["text"] = metaphor
+
+            completion = client.chat.completions.create(
                 model = MODEL,
+                messages = conversation,
+                max_tokens = 10,
                 temperature = 0.8
             )
 
-            reply = chat_completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
+            reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
             print("output: ", reply)
+
+            values=reply_to_values(reply)
+            print("values: ", values, "\n")
+
+            for value in values:
+                check = int(value)
 
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
 
-            conversation.append({"role" : "assistant", "content": reply})
-            conversation.append({"role" : "user", "content": ""})
+            conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
+            conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
 
             with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                 f.write(str(conversation))
-
-            values=reply_to_values(reply)
-            print("values: ", values, "\n")
 
             if DATASET_ID == "MB":
 
@@ -179,7 +191,7 @@ def groq_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(1 * minuto)
+            time.sleep(4 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 

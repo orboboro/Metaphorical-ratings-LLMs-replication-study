@@ -1,6 +1,6 @@
 from pathlib import Path
 import argparse
-from paced_groq_API_calls import reply_to_values, write_out, groq_API_calling
+from paced_huggingface_API_calls import reply_to_values, write_out, huggingface_API_calling
 
 def main():
 
@@ -40,7 +40,7 @@ def main():
 
     while not end:
     
-        end = groq_API_calling(args.dataset, args.model, args.raters, args.test)
+        end = huggingface_API_calling(args.dataset, args.model, args.raters, args.test)
 
 if __name__ == "__main__": # La variabile speciale __name__ viene inizializzata uguale a "__main__" quando un file python viene eseguito
     main()                 # direttamente. Dunque la condizione __name__ == "__main__ è rispettata e quindi il contenuto delle funzione
