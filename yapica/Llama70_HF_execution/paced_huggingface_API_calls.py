@@ -175,7 +175,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     "metaphor": metaphor,
                     "metaphor_structure" : structure,
                     "PHISICALITY_synthetic" : int(values[0]),
-                    "IMAGEBILITY_synthetic" : int(values[1]),
+                    "IMAGEABILITY_synthetic" : int(values[1]),
                 }
 
             if DATASET_ID == "MM":
