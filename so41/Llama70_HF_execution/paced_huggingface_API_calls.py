@@ -93,7 +93,6 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             dataset_df.to_csv(checkpoint_file, index = False)
             checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
 
-
             with open(rater_file, "r", encoding = "utf-8") as f:
                 previous_rater = int(f.read().strip())
             with open(rater_file, "w", encoding = "utf-8") as f:
@@ -118,7 +117,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN_YAPICA"], provider = "novita")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN_MAMMA"], provider = "nebius")
 
             conversation[-1]["content"][0]["text"] = metaphor
 
@@ -176,7 +175,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     "metaphor": metaphor,
                     "metaphor_structure" : structure,
                     "PHISICALITY_synthetic" : int(values[0]),
-                    "IMAGEABILITY_synthetic" : int(values[1]),
+                    "IMAGEBILITY_synthetic" : int(values[1]),
                 }
 
             if DATASET_ID == "MM":
@@ -192,7 +191,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(3 * minuto)
+            time.sleep(4 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 

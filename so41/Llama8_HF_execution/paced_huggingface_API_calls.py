@@ -118,7 +118,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN_YAPICA"], provider = "novita")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN_SO41"], provider = "novita")
 
             conversation[-1]["content"][0]["text"] = metaphor
 
@@ -132,12 +132,6 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
             print("output: ", reply)
 
-            values=reply_to_values(reply)
-            print("values: ", values, "\n")
-
-            for value in values:
-                check = int(value)
-
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
 
@@ -147,6 +141,9 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                 f.write(str(conversation))
 
+            values=reply_to_values(reply)
+            print("values: ", values, "\n")
+
             if DATASET_ID == "MB":
 
                 row = {
@@ -155,7 +152,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     "metaphor_structure" : structure,
                     "FAMILIARITY_synthetic" : int(values[0]),
                     "MEANINGFULNESS_synthetic" : int(values[1]),
-                    "BODY_RELATEDNESS_synthetic" : int(values[2])
+                    "body relatedness" : int(values[2])
                 }
 
             if DATASET_ID == "ME":
@@ -176,7 +173,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     "metaphor": metaphor,
                     "metaphor_structure" : structure,
                     "PHISICALITY_synthetic" : int(values[0]),
-                    "IMAGEABILITY_synthetic" : int(values[1]),
+                    "IMAGEBILITY_synthetic" : int(values[1]),
                 }
 
             if DATASET_ID == "MM":
@@ -192,7 +189,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(3 * minuto)
+            time.sleep(1 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
