@@ -118,7 +118,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN_SO41"], provider = "novita")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN_SO41"], provider = "nebius")
 
             conversation[-1]["content"][0]["text"] = metaphor
 
