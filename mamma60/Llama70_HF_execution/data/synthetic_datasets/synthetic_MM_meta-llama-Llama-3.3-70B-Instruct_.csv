@@ -132,3 +132,110 @@ annotator,metaphor,metaphor_structure,FAMILIARITY_synthetic,MEANINGFULNESS_synth
 3,Lo scienziato spacca il problema nei dettagli,Predicate,5,6
 3,Il cacciatore rompe la quiete del bosco,Predicate,7,6
 3,Monica butta le speranze nel dimenticatoio,Predicate,4,5
+3,Vittorio spezza la noia con un film,Predicate,6,5
+3,L'avvocato tocca il centro della questione,Predicate,7,7
+3,Il politico trita le idee degli avversari,Predicate,3,5
+3,Annalisa scava i segreti dell'animo ,Predicate,5,7
+3,Marcella colpisce il cuore del suo fidanzato,Predicate,6,7
+3,Antonio solleva il dolore del suo amico,Predicate,6,7
+3,Alessandro versa le energie nello studio,Predicate,5,6
+3,Il poliziotto strappa una confessione al ladro,Predicate,7,7
+3,Elisa spazza i problemi con decisione,Predicate,5,6
+3,Anna raccoglie le confidenze dell' amica,Predicate,7,7
+3,Sara sciacqua la coscienza con la beneficienza,Predicate,4,6
+3,Il giudice addita le colpe degli imputati,Predicate,7,7
+3,Il dirigente cuce nuovi rapporti di lavoro,Predicate,4,5
+3,Il giovane coglie l' opportunità con entusiasmo,Predicate,6,7
+3,L' inventore sfoglia le idee nella sua testa,Predicate,5,6
+3,Silvia afferra l' intuizione del collega,Predicate,5,6
+3,La madre costruisce la personalità del figlio,Predicate,7,7
+3,Adele calpesta i sogni della figlia ,Predicate,4,6
+3,Carlo calcia le critiche degli invidiosi ,Predicate,5,6
+3,L' architetto saltella da un' idea all' altra ,Predicate,4,5
+3,Lo studente zoppica verso l' esame di storia,Predicate,6,5
+3,Lisa corre verso l' amore con ingenuità,Predicate,5,6
+3,Il nonno cammina tra i ricordi d' infanzia,Predicate,7,7
+3,L' imprenditore segue l' istinto con decisione,Predicate,6,7
+3,Aldo fugge dagli obblighi del matrimonio,Predicate,4,6
+3,Marco percorre il destino del campione,Predicate,5,7
+3,Sofia attraversa le difficoltà con coraggio,Predicate,6,7
+3,Mario arriva alla decisione con fatica,Predicate,6,6
+3,Il paziente salta l' appuntamento con il dottore,Predicate,5,5
+3,Marta giunge alla conclusione del discorso,Predicate,6,6
+3,Il critico entra nella discussione con foga,Predicate,6,7
+3,Luigi avanza tra i problemi della vita,Predicate,7,7
+3,Giorgio passa dalla gioia alla disperazione ,Predicate,6,7
+3,L' uomo raggiunge la felicità per un istante,Predicate,7,7
+3,La vicina scende nei particolari della storia,Predicate,6,6
+3,Mara inciampa negli imprevisti della vita,Predicate,6,6
+3,Nino esce dall' ossessione delle scommesse,Predicate,5,6
+3,Lo psicologo perlustra l' animo del paziente,Predicate,6,7
+3,L' adolescente girovaga nei sogni di successo,Predicate,5,6
+3,L' operaio arranca verso la paga di fine-mese,Predicate,6,5
+3,Elena scivola sulla domanda di filosofia,Predicate,5,5
+3,Il padre sgattaiola dall' impegno dei figli,Predicate,4,5
+3,Luca scappa dalla realtà con la meditazione,Predicate,5,6
+3,L' artista pedala sull' ispirazione del momento,Predicate,5,6
+3,Il direttore pesta i diritti dei lavoratori,Predicate,4,5
+3,Franco scalcia i rimorsi di coscienza,Predicate,5,6
+3,La ragazza passeggia tra le pagine del diario,Predicate,6,6
+4,Alice disegna il suo futuro con Alberto,Predicate,5,6
+4,Laura ricama il discorso con tanti dettagli,Predicate,4,5
+4,Guido timbra il passaggio all' età adulta ,Predicate,3,6
+4,Gaia rammenda i rapporti con i genitori,Predicate,6,7
+4,Il giornalista accende l'interesse di Luca,Predicate,5,6
+4,Il professore apre la mente degli alunni,Predicate,7,7
+4,Il laureato chiude un capitolo della sua vita,Predicate,6,7
+4,Matilde getta la tristezza alle spalle,Predicate,5,6
+4,Il carabiniere monta gli indizi del delitto,Predicate,4,6
+4,La nonna attacca i ricordi nella memoria,Predicate,6,7
+4,Lo scienziato spacca il problema nei dettagli,Predicate,5,6
+4,Il cacciatore rompe la quiete del bosco,Predicate,6,6
+4,Monica butta le speranze nel dimenticatoio,Predicate,4,5
+4,Vittorio spezza la noia con un film,Predicate,6,5
+4,L'avvocato tocca il centro della questione,Predicate,7,7
+4,Il politico trita le idee degli avversari,Predicate,5,6
+4,Annalisa scava i segreti dell'animo ,Predicate,5,7
+4,Marcella colpisce il cuore del suo fidanzato,Predicate,5,6
+4,Antonio solleva il dolore del suo amico,Predicate,6,7
+4,Alessandro versa le energie nello studio,Predicate,5,6
+4,Il poliziotto strappa una confessione al ladro,Predicate,6,7
+4,Elisa spazza i problemi con decisione,Predicate,5,6
+4,Anna raccoglie le confidenze dell' amica,Predicate,7,7
+4,Sara sciacqua la coscienza con la beneficienza,Predicate,5,6
+4,Il giudice addita le colpe degli imputati,Predicate,6,7
+4,Il dirigente cuce nuovi rapporti di lavoro,Predicate,4,6
+4,Il giovane coglie l' opportunità con entusiasmo,Predicate,7,7
+4,L' inventore sfoglia le idee nella sua testa,Predicate,5,6
+4,Silvia afferra l' intuizione del collega,Predicate,5,6
+4,La madre costruisce la personalità del figlio,Predicate,7,7
+4,Adele calpesta i sogni della figlia ,Predicate,4,6
+4,Carlo calcia le critiche degli invidiosi ,Predicate,5,6
+4,L' architetto saltella da un' idea all' altra ,Predicate,4,5
+4,Lo studente zoppica verso l' esame di storia,Predicate,6,6
+4,Lisa corre verso l' amore con ingenuità,Predicate,5,6
+4,Il nonno cammina tra i ricordi d' infanzia,Predicate,7,7
+4,L' imprenditore segue l' istinto con decisione,Predicate,6,7
+4,Aldo fugge dagli obblighi del matrimonio,Predicate,5,6
+4,Marco percorre il destino del campione,Predicate,6,7
+4,Sofia attraversa le difficoltà con coraggio,Predicate,7,7
+4,Mario arriva alla decisione con fatica,Predicate,6,6
+4,Il paziente salta l' appuntamento con il dottore,Predicate,5,5
+4,Marta giunge alla conclusione del discorso,Predicate,6,7
+4,Il critico entra nella discussione con foga,Predicate,6,7
+4,Luigi avanza tra i problemi della vita,Predicate,7,7
+4,Giorgio passa dalla gioia alla disperazione ,Predicate,6,7
+4,L' uomo raggiunge la felicità per un istante,Predicate,6,7
+4,La vicina scende nei particolari della storia,Predicate,6,6
+4,Mara inciampa negli imprevisti della vita,Predicate,6,6
+4,Nino esce dall' ossessione delle scommesse,Predicate,5,6
+4,Lo psicologo perlustra l' animo del paziente,Predicate,6,7
+4,L' adolescente girovaga nei sogni di successo,Predicate,6,6
+4,L' operaio arranca verso la paga di fine-mese,Predicate,7,6
+4,Elena scivola sulla domanda di filosofia,Predicate,5,5
+4,Il padre sgattaiola dall' impegno dei figli,Predicate,5,6
+4,Luca scappa dalla realtà con la meditazione,Predicate,6,7
+4,L' artista pedala sull' ispirazione del momento,Predicate,5,6
+4,Il direttore pesta i diritti dei lavoratori,Predicate,5,6
+4,Franco scalcia i rimorsi di coscienza,Predicate,5,6
+4,La ragazza passeggia tra le pagine del diario,Predicate,6,7
