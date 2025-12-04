@@ -535,3 +535,267 @@ annotator,metaphor,metaphor_structure,FAMILIARITY_synthetic,MEANINGFULNESS_synth
 7,Anche dopo molti anni i rimproveri dei genitori sono tatuaggi nella memoria.,Nominal predicative,5,5,1
 7,Per gli animi sensibili le poesie sono sorrisi per il cuore.,Nominal predicative,5,5,1
 7,I malati di artrosi dicono che le fitte sono coltelli nella carne.,Nominal predicative,4,5,2
+7,Specialmente in filosofia certe teorie sono palazzi dalle fragili fondamenta.,Nominal predicative,3,4,4
+7,Specialmente in America certe università sono portaerei che trasportano talenti.,Nominal predicative,4,4,2
+7,Tutti sanno che le amicizie sono alberi che crescono con il tempo.,Nominal predicative,5,5,1
+7,Se non curati con farmaci specifici certi malditesta sono trapani continui.,Nominal predicative,4,4,2
+7,Nei paesi in via di sviluppo le economie sono bombe ad orologeria.,Nominal predicative,4,4,2
+7,Nella memoria dei popoli le stragi sono cicatrici indelebili.,Nominal predicative,5,5,1
+7,In certi momenti gli occhi sono oceani di profondità infinita.,Nominal predicative,4,5,2
+7,Se negative certe amicizie sono virus che infettano il carattere dei giovani.,Nominal predicative,4,4,2
+7,Nelle patologie psichiatriche le ossessioni sono gabbie che imprigionano.,Nominal predicative,5,5,1
+7,Per alcune persone certi profumi sono chiavi per la porta della memoria.,Nominal predicative,4,5,2
+7,Spesso nella vita le delusioni sono zavorre molto pesanti.,Nominal predicative,5,5,1
+7,Nel mondo dello spettacolo certe conoscenze sono ascensori per il successo.,Nominal predicative,4,4,2
+7,Per i soggetti depressi le crisi sono tunnel senza fine.,Nominal predicative,5,5,1
+7,Nella vita le paure sono nodi che impediscono di andare avanti.,Nominal predicative,5,5,1
+7,Nei momenti difficili le speranze sono stelle che illuminano l'anima.,Nominal predicative,5,5,1
+7,Nelle società multietniche le lingue sono ponti tra le persone.,Nominal predicative,5,5,1
+7,Nel caso di alcuni autori certi romanzi sono mappe che aiutano ad orientarsi nella vita.,Nominal predicative,4,5,2
+7,Specialmente nelle relazioni sentimentali i torti sono crepe nell'anima.,Nominal predicative,4,5,2
+7,Nel corso della vita le emozioni sono fulmini che sconvolgono la routine.,Nominal predicative,4,5,2
+7,Quando c'è diffidenza i segreti sono muri tra le persone.,Nominal predicative,5,5,1
+7,In politica e nel commercio certi discorsi sono fiumi che travolgono.,Nominal predicative,4,4,2
+7,Nella società umana i rapporti sono corde che ci legano agli altri.,Nominal predicative,5,5,1
+7,Senza il perdono i rancori sono tarli che divorano l'anima.,Nominal predicative,5,5,1
+7,Negli animi fragili le tentazioni sono reti molto pericolose.,Nominal predicative,4,5,2
+8,Dopo una cena a base di aglio gli aliti sono fogne insopportabili.,Nominal predicative,4,5,1
+8,Nei processi importanti certi avvocati sono squali senza scrupoli.,Nominal predicative,5,5,1
+8,Secondo l'opinione del generale quegli eserciti sono dighe insormontabili.,Nominal predicative,3,4,2
+8,Quando il tempo stringe gli oratori sono treni ad altà velocità.,Nominal predicative,2,3,3
+8,Nell'arrampicata ad alta quota gli scalatori sono scoiattoli molto agili.,Nominal predicative,4,5,2
+8,A volte nell'educazione degli adolescenti gli schiaffi sono medicine efficaci.,Nominal predicative,3,4,3
+8,Specialmente per le coste italiane gli uragani sono carrarmati devastanti.,Nominal predicative,2,3,4
+8,Davanti ad una punizione certi bambini sono fontane inarrestabili.,Nominal predicative,4,5,2
+8,Nel mondo della speculazione finanziaria i banchieri sono vampiri sempre assetati.,Nominal predicative,5,5,1
+8,Nell'utilizzo di rasoi taglienti i barbieri sono chirurghi altamente specializzati.,Nominal predicative,4,5,2
+8,Negli ambienti di lavoro spesso i colleghi sono zecche fastidiose.,Nominal predicative,4,5,1
+8,All'occhio di un investigatore alle prime armi certi delitti sono rebus insolubili.,Nominal predicative,4,5,3
+8,Alle finali olimpioniche di atletica i ginnasti sono grilli agilissimi.,Nominal predicative,3,4,3
+8,In certi sport americani i giocatori sono elefanti dalla mole imponente.,Nominal predicative,3,4,2
+8,Durante gli scandali nazionali i giornalisti sono avvoltoi senza morale.,Nominal predicative,5,5,1
+8,Nella formazione culturale di ogni persona certi libri sono bussole di grande utilità.,Nominal predicative,5,5,1
+8,Nell'educazione dei giovani certi maestri sono lanterne che illuminano la via.,Nominal predicative,5,5,1
+8,Nelle campagne elettorali certi politici sono calamite per i voti.,Nominal predicative,5,5,1
+8,Nei condomini del centro i portinai sono archivi pronti a spettegolare.,Nominal predicative,4,5,2
+8,Specialmente per le materie umanistiche certi professori sono enciclopedie zeppe di conoscenze.,Nominal predicative,5,5,1
+8,Dopo un grave lutto certi ricordi sono spine dolorose.,Nominal predicative,5,5,1
+8,Nel combattimento corpo a corpo certi soldati sono leoni senza paura.,Nominal predicative,4,5,2
+8,Dopo un anno di duro lavoro i viaggi sono terapie di sicura efficacia.,Nominal predicative,5,5,1
+8,Secondo la giornalista di moda quelle acconciature sono cespugli incolti.,Nominal predicative,3,4,3
+8,Durante la gara di formula uno le automobili sono frecce velocissime.,Nominal predicative,5,5,1
+8,Alla prima dello spettacolo le ballerine sono farfalle molto aggraziate.,Nominal predicative,5,5,1
+8,Per le ricerche di letteratura certe biblioteche sono miniere ricche di informazioni.,Nominal predicative,5,5,1
+8,Per i faccendieri del tribunale le borse sono macigni traboccanti di documenti.,Nominal predicative,3,4,3
+8,Per gli adolescenti amanti del rock certe canzoni sono droghe ipnotiche.,Nominal predicative,4,5,2
+8,Per i bambini maltrattati le carezze sono balsami che curano il trauma.,Nominal predicative,5,5,1
+8,Nell'ora del rientro dal lavoro le città sono giungle caotiche.,Nominal predicative,4,5,2
+8,Nelle poesie dei poeti romantici le fanciulle sono rose delicate.,Nominal predicative,5,5,1
+8,Quando si suda per la tensione le giacche sono forni di calore.,Nominal predicative,3,4,3
+8,Nei bambini appena nati le guance sono pesche liscissime.,Nominal predicative,5,5,1
+8,Alle sfilate di alta moda le indossatrici sono bambole di incantevole bellezza.,Nominal predicative,5,5,1
+8,Con certi insegnanti dell'università le lezioni in classe sono sonniferi potentissimi.,Nominal predicative,4,5,2
+8,Specialmente nei paesi del terzo mondo certe malattie sono cecchini senza pietà.,Nominal predicative,4,5,2
+8,Per i distubi del sonno certe melodie sono camomille rilassanti.,Nominal predicative,4,5,2
+8,Nelle situazioni di crisi economica certe notizie sono terremoti destabilizzanti.,Nominal predicative,5,5,1
+8,Le tasche delle giacche dei nonni sono banche zeppe di monete.,Nominal predicative,4,5,2
+8,Ai matrimoni tradizionali le torte sono montagne di panna e praline.,Nominal predicative,4,5,2
+8,Specialmente nel genere femminile certe voci sono trombe squillanti e fastidiose.,Nominal predicative,3,4,3
+8,Soprattutto nelle culture tradizionali i matrimoni sono querce dalle radici solide.,Nominal predicative,4,5,2
+8,Per molti anziani i figli sono stampelle che sostengono nella vecchiaia.,Nominal predicative,5,5,1
+8,Dopo un temporale le nuvole sono perle di infiniti riflessi.,Nominal predicative,3,4,3
+8,Nelle scelte di vita i dubbi sono ombre che offuscano la via.,Nominal predicative,5,5,1
+8,Nei momenti di sconforto i sogni sono ali per viaggiare lontano.,Nominal predicative,5,5,1
+8,Negli indecisi le opinioni sono pendoli che vanno di qua e di là.,Nominal predicative,4,5,2
+8,Quando si toccano argomenti delicati le parole sono pietre che pesano sull'animo.,Nominal predicative,5,5,1
+8,Nelle persone creative le menti sono vulcani di idee e progetti.,Nominal predicative,5,5,1
+8,Al giorno d'oggi i passatempi sono oasi dal lavoro e dalla frenesia del quotidiano.,Nominal predicative,5,5,1
+8,Specialmente nella adolescenza le passioni sono venti passeggeri e instabili.,Nominal predicative,4,5,2
+8,In un percorso di miglioramento spirituale le virtù sono muscoli da potenziare.,Nominal predicative,4,5,2
+8,Anche dopo molti anni i rimproveri dei genitori sono tatuaggi nella memoria.,Nominal predicative,5,5,1
+8,Per gli animi sensibili le poesie sono sorrisi per il cuore.,Nominal predicative,5,5,1
+8,I malati di artrosi dicono che le fitte sono coltelli nella carne.,Nominal predicative,4,5,2
+8,Specialmente in filosofia certe teorie sono palazzi dalle fragili fondamenta.,Nominal predicative,4,5,3
+8,Specialmente in America certe università sono portaerei che trasportano talenti.,Nominal predicative,4,5,2
+8,Tutti sanno che le amicizie sono alberi che crescono con il tempo.,Nominal predicative,5,5,1
+8,Se non curati con farmaci specifici certi malditesta sono trapani continui.,Nominal predicative,4,5,2
+8,Nei paesi in via di sviluppo le economie sono bombe ad orologeria.,Nominal predicative,4,5,2
+8,Nella memoria dei popoli le stragi sono cicatrici indelebili.,Nominal predicative,5,5,1
+8,In certi momenti gli occhi sono oceani di profondità infinita.,Nominal predicative,5,5,1
+8,Se negative certe amicizie sono virus che infettano il carattere dei giovani.,Nominal predicative,4,5,2
+8,Nelle patologie psichiatriche le ossessioni sono gabbie che imprigionano.,Nominal predicative,5,5,1
+8,Per alcune persone certi profumi sono chiavi per la porta della memoria.,Nominal predicative,5,5,1
+8,Spesso nella vita le delusioni sono zavorre molto pesanti.,Nominal predicative,5,5,1
+8,Nel mondo dello spettacolo certe conoscenze sono ascensori per il successo.,Nominal predicative,5,5,1
+8,Per i soggetti depressi le crisi sono tunnel senza fine.,Nominal predicative,5,5,1
+8,Nella vita le paure sono nodi che impediscono di andare avanti.,Nominal predicative,5,5,1
+8,Nei momenti difficili le speranze sono stelle che illuminano l'anima.,Nominal predicative,5,5,1
+8,Nelle società multietniche le lingue sono ponti tra le persone.,Nominal predicative,5,5,1
+8,Nel caso di alcuni autori certi romanzi sono mappe che aiutano ad orientarsi nella vita.,Nominal predicative,5,5,1
+8,Specialmente nelle relazioni sentimentali i torti sono crepe nell'anima.,Nominal predicative,5,5,1
+8,Nel corso della vita le emozioni sono fulmini che sconvolgono la routine.,Nominal predicative,5,5,1
+8,Quando c'è diffidenza i segreti sono muri tra le persone.,Nominal predicative,5,5,1
+8,In politica e nel commercio certi discorsi sono fiumi che travolgono.,Nominal predicative,4,5,2
+8,Nella società umana i rapporti sono corde che ci legano agli altri.,Nominal predicative,5,5,1
+8,Senza il perdono i rancori sono tarli che divorano l'anima.,Nominal predicative,5,5,1
+8,Negli animi fragili le tentazioni sono reti molto pericolose.,Nominal predicative,5,5,1
+9,Dopo una cena a base di aglio gli aliti sono fogne insopportabili.,Nominal predicative,4,5,1
+9,Nei processi importanti certi avvocati sono squali senza scrupoli.,Nominal predicative,5,5,1
+9,Secondo l'opinione del generale quegli eserciti sono dighe insormontabili.,Nominal predicative,3,4,2
+9,Quando il tempo stringe gli oratori sono treni ad altà velocità.,Nominal predicative,2,3,3
+9,Nell'arrampicata ad alta quota gli scalatori sono scoiattoli molto agili.,Nominal predicative,4,5,2
+9,A volte nell'educazione degli adolescenti gli schiaffi sono medicine efficaci.,Nominal predicative,3,4,3
+9,Specialmente per le coste italiane gli uragani sono carrarmati devastanti.,Nominal predicative,2,4,3
+9,Davanti ad una punizione certi bambini sono fontane inarrestabili.,Nominal predicative,4,5,2
+9,Nel mondo della speculazione finanziaria i banchieri sono vampiri sempre assetati.,Nominal predicative,5,5,1
+9,Nell'utilizzo di rasoi taglienti i barbieri sono chirurghi altamente specializzati.,Nominal predicative,4,5,2
+9,Negli ambienti di lavoro spesso i colleghi sono zecche fastidiose.,Nominal predicative,4,5,1
+9,All'occhio di un investigatore alle prime armi certi delitti sono rebus insolubili.,Nominal predicative,3,5,4
+9,Alle finali olimpioniche di atletica i ginnasti sono grilli agilissimi.,Nominal predicative,2,4,3
+9,In certi sport americani i giocatori sono elefanti dalla mole imponente.,Nominal predicative,3,4,2
+9,Durante gli scandali nazionali i giornalisti sono avvoltoi senza morale.,Nominal predicative,5,5,1
+9,Nella formazione culturale di ogni persona certi libri sono bussole di grande utilità.,Nominal predicative,4,5,2
+9,Nell'educazione dei giovani certi maestri sono lanterne che illuminano la via.,Nominal predicative,5,5,1
+9,Nelle campagne elettorali certi politici sono calamite per i voti.,Nominal predicative,5,5,1
+9,Nei condomini del centro i portinai sono archivi pronti a spettegolare.,Nominal predicative,4,5,2
+9,Specialmente per le materie umanistiche certi professori sono enciclopedie zeppe di conoscenze.,Nominal predicative,5,5,1
+9,Dopo un grave lutto certi ricordi sono spine dolorose.,Nominal predicative,4,5,2
+9,Nel combattimento corpo a corpo certi soldati sono leoni senza paura.,Nominal predicative,4,5,2
+9,Dopo un anno di duro lavoro i viaggi sono terapie di sicura efficacia.,Nominal predicative,5,5,1
+9,Secondo la giornalista di moda quelle acconciature sono cespugli incolti.,Nominal predicative,3,4,2
+9,Durante la gara di formula uno le automobili sono frecce velocissime.,Nominal predicative,5,5,1
+9,Alla prima dello spettacolo le ballerine sono farfalle molto aggraziate.,Nominal predicative,4,5,2
+9,Per le ricerche di letteratura certe biblioteche sono miniere ricche di informazioni.,Nominal predicative,5,5,1
+9,Per i faccendieri del tribunale le borse sono macigni traboccanti di documenti.,Nominal predicative,3,4,3
+9,Per gli adolescenti amanti del rock certe canzoni sono droghe ipnotiche.,Nominal predicative,4,5,2
+9,Per i bambini maltrattati le carezze sono balsami che curano il trauma.,Nominal predicative,5,5,1
+9,Nell'ora del rientro dal lavoro le città sono giungle caotiche.,Nominal predicative,4,5,2
+9,Nelle poesie dei poeti romantici le fanciulle sono rose delicate.,Nominal predicative,5,5,1
+9,Quando si suda per la tensione le giacche sono forni di calore.,Nominal predicative,3,4,2
+9,Nei bambini appena nati le guance sono pesche liscissime.,Nominal predicative,4,5,2
+9,Alle sfilate di alta moda le indossatrici sono bambole di incantevole bellezza.,Nominal predicative,5,5,1
+9,Con certi insegnanti dell'università le lezioni in classe sono sonniferi potentissimi.,Nominal predicative,4,5,2
+9,Specialmente nei paesi del terzo mondo certe malattie sono cecchini senza pietà.,Nominal predicative,4,5,2
+9,Per i distubi del sonno certe melodie sono camomille rilassanti.,Nominal predicative,4,5,2
+9,Nelle situazioni di crisi economica certe notizie sono terremoti destabilizzanti.,Nominal predicative,4,5,2
+9,Le tasche delle giacche dei nonni sono banche zeppe di monete.,Nominal predicative,4,5,2
+9,Ai matrimoni tradizionali le torte sono montagne di panna e praline.,Nominal predicative,4,5,2
+9,Specialmente nel genere femminile certe voci sono trombe squillanti e fastidiose.,Nominal predicative,3,4,3
+9,Soprattutto nelle culture tradizionali i matrimoni sono querce dalle radici solide.,Nominal predicative,4,5,2
+9,Per molti anziani i figli sono stampelle che sostengono nella vecchiaia.,Nominal predicative,5,5,1
+9,Dopo un temporale le nuvole sono perle di infiniti riflessi.,Nominal predicative,3,4,3
+9,Nelle scelte di vita i dubbi sono ombre che offuscano la via.,Nominal predicative,4,5,2
+9,Nei momenti di sconforto i sogni sono ali per viaggiare lontano.,Nominal predicative,4,5,2
+9,Negli indecisi le opinioni sono pendoli che vanno di qua e di là.,Nominal predicative,4,5,2
+9,Quando si toccano argomenti delicati le parole sono pietre che pesano sull'animo.,Nominal predicative,5,5,1
+9,Nelle persone creative le menti sono vulcani di idee e progetti.,Nominal predicative,5,5,1
+9,Al giorno d'oggi i passatempi sono oasi dal lavoro e dalla frenesia del quotidiano.,Nominal predicative,5,5,1
+9,Specialmente nella adolescenza le passioni sono venti passeggeri e instabili.,Nominal predicative,4,5,2
+9,In un percorso di miglioramento spirituale le virtù sono muscoli da potenziare.,Nominal predicative,4,5,2
+9,Anche dopo molti anni i rimproveri dei genitori sono tatuaggi nella memoria.,Nominal predicative,5,5,1
+9,Per gli animi sensibili le poesie sono sorrisi per il cuore.,Nominal predicative,5,5,1
+9,I malati di artrosi dicono che le fitte sono coltelli nella carne.,Nominal predicative,4,5,2
+9,Specialmente in filosofia certe teorie sono palazzi dalle fragili fondamenta.,Nominal predicative,4,5,3
+9,Specialmente in America certe università sono portaerei che trasportano talenti.,Nominal predicative,4,5,2
+9,Tutti sanno che le amicizie sono alberi che crescono con il tempo.,Nominal predicative,5,5,1
+9,Se non curati con farmaci specifici certi malditesta sono trapani continui.,Nominal predicative,3,4,3
+9,Nei paesi in via di sviluppo le economie sono bombe ad orologeria.,Nominal predicative,4,5,2
+9,Nella memoria dei popoli le stragi sono cicatrici indelebili.,Nominal predicative,5,5,1
+9,In certi momenti gli occhi sono oceani di profondità infinita.,Nominal predicative,4,5,2
+9,Se negative certe amicizie sono virus che infettano il carattere dei giovani.,Nominal predicative,4,5,2
+9,Nelle patologie psichiatriche le ossessioni sono gabbie che imprigionano.,Nominal predicative,5,5,1
+9,Per alcune persone certi profumi sono chiavi per la porta della memoria.,Nominal predicative,4,5,2
+9,Spesso nella vita le delusioni sono zavorre molto pesanti.,Nominal predicative,5,5,1
+9,Nel mondo dello spettacolo certe conoscenze sono ascensori per il successo.,Nominal predicative,4,5,2
+9,Per i soggetti depressi le crisi sono tunnel senza fine.,Nominal predicative,5,5,1
+9,Nella vita le paure sono nodi che impediscono di andare avanti.,Nominal predicative,5,5,1
+9,Nei momenti difficili le speranze sono stelle che illuminano l'anima.,Nominal predicative,5,5,1
+9,Nelle società multietniche le lingue sono ponti tra le persone.,Nominal predicative,5,5,1
+9,Nel caso di alcuni autori certi romanzi sono mappe che aiutano ad orientarsi nella vita.,Nominal predicative,4,5,2
+9,Specialmente nelle relazioni sentimentali i torti sono crepe nell'anima.,Nominal predicative,4,5,2
+9,Nel corso della vita le emozioni sono fulmini che sconvolgono la routine.,Nominal predicative,4,5,2
+9,Quando c'è diffidenza i segreti sono muri tra le persone.,Nominal predicative,5,5,1
+9,In politica e nel commercio certi discorsi sono fiumi che travolgono.,Nominal predicative,4,5,2
+9,Nella società umana i rapporti sono corde che ci legano agli altri.,Nominal predicative,5,5,1
+9,Senza il perdono i rancori sono tarli che divorano l'anima.,Nominal predicative,5,5,1
+9,Negli animi fragili le tentazioni sono reti molto pericolose.,Nominal predicative,4,5,2
+10,Dopo una cena a base di aglio gli aliti sono fogne insopportabili.,Nominal predicative,4,5,1
+10,Nei processi importanti certi avvocati sono squali senza scrupoli.,Nominal predicative,5,5,1
+10,Secondo l'opinione del generale quegli eserciti sono dighe insormontabili.,Nominal predicative,2,4,3
+10,Quando il tempo stringe gli oratori sono treni ad altà velocità.,Nominal predicative,1,2,4
+10,Nell'arrampicata ad alta quota gli scalatori sono scoiattoli molto agili.,Nominal predicative,3,4,2
+10,A volte nell'educazione degli adolescenti gli schiaffi sono medicine efficaci.,Nominal predicative,2,3,4
+10,Specialmente per le coste italiane gli uragani sono carrarmati devastanti.,Nominal predicative,1,2,4
+10,Davanti ad una punizione certi bambini sono fontane inarrestabili.,Nominal predicative,4,5,1
+10,Nel mondo della speculazione finanziaria i banchieri sono vampiri sempre assetati.,Nominal predicative,5,5,1
+10,Nell'utilizzo di rasoi taglienti i barbieri sono chirurghi altamente specializzati.,Nominal predicative,4,5,1
+10,Negli ambienti di lavoro spesso i colleghi sono zecche fastidiose.,Nominal predicative,4,4,2
+10,All'occhio di un investigatore alle prime armi certi delitti sono rebus insolubili.,Nominal predicative,3,5,4
+10,Alle finali olimpioniche di atletica i ginnasti sono grilli agilissimi.,Nominal predicative,2,4,3
+10,In certi sport americani i giocatori sono elefanti dalla mole imponente.,Nominal predicative,3,4,2
+10,Durante gli scandali nazionali i giornalisti sono avvoltoi senza morale.,Nominal predicative,5,5,1
+10,Nella formazione culturale di ogni persona certi libri sono bussole di grande utilità.,Nominal predicative,4,5,1
+10,Nell'educazione dei giovani certi maestri sono lanterne che illuminano la via.,Nominal predicative,5,5,1
+10,Nelle campagne elettorali certi politici sono calamite per i voti.,Nominal predicative,5,5,1
+10,Nei condomini del centro i portinai sono archivi pronti a spettegolare.,Nominal predicative,4,5,1
+10,Specialmente per le materie umanistiche certi professori sono enciclopedie zeppe di conoscenze.,Nominal predicative,5,5,1
+10,Dopo un grave lutto certi ricordi sono spine dolorose.,Nominal predicative,4,5,2
+10,Nel combattimento corpo a corpo certi soldati sono leoni senza paura.,Nominal predicative,4,5,1
+10,Dopo un anno di duro lavoro i viaggi sono terapie di sicura efficacia.,Nominal predicative,5,5,1
+10,Secondo la giornalista di moda quelle acconciature sono cespugli incolti.,Nominal predicative,3,4,2
+10,Durante la gara di formula uno le automobili sono frecce velocissime.,Nominal predicative,5,5,1
+10,Alla prima dello spettacolo le ballerine sono farfalle molto aggraziate.,Nominal predicative,4,5,1
+10,Per le ricerche di letteratura certe biblioteche sono miniere ricche di informazioni.,Nominal predicative,5,5,1
+10,Per i faccendieri del tribunale le borse sono macigni traboccanti di documenti.,Nominal predicative,3,4,3
+10,Per gli adolescenti amanti del rock certe canzoni sono droghe ipnotiche.,Nominal predicative,4,5,2
+10,Per i bambini maltrattati le carezze sono balsami che curano il trauma.,Nominal predicative,5,5,1
+10,Nell'ora del rientro dal lavoro le città sono giungle caotiche.,Nominal predicative,4,5,1
+10,Nelle poesie dei poeti romantici le fanciulle sono rose delicate.,Nominal predicative,5,5,1
+10,Quando si suda per la tensione le giacche sono forni di calore.,Nominal predicative,3,4,2
+10,Nei bambini appena nati le guance sono pesche liscissime.,Nominal predicative,5,5,1
+10,Alle sfilate di alta moda le indossatrici sono bambole di incantevole bellezza.,Nominal predicative,4,5,1
+10,Con certi insegnanti dell'università le lezioni in classe sono sonniferi potentissimi.,Nominal predicative,4,5,2
+10,Specialmente nei paesi del terzo mondo certe malattie sono cecchini senza pietà.,Nominal predicative,3,5,2
+10,Per i distubi del sonno certe melodie sono camomille rilassanti.,Nominal predicative,4,5,1
+10,Nelle situazioni di crisi economica certe notizie sono terremoti destabilizzanti.,Nominal predicative,4,5,2
+10,Le tasche delle giacche dei nonni sono banche zeppe di monete.,Nominal predicative,4,5,1
+10,Ai matrimoni tradizionali le torte sono montagne di panna e praline.,Nominal predicative,4,5,1
+10,Specialmente nel genere femminile certe voci sono trombe squillanti e fastidiose.,Nominal predicative,3,4,3
+10,Soprattutto nelle culture tradizionali i matrimoni sono querce dalle radici solide.,Nominal predicative,4,5,2
+10,Per molti anziani i figli sono stampelle che sostengono nella vecchiaia.,Nominal predicative,5,5,1
+10,Dopo un temporale le nuvole sono perle di infiniti riflessi.,Nominal predicative,3,4,2
+10,Nelle scelte di vita i dubbi sono ombre che offuscano la via.,Nominal predicative,4,5,2
+10,Nei momenti di sconforto i sogni sono ali per viaggiare lontano.,Nominal predicative,5,5,1
+10,Negli indecisi le opinioni sono pendoli che vanno di qua e di là.,Nominal predicative,4,5,2
+10,Quando si toccano argomenti delicati le parole sono pietre che pesano sull'animo.,Nominal predicative,5,5,1
+10,Nelle persone creative le menti sono vulcani di idee e progetti.,Nominal predicative,5,5,1
+10,Al giorno d'oggi i passatempi sono oasi dal lavoro e dalla frenesia del quotidiano.,Nominal predicative,5,5,1
+10,Specialmente nella adolescenza le passioni sono venti passeggeri e instabili.,Nominal predicative,4,5,2
+10,In un percorso di miglioramento spirituale le virtù sono muscoli da potenziare.,Nominal predicative,4,5,2
+10,Anche dopo molti anni i rimproveri dei genitori sono tatuaggi nella memoria.,Nominal predicative,5,5,1
+10,Per gli animi sensibili le poesie sono sorrisi per il cuore.,Nominal predicative,5,5,1
+10,I malati di artrosi dicono che le fitte sono coltelli nella carne.,Nominal predicative,4,5,2
+10,Specialmente in filosofia certe teorie sono palazzi dalle fragili fondamenta.,Nominal predicative,3,5,3
+10,Specialmente in America certe università sono portaerei che trasportano talenti.,Nominal predicative,3,4,3
+10,Tutti sanno che le amicizie sono alberi che crescono con il tempo.,Nominal predicative,5,5,1
+10,Se non curati con farmaci specifici certi malditesta sono trapani continui.,Nominal predicative,3,4,3
+10,Nei paesi in via di sviluppo le economie sono bombe ad orologeria.,Nominal predicative,3,4,3
+10,Nella memoria dei popoli le stragi sono cicatrici indelebili.,Nominal predicative,5,5,1
+10,In certi momenti gli occhi sono oceani di profondità infinita.,Nominal predicative,4,5,2
+10,Se negative certe amicizie sono virus che infettano il carattere dei giovani.,Nominal predicative,4,5,2
+10,Nelle patologie psichiatriche le ossessioni sono gabbie che imprigionano.,Nominal predicative,5,5,1
+10,Per alcune persone certi profumi sono chiavi per la porta della memoria.,Nominal predicative,4,5,2
+10,Spesso nella vita le delusioni sono zavorre molto pesanti.,Nominal predicative,5,5,1
+10,Nel mondo dello spettacolo certe conoscenze sono ascensori per il successo.,Nominal predicative,4,5,2
+10,Per i soggetti depressi le crisi sono tunnel senza fine.,Nominal predicative,5,5,1
+10,Nella vita le paure sono nodi che impediscono di andare avanti.,Nominal predicative,5,5,1
+10,Nei momenti difficili le speranze sono stelle che illuminano l'anima.,Nominal predicative,5,5,1
+10,Nelle società multietniche le lingue sono ponti tra le persone.,Nominal predicative,5,5,1
+10,Nel caso di alcuni autori certi romanzi sono mappe che aiutano ad orientarsi nella vita.,Nominal predicative,4,5,2
+10,Specialmente nelle relazioni sentimentali i torti sono crepe nell'anima.,Nominal predicative,5,5,1
+10,Nel corso della vita le emozioni sono fulmini che sconvolgono la routine.,Nominal predicative,4,5,2
+10,Quando c'è diffidenza i segreti sono muri tra le persone.,Nominal predicative,5,5,1
+10,In politica e nel commercio certi discorsi sono fiumi che travolgono.,Nominal predicative,4,5,2
+10,Nella società umana i rapporti sono corde che ci legano agli altri.,Nominal predicative,5,5,1
+10,Senza il perdono i rancori sono tarli che divorano l'anima.,Nominal predicative,5,5,1
+10,Negli animi fragili le tentazioni sono reti molto pericolose.,Nominal predicative,4,5,2
