@@ -5,36 +5,35 @@ import os
 import re
 from scipy.stats import spearmanr
 
-# ---------- CONFIG ----------
-# Metti qui i nomi dei file così come sono nella cartella
+# Definizione dei percorsi per i dati
 
 human_path = "data/human_datasets/"
 synthetic_path = "data/synthetic_datasets/"
+raw_path = "data/original_datasets/"
 
-human_files = {
+human_data = {
     "MB": human_path + "human_MB.csv",
     "ME": human_path + "human_ME.csv",
     "MI": human_path + "human_MI.csv",
     "MM": human_path + "human_MM.csv",
 }
 
-synthetic_files = {
+synthetic_data = {
     "MB": synthetic_path + "synthetic_MB_meta-llama-Llama-3.3-70B-Instruct_.csv",
     "ME": synthetic_path + "synthetic_ME_meta-llama-Llama-3.3-70B-Instruct_.csv",
     "MI": synthetic_path + "synthetic_MI_meta-llama-Llama-3.3-70B-Instruct_.csv",
     "MM": synthetic_path + "synthetic_MM_meta-llama-Llama-3.3-70B-Instruct_.csv",
 }
 
-# Opzionale: file RAW che contengono colonne "Bambini et al. (2013)" etc.
-# Lo script userà questi file per ricavare le metafore "usate in studi precedenti"
-raw_files = {
-    "MB": "raw_MB.csv",   # il file che tu usi nel tuo codice per trovare used_metaphors_MB
-    "ME": "raw_ME.csv",
-    "MI": "raw_MI.csv",
-    "MM": "raw_MM.csv",
+raw_data = {
+    "MB": raw_path + "raw_MB.csv",
+    "ME": raw_path + "raw_ME.csv",
+    "MI": raw_path + "raw_MI.csv",
+    "MM": raw_path + "raw_MM.csv",
 }
 
-# Mappatura dimensioni per dataset: nome colonna humana -> prefisso colonna sintetica (senza _human/_synthetic)
+# Mappatura dimensioni per dataset (nome colonna humana : nome colonna sintetica)
+
 dataset_dimensions = {
     "MB": {
         "FAMILIARITY_human": "FAMILIARITY",
@@ -55,18 +54,6 @@ dataset_dimensions = {
         "MEANINGFULNESS_human": "MEANINGFULNESS",
     },
 }
-# ----------------------------
-
-def try_read_csv(path):
-    if not os.path.exists(path):
-        return None
-    # try different separators automatically
-    try:
-        df = pd.read_csv(path, dtype=str)
-    except Exception:
-        # fallback: try semicolon
-        df = pd.read_csv(path, sep=';', dtype=str)
-    return df
 
 def normalize_text(s):
     if pd.isna(s):
@@ -74,34 +61,19 @@ def normalize_text(s):
     return re.sub(r'\s+', ' ', str(s).strip())
 
 def to_numeric_italian(x):
-    # x could be like '5,423076923' or '"5,423076923"' etc.
+    
     if pd.isna(x):
         return np.nan
-    s = str(x).strip().strip('"').strip("'")
-    # if contains comma and dot both, assume dot is thousands -> replace ',' then
-    if s.count(',') > 0 and s.count('.') == 0:
-        s = s.replace(',', '.')
-    # remove spaces
+    
+    s = str(x).strip('"').strip("'")
+    s = s.replace(',', '.')
     s = s.replace(' ', '')
-    try:
-        return float(s)
-    except:
-        # as last resort, try to extract a number
-        m = re.search(r'[-+]?\d+[.,]?\d*', s)
-        if m:
-            ss = m.group(0).replace(',', '.')
-            try:
-                return float(ss)
-            except:
-                return np.nan
-        return np.nan
+
+    return float(s)
 
 def build_used_sets_from_raw(raw_df, dataset_name):
-    # This implements the same logic che hai nel tuo snippet: guarda le colonne con
-    # nomi dei paper e costruisce set per dimensione.
+
     used = {}
-    if raw_df is None:
-        return used  # empty -> no exclusions
     raw = raw_df.fillna('')
     # Lowercase columns for safer matching
     cols = [c for c in raw.columns]
@@ -109,39 +81,45 @@ def build_used_sets_from_raw(raw_df, dataset_name):
     if dataset_name == "MB":
         used = {"FAMILIARITY": set(), "MEANINGFULNESS": set(), "BODY_RELATEDNESS": set()}
         for _, row in raw.iterrows():
-            m = normalize_text(row.get("Metaphor", row.get("metaphor", "")))
-            if row.get("Bambini et al. (2013)", "") == "Y":
+            m = normalize_text(row.get("Metaphor"))
+            if row.get("Bambini et al. (2013)") == "Y":
                 used["FAMILIARITY"].add(m); used["MEANINGFULNESS"].add(m)
-            if row.get("Canal et al. (2022)", "") == "Y":
+            if row.get("Canal et al. (2022)") == "Y":
                 used["FAMILIARITY"].add(m)
-            if row.get("Bambini et al. (2024)", "") == "Y":
+            if row.get("Bambini et al. (2024)") == "Y":
                 used["FAMILIARITY"].add(m)
-            if row.get("Lago et al. (2024)", "") == "Y":
+            if row.get("Lago et al. (2024)") == "Y":
                 used["FAMILIARITY"].add(m)
+
     elif dataset_name == "ME":
+
         used = {"FAMILIARITY": set(), "MEANINGFULNESS": set(), "DIFFICULTY": set()}
         for _, row in raw.iterrows():
-            m = normalize_text(row.get("Metaphor", row.get("metaphor", "")))
-            if row.get("Bambini et al. (2013)", "") == "Y":
+            m = normalize_text(row.get("Metaphor"))
+            if row.get("Bambini et al. (2013)") == "Y":
                 used["FAMILIARITY"].add(m); used["MEANINGFULNESS"].add(m); used["DIFFICULTY"].add(m)
-            if row.get("Canal et al. (2022)", "") == "Y":
+            if row.get("Canal et al. (2022)") == "Y":
                 used["FAMILIARITY"].add(m)
-            if row.get("Bambini et al. (2024)", "") == "Y":
+            if row.get("Bambini et al. (2024)") == "Y":
                 used["FAMILIARITY"].add(m); used["DIFFICULTY"].add(m)
             if row.get("Lago et al. (2024)", "") == "Y":
                 used["FAMILIARITY"].add(m)
+
     elif dataset_name == "MI":
+
         used = {"PHISICALITY": set(), "IMAGEABILITY": set()}
         for _, row in raw.iterrows():
-            m = normalize_text(row.get("Metaphor", row.get("metaphor", "")))
+            m = normalize_text(row.get("Metaphor"))
             if row.get("Canal et al. (2022)", "") == "Y":
                 used["PHISICALITY"].add(m)
             if row.get("Bambini et al. (2024)", "") == "Y":
                 used["IMAGEABILITY"].add(m)
+
     elif dataset_name == "MM":
+
         used = {"FAMILIARITY": set(), "MEANINGFULNESS": set()}
         for _, row in raw.iterrows():
-            m = normalize_text(row.get("Metaphor", row.get("metaphor", "")))
+            m = normalize_text(row.get("Metaphor"))
             if row.get("Bambini et al. (2013)", "") == "Y":
                 used["FAMILIARITY"].add(m); used["MEANINGFULNESS"].add(m)
             if row.get("Canal et al. (2022)", "") == "Y":
@@ -150,13 +128,14 @@ def build_used_sets_from_raw(raw_df, dataset_name):
                 used["FAMILIARITY"].add(m)
             if row.get("Lago et al. (2024)", "") == "Y":
                 used["FAMILIARITY"].add(m)
+
     return used
 
 def compute_per_dataset(dataset_name, human_path, synth_path, raw_path=None):
     # read
-    human_df = try_read_csv(human_path)
-    synth_df = try_read_csv(synth_path)
-    raw_df = try_read_csv(raw_path) if raw_path else None
+    human_df = pd.read_csv(human_path)
+    synth_df = pd.read_csv(synth_path)
+    raw_df = pd.read_csv(raw_path) if raw_path else None
 
     if human_df is None:
         print(f"ATTENZIONE: file umano per {dataset_name} non trovato: {human_path}. Skipping.")
@@ -311,10 +290,10 @@ def compute_per_dataset(dataset_name, human_path, synth_path, raw_path=None):
 
 def main():
     all_results = []
-    for ds in human_files.keys():
-        human_path = human_files.get(ds)
-        synth_path = synthetic_files.get(ds)
-        raw_path = raw_files.get(ds) if ds in raw_files else None
+    for ds in human_data.keys():
+        human_path = human_data.get(ds)
+        synth_path = synthetic_data.get(ds)
+        raw_path = raw_data.get(ds) if ds in raw_data else None
         r = compute_per_dataset(ds, human_path, synth_path, raw_path)
         if r:
             all_results.extend(r)
