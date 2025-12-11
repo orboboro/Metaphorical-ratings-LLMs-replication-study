@@ -1,4 +1,4 @@
-annotator,metaphor,metaphor_structure,FAMILIARITY_synthetic,MEANINGFULNESS_synthetic,body relatedness
+annotator,metaphor,metaphor_structure,FAMILIARITY_synthetic,MEANINGFULNESS_synthetic,BODY_RELATEDNESS_synthetic
 1,Quell'alito è una fogna,Nominal predicative,6,5,7
 1,Quell'uragano è un carrarmato,Nominal predicative,4,6,1
 1,Quella borsa è un macigno,Nominal predicative,3,4,4

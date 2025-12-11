@@ -19,10 +19,10 @@ human_data = {
 }
 
 synthetic_data = {
-    "MB": synthetic_path + "synthetic_MB_meta-llama-Llama-3.3-70B-Instruct_.csv",
-    "ME": synthetic_path + "synthetic_ME_meta-llama-Llama-3.3-70B-Instruct_.csv",
-    "MI": synthetic_path + "synthetic_MI_meta-llama-Llama-3.3-70B-Instruct_.csv",
-    "MM": synthetic_path + "synthetic_MM_meta-llama-Llama-3.3-70B-Instruct_.csv",
+    "MB": synthetic_path + "synthetic_MB_meta-llama-Llama-3.1-8B-Instruct_.csv",
+    "ME": synthetic_path + "synthetic_ME_meta-llama-Llama-3.1-8B-Instruct_.csv",
+    "MI": synthetic_path + "synthetic_MI_meta-llama-Llama-3.1-8B-Instruct_.csv",
+    "MM": synthetic_path + "synthetic_MM_meta-llama-Llama-3.1-8B-Instruct_.csv",
 }
 
 raw_data = {
