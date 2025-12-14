@@ -1,641 +1,641 @@
-annotator,metaphor,metaphor_structure,FAMILIARITY_synthetic,MEANINGFULNESS_synthetic,BODY_RELATEDNESS_synthetic
-1,Quell'alito è una fogna,Nominal predicative,6,5,7
-1,Quell'uragano è un carrarmato,Nominal predicative,4,6,1
-1,Quella borsa è un macigno,Nominal predicative,3,4,4
-1,Quella città è una giungla,Nominal predicative,5,6,1
-1,Quelle guance sono pesche,Nominal predicative,6,6,7
-1,Quel bacio è un peperoncino,Nominal predicative,5,5,7
-1,Quella bocca è una fragola,Nominal predicative,7,6,7
-1,Quella locomotiva è un drago,Nominal predicative,2,4,1
-1,Quella ruga è un burrone,Nominal predicative,4,5,7
-1,Quel vestito è una tenda,Nominal predicative,2,3,1
-1,Quel lago è un cristallo,Nominal predicative,4,5,1
-1,Quel sorriso è una stella,Nominal predicative,6,6,7
-1,Quella pelle è una porcellana,Nominal predicative,5,4,7
-1,Quel prato è un velluto,Nominal predicative,3,4,1
-1,Quel mento è un precipizio,Nominal predicative,4,6,7
-1,Quel viso è una seta,Nominal predicative,5,5,7
-1,Quella nebbia è un muro,Nominal predicative,4,4,1
-1,Quell'orecchio è una padella,Nominal predicative,2,3,4
-1,Quella mano è una grattugia,Nominal predicative,5,5,7
-1,Quel naso è un uncino,Nominal predicative,5,5,7
-1,Quei denti sono una ghigliottina,Nominal predicative,6,6,7
-1,Quelle palpebre sono serrande,Nominal predicative,6,5,6
-1,Quelle ciglia sono un ventaglio,Nominal predicative,6,6,6
-1,Quei piedi sono zattere,Nominal predicative,4,5,6
-1,Quella pancia è una mongolfiera,Nominal predicative,5,5,7
-1,Quella barba è un batuffolo,Nominal predicative,3,4,4
-1,Quegli zigomi sono montagne,Nominal predicative,5,6,7
-1,Quelle gambe sono trampoli,Nominal predicative,5,5,7
-1,Quella caviglia è un pallone,Nominal predicative,4,4,6
-1,Quel braccio è una sbarra,Nominal predicative,5,5,7
-1,Quei capelli sono spaghetti,Nominal predicative,5,5,4
-1,Quella fronte è una pianura,Nominal predicative,4,5,1
-1,Quegli addominali sono marmo,Nominal predicative,5,5,7
-1,Quelle labbra sono un canotto,Nominal predicative,5,5,7
-1,Quei bicipiti sono sassi,Nominal predicative,5,5,7
-1,Quelle unghie sono ruspe,Nominal predicative,4,4,7
-1,Quelle dita sono tentacoli,Nominal predicative,6,5,7
-1,Quei peli sono aghi,Nominal predicative,6,5,6
-1,Quel brufolo è un vulcano,Nominal predicative,5,5,7
-1,Quel neo è una mora,Nominal predicative,5,4,4
-1,Quell'autostrada è un serpente,Nominal predicative,3,5,1
-1,Quella fabbrica è un alveare,Nominal predicative,2,4,1
-1,Quella luna è un palloncino,Nominal predicative,4,4,1
-1,Quella sigaretta è un proiettile,Nominal predicative,3,6,1
-1,Quella stanza è una discarica,Nominal predicative,4,4,1
-1,Quel computer è una tartaruga,Nominal predicative,3,4,1
-1,Quel libro è una lanterna,Nominal predicative,4,6,1
-1,Quell'automobile è un missile,Nominal predicative,3,6,1
-1,Quel cavo è un gomitolo,Nominal predicative,4,3,1
-1,Quel cappello è un fungo,Nominal predicative,4,4,1
-1,Quella grondaia è uno scolapasta,Nominal predicative,4,5,3
-1,Quella casa è un gioiello,Nominal predicative,2,4,1
-1,Quell'ospedale è un labirinto,Nominal predicative,3,5,1
-1,Quel diario è una miniera,Nominal predicative,3,5,1
-1,Quell'aiuola è un arcobaleno,Nominal predicative,2,4,1
-1,Quel sonaglio è una camomilla,Nominal predicative,1,3,1
-1,Quella nuvola è una perla,Nominal predicative,2,4,1
-1,Quella firma è un geroglifico,Nominal predicative,3,6,1
-1,Quegli abiti sono petali,Nominal predicative,5,6,6
-1,Quel mare è uno smeraldo,Nominal predicative,6,6,1
-1,Quella piscina è un brodo,Nominal predicative,4,5,1
-1,Quel pannolino è una diga,Nominal predicative,2,3,4
-1,Quell'aspirapolvere è un'astronave,Nominal predicative,3,4,1
-1,Quel bar è un cimitero,Nominal predicative,4,5,1
-2,Quell'alito è una fogna,Nominal predicative,1,6,7
-2,Quell'uragano è un carrarmato,Nominal predicative,4,6,1
-2,Quella borsa è un macigno,Nominal predicative,5,5,4
-2,Quella città è una giungla,Nominal predicative,3,6,2
-2,Quelle guance sono pesche,Nominal predicative,6,6,5
-2,Quel bacio è un peperoncino,Nominal predicative,6,6,6
-2,Quella bocca è una fragola,Nominal predicative,5,5,5
-2,Quella locomotiva è un drago,Nominal predicative,2,5,1
-2,Quella ruga è un burrone,Nominal predicative,4,6,6
-2,Quel vestito è una tenda,Nominal predicative,3,4,4
-2,Quel lago è un cristallo,Nominal predicative,2,4,1
-2,Quel sorriso è una stella,Nominal predicative,3,5,5
-2,Quella pelle è una porcellana,Nominal predicative,4,6,6
-2,Quel prato è un velluto,Nominal predicative,4,4,5
-2,Quel mento è un precipizio,Nominal predicative,4,6,7
-2,Quel viso è una seta,Nominal predicative,5,5,5
-2,Quella nebbia è un muro,Nominal predicative,3,4,2
-2,Quell'orecchio è una padella,Nominal predicative,6,4,4
-2,Quella mano è una grattugia,Nominal predicative,6,5,6
-2,Quel naso è un uncino,Nominal predicative,6,5,6
-2,Quei denti sono una ghigliottina,Nominal predicative,7,6,6
-2,Quelle palpebre sono serrande,Nominal predicative,6,5,6
-2,Quelle ciglia sono un ventaglio,Nominal predicative,6,4,6
-2,Quei piedi sono zattere,Nominal predicative,5,5,6
-2,Quella pancia è una mongolfiera,Nominal predicative,5,5,6
-2,Quella barba è un batuffolo,Nominal predicative,5,5,6
-2,Quegli zigomi sono montagne,Nominal predicative,4,6,6
-2,Quelle gambe sono trampoli,Nominal predicative,5,5,6
-2,Quella caviglia è un pallone,Nominal predicative,6,4,6
-2,Quel braccio è una sbarra,Nominal predicative,5,4,6
-2,Quei capelli sono spaghetti,Nominal predicative,6,5,5
-2,Quella fronte è una pianura,Nominal predicative,5,4,6
-2,Quegli addominali sono marmo,Nominal predicative,6,5,6
-2,Quelle labbra sono un canotto,Nominal predicative,6,5,6
-2,Quei bicipiti sono sassi,Nominal predicative,6,5,6
-2,Quelle unghie sono ruspe,Nominal predicative,6,4,6
-2,Quelle dita sono tentacoli,Nominal predicative,6,6,7
-2,Quei peli sono aghi,Nominal predicative,6,5,6
-2,Quel brufolo è un vulcano,Nominal predicative,5,6,6
-2,Quel neo è una mora,Nominal predicative,4,5,4
-2,Quell'autostrada è un serpente,Nominal predicative,3,5,2
-2,Quella fabbrica è un alveare,Nominal predicative,4,4,1
-2,Quella luna è un palloncino,Nominal predicative,2,4,1
-2,Quella sigaretta è un proiettile,Nominal predicative,4,6,1
-2,Quella stanza è una discarica,Nominal predicative,3,4,1
-2,Quel computer è una tartaruga,Nominal predicative,2,4,1
-2,Quel libro è una lanterna,Nominal predicative,3,4,1
-2,Quell'automobile è un missile,Nominal predicative,4,6,1
-2,Quel cavo è un gomitolo,Nominal predicative,5,4,1
-2,Quel cappello è un fungo,Nominal predicative,4,4,2
-2,Quella grondaia è uno scolapasta,Nominal predicative,2,4,2
-2,Quella casa è un gioiello,Nominal predicative,3,4,1
-2,Quell'ospedale è un labirinto,Nominal predicative,3,5,1
-2,Quel diario è una miniera,Nominal predicative,4,4,1
-2,Quell'aiuola è un arcobaleno,Nominal predicative,4,5,1
-2,Quel sonaglio è una camomilla,Nominal predicative,3,4,2
-2,Quella nuvola è una perla,Nominal predicative,2,5,1
-2,Quella firma è un geroglifico,Nominal predicative,3,5,1
-2,Quegli abiti sono petali,Nominal predicative,6,5,5
-2,Quel mare è uno smeraldo,Nominal predicative,5,6,1
-2,Quella piscina è un brodo,Nominal predicative,4,4,1
-2,Quel pannolino è una diga,Nominal predicative,6,4,2
-2,Quell'aspirapolvere è un'astronave,Nominal predicative,4,5,1
-2,Quel bar è un cimitero,Nominal predicative,3,5,1
-3,Quell'alito è una fogna,Nominal predicative,6,5,4
-3,Quell'uragano è un carrarmato,Nominal predicative,2,6,3
-3,Quella borsa è un macigno,Nominal predicative,1,2,2
-3,Quella città è una giungla,Nominal predicative,4,6,3
-3,Quelle guance sono pesche,Nominal predicative,6,4,7
-3,Quel bacio è un peperoncino,Nominal predicative,6,6,6
-3,Quella bocca è una fragola,Nominal predicative,7,4,7
-3,Quella locomotiva è un drago,Nominal predicative,1,2,1
-3,Quella ruga è un burrone,Nominal predicative,6,5,7
-3,Quel vestito è una tenda,Nominal predicative,3,3,4
-3,Quel lago è un cristallo,Nominal predicative,4,5,3
-3,Quel sorriso è una stella,Nominal predicative,7,6,7
-3,Quella pelle è una porcellana,Nominal predicative,6,5,7
-3,Quel prato è un velluto,Nominal predicative,4,4,5
-3,Quel mento è un precipizio,Nominal predicative,6,6,7
-3,Quel viso è una seta,Nominal predicative,6,5,4
-3,Quella nebbia è un muro,Nominal predicative,4,3,2
-3,Quell'orecchio è una padella,Nominal predicative,5,3,5
-3,Quella mano è una grattugia,Nominal predicative,6,6,7
-3,Quel naso è un uncino,Nominal predicative,6,4,7
-3,Quei denti sono una ghigliottina,Nominal predicative,6,6,7
-3,Quelle palpebre sono serrande,Nominal predicative,5,5,7
-3,Quelle ciglia sono un ventaglio,Nominal predicative,7,4,6
-3,Quei piedi sono zattere,Nominal predicative,6,5,5
-3,Quella pancia è una mongolfiera,Nominal predicative,7,5,5
-3,Quella barba è un batuffolo,Nominal predicative,6,3,5
-3,Quegli zigomi sono montagne,Nominal predicative,7,5,7
-3,Quelle gambe sono trampoli,Nominal predicative,6,5,7
-3,Quella caviglia è un pallone,Nominal predicative,6,3,6
-3,Quel braccio è una sbarra,Nominal predicative,6,4,6
-3,Quei capelli sono spaghetti,Nominal predicative,6,5,6
-3,Quella fronte è una pianura,Nominal predicative,4,3,5
-3,Quegli addominali sono marmo,Nominal predicative,6,6,7
-3,Quelle labbra sono un canotto,Nominal predicative,6,4,6
-3,Quei bicipiti sono sassi,Nominal predicative,7,5,7
-3,Quelle unghie sono ruspe,Nominal predicative,6,5,6
-3,Quelle dita sono tentacoli,Nominal predicative,7,6,7
-3,Quei peli sono aghi,Nominal predicative,6,3,6
-3,Quel brufolo è un vulcano,Nominal predicative,6,5,7
-3,Quel neo è una mora,Nominal predicative,7,3,7
-3,Quell'autostrada è un serpente,Nominal predicative,4,5,2
-3,Quella fabbrica è un alveare,Nominal predicative,4,4,2
-3,Quella luna è un palloncino,Nominal predicative,4,5,3
-3,Quella sigaretta è un proiettile,Nominal predicative,6,5,4
-3,Quella stanza è una discarica,Nominal predicative,5,4,2
-3,Quel computer è una tartaruga,Nominal predicative,4,3,1
-3,Quel libro è una lanterna,Nominal predicative,5,5,1
-3,Quell'automobile è un missile,Nominal predicative,4,5,4
-3,Quel cavo è un gomitolo,Nominal predicative,6,4,1
-3,Quel cappello è un fungo,Nominal predicative,5,3,5
-3,Quella grondaia è uno scolapasta,Nominal predicative,6,4,6
-3,Quella casa è un gioiello,Nominal predicative,4,3,2
-3,Quell'ospedale è un labirinto,Nominal predicative,5,6,2
-3,Quel diario è una miniera,Nominal predicative,4,4,1
-3,Quell'aiuola è un arcobaleno,Nominal predicative,5,4,2
-3,Quel sonaglio è una camomilla,Nominal predicative,4,3,4
-3,Quella nuvola è una perla,Nominal predicative,5,5,2
-3,Quella firma è un geroglifico,Nominal predicative,4,5,1
-3,Quegli abiti sono petali,Nominal predicative,6,5,6
-3,Quel mare è uno smeraldo,Nominal predicative,7,6,2
-3,Quella piscina è un brodo,Nominal predicative,4,3,1
-3,Quel pannolino è una diga,Nominal predicative,6,4,6
-3,Quell'aspirapolvere è un'astronave,Nominal predicative,6,5,3
-3,Quel bar è un cimitero,Nominal predicative,5,3,2
-4,Quell'alito è una fogna,Nominal predicative,4,7,5
-4,Quell'uragano è un carrarmato,Nominal predicative,3,6,1
-4,Quella borsa è un macigno,Nominal predicative,4,6,1
-4,Quella città è una giungla,Nominal predicative,4,7,2
-4,Quelle guance sono pesche,Nominal predicative,6,6,4
-4,Quel bacio è un peperoncino,Nominal predicative,5,6,4
-4,Quella bocca è una fragola,Nominal predicative,6,6,4
-4,Quella locomotiva è un drago,Nominal predicative,4,6,1
-4,Quella ruga è un burrone,Nominal predicative,5,6,5
-4,Quel vestito è una tenda,Nominal predicative,5,6,4
-4,Quel lago è un cristallo,Nominal predicative,5,4,1
-4,Quel sorriso è una stella,Nominal predicative,6,5,3
-4,Quella pelle è una porcellana,Nominal predicative,5,6,3
-4,Quel prato è un velluto,Nominal predicative,6,5,3
-4,Quel mento è un precipizio,Nominal predicative,5,6,5
-4,Quel viso è una seta,Nominal predicative,6,5,3
-4,Quella nebbia è un muro,Nominal predicative,5,4,2
-4,Quell'orecchio è una padella,Nominal predicative,5,4,5
-4,Quella mano è una grattugia,Nominal predicative,6,6,5
-4,Quel naso è un uncino,Nominal predicative,5,6,5
-4,Quei denti sono una ghigliottina,Nominal predicative,5,6,5
-4,Quelle palpebre sono serrande,Nominal predicative,6,6,5
-4,Quelle ciglia sono un ventaglio,Nominal predicative,7,6,4
-4,Quei piedi sono zattere,Nominal predicative,6,5,5
-4,Quella pancia è una mongolfiera,Nominal predicative,6,6,5
-4,Quella barba è un batuffolo,Nominal predicative,6,6,4
-4,Quegli zigomi sono montagne,Nominal predicative,6,6,5
-4,Quelle gambe sono trampoli,Nominal predicative,6,6,6
-4,Quella caviglia è un pallone,Nominal predicative,5,5,4
-4,Quel braccio è una sbarra,Nominal predicative,6,6,5
-4,Quei capelli sono spaghetti,Nominal predicative,5,6,5
-4,Quella fronte è una pianura,Nominal predicative,6,5,3
-4,Quegli addominali sono marmo,Nominal predicative,6,6,4
-4,Quelle labbra sono un canotto,Nominal predicative,6,6,4
-4,Quei bicipiti sono sassi,Nominal predicative,6,6,5
-4,Quelle unghie sono ruspe,Nominal predicative,5,5,5
-4,Quelle dita sono tentacoli,Nominal predicative,6,6,6
-4,Quei peli sono aghi,Nominal predicative,6,5,6
-4,Quel brufolo è un vulcano,Nominal predicative,6,5,5
-4,Quel neo è una mora,Nominal predicative,5,5,3
-4,Quell'autostrada è un serpente,Nominal predicative,4,6,2
-4,Quella fabbrica è un alveare,Nominal predicative,4,6,1
-4,Quella luna è un palloncino,Nominal predicative,6,5,1
-4,Quella sigaretta è un proiettile,Nominal predicative,5,6,3
-4,Quella stanza è una discarica,Nominal predicative,4,6,1
-4,Quel computer è una tartaruga,Nominal predicative,5,5,1
-4,Quel libro è una lanterna,Nominal predicative,5,5,1
-4,Quell'automobile è un missile,Nominal predicative,5,6,2
-4,Quel cavo è un gomitolo,Nominal predicative,5,5,3
-4,Quel cappello è un fungo,Nominal predicative,6,5,3
-4,Quella grondaia è uno scolapasta,Nominal predicative,6,6,5
-4,Quella casa è un gioiello,Nominal predicative,6,5,1
-4,Quell'ospedale è un labirinto,Nominal predicative,4,6,2
-4,Quel diario è una miniera,Nominal predicative,5,5,2
-4,Quell'aiuola è un arcobaleno,Nominal predicative,6,6,2
-4,Quel sonaglio è una camomilla,Nominal predicative,5,5,3
-4,Quella nuvola è una perla,Nominal predicative,6,5,1
-4,Quella firma è un geroglifico,Nominal predicative,5,6,2
-4,Quegli abiti sono petali,Nominal predicative,6,6,4
-4,Quel mare è uno smeraldo,Nominal predicative,6,6,1
-4,Quella piscina è un brodo,Nominal predicative,6,5,2
-4,Quel pannolino è una diga,Nominal predicative,6,5,3
-4,Quell'aspirapolvere è un'astronave,Nominal predicative,5,6,2
-4,Quel bar è un cimitero,Nominal predicative,5,6,1
-5,Quell'alito è una fogna,Nominal predicative,6,5,6
-5,Quell'uragano è un carrarmato,Nominal predicative,3,6,2
-5,Quella borsa è un macigno,Nominal predicative,2,4,4
-5,Quella città è una giungla,Nominal predicative,5,6,5
-5,Quelle guance sono pesche,Nominal predicative,7,6,6
-5,Quel bacio è un peperoncino,Nominal predicative,4,5,6
-5,Quella bocca è una fragola,Nominal predicative,6,6,6
-5,Quella locomotiva è un drago,Nominal predicative,3,6,2
-5,Quella ruga è un burrone,Nominal predicative,2,4,5
-5,Quel vestito è una tenda,Nominal predicative,3,4,4
-5,Quel lago è un cristallo,Nominal predicative,2,6,2
-5,Quel sorriso è una stella,Nominal predicative,4,6,6
-5,Quella pelle è una porcellana,Nominal predicative,3,6,6
-5,Quel prato è un velluto,Nominal predicative,2,5,4
-5,Quel mento è un precipizio,Nominal predicative,2,4,6
-5,Quel viso è una seta,Nominal predicative,3,6,5
-5,Quella nebbia è un muro,Nominal predicative,2,5,2
-5,Quell'orecchio è una padella,Nominal predicative,1,4,5
-5,Quella mano è una grattugia,Nominal predicative,2,5,6
-5,Quel naso è un uncino,Nominal predicative,4,5,6
-5,Quei denti sono una ghigliottina,Nominal predicative,3,6,7
-5,Quelle palpebre sono serrande,Nominal predicative,6,6,6
-5,Quelle ciglia sono un ventaglio,Nominal predicative,5,6,6
-5,Quei piedi sono zattere,Nominal predicative,2,5,5
-5,Quella pancia è una mongolfiera,Nominal predicative,4,6,5
-5,Quella barba è un batuffolo,Nominal predicative,4,5,6
-5,Quegli zigomi sono montagne,Nominal predicative,3,5,6
-5,Quelle gambe sono trampoli,Nominal predicative,3,6,6
-5,Quella caviglia è un pallone,Nominal predicative,3,5,5
-5,Quel braccio è una sbarra,Nominal predicative,4,5,6
-5,Quei capelli sono spaghetti,Nominal predicative,5,6,5
-5,Quella fronte è una pianura,Nominal predicative,3,5,4
-5,Quegli addominali sono marmo,Nominal predicative,4,6,6
-5,Quelle labbra sono un canotto,Nominal predicative,3,5,6
-5,Quei bicipiti sono sassi,Nominal predicative,4,5,6
-5,Quelle unghie sono ruspe,Nominal predicative,2,5,6
-5,Quelle dita sono tentacoli,Nominal predicative,6,6,6
-5,Quei peli sono aghi,Nominal predicative,4,5,6
-5,Quel brufolo è un vulcano,Nominal predicative,3,6,6
-5,Quel neo è una mora,Nominal predicative,3,4,5
-5,Quell'autostrada è un serpente,Nominal predicative,2,5,2
-5,Quella fabbrica è un alveare,Nominal predicative,3,4,2
-5,Quella luna è un palloncino,Nominal predicative,2,5,6
-5,Quella sigaretta è un proiettile,Nominal predicative,3,5,6
-5,Quella stanza è una discarica,Nominal predicative,3,5,4
-5,Quel computer è una tartaruga,Nominal predicative,4,6,2
-5,Quel libro è una lanterna,Nominal predicative,2,6,2
-5,Quell'automobile è un missile,Nominal predicative,3,6,6
-5,Quel cavo è un gomitolo,Nominal predicative,2,4,4
-5,Quel cappello è un fungo,Nominal predicative,2,4,5
-5,Quella grondaia è uno scolapasta,Nominal predicative,3,5,5
-5,Quella casa è un gioiello,Nominal predicative,3,6,5
-5,Quell'ospedale è un labirinto,Nominal predicative,4,6,4
-5,Quel diario è una miniera,Nominal predicative,2,5,4
-5,Quell'aiuola è un arcobaleno,Nominal predicative,3,6,4
-5,Quel sonaglio è una camomilla,Nominal predicative,1,4,4
-5,Quella nuvola è una perla,Nominal predicative,2,6,2
-5,Quella firma è un geroglifico,Nominal predicative,2,6,2
-5,Quegli abiti sono petali,Nominal predicative,3,6,5
-5,Quel mare è uno smeraldo,Nominal predicative,3,6,2
-5,Quella piscina è un brodo,Nominal predicative,2,5,3
-5,Quel pannolino è una diga,Nominal predicative,2,4,6
-5,Quell'aspirapolvere è un'astronave,Nominal predicative,4,6,6
-5,Quel bar è un cimitero,Nominal predicative,4,5,4
-6,Quell'alito è una fogna,Nominal predicative,6,6,7
-6,Quell'uragano è un carrarmato,Nominal predicative,3,4,1
-6,Quella borsa è un macigno,Nominal predicative,2,3,7
-6,Quella città è una giungla,Nominal predicative,5,5,1
-6,Quelle guance sono pesche,Nominal predicative,4,6,7
-6,Quel bacio è un peperoncino,Nominal predicative,5,5,4
-6,Quella bocca è una fragola,Nominal predicative,6,6,7
-6,Quella locomotiva è un drago,Nominal predicative,2,2,1
-6,Quella ruga è un burrone,Nominal predicative,4,5,6
-6,Quel vestito è una tenda,Nominal predicative,5,5,3
-6,Quel lago è un cristallo,Nominal predicative,4,4,1
-6,Quel sorriso è una stella,Nominal predicative,5,6,4
-6,Quella pelle è una porcellana,Nominal predicative,4,5,6
-6,Quel prato è un velluto,Nominal predicative,6,5,2
-6,Quel mento è un precipizio,Nominal predicative,3,5,6
-6,Quel viso è una seta,Nominal predicative,5,5,6
-6,Quella nebbia è un muro,Nominal predicative,3,2,1
-6,Quell'orecchio è una padella,Nominal predicative,1,2,4
-6,Quella mano è una grattugia,Nominal predicative,2,4,6
-6,Quel naso è un uncino,Nominal predicative,3,5,6
-6,Quei denti sono una ghigliottina,Nominal predicative,2,6,6
-6,Quelle palpebre sono serrande,Nominal predicative,4,5,6
-6,Quelle ciglia sono un ventaglio,Nominal predicative,4,4,6
-6,Quei piedi sono zattere,Nominal predicative,3,5,6
-6,Quella pancia è una mongolfiera,Nominal predicative,4,5,6
-6,Quella barba è un batuffolo,Nominal predicative,4,3,5
-6,Quegli zigomi sono montagne,Nominal predicative,5,5,6
-6,Quelle gambe sono trampoli,Nominal predicative,4,4,6
-6,Quella caviglia è un pallone,Nominal predicative,2,3,5
-6,Quel braccio è una sbarra,Nominal predicative,4,3,6
-6,Quei capelli sono spaghetti,Nominal predicative,4,4,5
-6,Quella fronte è una pianura,Nominal predicative,3,4,5
-6,Quegli addominali sono marmo,Nominal predicative,3,4,6
-6,Quelle labbra sono un canotto,Nominal predicative,5,4,5
-6,Quei bicipiti sono sassi,Nominal predicative,3,4,6
-6,Quelle unghie sono ruspe,Nominal predicative,1,4,5
-6,Quelle dita sono tentacoli,Nominal predicative,3,5,6
-6,Quei peli sono aghi,Nominal predicative,2,4,5
-6,Quel brufolo è un vulcano,Nominal predicative,3,5,6
-6,Quel neo è una mora,Nominal predicative,4,4,5
-6,Quell'autostrada è un serpente,Nominal predicative,3,4,1
-6,Quella fabbrica è un alveare,Nominal predicative,2,4,1
-6,Quella luna è un palloncino,Nominal predicative,4,4,1
-6,Quella sigaretta è un proiettile,Nominal predicative,5,6,1
-6,Quella stanza è una discarica,Nominal predicative,4,5,1
-6,Quel computer è una tartaruga,Nominal predicative,3,5,1
-6,Quel libro è una lanterna,Nominal predicative,2,4,1
-6,Quell'automobile è un missile,Nominal predicative,4,5,1
-6,Quel cavo è un gomitolo,Nominal predicative,2,2,1
-6,Quel cappello è un fungo,Nominal predicative,3,4,1
-6,Quella grondaia è uno scolapasta,Nominal predicative,2,3,1
-6,Quella casa è un gioiello,Nominal predicative,4,4,1
-6,Quell'ospedale è un labirinto,Nominal predicative,3,5,1
-6,Quel diario è una miniera,Nominal predicative,2,4,1
-6,Quell'aiuola è un arcobaleno,Nominal predicative,3,4,1
-6,Quel sonaglio è una camomilla,Nominal predicative,2,2,1
-6,Quella nuvola è una perla,Nominal predicative,3,4,1
-6,Quella firma è un geroglifico,Nominal predicative,1,5,1
-6,Quegli abiti sono petali,Nominal predicative,4,6,3
-6,Quel mare è uno smeraldo,Nominal predicative,5,6,1
-6,Quella piscina è un brodo,Nominal predicative,2,2,1
-6,Quel pannolino è una diga,Nominal predicative,2,3,6
-6,Quell'aspirapolvere è un'astronave,Nominal predicative,2,4,1
-6,Quel bar è un cimitero,Nominal predicative,5,5,1
-7,Quell'alito è una fogna,Nominal predicative,7,6,5
-7,Quell'uragano è un carrarmato,Nominal predicative,5,6,1
-7,Quella borsa è un macigno,Nominal predicative,4,6,1
-7,Quella città è una giungla,Nominal predicative,5,7,1
-7,Quelle guance sono pesche,Nominal predicative,6,4,6
-7,Quel bacio è un peperoncino,Nominal predicative,5,6,4
-7,Quella bocca è una fragola,Nominal predicative,5,4,6
-7,Quella locomotiva è un drago,Nominal predicative,3,5,1
-7,Quella ruga è un burrone,Nominal predicative,3,4,5
-7,Quel vestito è una tenda,Nominal predicative,4,3,2
-7,Quel lago è un cristallo,Nominal predicative,2,3,1
-7,Quel sorriso è una stella,Nominal predicative,4,6,5
-7,Quella pelle è una porcellana,Nominal predicative,5,5,6
-7,Quel prato è un velluto,Nominal predicative,3,4,5
-7,Quel mento è un precipizio,Nominal predicative,2,5,6
-7,Quel viso è una seta,Nominal predicative,4,4,6
-7,Quella nebbia è un muro,Nominal predicative,3,3,2
-7,Quell'orecchio è una padella,Nominal predicative,2,4,6
-7,Quella mano è una grattugia,Nominal predicative,3,5,6
-7,Quel naso è un uncino,Nominal predicative,4,4,6
-7,Quei denti sono una ghigliottina,Nominal predicative,4,6,6
-7,Quelle palpebre sono serrande,Nominal predicative,5,6,5
-7,Quelle ciglia sono un ventaglio,Nominal predicative,6,5,6
-7,Quei piedi sono zattere,Nominal predicative,5,4,6
-7,Quella pancia è una mongolfiera,Nominal predicative,4,4,6
-7,Quella barba è un batuffolo,Nominal predicative,6,3,6
-7,Quegli zigomi sono montagne,Nominal predicative,6,6,7
-7,Quelle gambe sono trampoli,Nominal predicative,5,5,6
-7,Quella caviglia è un pallone,Nominal predicative,4,3,5
-7,Quel braccio è una sbarra,Nominal predicative,5,4,6
-7,Quei capelli sono spaghetti,Nominal predicative,5,6,2
-7,Quella fronte è una pianura,Nominal predicative,4,4,5
-7,Quegli addominali sono marmo,Nominal predicative,5,6,6
-7,Quelle labbra sono un canotto,Nominal predicative,5,5,6
-7,Quei bicipiti sono sassi,Nominal predicative,5,5,6
-7,Quelle unghie sono ruspe,Nominal predicative,5,4,5
-7,Quelle dita sono tentacoli,Nominal predicative,6,6,6
-7,Quei peli sono aghi,Nominal predicative,6,4,6
-7,Quel brufolo è un vulcano,Nominal predicative,5,5,6
-7,Quel neo è una mora,Nominal predicative,4,4,5
-7,Quell'autostrada è un serpente,Nominal predicative,3,5,1
-7,Quella fabbrica è un alveare,Nominal predicative,3,5,2
-7,Quella luna è un palloncino,Nominal predicative,3,4,1
-7,Quella sigaretta è un proiettile,Nominal predicative,5,6,2
-7,Quella stanza è una discarica,Nominal predicative,4,5,2
-7,Quel computer è una tartaruga,Nominal predicative,4,5,1
-7,Quel libro è una lanterna,Nominal predicative,3,6,1
-7,Quell'automobile è un missile,Nominal predicative,4,6,2
-7,Quel cavo è un gomitolo,Nominal predicative,5,3,3
-7,Quel cappello è un fungo,Nominal predicative,3,4,5
-7,Quella grondaia è uno scolapasta,Nominal predicative,4,4,3
-7,Quella casa è un gioiello,Nominal predicative,3,3,1
-7,Quell'ospedale è un labirinto,Nominal predicative,3,6,2
-7,Quel diario è una miniera,Nominal predicative,3,6,1
-7,Quell'aiuola è un arcobaleno,Nominal predicative,3,4,1
-7,Quel sonaglio è una camomilla,Nominal predicative,2,4,3
-7,Quella nuvola è una perla,Nominal predicative,3,5,1
-7,Quella firma è un geroglifico,Nominal predicative,3,5,1
-7,Quegli abiti sono petali,Nominal predicative,5,5,5
-7,Quel mare è uno smeraldo,Nominal predicative,4,6,1
-7,Quella piscina è un brodo,Nominal predicative,3,4,2
-7,Quel pannolino è una diga,Nominal predicative,4,3,5
-7,Quell'aspirapolvere è un'astronave,Nominal predicative,4,5,1
-7,Quel bar è un cimitero,Nominal predicative,5,5,2
-8,Quell'alito è una fogna,Nominal predicative,1,2,7
-8,Quell'uragano è un carrarmato,Nominal predicative,2,6,1
-8,Quella borsa è un macigno,Nominal predicative,4,4,6
-8,Quella città è una giungla,Nominal predicative,5,6,2
-8,Quelle guance sono pesche,Nominal predicative,6,4,7
-8,Quel bacio è un peperoncino,Nominal predicative,5,6,6
-8,Quella bocca è una fragola,Nominal predicative,5,4,7
-8,Quella locomotiva è un drago,Nominal predicative,3,5,2
-8,Quella ruga è un burrone,Nominal predicative,3,4,7
-8,Quel vestito è una tenda,Nominal predicative,4,4,6
-8,Quel lago è un cristallo,Nominal predicative,3,6,2
-8,Quel sorriso è una stella,Nominal predicative,6,6,7
-8,Quella pelle è una porcellana,Nominal predicative,5,5,7
-8,Quel prato è un velluto,Nominal predicative,4,4,6
-8,Quel mento è un precipizio,Nominal predicative,6,5,7
-8,Quel viso è una seta,Nominal predicative,6,6,7
-8,Quella nebbia è un muro,Nominal predicative,4,5,4
-8,Quell'orecchio è una padella,Nominal predicative,6,5,7
-8,Quella mano è una grattugia,Nominal predicative,3,5,7
-8,Quel naso è un uncino,Nominal predicative,6,5,7
-8,Quei denti sono una ghigliottina,Nominal predicative,6,6,7
-8,Quelle palpebre sono serrande,Nominal predicative,5,4,7
-8,Quelle ciglia sono un ventaglio,Nominal predicative,5,5,7
-8,Quei piedi sono zattere,Nominal predicative,3,4,7
-8,Quella pancia è una mongolfiera,Nominal predicative,4,5,7
-8,Quella barba è un batuffolo,Nominal predicative,4,4,5
-8,Quegli zigomi sono montagne,Nominal predicative,5,5,7
-8,Quelle gambe sono trampoli,Nominal predicative,4,4,7
-8,Quella caviglia è un pallone,Nominal predicative,3,4,6
-8,Quel braccio è una sbarra,Nominal predicative,4,4,7
-8,Quei capelli sono spaghetti,Nominal predicative,6,4,6
-8,Quella fronte è una pianura,Nominal predicative,5,4,5
-8,Quegli addominali sono marmo,Nominal predicative,4,5,7
-8,Quelle labbra sono un canotto,Nominal predicative,5,4,7
-8,Quei bicipiti sono sassi,Nominal predicative,4,4,7
-8,Quelle unghie sono ruspe,Nominal predicative,5,6,7
-8,Quelle dita sono tentacoli,Nominal predicative,6,6,7
-8,Quei peli sono aghi,Nominal predicative,6,4,7
-8,Quel brufolo è un vulcano,Nominal predicative,5,5,7
-8,Quel neo è una mora,Nominal predicative,6,4,6
-8,Quell'autostrada è un serpente,Nominal predicative,2,5,1
-8,Quella fabbrica è un alveare,Nominal predicative,4,5,1
-8,Quella luna è un palloncino,Nominal predicative,6,4,2
-8,Quella sigaretta è un proiettile,Nominal predicative,5,6,1
-8,Quella stanza è una discarica,Nominal predicative,3,5,4
-8,Quel computer è una tartaruga,Nominal predicative,5,4,2
-8,Quel libro è una lanterna,Nominal predicative,5,6,2
-8,Quell'automobile è un missile,Nominal predicative,5,6,2
-8,Quel cavo è un gomitolo,Nominal predicative,4,4,5
-8,Quel cappello è un fungo,Nominal predicative,5,5,4
-8,Quella grondaia è uno scolapasta,Nominal predicative,6,5,6
-8,Quella casa è un gioiello,Nominal predicative,4,6,1
-8,Quell'ospedale è un labirinto,Nominal predicative,4,5,2
-8,Quel diario è una miniera,Nominal predicative,5,6,1
-8,Quell'aiuola è un arcobaleno,Nominal predicative,3,5,6
-8,Quel sonaglio è una camomilla,Nominal predicative,4,4,3
-8,Quella nuvola è una perla,Nominal predicative,5,5,2
-8,Quella firma è un geroglifico,Nominal predicative,4,5,1
-8,Quegli abiti sono petali,Nominal predicative,6,5,7
-8,Quel mare è uno smeraldo,Nominal predicative,6,6,2
-8,Quella piscina è un brodo,Nominal predicative,4,4,1
-8,Quel pannolino è una diga,Nominal predicative,5,4,6
-8,Quell'aspirapolvere è un'astronave,Nominal predicative,5,6,1
-8,Quel bar è un cimitero,Nominal predicative,4,5,1
-9,Quell'alito è una fogna,Nominal predicative,6,4,7
-9,Quell'uragano è un carrarmato,Nominal predicative,3,6,1
-9,Quella borsa è un macigno,Nominal predicative,2,5,5
-9,Quella città è una giungla,Nominal predicative,4,6,2
-9,Quelle guance sono pesche,Nominal predicative,6,5,6
-9,Quel bacio è un peperoncino,Nominal predicative,7,6,6
-9,Quella bocca è una fragola,Nominal predicative,6,4,6
-9,Quella locomotiva è un drago,Nominal predicative,2,5,1
-9,Quella ruga è un burrone,Nominal predicative,3,5,6
-9,Quel vestito è una tenda,Nominal predicative,4,4,2
-9,Quel lago è un cristallo,Nominal predicative,5,5,2
-9,Quel sorriso è una stella,Nominal predicative,4,6,5
-9,Quella pelle è una porcellana,Nominal predicative,5,6,6
-9,Quel prato è un velluto,Nominal predicative,4,5,4
-9,Quel mento è un precipizio,Nominal predicative,3,5,6
-9,Quel viso è una seta,Nominal predicative,5,6,6
-9,Quella nebbia è un muro,Nominal predicative,2,4,3
-9,Quell'orecchio è una padella,Nominal predicative,3,5,5
-9,Quella mano è una grattugia,Nominal predicative,5,6,6
-9,Quel naso è un uncino,Nominal predicative,5,5,6
-9,Quei denti sono una ghigliottina,Nominal predicative,7,6,6
-9,Quelle palpebre sono serrande,Nominal predicative,5,6,7
-9,Quelle ciglia sono un ventaglio,Nominal predicative,6,6,6
-9,Quei piedi sono zattere,Nominal predicative,5,5,6
-9,Quella pancia è una mongolfiera,Nominal predicative,6,6,6
-9,Quella barba è un batuffolo,Nominal predicative,5,4,5
-9,Quegli zigomi sono montagne,Nominal predicative,6,5,7
-9,Quelle gambe sono trampoli,Nominal predicative,6,6,6
-9,Quella caviglia è un pallone,Nominal predicative,3,5,4
-9,Quel braccio è una sbarra,Nominal predicative,5,5,6
-9,Quei capelli sono spaghetti,Nominal predicative,7,6,6
-9,Quella fronte è una pianura,Nominal predicative,4,5,6
-9,Quegli addominali sono marmo,Nominal predicative,5,6,6
-9,Quelle labbra sono un canotto,Nominal predicative,6,6,5
-9,Quei bicipiti sono sassi,Nominal predicative,5,6,6
-9,Quelle unghie sono ruspe,Nominal predicative,6,6,7
-9,Quelle dita sono tentacoli,Nominal predicative,6,6,6
-9,Quei peli sono aghi,Nominal predicative,6,5,6
-9,Quel brufolo è un vulcano,Nominal predicative,5,6,6
-9,Quel neo è una mora,Nominal predicative,5,5,4
-9,Quell'autostrada è un serpente,Nominal predicative,2,6,2
-9,Quella fabbrica è un alveare,Nominal predicative,3,5,1
-9,Quella luna è un palloncino,Nominal predicative,5,6,1
-9,Quella sigaretta è un proiettile,Nominal predicative,5,6,2
-9,Quella stanza è una discarica,Nominal predicative,3,5,4
-9,Quel computer è una tartaruga,Nominal predicative,4,6,2
-9,Quel libro è una lanterna,Nominal predicative,3,6,2
-9,Quell'automobile è un missile,Nominal predicative,2,6,2
-9,Quel cavo è un gomitolo,Nominal predicative,4,5,4
-9,Quel cappello è un fungo,Nominal predicative,5,5,4
-9,Quella grondaia è uno scolapasta,Nominal predicative,4,5,5
-9,Quella casa è un gioiello,Nominal predicative,2,5,1
-9,Quell'ospedale è un labirinto,Nominal predicative,3,6,3
-9,Quel diario è una miniera,Nominal predicative,3,5,1
-9,Quell'aiuola è un arcobaleno,Nominal predicative,4,5,2
-9,Quel sonaglio è una camomilla,Nominal predicative,3,5,5
-9,Quella nuvola è una perla,Nominal predicative,5,6,2
-9,Quella firma è un geroglifico,Nominal predicative,3,6,2
-9,Quegli abiti sono petali,Nominal predicative,5,6,6
-9,Quel mare è uno smeraldo,Nominal predicative,6,6,2
-9,Quella piscina è un brodo,Nominal predicative,3,4,2
-9,Quel pannolino è una diga,Nominal predicative,2,5,4
-9,Quell'aspirapolvere è un'astronave,Nominal predicative,4,6,2
-9,Quel bar è un cimitero,Nominal predicative,4,6,2
-10,Quell'alito è una fogna,Nominal predicative,7,4,6
-10,Quell'uragano è un carrarmato,Nominal predicative,4,7,3
-10,Quella borsa è un macigno,Nominal predicative,5,4,3
-10,Quella città è una giungla,Nominal predicative,6,7,3
-10,Quelle guance sono pesche,Nominal predicative,6,5,7
-10,Quel bacio è un peperoncino,Nominal predicative,5,6,5
-10,Quella bocca è una fragola,Nominal predicative,6,6,6
-10,Quella locomotiva è un drago,Nominal predicative,3,4,1
-10,Quella ruga è un burrone,Nominal predicative,6,6,6
-10,Quel vestito è una tenda,Nominal predicative,6,5,4
-10,Quel lago è un cristallo,Nominal predicative,2,4,1
-10,Quel sorriso è una stella,Nominal predicative,3,4,4
-10,Quella pelle è una porcellana,Nominal predicative,2,4,5
-10,Quel prato è un velluto,Nominal predicative,4,5,3
-10,Quel mento è un precipizio,Nominal predicative,4,6,6
-10,Quel viso è una seta,Nominal predicative,5,5,5
-10,Quella nebbia è un muro,Nominal predicative,4,4,2
-10,Quell'orecchio è una padella,Nominal predicative,3,5,6
-10,Quella mano è una grattugia,Nominal predicative,5,6,6
-10,Quel naso è un uncino,Nominal predicative,6,6,6
-10,Quei denti sono una ghigliottina,Nominal predicative,6,7,6
-10,Quelle palpebre sono serrande,Nominal predicative,6,6,6
-10,Quelle ciglia sono un ventaglio,Nominal predicative,5,5,6
-10,Quei piedi sono zattere,Nominal predicative,4,5,6
-10,Quella pancia è una mongolfiera,Nominal predicative,6,5,6
-10,Quella barba è un batuffolo,Nominal predicative,5,6,6
-10,Quegli zigomi sono montagne,Nominal predicative,5,6,6
-10,Quelle gambe sono trampoli,Nominal predicative,5,4,6
-10,Quella caviglia è un pallone,Nominal predicative,3,6,6
-10,Quel braccio è una sbarra,Nominal predicative,4,4,6
-10,Quei capelli sono spaghetti,Nominal predicative,6,6,6
-10,Quella fronte è una pianura,Nominal predicative,5,5,4
-10,Quegli addominali sono marmo,Nominal predicative,5,6,6
-10,Quelle labbra sono un canotto,Nominal predicative,4,5,6
-10,Quei bicipiti sono sassi,Nominal predicative,6,5,6
-10,Quelle unghie sono ruspe,Nominal predicative,5,5,7
-10,Quelle dita sono tentacoli,Nominal predicative,4,6,7
-10,Quei peli sono aghi,Nominal predicative,5,5,6
-10,Quel brufolo è un vulcano,Nominal predicative,4,5,5
-10,Quel neo è una mora,Nominal predicative,2,2,2
-10,Quell'autostrada è un serpente,Nominal predicative,3,4,1
-10,Quella fabbrica è un alveare,Nominal predicative,3,4,1
-10,Quella luna è un palloncino,Nominal predicative,2,5,1
-10,Quella sigaretta è un proiettile,Nominal predicative,4,6,1
-10,Quella stanza è una discarica,Nominal predicative,4,5,2
-10,Quel computer è una tartaruga,Nominal predicative,4,4,1
-10,Quel libro è una lanterna,Nominal predicative,3,4,1
-10,Quell'automobile è un missile,Nominal predicative,4,6,1
-10,Quel cavo è un gomitolo,Nominal predicative,4,5,4
-10,Quel cappello è un fungo,Nominal predicative,4,4,2
-10,Quella grondaia è uno scolapasta,Nominal predicative,4,5,4
-10,Quella casa è un gioiello,Nominal predicative,4,5,2
-10,Quell'ospedale è un labirinto,Nominal predicative,3,4,1
-10,Quel diario è una miniera,Nominal predicative,3,5,1
-10,Quell'aiuola è un arcobaleno,Nominal predicative,4,5,2
-10,Quel sonaglio è una camomilla,Nominal predicative,4,2,2
-10,Quella nuvola è una perla,Nominal predicative,4,5,2
-10,Quella firma è un geroglifico,Nominal predicative,4,5,1
-10,Quegli abiti sono petali,Nominal predicative,6,4,5
-10,Quel mare è uno smeraldo,Nominal predicative,4,6,2
-10,Quella piscina è un brodo,Nominal predicative,4,3,1
-10,Quel pannolino è una diga,Nominal predicative,5,3,3
-10,Quell'aspirapolvere è un'astronave,Nominal predicative,3,5,1
-10,Quel bar è un cimitero,Nominal predicative,5,5,2
+annotator,metaphor,FAMILIARITY_synthetic,MEANINGFULNESS_synthetic,BODY_RELATEDNESS_synthetic
+1,Quell'alito è una fogna,6,5,7
+1,Quell'uragano è un carrarmato,4,6,1
+1,Quella borsa è un macigno,3,4,4
+1,Quella città è una giungla,5,6,1
+1,Quelle guance sono pesche,6,6,7
+1,Quel bacio è un peperoncino,5,5,7
+1,Quella bocca è una fragola,7,6,7
+1,Quella locomotiva è un drago,2,4,1
+1,Quella ruga è un burrone,4,5,7
+1,Quel vestito è una tenda,2,3,1
+1,Quel lago è un cristallo,4,5,1
+1,Quel sorriso è una stella,6,6,7
+1,Quella pelle è una porcellana,5,4,7
+1,Quel prato è un velluto,3,4,1
+1,Quel mento è un precipizio,4,6,7
+1,Quel viso è una seta,5,5,7
+1,Quella nebbia è un muro,4,4,1
+1,Quell'orecchio è una padella,2,3,4
+1,Quella mano è una grattugia,5,5,7
+1,Quel naso è un uncino,5,5,7
+1,Quei denti sono una ghigliottina,6,6,7
+1,Quelle palpebre sono serrande,6,5,6
+1,Quelle ciglia sono un ventaglio,6,6,6
+1,Quei piedi sono zattere,4,5,6
+1,Quella pancia è una mongolfiera,5,5,7
+1,Quella barba è un batuffolo,3,4,4
+1,Quegli zigomi sono montagne,5,6,7
+1,Quelle gambe sono trampoli,5,5,7
+1,Quella caviglia è un pallone,4,4,6
+1,Quel braccio è una sbarra,5,5,7
+1,Quei capelli sono spaghetti,5,5,4
+1,Quella fronte è una pianura,4,5,1
+1,Quegli addominali sono marmo,5,5,7
+1,Quelle labbra sono un canotto,5,5,7
+1,Quei bicipiti sono sassi,5,5,7
+1,Quelle unghie sono ruspe,4,4,7
+1,Quelle dita sono tentacoli,6,5,7
+1,Quei peli sono aghi,6,5,6
+1,Quel brufolo è un vulcano,5,5,7
+1,Quel neo è una mora,5,4,4
+1,Quell'autostrada è un serpente,3,5,1
+1,Quella fabbrica è un alveare,2,4,1
+1,Quella luna è un palloncino,4,4,1
+1,Quella sigaretta è un proiettile,3,6,1
+1,Quella stanza è una discarica,4,4,1
+1,Quel computer è una tartaruga,3,4,1
+1,Quel libro è una lanterna,4,6,1
+1,Quell'automobile è un missile,3,6,1
+1,Quel cavo è un gomitolo,4,3,1
+1,Quel cappello è un fungo,4,4,1
+1,Quella grondaia è uno scolapasta,4,5,3
+1,Quella casa è un gioiello,2,4,1
+1,Quell'ospedale è un labirinto,3,5,1
+1,Quel diario è una miniera,3,5,1
+1,Quell'aiuola è un arcobaleno,2,4,1
+1,Quel sonaglio è una camomilla,1,3,1
+1,Quella nuvola è una perla,2,4,1
+1,Quella firma è un geroglifico,3,6,1
+1,Quegli abiti sono petali,5,6,6
+1,Quel mare è uno smeraldo,6,6,1
+1,Quella piscina è un brodo,4,5,1
+1,Quel pannolino è una diga,2,3,4
+1,Quell'aspirapolvere è un'astronave,3,4,1
+1,Quel bar è un cimitero,4,5,1
+2,Quell'alito è una fogna,1,6,7
+2,Quell'uragano è un carrarmato,4,6,1
+2,Quella borsa è un macigno,5,5,4
+2,Quella città è una giungla,3,6,2
+2,Quelle guance sono pesche,6,6,5
+2,Quel bacio è un peperoncino,6,6,6
+2,Quella bocca è una fragola,5,5,5
+2,Quella locomotiva è un drago,2,5,1
+2,Quella ruga è un burrone,4,6,6
+2,Quel vestito è una tenda,3,4,4
+2,Quel lago è un cristallo,2,4,1
+2,Quel sorriso è una stella,3,5,5
+2,Quella pelle è una porcellana,4,6,6
+2,Quel prato è un velluto,4,4,5
+2,Quel mento è un precipizio,4,6,7
+2,Quel viso è una seta,5,5,5
+2,Quella nebbia è un muro,3,4,2
+2,Quell'orecchio è una padella,6,4,4
+2,Quella mano è una grattugia,6,5,6
+2,Quel naso è un uncino,6,5,6
+2,Quei denti sono una ghigliottina,7,6,6
+2,Quelle palpebre sono serrande,6,5,6
+2,Quelle ciglia sono un ventaglio,6,4,6
+2,Quei piedi sono zattere,5,5,6
+2,Quella pancia è una mongolfiera,5,5,6
+2,Quella barba è un batuffolo,5,5,6
+2,Quegli zigomi sono montagne,4,6,6
+2,Quelle gambe sono trampoli,5,5,6
+2,Quella caviglia è un pallone,6,4,6
+2,Quel braccio è una sbarra,5,4,6
+2,Quei capelli sono spaghetti,6,5,5
+2,Quella fronte è una pianura,5,4,6
+2,Quegli addominali sono marmo,6,5,6
+2,Quelle labbra sono un canotto,6,5,6
+2,Quei bicipiti sono sassi,6,5,6
+2,Quelle unghie sono ruspe,6,4,6
+2,Quelle dita sono tentacoli,6,6,7
+2,Quei peli sono aghi,6,5,6
+2,Quel brufolo è un vulcano,5,6,6
+2,Quel neo è una mora,4,5,4
+2,Quell'autostrada è un serpente,3,5,2
+2,Quella fabbrica è un alveare,4,4,1
+2,Quella luna è un palloncino,2,4,1
+2,Quella sigaretta è un proiettile,4,6,1
+2,Quella stanza è una discarica,3,4,1
+2,Quel computer è una tartaruga,2,4,1
+2,Quel libro è una lanterna,3,4,1
+2,Quell'automobile è un missile,4,6,1
+2,Quel cavo è un gomitolo,5,4,1
+2,Quel cappello è un fungo,4,4,2
+2,Quella grondaia è uno scolapasta,2,4,2
+2,Quella casa è un gioiello,3,4,1
+2,Quell'ospedale è un labirinto,3,5,1
+2,Quel diario è una miniera,4,4,1
+2,Quell'aiuola è un arcobaleno,4,5,1
+2,Quel sonaglio è una camomilla,3,4,2
+2,Quella nuvola è una perla,2,5,1
+2,Quella firma è un geroglifico,3,5,1
+2,Quegli abiti sono petali,6,5,5
+2,Quel mare è uno smeraldo,5,6,1
+2,Quella piscina è un brodo,4,4,1
+2,Quel pannolino è una diga,6,4,2
+2,Quell'aspirapolvere è un'astronave,4,5,1
+2,Quel bar è un cimitero,3,5,1
+3,Quell'alito è una fogna,6,5,4
+3,Quell'uragano è un carrarmato,2,6,3
+3,Quella borsa è un macigno,1,2,2
+3,Quella città è una giungla,4,6,3
+3,Quelle guance sono pesche,6,4,7
+3,Quel bacio è un peperoncino,6,6,6
+3,Quella bocca è una fragola,7,4,7
+3,Quella locomotiva è un drago,1,2,1
+3,Quella ruga è un burrone,6,5,7
+3,Quel vestito è una tenda,3,3,4
+3,Quel lago è un cristallo,4,5,3
+3,Quel sorriso è una stella,7,6,7
+3,Quella pelle è una porcellana,6,5,7
+3,Quel prato è un velluto,4,4,5
+3,Quel mento è un precipizio,6,6,7
+3,Quel viso è una seta,6,5,4
+3,Quella nebbia è un muro,4,3,2
+3,Quell'orecchio è una padella,5,3,5
+3,Quella mano è una grattugia,6,6,7
+3,Quel naso è un uncino,6,4,7
+3,Quei denti sono una ghigliottina,6,6,7
+3,Quelle palpebre sono serrande,5,5,7
+3,Quelle ciglia sono un ventaglio,7,4,6
+3,Quei piedi sono zattere,6,5,5
+3,Quella pancia è una mongolfiera,7,5,5
+3,Quella barba è un batuffolo,6,3,5
+3,Quegli zigomi sono montagne,7,5,7
+3,Quelle gambe sono trampoli,6,5,7
+3,Quella caviglia è un pallone,6,3,6
+3,Quel braccio è una sbarra,6,4,6
+3,Quei capelli sono spaghetti,6,5,6
+3,Quella fronte è una pianura,4,3,5
+3,Quegli addominali sono marmo,6,6,7
+3,Quelle labbra sono un canotto,6,4,6
+3,Quei bicipiti sono sassi,7,5,7
+3,Quelle unghie sono ruspe,6,5,6
+3,Quelle dita sono tentacoli,7,6,7
+3,Quei peli sono aghi,6,3,6
+3,Quel brufolo è un vulcano,6,5,7
+3,Quel neo è una mora,7,3,7
+3,Quell'autostrada è un serpente,4,5,2
+3,Quella fabbrica è un alveare,4,4,2
+3,Quella luna è un palloncino,4,5,3
+3,Quella sigaretta è un proiettile,6,5,4
+3,Quella stanza è una discarica,5,4,2
+3,Quel computer è una tartaruga,4,3,1
+3,Quel libro è una lanterna,5,5,1
+3,Quell'automobile è un missile,4,5,4
+3,Quel cavo è un gomitolo,6,4,1
+3,Quel cappello è un fungo,5,3,5
+3,Quella grondaia è uno scolapasta,6,4,6
+3,Quella casa è un gioiello,4,3,2
+3,Quell'ospedale è un labirinto,5,6,2
+3,Quel diario è una miniera,4,4,1
+3,Quell'aiuola è un arcobaleno,5,4,2
+3,Quel sonaglio è una camomilla,4,3,4
+3,Quella nuvola è una perla,5,5,2
+3,Quella firma è un geroglifico,4,5,1
+3,Quegli abiti sono petali,6,5,6
+3,Quel mare è uno smeraldo,7,6,2
+3,Quella piscina è un brodo,4,3,1
+3,Quel pannolino è una diga,6,4,6
+3,Quell'aspirapolvere è un'astronave,6,5,3
+3,Quel bar è un cimitero,5,3,2
+4,Quell'alito è una fogna,4,7,5
+4,Quell'uragano è un carrarmato,3,6,1
+4,Quella borsa è un macigno,4,6,1
+4,Quella città è una giungla,4,7,2
+4,Quelle guance sono pesche,6,6,4
+4,Quel bacio è un peperoncino,5,6,4
+4,Quella bocca è una fragola,6,6,4
+4,Quella locomotiva è un drago,4,6,1
+4,Quella ruga è un burrone,5,6,5
+4,Quel vestito è una tenda,5,6,4
+4,Quel lago è un cristallo,5,4,1
+4,Quel sorriso è una stella,6,5,3
+4,Quella pelle è una porcellana,5,6,3
+4,Quel prato è un velluto,6,5,3
+4,Quel mento è un precipizio,5,6,5
+4,Quel viso è una seta,6,5,3
+4,Quella nebbia è un muro,5,4,2
+4,Quell'orecchio è una padella,5,4,5
+4,Quella mano è una grattugia,6,6,5
+4,Quel naso è un uncino,5,6,5
+4,Quei denti sono una ghigliottina,5,6,5
+4,Quelle palpebre sono serrande,6,6,5
+4,Quelle ciglia sono un ventaglio,7,6,4
+4,Quei piedi sono zattere,6,5,5
+4,Quella pancia è una mongolfiera,6,6,5
+4,Quella barba è un batuffolo,6,6,4
+4,Quegli zigomi sono montagne,6,6,5
+4,Quelle gambe sono trampoli,6,6,6
+4,Quella caviglia è un pallone,5,5,4
+4,Quel braccio è una sbarra,6,6,5
+4,Quei capelli sono spaghetti,5,6,5
+4,Quella fronte è una pianura,6,5,3
+4,Quegli addominali sono marmo,6,6,4
+4,Quelle labbra sono un canotto,6,6,4
+4,Quei bicipiti sono sassi,6,6,5
+4,Quelle unghie sono ruspe,5,5,5
+4,Quelle dita sono tentacoli,6,6,6
+4,Quei peli sono aghi,6,5,6
+4,Quel brufolo è un vulcano,6,5,5
+4,Quel neo è una mora,5,5,3
+4,Quell'autostrada è un serpente,4,6,2
+4,Quella fabbrica è un alveare,4,6,1
+4,Quella luna è un palloncino,6,5,1
+4,Quella sigaretta è un proiettile,5,6,3
+4,Quella stanza è una discarica,4,6,1
+4,Quel computer è una tartaruga,5,5,1
+4,Quel libro è una lanterna,5,5,1
+4,Quell'automobile è un missile,5,6,2
+4,Quel cavo è un gomitolo,5,5,3
+4,Quel cappello è un fungo,6,5,3
+4,Quella grondaia è uno scolapasta,6,6,5
+4,Quella casa è un gioiello,6,5,1
+4,Quell'ospedale è un labirinto,4,6,2
+4,Quel diario è una miniera,5,5,2
+4,Quell'aiuola è un arcobaleno,6,6,2
+4,Quel sonaglio è una camomilla,5,5,3
+4,Quella nuvola è una perla,6,5,1
+4,Quella firma è un geroglifico,5,6,2
+4,Quegli abiti sono petali,6,6,4
+4,Quel mare è uno smeraldo,6,6,1
+4,Quella piscina è un brodo,6,5,2
+4,Quel pannolino è una diga,6,5,3
+4,Quell'aspirapolvere è un'astronave,5,6,2
+4,Quel bar è un cimitero,5,6,1
+5,Quell'alito è una fogna,6,5,6
+5,Quell'uragano è un carrarmato,3,6,2
+5,Quella borsa è un macigno,2,4,4
+5,Quella città è una giungla,5,6,5
+5,Quelle guance sono pesche,7,6,6
+5,Quel bacio è un peperoncino,4,5,6
+5,Quella bocca è una fragola,6,6,6
+5,Quella locomotiva è un drago,3,6,2
+5,Quella ruga è un burrone,2,4,5
+5,Quel vestito è una tenda,3,4,4
+5,Quel lago è un cristallo,2,6,2
+5,Quel sorriso è una stella,4,6,6
+5,Quella pelle è una porcellana,3,6,6
+5,Quel prato è un velluto,2,5,4
+5,Quel mento è un precipizio,2,4,6
+5,Quel viso è una seta,3,6,5
+5,Quella nebbia è un muro,2,5,2
+5,Quell'orecchio è una padella,1,4,5
+5,Quella mano è una grattugia,2,5,6
+5,Quel naso è un uncino,4,5,6
+5,Quei denti sono una ghigliottina,3,6,7
+5,Quelle palpebre sono serrande,6,6,6
+5,Quelle ciglia sono un ventaglio,5,6,6
+5,Quei piedi sono zattere,2,5,5
+5,Quella pancia è una mongolfiera,4,6,5
+5,Quella barba è un batuffolo,4,5,6
+5,Quegli zigomi sono montagne,3,5,6
+5,Quelle gambe sono trampoli,3,6,6
+5,Quella caviglia è un pallone,3,5,5
+5,Quel braccio è una sbarra,4,5,6
+5,Quei capelli sono spaghetti,5,6,5
+5,Quella fronte è una pianura,3,5,4
+5,Quegli addominali sono marmo,4,6,6
+5,Quelle labbra sono un canotto,3,5,6
+5,Quei bicipiti sono sassi,4,5,6
+5,Quelle unghie sono ruspe,2,5,6
+5,Quelle dita sono tentacoli,6,6,6
+5,Quei peli sono aghi,4,5,6
+5,Quel brufolo è un vulcano,3,6,6
+5,Quel neo è una mora,3,4,5
+5,Quell'autostrada è un serpente,2,5,2
+5,Quella fabbrica è un alveare,3,4,2
+5,Quella luna è un palloncino,2,5,6
+5,Quella sigaretta è un proiettile,3,5,6
+5,Quella stanza è una discarica,3,5,4
+5,Quel computer è una tartaruga,4,6,2
+5,Quel libro è una lanterna,2,6,2
+5,Quell'automobile è un missile,3,6,6
+5,Quel cavo è un gomitolo,2,4,4
+5,Quel cappello è un fungo,2,4,5
+5,Quella grondaia è uno scolapasta,3,5,5
+5,Quella casa è un gioiello,3,6,5
+5,Quell'ospedale è un labirinto,4,6,4
+5,Quel diario è una miniera,2,5,4
+5,Quell'aiuola è un arcobaleno,3,6,4
+5,Quel sonaglio è una camomilla,1,4,4
+5,Quella nuvola è una perla,2,6,2
+5,Quella firma è un geroglifico,2,6,2
+5,Quegli abiti sono petali,3,6,5
+5,Quel mare è uno smeraldo,3,6,2
+5,Quella piscina è un brodo,2,5,3
+5,Quel pannolino è una diga,2,4,6
+5,Quell'aspirapolvere è un'astronave,4,6,6
+5,Quel bar è un cimitero,4,5,4
+6,Quell'alito è una fogna,6,6,7
+6,Quell'uragano è un carrarmato,3,4,1
+6,Quella borsa è un macigno,2,3,7
+6,Quella città è una giungla,5,5,1
+6,Quelle guance sono pesche,4,6,7
+6,Quel bacio è un peperoncino,5,5,4
+6,Quella bocca è una fragola,6,6,7
+6,Quella locomotiva è un drago,2,2,1
+6,Quella ruga è un burrone,4,5,6
+6,Quel vestito è una tenda,5,5,3
+6,Quel lago è un cristallo,4,4,1
+6,Quel sorriso è una stella,5,6,4
+6,Quella pelle è una porcellana,4,5,6
+6,Quel prato è un velluto,6,5,2
+6,Quel mento è un precipizio,3,5,6
+6,Quel viso è una seta,5,5,6
+6,Quella nebbia è un muro,3,2,1
+6,Quell'orecchio è una padella,1,2,4
+6,Quella mano è una grattugia,2,4,6
+6,Quel naso è un uncino,3,5,6
+6,Quei denti sono una ghigliottina,2,6,6
+6,Quelle palpebre sono serrande,4,5,6
+6,Quelle ciglia sono un ventaglio,4,4,6
+6,Quei piedi sono zattere,3,5,6
+6,Quella pancia è una mongolfiera,4,5,6
+6,Quella barba è un batuffolo,4,3,5
+6,Quegli zigomi sono montagne,5,5,6
+6,Quelle gambe sono trampoli,4,4,6
+6,Quella caviglia è un pallone,2,3,5
+6,Quel braccio è una sbarra,4,3,6
+6,Quei capelli sono spaghetti,4,4,5
+6,Quella fronte è una pianura,3,4,5
+6,Quegli addominali sono marmo,3,4,6
+6,Quelle labbra sono un canotto,5,4,5
+6,Quei bicipiti sono sassi,3,4,6
+6,Quelle unghie sono ruspe,1,4,5
+6,Quelle dita sono tentacoli,3,5,6
+6,Quei peli sono aghi,2,4,5
+6,Quel brufolo è un vulcano,3,5,6
+6,Quel neo è una mora,4,4,5
+6,Quell'autostrada è un serpente,3,4,1
+6,Quella fabbrica è un alveare,2,4,1
+6,Quella luna è un palloncino,4,4,1
+6,Quella sigaretta è un proiettile,5,6,1
+6,Quella stanza è una discarica,4,5,1
+6,Quel computer è una tartaruga,3,5,1
+6,Quel libro è una lanterna,2,4,1
+6,Quell'automobile è un missile,4,5,1
+6,Quel cavo è un gomitolo,2,2,1
+6,Quel cappello è un fungo,3,4,1
+6,Quella grondaia è uno scolapasta,2,3,1
+6,Quella casa è un gioiello,4,4,1
+6,Quell'ospedale è un labirinto,3,5,1
+6,Quel diario è una miniera,2,4,1
+6,Quell'aiuola è un arcobaleno,3,4,1
+6,Quel sonaglio è una camomilla,2,2,1
+6,Quella nuvola è una perla,3,4,1
+6,Quella firma è un geroglifico,1,5,1
+6,Quegli abiti sono petali,4,6,3
+6,Quel mare è uno smeraldo,5,6,1
+6,Quella piscina è un brodo,2,2,1
+6,Quel pannolino è una diga,2,3,6
+6,Quell'aspirapolvere è un'astronave,2,4,1
+6,Quel bar è un cimitero,5,5,1
+7,Quell'alito è una fogna,7,6,5
+7,Quell'uragano è un carrarmato,5,6,1
+7,Quella borsa è un macigno,4,6,1
+7,Quella città è una giungla,5,7,1
+7,Quelle guance sono pesche,6,4,6
+7,Quel bacio è un peperoncino,5,6,4
+7,Quella bocca è una fragola,5,4,6
+7,Quella locomotiva è un drago,3,5,1
+7,Quella ruga è un burrone,3,4,5
+7,Quel vestito è una tenda,4,3,2
+7,Quel lago è un cristallo,2,3,1
+7,Quel sorriso è una stella,4,6,5
+7,Quella pelle è una porcellana,5,5,6
+7,Quel prato è un velluto,3,4,5
+7,Quel mento è un precipizio,2,5,6
+7,Quel viso è una seta,4,4,6
+7,Quella nebbia è un muro,3,3,2
+7,Quell'orecchio è una padella,2,4,6
+7,Quella mano è una grattugia,3,5,6
+7,Quel naso è un uncino,4,4,6
+7,Quei denti sono una ghigliottina,4,6,6
+7,Quelle palpebre sono serrande,5,6,5
+7,Quelle ciglia sono un ventaglio,6,5,6
+7,Quei piedi sono zattere,5,4,6
+7,Quella pancia è una mongolfiera,4,4,6
+7,Quella barba è un batuffolo,6,3,6
+7,Quegli zigomi sono montagne,6,6,7
+7,Quelle gambe sono trampoli,5,5,6
+7,Quella caviglia è un pallone,4,3,5
+7,Quel braccio è una sbarra,5,4,6
+7,Quei capelli sono spaghetti,5,6,2
+7,Quella fronte è una pianura,4,4,5
+7,Quegli addominali sono marmo,5,6,6
+7,Quelle labbra sono un canotto,5,5,6
+7,Quei bicipiti sono sassi,5,5,6
+7,Quelle unghie sono ruspe,5,4,5
+7,Quelle dita sono tentacoli,6,6,6
+7,Quei peli sono aghi,6,4,6
+7,Quel brufolo è un vulcano,5,5,6
+7,Quel neo è una mora,4,4,5
+7,Quell'autostrada è un serpente,3,5,1
+7,Quella fabbrica è un alveare,3,5,2
+7,Quella luna è un palloncino,3,4,1
+7,Quella sigaretta è un proiettile,5,6,2
+7,Quella stanza è una discarica,4,5,2
+7,Quel computer è una tartaruga,4,5,1
+7,Quel libro è una lanterna,3,6,1
+7,Quell'automobile è un missile,4,6,2
+7,Quel cavo è un gomitolo,5,3,3
+7,Quel cappello è un fungo,3,4,5
+7,Quella grondaia è uno scolapasta,4,4,3
+7,Quella casa è un gioiello,3,3,1
+7,Quell'ospedale è un labirinto,3,6,2
+7,Quel diario è una miniera,3,6,1
+7,Quell'aiuola è un arcobaleno,3,4,1
+7,Quel sonaglio è una camomilla,2,4,3
+7,Quella nuvola è una perla,3,5,1
+7,Quella firma è un geroglifico,3,5,1
+7,Quegli abiti sono petali,5,5,5
+7,Quel mare è uno smeraldo,4,6,1
+7,Quella piscina è un brodo,3,4,2
+7,Quel pannolino è una diga,4,3,5
+7,Quell'aspirapolvere è un'astronave,4,5,1
+7,Quel bar è un cimitero,5,5,2
+8,Quell'alito è una fogna,1,2,7
+8,Quell'uragano è un carrarmato,2,6,1
+8,Quella borsa è un macigno,4,4,6
+8,Quella città è una giungla,5,6,2
+8,Quelle guance sono pesche,6,4,7
+8,Quel bacio è un peperoncino,5,6,6
+8,Quella bocca è una fragola,5,4,7
+8,Quella locomotiva è un drago,3,5,2
+8,Quella ruga è un burrone,3,4,7
+8,Quel vestito è una tenda,4,4,6
+8,Quel lago è un cristallo,3,6,2
+8,Quel sorriso è una stella,6,6,7
+8,Quella pelle è una porcellana,5,5,7
+8,Quel prato è un velluto,4,4,6
+8,Quel mento è un precipizio,6,5,7
+8,Quel viso è una seta,6,6,7
+8,Quella nebbia è un muro,4,5,4
+8,Quell'orecchio è una padella,6,5,7
+8,Quella mano è una grattugia,3,5,7
+8,Quel naso è un uncino,6,5,7
+8,Quei denti sono una ghigliottina,6,6,7
+8,Quelle palpebre sono serrande,5,4,7
+8,Quelle ciglia sono un ventaglio,5,5,7
+8,Quei piedi sono zattere,3,4,7
+8,Quella pancia è una mongolfiera,4,5,7
+8,Quella barba è un batuffolo,4,4,5
+8,Quegli zigomi sono montagne,5,5,7
+8,Quelle gambe sono trampoli,4,4,7
+8,Quella caviglia è un pallone,3,4,6
+8,Quel braccio è una sbarra,4,4,7
+8,Quei capelli sono spaghetti,6,4,6
+8,Quella fronte è una pianura,5,4,5
+8,Quegli addominali sono marmo,4,5,7
+8,Quelle labbra sono un canotto,5,4,7
+8,Quei bicipiti sono sassi,4,4,7
+8,Quelle unghie sono ruspe,5,6,7
+8,Quelle dita sono tentacoli,6,6,7
+8,Quei peli sono aghi,6,4,7
+8,Quel brufolo è un vulcano,5,5,7
+8,Quel neo è una mora,6,4,6
+8,Quell'autostrada è un serpente,2,5,1
+8,Quella fabbrica è un alveare,4,5,1
+8,Quella luna è un palloncino,6,4,2
+8,Quella sigaretta è un proiettile,5,6,1
+8,Quella stanza è una discarica,3,5,4
+8,Quel computer è una tartaruga,5,4,2
+8,Quel libro è una lanterna,5,6,2
+8,Quell'automobile è un missile,5,6,2
+8,Quel cavo è un gomitolo,4,4,5
+8,Quel cappello è un fungo,5,5,4
+8,Quella grondaia è uno scolapasta,6,5,6
+8,Quella casa è un gioiello,4,6,1
+8,Quell'ospedale è un labirinto,4,5,2
+8,Quel diario è una miniera,5,6,1
+8,Quell'aiuola è un arcobaleno,3,5,6
+8,Quel sonaglio è una camomilla,4,4,3
+8,Quella nuvola è una perla,5,5,2
+8,Quella firma è un geroglifico,4,5,1
+8,Quegli abiti sono petali,6,5,7
+8,Quel mare è uno smeraldo,6,6,2
+8,Quella piscina è un brodo,4,4,1
+8,Quel pannolino è una diga,5,4,6
+8,Quell'aspirapolvere è un'astronave,5,6,1
+8,Quel bar è un cimitero,4,5,1
+9,Quell'alito è una fogna,6,4,7
+9,Quell'uragano è un carrarmato,3,6,1
+9,Quella borsa è un macigno,2,5,5
+9,Quella città è una giungla,4,6,2
+9,Quelle guance sono pesche,6,5,6
+9,Quel bacio è un peperoncino,7,6,6
+9,Quella bocca è una fragola,6,4,6
+9,Quella locomotiva è un drago,2,5,1
+9,Quella ruga è un burrone,3,5,6
+9,Quel vestito è una tenda,4,4,2
+9,Quel lago è un cristallo,5,5,2
+9,Quel sorriso è una stella,4,6,5
+9,Quella pelle è una porcellana,5,6,6
+9,Quel prato è un velluto,4,5,4
+9,Quel mento è un precipizio,3,5,6
+9,Quel viso è una seta,5,6,6
+9,Quella nebbia è un muro,2,4,3
+9,Quell'orecchio è una padella,3,5,5
+9,Quella mano è una grattugia,5,6,6
+9,Quel naso è un uncino,5,5,6
+9,Quei denti sono una ghigliottina,7,6,6
+9,Quelle palpebre sono serrande,5,6,7
+9,Quelle ciglia sono un ventaglio,6,6,6
+9,Quei piedi sono zattere,5,5,6
+9,Quella pancia è una mongolfiera,6,6,6
+9,Quella barba è un batuffolo,5,4,5
+9,Quegli zigomi sono montagne,6,5,7
+9,Quelle gambe sono trampoli,6,6,6
+9,Quella caviglia è un pallone,3,5,4
+9,Quel braccio è una sbarra,5,5,6
+9,Quei capelli sono spaghetti,7,6,6
+9,Quella fronte è una pianura,4,5,6
+9,Quegli addominali sono marmo,5,6,6
+9,Quelle labbra sono un canotto,6,6,5
+9,Quei bicipiti sono sassi,5,6,6
+9,Quelle unghie sono ruspe,6,6,7
+9,Quelle dita sono tentacoli,6,6,6
+9,Quei peli sono aghi,6,5,6
+9,Quel brufolo è un vulcano,5,6,6
+9,Quel neo è una mora,5,5,4
+9,Quell'autostrada è un serpente,2,6,2
+9,Quella fabbrica è un alveare,3,5,1
+9,Quella luna è un palloncino,5,6,1
+9,Quella sigaretta è un proiettile,5,6,2
+9,Quella stanza è una discarica,3,5,4
+9,Quel computer è una tartaruga,4,6,2
+9,Quel libro è una lanterna,3,6,2
+9,Quell'automobile è un missile,2,6,2
+9,Quel cavo è un gomitolo,4,5,4
+9,Quel cappello è un fungo,5,5,4
+9,Quella grondaia è uno scolapasta,4,5,5
+9,Quella casa è un gioiello,2,5,1
+9,Quell'ospedale è un labirinto,3,6,3
+9,Quel diario è una miniera,3,5,1
+9,Quell'aiuola è un arcobaleno,4,5,2
+9,Quel sonaglio è una camomilla,3,5,5
+9,Quella nuvola è una perla,5,6,2
+9,Quella firma è un geroglifico,3,6,2
+9,Quegli abiti sono petali,5,6,6
+9,Quel mare è uno smeraldo,6,6,2
+9,Quella piscina è un brodo,3,4,2
+9,Quel pannolino è una diga,2,5,4
+9,Quell'aspirapolvere è un'astronave,4,6,2
+9,Quel bar è un cimitero,4,6,2
+10,Quell'alito è una fogna,7,4,6
+10,Quell'uragano è un carrarmato,4,7,3
+10,Quella borsa è un macigno,5,4,3
+10,Quella città è una giungla,6,7,3
+10,Quelle guance sono pesche,6,5,7
+10,Quel bacio è un peperoncino,5,6,5
+10,Quella bocca è una fragola,6,6,6
+10,Quella locomotiva è un drago,3,4,1
+10,Quella ruga è un burrone,6,6,6
+10,Quel vestito è una tenda,6,5,4
+10,Quel lago è un cristallo,2,4,1
+10,Quel sorriso è una stella,3,4,4
+10,Quella pelle è una porcellana,2,4,5
+10,Quel prato è un velluto,4,5,3
+10,Quel mento è un precipizio,4,6,6
+10,Quel viso è una seta,5,5,5
+10,Quella nebbia è un muro,4,4,2
+10,Quell'orecchio è una padella,3,5,6
+10,Quella mano è una grattugia,5,6,6
+10,Quel naso è un uncino,6,6,6
+10,Quei denti sono una ghigliottina,6,7,6
+10,Quelle palpebre sono serrande,6,6,6
+10,Quelle ciglia sono un ventaglio,5,5,6
+10,Quei piedi sono zattere,4,5,6
+10,Quella pancia è una mongolfiera,6,5,6
+10,Quella barba è un batuffolo,5,6,6
+10,Quegli zigomi sono montagne,5,6,6
+10,Quelle gambe sono trampoli,5,4,6
+10,Quella caviglia è un pallone,3,6,6
+10,Quel braccio è una sbarra,4,4,6
+10,Quei capelli sono spaghetti,6,6,6
+10,Quella fronte è una pianura,5,5,4
+10,Quegli addominali sono marmo,5,6,6
+10,Quelle labbra sono un canotto,4,5,6
+10,Quei bicipiti sono sassi,6,5,6
+10,Quelle unghie sono ruspe,5,5,7
+10,Quelle dita sono tentacoli,4,6,7
+10,Quei peli sono aghi,5,5,6
+10,Quel brufolo è un vulcano,4,5,5
+10,Quel neo è una mora,2,2,2
+10,Quell'autostrada è un serpente,3,4,1
+10,Quella fabbrica è un alveare,3,4,1
+10,Quella luna è un palloncino,2,5,1
+10,Quella sigaretta è un proiettile,4,6,1
+10,Quella stanza è una discarica,4,5,2
+10,Quel computer è una tartaruga,4,4,1
+10,Quel libro è una lanterna,3,4,1
+10,Quell'automobile è un missile,4,6,1
+10,Quel cavo è un gomitolo,4,5,4
+10,Quel cappello è un fungo,4,4,2
+10,Quella grondaia è uno scolapasta,4,5,4
+10,Quella casa è un gioiello,4,5,2
+10,Quell'ospedale è un labirinto,3,4,1
+10,Quel diario è una miniera,3,5,1
+10,Quell'aiuola è un arcobaleno,4,5,2
+10,Quel sonaglio è una camomilla,4,2,2
+10,Quella nuvola è una perla,4,5,2
+10,Quella firma è un geroglifico,4,5,1
+10,Quegli abiti sono petali,6,4,5
+10,Quel mare è uno smeraldo,4,6,2
+10,Quella piscina è un brodo,4,3,1
+10,Quel pannolino è una diga,5,3,3
+10,Quell'aspirapolvere è un'astronave,3,5,1
+10,Quel bar è un cimitero,5,5,2
