@@ -53,6 +53,9 @@ dimensions_map = {
     'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
 }
 
+def normalize_me(series):
+    return 1 + (series - 1) * (6 / 4)
+
 # --- 1) Rintracciare le metafore gia' usate in altri studi (codice fornito dall'utente adattato) ---
 used_metaphors = {dim: set() for dims in dimensions_map.values() for dim in dims}
 # Assumo che i raw CSV contengano colonne con esattamente questi nomi come indicato dallo user
@@ -107,6 +110,17 @@ for ds_name in ['MB','ME','MI','MM']:
         continue
     synth_df = pd.read_csv(sfile, decimal=',')
     synth_df.rename(columns=lambda c: c.strip(), inplace=True)
+
+    # --- Normalizzazione ME (scala 1–5 → 1–7) ---
+    if ds_name == 'ME':
+        for col in human_df.columns:
+            if col.endswith('_human'):
+                human_df[col] = normalize_me(pd.to_numeric(human_df[col], errors='coerce'))
+
+        for col in synth_df.columns:
+            if col.endswith('_synthetic'):
+                synth_df[col] = normalize_me(pd.to_numeric(synth_df[col], errors='coerce'))
+
 
     dims = dimensions_map[ds_name]
     for dim in dims:
