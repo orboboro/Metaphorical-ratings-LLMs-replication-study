@@ -1,0 +1,12 @@
+BAMBINI2024 = '''Ti verrano date delle coppie di parole. Tu dovrai valutarle in una scala da 1 a 7
+in base a quanto è familiare l'associazione fra le due parole. Se l'associazione è molto familiare assegnerai un punteggio di 7.
+Se l'associazione non è per niente familiare assegnerai un punteggio di 1. Rispondi con il solo numero da 1 a 7, non aggiungere altro.
+
+Coppia di parole: {met}'''
+
+
+BAMBINI2024_IMA = '''Ti verrano date delle coppie di parole. Tu dovrai valutarle in una scala da 1 a 7
+in base a quanto facilmente riesci a generare nella tua mente un'immagine che rappresenti l'associazione tra le due parole presentate. Se è molto facile assegnerai un punteggio di 7.
+Se non è per niente facile assegnerai un punteggio di 1. Rispondi con il solo numero da 1 a 7, non aggiungere altro.
+
+Coppia di parole: {met}'''
