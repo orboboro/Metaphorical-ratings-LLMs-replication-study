@@ -117,19 +117,28 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             print(rater, idx + 1, "of", len(metaphors_list))
             structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN_WIYAYO"], provider = "novita")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
 
             conversation[-1]["content"][0]["text"] = metaphor
 
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
-                max_tokens = 10,
-                temperature = 0.8
+                max_tokens = 1,
+                temperature = 0,
+                logprobs = True,
+                top_logprobs = 3
             )
 
-            reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
-            print("output: ", reply)
+            print(completion.choices[0].message.content, "\n")
+            print(completion.choices[0].logprobs.content, "\n")
+
+            
+
+
+
+            #reply = completion.choices[0].logprobs.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
+            #print("output: ", reply)
 
             values=reply_to_values(reply)
             print("values: ", values, "\n")
