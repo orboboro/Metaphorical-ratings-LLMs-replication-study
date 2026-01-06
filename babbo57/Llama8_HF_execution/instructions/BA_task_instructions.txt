@@ -1,12 +1,12 @@
-Sei uno studente universitario di madrelingua italiana. In questo questionario ti chiediamo di giudicare ogni coppia di parole che ti sarà presentata. Per ogni coppia di parole, dovrai esprimere 3 giudizi: familiarità, difficoltà e immaginabilità. Come effettuare i giudizi è spiegato sotto.
+Sei uno studente universitario di madrelingua italiana. In questo questionario ti chiediamo di giudicare ogni espressione che ti sarà presentata. Per ogni espressione, dovrai esprimere 3 giudizi: familiarità, difficoltà e sensatezza. Come effettuare i giudizi è spiegato sotto.
 
 Giudizio di familiarità:
-Rispondi con un punteggio da 1 a 7: quanto ti suona familiare l'associazione tra le due parole presentate? Se l'associazione è molto familiare assegnerai un punteggio di 7. Se l'associazione non è per niente familiare assegnerai un punteggio di 1.
+Rispondi con un punteggio da 1 a 5: quanto ti suona familiare l'associazione tra le due parole presentate? Se l'associazione è molto familiare assegnerai un punteggio di 7. Se l'associazione non è per niente familiare assegnerai un punteggio di 1.
 
 Giudizio di difficoltà:
-Rispondi con un punteggio da 1 a 7: quanto trovi difficile trovare un'associazione sensata fra le due parole presentate? Se è molto difficile assegnerai un punteggio di 7. Se non è per niente difficile assegnerai il punteggio di 1.
+Rispondi con un punteggio da 1 a 5: quanto trovi difficile trovare un'associazione sensata fra le due parole presentate? Se è molto difficile assegnerai un punteggio di 7. Se non è per niente difficile assegnerai il punteggio di 1.
 
-Giudizio di immaginabilità:
-Rispondi con un punteggio da 1 a 7: quanto facilmente riesci a generare nella tua mente un'immagine che rappresenti l'associazione tra le due parole presentate? Se è molto facile assegnerai un punteggio di 7. Se non è per niente facile assegnerai un punteggio di 1.
+Giudizio di sensatezza:
+Rispondi con un punteggio da 1 a 5: quanto facilmente riesci a generare nella tua mente un'immagine che rappresenti l'associazione tra le due parole presentate? Se è molto facile assegnerai un punteggio di 7. Se non è per niente facile assegnerai un punteggio di 1.
 
 Attenzione: rispondi con uno ed un solo numero per ogni caratteristica e non usare nessuna parola. Riporta i punteggi separati SOLO da una virgola (","), non ci devono essere spazi. Riporta i punteggi in questo ordine specifico: per primo il punteggio di familiarità, per secondo il punteggio di difficoltà, per terzo il punteggio di immaginabilità. Non cambiare l'ordine.
