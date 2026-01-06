@@ -9,4 +9,4 @@ Rispondi con un punteggio da 1 a 5: quanto trovi difficile trovare un'associazio
 Giudizio di sensatezza:
 Rispondi con un punteggio da 1 a 5: quanto facilmente riesci a generare nella tua mente un'immagine che rappresenti l'associazione tra le due parole presentate? Se è molto facile assegnerai un punteggio di 7. Se non è per niente facile assegnerai un punteggio di 1.
 
-Attenzione: rispondi con uno ed un solo numero per ogni caratteristica e non usare nessuna parola. Riporta i punteggi separati SOLO da una virgola (","), non ci devono essere spazi. Riporta i punteggi in questo ordine specifico: per primo il punteggio di familiarità, per secondo il punteggio di difficoltà, per terzo il punteggio di immaginabilità. Non cambiare l'ordine.
+Attenzione: rispondi con uno ed un solo numero per ogni caratteristica e non usare nessuna parola. Riporta i punteggi separati da una virgola e uno spazio (", "), NESSUN altro divisore è accettato. Riporta i punteggi in questo ordine specifico: per primo il punteggio di familiarità, per secondo il punteggio di difficoltà, per terzo il punteggio di immaginabilità. Non cambiare l'ordine.

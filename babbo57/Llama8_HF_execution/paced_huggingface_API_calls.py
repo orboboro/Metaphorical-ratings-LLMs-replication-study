@@ -26,13 +26,14 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def huggingface_API_calling(dataset, model, raters, memory, test):
+def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
 
     DATASET = str(dataset)
     DATASET_ID = DATASET[-6:-4]
     MODEL = (model).replace(":", "-")
     TASK_INSTRUCTIONS = open(Path("instructions", DATASET_ID + "_task_instructions.txt"), "r", encoding="utf-8").read()
     RATERS = raters
+    TEMPERATURE = temperature
     DATA_PATH = "data"
     TRACKING_DATA_PATH = "tracking_data"
     MEMORY = memory
@@ -106,8 +107,7 @@ def huggingface_API_calling(dataset, model, raters, memory, test):
             if MEMORY:
                 with open(Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt"), "r", encoding = "utf-8") as f:
                     content = f.read()
-                    whole_conversation = ast.literal_eval(content)
-                    remembered_conversation = [whole_conversation[0]] + (whole_conversation[1:])[-12:-2]
+                    conversation = ast.literal_eval(content)
 
     with open(rater_file, "r", encoding = "utf-8") as f:
         rater = f.read().strip()
@@ -117,7 +117,7 @@ def huggingface_API_calling(dataset, model, raters, memory, test):
         metaphors_list = checkpoint_df["metaphor"]
 
         for idx, metaphor in list(enumerate(metaphors_list)):
-            print(rater, idx + 1, "of", len(metaphors_list))
+            print("\n", rater, idx + 1, "of", len(metaphors_list))
 
             client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
 
@@ -129,15 +129,15 @@ def huggingface_API_calling(dataset, model, raters, memory, test):
             conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
 
             if DATASET_ID in ["MB", "BA", "ME"]:
-                max_tokens = 5
+                max_tokens = 7 # "n1, n2, n3"
             else:
-                max_tokens = 3
+                max_tokens = 4 # "n1, n2"
 
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
                 max_tokens = max_tokens,
-                temperature = 0,
+                temperature = TEMPERATURE,
                 logprobs = True,
                 top_logprobs = 3
             )
@@ -147,10 +147,10 @@ def huggingface_API_calling(dataset, model, raters, memory, test):
 
             weighted_values = list()
             
-            for i in range(0, max_tokens, 2):
+            for i in range(0, max_tokens, 3):
 
                 top_three_logprobs = completion.choices[0].logprobs.content[i].top_logprobs
-                print(top_three_logprobs)
+                print("\n", top_three_logprobs)
                 tokens = []
                 logprobs = []
 
@@ -198,8 +198,13 @@ def huggingface_API_calling(dataset, model, raters, memory, test):
             checkpoint_df.to_csv(checkpoint_file, index = False)
 
             if MEMORY:
+                
                 conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
                 conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
+
+                if len(conversation) > 13:
+                    del conversation[1:3]
+
                 with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                     f.write(str(conversation))
 
@@ -254,7 +259,7 @@ def huggingface_API_calling(dataset, model, raters, memory, test):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            #time.sleep(3 * minuto)
+            time.sleep(1 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
