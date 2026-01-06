@@ -6,6 +6,7 @@ import os
 import ast
 import time
 from huggingface_hub import InferenceClient
+import numpy as np
 
 def reply_to_values(response):
     values_list = response.split(",")
@@ -110,27 +111,91 @@ def huggingface_API_calling(dataset, model, raters, test = False):
 
     if int(rater) <= RATERS:
 
-        metaphors_list = checkpoint_df["Metaphor"]
-        structures_list = checkpoint_df["Met_structure"]
+        metaphors_list = checkpoint_df["metaphor"]
 
         for idx, metaphor in list(enumerate(metaphors_list)):
             
             print(rater, idx + 1, "of", len(metaphors_list))
-            structure = structures_list[idx]
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN"])
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
 
-            conversation[-1]["content"][0]["text"] = metaphor
+            if DATASET_ID == "BA":
+                pref = "Coppia di parole: "
+            if DATASET_ID == "MB":
+                pref = "Espressione: "
+            if DATASET_ID == "ME":
+                pref = "Frase: "
+            if DATASET_ID in ["ME", "MI", "MM"]:
+                pref = "Frase: "
+
+            conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
+
+            if DATASET_ID in ["MB", "BA", "ME"]:
+                max_tokens = 5
+            else:
+                max_tokens = 3
 
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
-                max_tokens = 10,
-                temperature = 0.8
+                max_tokens = max_tokens,
+                temperature = 0,
+                logprobs = True,
+                top_logprobs = 3
             )
 
             reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
             print("output: ", reply)
+
+            values=reply_to_values(reply)
+            print("values: ", values, "\n")
+
+            top_three_logprobs = completion.choices[0].logprobs.content[0].top_logprobs  # Ottieni i top X token
+            print(top_three_logprobs)
+            tokens = []
+            logprobs = []
+
+            for logprob in top_three_logprobs:
+            
+                tokens.append(logprob.token)  # Token (7, 6, 5 nel tuo esempio)
+                logprobs.append(logprob.logprob)  # Logprob corrispondente
+
+            print (tokens)
+            print(logprobs)
+
+            # Converti logprobs in probabilità lineari
+            linear_probs = np.exp(logprobs)
+            print(linear_probs)
+
+            # Normalizza le probabilità per ottenere i pesi
+            normalized_weights = linear_probs / np.sum(linear_probs)
+            print(normalized_weights)
+
+            # Calcola la media ponderata dei token usando le probabilità normalizzate come pesi
+            tokens_as_floats = []
+            for token in tokens:
+                try:
+                    tokens_as_floats.append(float(token))  # Try converting token to float
+                except ValueError:
+                    pass  # Ignore tokens that cannot be converted
+   
+            numeric_token_weights = [
+                (float(token), weight)
+                for token, weight in zip(tokens, normalized_weights)
+                if token.replace('.', '', 1).isdigit() or (token.startswith('-') and token[1:].replace('.', '', 1).isdigit())
+            ]
+
+            # Ensure the list is not empty to avoid errors when calculating the weighted mean
+            if numeric_token_weights:
+                values, weights = zip(*numeric_token_weights)
+                weighted_mean_token = np.average(values, weights = weights)
+            else:
+                print(f"No valid numeric tokens found for metaphor '{metaphor}'")
+
+
+
+            for value in values:
+                check = int(value)
 
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
@@ -141,18 +206,14 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                 f.write(str(conversation))
 
-            values=reply_to_values(reply)
-            print("values: ", values, "\n")
-
             if DATASET_ID == "MB":
 
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "metaphor_structure" : structure,
                     "FAMILIARITY_synthetic" : int(values[0]),
                     "MEANINGFULNESS_synthetic" : int(values[1]),
-                    "body relatedness" : int(values[2])
+                    "BODY_RELATEDNESS_synthetic" : int(values[2])
                 }
 
             if DATASET_ID == "ME":
@@ -160,7 +221,6 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "metaphor_structure" : structure,
                     "FAMILIARITY_synthetic" : int(values[0]),
                     "MEANINGFULNESS_synthetic" : int(values[1]),
                     "DIFFICULTY_synthetic" : int(values[2])
@@ -171,9 +231,8 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "metaphor_structure" : structure,
                     "PHISICALITY_synthetic" : int(values[0]),
-                    "IMAGEBILITY_synthetic" : int(values[1]),
+                    "IMAGEABILITY_synthetic" : int(values[1]),
                 }
 
             if DATASET_ID == "MM":
@@ -181,7 +240,6 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "metaphor_structure" : structure,
                     "FAMILIARITY_synthetic" : int(values[0]),
                     "MEANINGFULNESS_synthetic" : int(values[1]),
                 }
@@ -189,7 +247,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(1 * minuto)
+            time.sleep(3 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 

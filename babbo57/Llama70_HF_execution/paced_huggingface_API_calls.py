@@ -119,12 +119,26 @@ def huggingface_API_calling(dataset, model, raters, test = False):
 
             client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
 
-            conversation[-1]["content"][0]["text"] = metaphor
+            if DATASET_ID == "BA":
+                pref = "Coppia di parole: "
+            if DATASET_ID == "MB":
+                pref = "Espressione: "
+            if DATASET_ID == "ME":
+                pref = "Frase: "
+            if DATASET_ID in ["ME", "MI", "MM"]:
+                pref = "Frase: "
+
+            conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
+
+            if DATASET_ID in ["MB", "BA", "ME"]:
+                max_tokens = 5
+            else:
+                max_tokens = 3
 
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
-                max_tokens = 7,
+                max_tokens = max_tokens,
                 temperature = 0,
                 logprobs = True,
                 top_logprobs = 3
