@@ -119,13 +119,9 @@ def huggingface_API_calling(dataset, model, raters, test = False):
 
             client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
 
-            if DATASET_ID == "BA":
-                pref = "Coppia di parole: "
-            if DATASET_ID == "MB":
+            if DATASET_ID in ["MB", "BA"]:
                 pref = "Espressione: "
-            if DATASET_ID == "ME":
-                pref = "Frase: "
-            if DATASET_ID in ["ME", "MI", "MM"]:
+            else:
                 pref = "Frase: "
 
             conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
@@ -195,7 +191,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     print(f"No valid numeric tokens found for metaphor '{metaphor}'")
 
             print("weighted_values: ", weighted_values)
-            
+
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
 
@@ -250,7 +246,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     "metaphor": metaphor,
                     "FAMILIARITY_synthetic" : weighted_values[0],
                     "DIFFICULTY_synthetic" : weighted_values[1],
-                    "IMAGEABILITY_synthetic" : weighted_values[2],
+                    "MEANINGFULNESS_synthetic" : weighted_values[2],
                 }
 
             write_out(out_annotation_file, row)
