@@ -6,12 +6,13 @@ def main():
 
     parser = argparse.ArgumentParser(
         description="Metaphors Ratings Script with llms using Huggingface API",
-        usage="python paced_groq_API_calls.py --model llama-3.3-70b-versatile --dataset human_MB.csv"
+        usage="es: python paced_huggingface_API_calls.py --model llama-3.3-70b-versatile --dataset human_MB.csv"
     )
 
     parser.add_argument(
         "--dataset",
         type=Path,
+        required=True,
         help="Target study for replication"
     )
 
@@ -25,13 +26,27 @@ def main():
     parser.add_argument(
         "--raters",
         type=int,
-        default=1,
         help="Number of raters to annotate each metaphor",
+        default=1
+    )
+
+    parser.add_argument(
+        "--temperature",
+        type = float,
+        help="Temperature value",
+        default = 0
+    )
+    
+    parser.add_argument(
+        "--memory",
+        type = bool,
+        help = "let the model 'rememder' the previous 5 items",
+        default = False
     )
 
     parser.add_argument(
         "--test",
-        action="store_true",
+        type = bool,
         help="Run in testing mode",
     )
 
@@ -40,7 +55,7 @@ def main():
 
     while not end:
     
-        end = huggingface_API_calling(args.dataset, args.model, args.raters, args.test)
+        end = huggingface_API_calling(args.dataset, args.model, args.raters, args.temperature, args.memory, args.test)
 
 if __name__ == "__main__": # La variabile speciale __name__ viene inizializzata uguale a "__main__" quando un file python viene eseguito
     main()                 # direttamente. Dunque la condizione __name__ == "__main__ è rispettata e quindi il contenuto delle funzione

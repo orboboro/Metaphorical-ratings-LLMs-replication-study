@@ -32,10 +32,10 @@ human_files = {
 }
 
 synthetic_files = {
-    'MB': 'synthetic_MB_meta-llama-Llama-3.3-70B-Instruct_.csv',
-    'ME': 'synthetic_ME_meta-llama-Llama-3.3-70B-Instruct_.csv',
-    'MI': 'synthetic_MI_meta-llama-Llama-3.3-70B-Instruct_.csv',
-    'MM': 'synthetic_MM_meta-llama-Llama-3.3-70B-Instruct_.csv',
+    'MB': 'synthetic_MB_meta-llama-Llama-3.1-8B-Instruct_.csv',
+    'ME': 'synthetic_ME_meta-llama-Llama-3.1-8B-Instruct_.csv',
+    'MI': 'synthetic_MI_meta-llama-Llama-3.1-8B-Instruct_.csv',
+    'MM': 'synthetic_MM_meta-llama-Llama-3.1-8B-Instruct_.csv',
 }
 
 raw_files = {

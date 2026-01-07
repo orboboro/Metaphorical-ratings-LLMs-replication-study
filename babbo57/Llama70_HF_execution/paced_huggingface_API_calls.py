@@ -26,20 +26,21 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def huggingface_API_calling(dataset, model, raters, test = False):
+def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
 
     DATASET = str(dataset)
     DATASET_ID = DATASET[-6:-4]
     MODEL = (model).replace(":", "-")
     TASK_INSTRUCTIONS = open(Path("instructions", DATASET_ID + "_task_instructions.txt"), "r", encoding="utf-8").read()
     RATERS = raters
+    TEMPERATURE = temperature
     DATA_PATH = "data"
     TRACKING_DATA_PATH = "tracking_data"
+    MEMORY = memory
     TEST = test
     
 
     model_name = MODEL.replace(":", "-").replace("/", "-")
-
     out_file_name = f"synthetic_{DATASET_ID}_{model_name}_"
 
     if TEST:
@@ -57,6 +58,7 @@ def huggingface_API_calling(dataset, model, raters, test = False):
         "method": "API calls with huggingface_hub",
         "model": MODEL,
         "prompt": TASK_INSTRUCTIONS,
+        "memory": MEMORY
     }
 
     dataset = Path(DATA_PATH, "human_datasets", DATASET)
@@ -94,7 +96,6 @@ def huggingface_API_calling(dataset, model, raters, test = False):
             dataset_df.to_csv(checkpoint_file, index = False)
             checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
 
-
             with open(rater_file, "r", encoding = "utf-8") as f:
                 previous_rater = int(f.read().strip())
             with open(rater_file, "w", encoding = "utf-8") as f:
@@ -102,9 +103,11 @@ def huggingface_API_calling(dataset, model, raters, test = False):
         else:
             with open(rater_file, "r", encoding = "utf-8") as f:
                 rater = f.read().strip()
-            with open(Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt"), "r", encoding = "utf-8") as f:
-                content = f.read()
-                conversation = ast.literal_eval(content)
+            
+            if MEMORY:
+                with open(Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt"), "r", encoding = "utf-8") as f:
+                    content = f.read()
+                    conversation = ast.literal_eval(content)
 
     with open(rater_file, "r", encoding = "utf-8") as f:
         rater = f.read().strip()
@@ -114,71 +117,66 @@ def huggingface_API_calling(dataset, model, raters, test = False):
         metaphors_list = checkpoint_df["metaphor"]
 
         for idx, metaphor in list(enumerate(metaphors_list)):
-            
-            print(rater, idx + 1, "of", len(metaphors_list))
+            print("\n", rater, idx + 1, "of", len(metaphors_list))
 
             client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
 
-            if DATASET_ID == "BA":
-                pref = "Coppia di parole: "
-            if DATASET_ID == "MB":
+            if DATASET_ID in ["MB", "BA"]:
                 pref = "Espressione: "
-            if DATASET_ID == "ME":
-                pref = "Frase: "
-            if DATASET_ID in ["ME", "MI", "MM"]:
+            else:
                 pref = "Frase: "
 
             conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
 
             if DATASET_ID in ["MB", "BA", "ME"]:
-                max_tokens = 5
+                max_tokens = 7 # "n1, n2, n3"
             else:
-                max_tokens = 3
+                max_tokens = 4 # "n1, n2"
 
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
                 max_tokens = max_tokens,
-                temperature = 0,
+                temperature = TEMPERATURE,
                 logprobs = True,
                 top_logprobs = 3
             )
 
-            reply = completion.choices[0].message.content # content è un attributo dell'oggetto ChatCompletionOutputMessage
+            reply = completion.choices[0].message.content
             print("output: ", reply)
 
             weighted_values = list()
             
-            for i in range(0, max_tokens, 2):
+            for i in range(0, max_tokens, 3):
 
-                top_three_logprobs = completion.choices[0].logprobs.content[i].top_logprobs  # Ottieni i top X token
-                print(top_three_logprobs)
+                top_three_logprobs = completion.choices[0].logprobs.content[i].top_logprobs
+                print("\n", top_three_logprobs)
                 tokens = []
                 logprobs = []
 
                 for logprob in top_three_logprobs:
                 
-                    tokens.append(logprob.token)  # Token (7, 6, 5 nel tuo esempio)
-                    logprobs.append(logprob.logprob)  # Logprob corrispondente
+                    tokens.append(logprob.token)
+                    logprobs.append(logprob.logprob)
 
-                print (tokens)
-                print(logprobs)
+                print ("tokens: ", tokens)
+                print("logprobs: ",logprobs)
 
-                # Converti logprobs in probabilità lineari
+                # Conversione dei logprobs in probabilità lineari
                 linear_probs = np.exp(logprobs)
-                print(linear_probs)
+                print("linear_probs: ", linear_probs)
 
-                # Normalizza le probabilità per ottenere i pesi
+                # Normalizzazione delle probabilità per ottenere i pesi
                 normalized_weights = linear_probs / np.sum(linear_probs)
-                print(normalized_weights)
+                print("normalized_weights: ", normalized_weights)
 
-                # Calcola la media ponderata dei token usando le probabilità normalizzate come pesi
+                # Calcolo della media ponderata dei token usando le probabilità normalizzate come pesi
                 tokens_as_floats = []
                 for token in tokens:
                     try:
-                        tokens_as_floats.append(float(token))  # Try converting token to float
+                        tokens_as_floats.append(float(token))
                     except ValueError:
-                        pass  # Ignore tokens that cannot be converted
+                        print("Il token generato non è numerico")
     
                 numeric_token_weights = [
                     (float(token), weight)
@@ -191,19 +189,24 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     values, weights = zip(*numeric_token_weights)
                     weighted_mean_token = np.average(values, weights = weights)
                     weighted_values.append(round(weighted_mean_token, 9))
-
-                    print(weighted_values)
                 else:
                     print(f"No valid numeric tokens found for metaphor '{metaphor}'")
+
+            print("weighted_values: ", weighted_values)
 
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
 
-            conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
-            conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
+            if MEMORY:
+                
+                conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
+                conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
 
-            with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
-                f.write(str(conversation))
+                if len(conversation) > 13:
+                    del conversation[1:3]
+
+                with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
+                    f.write(str(conversation))
 
             if DATASET_ID == "MB":
 
@@ -250,13 +253,13 @@ def huggingface_API_calling(dataset, model, raters, test = False):
                     "metaphor": metaphor,
                     "FAMILIARITY_synthetic" : weighted_values[0],
                     "DIFFICULTY_synthetic" : weighted_values[1],
-                    "IMAGEABILITY_synthetic" : weighted_values[2],
+                    "MEANINGFULNESS_synthetic" : weighted_values[2],
                 }
 
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(3 * minuto)
+            time.sleep(1 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
