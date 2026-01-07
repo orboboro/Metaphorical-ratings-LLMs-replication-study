@@ -1,0 +1,1478 @@
+﻿ID;Met_structure;Metaphor;Translation (english);Source;Author;Type_of_text;Introductory_sentence;Original_context;length_context;Structure_type;Word1;Length_topic;Frequency_topic;Concreteness_topic;Word2;Length_vehicle;Frequency_vehicle;Concreteness_vehicle;SemanticDistance;Cloze_probability_withoucontext;Familiarity_withoutcontext;Concreteness_withoutcontext;Difficulty_withoutcontext;Meaningfulness_withoutcontext;Gulpease_incontext;Cloze_probability_incontext;Familiarity_incontext;Concreteness_incontext;Difficulty_incontext;Meaningfulness_incontext;Bambini et al. (2014);IUSS NEPLab MetaLiterary study
+FA_LIT413;Genitive;incertezza di poesia;uncertainty of poetry;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Dalle pareti, statue mezzane di
+santi cappuccini pregano, colla faccia estatica, immobili in un gran
+gesto di passione: e la vernice ha loro rifatta quasi la tonaca, e sono
+calvi, lucidi, ingenui, puliti: ma l'ombra della chiesa ridà loro una
+incertezza di poesia come in un mistero di lontananza";47;TV;incertezza;10;123;1,82;poesia;6;153;2,934;0,733;;;;;;;;;;;;N;Y
+FA_LIT238;Genitive;idee di sangue;ideas of blood;Poesie e novelli in versi;Fontana, Ferdinando;POEM;;"Ma in questa ora fatale
+Io medito un delitto; ed accarezzo
+Nefande idee di sangue";13;TV;idee;4;1058;2,155;sangue;6;473;4,181;0,749;;;;;;;;;;;;N;Y
+FA_LIT220;Genitive;natura di fuoco;nature of fire;L'Illusione;De Roberto, Federico;PROSE;;"Era stato sul punto d'impazzire, poi aveva viaggiato lungamente; di
+ritorno in patria, s'era buttato alla politica. Possedeva una coltura
+brillante, era un oratore irresistibile, una natura di fuoco";29;TV;natura;6;525;2,275;fuoco;5;609;4,179;0,518;;;;;;;;;;;;N;Y
+FA_LIT237;Genitive;amore di fuoco;love of fire;Poesie e novelli in versi;Fontana, Ferdinando;POEM;;"Oggi ho perduto
+L'illusione del mio primo amore!
+Un amore di fuoco, uno sfrenato
+Abbandono dei sensi";15;TV;amore;5;1153;2,978;fuoco;5;609;4,179;0,726;;;;;;;;;;;;N;Y
+FA_LIT209;Genitive;atmosfera di piombo;atmosphere of lead;"Speranze e glorie; Le tre capitali: Torino, Firenze, Roma";De Amicis, Edmondo;PROSE;;"Voi conoscete l'immaginazione terribile del Carlyle, che raffigura il
+mondo presente in una landa selvaggia e caotica, coperta di nebbie
+pestilenti, gravata d'un'atmosfera di piombo";26;TV;atmosfera;9;212;3,01;piombo;6;68;4,616;0,805;;;;;;;;;;;;N;Y
+FA_LIT181;Genitive;pensieri di fumo;thoughts of smoke;Angiola Maria: Storia domestica;Carcano, Giulio;PROSE;;"Agitato da continui
+pensieri di fumo e d'ambizione, travagliato da mala vicenda nella sua
+domestica economia, egli era quasi sempre meditabondo, accigliato,
+dispettoso";21;TV;pensieri;8;426;3,059;fumo;4;117;3,846;0,688;;;;;;;;;;;;N;Y
+FA_LIT381;Genitive;canto di morte;song of death;Monotonie;Oriani, Alfredo;POEM;;"Invano con convulse dita
+    tenti la cetra del tuo biondo Apollo
+    a tal canto di morte — o mio poeta,
+                    è d'avorio la cetra";50;TV;canto;5;143;3,138;morte;5;815;3,138;0,807;;;;;;;;;;;;N;Y
+FA_LIT471;Genitive;canto di primavera;song of spring;La moglie di Sua Eccellenza;Rovetta, Gerolamo;PROSE;;"emigia preme la mano ch'egli le porge, assai marcatamente,
+con un rapido sguardo di tristezza e d'angoscia, poi subito, bianca
+e leggerissima, vaporosa, alzando la voce allegra e festante come
+un canto di primavera, si avvicina agli altri che l'aspettano fermi
+dinanzi al teatro";43;TV;canto;5;143;3,138;primavera;9;210;3,645;0,666;;;;;;;;;;;;N;Y
+FA_LIT013;Genitive;canto della tenebra;song of the darkness;Il canto della tenebra;Campana;POEM;;;;TV;canto;5;143;3,138;tenebra;7;30;3,379;0,816;;2,133;1,733;2,667;2,8;;;;;;;Y;N
+FA_LIT015;Genitive;canto delle foglie;song of the leaves;Poemi del Risorgimento;Pascoli;POEM;In questo brano si descrive una scena campestre.;Veniva allora, per le tenebre, una \ lupa, e fiutava il chiuso lupercale. \ E Fauno, il buono, nelle selve ombrose \ cantava il canto delle foglie ai venti, \ invisibile.;31;TV;canto;5;143;3,138;foglie;6;190;4,246;0,856;0;2,733;1,8;1,933;3,933;63;0;2,33;1,53;2,67;2,6;Y;N
+FA_LIT221;Genitive;parole di fuoco;words of fire;L'Illusione;De Roberto, Federico;PROSE;;"Ella chiuse gli occhi, poi gli buttò le braccia al collo. Così, guancia
+contro guancia, egli le soffiò all'orecchio le parole di fuoco";23;TV;parole;6;1452;3,211;fuoco;5;609;4,179;0,771;;;;;;;;;;;;N;Y
+FA_LIT262;Genitive;sogno di sangue;dream of blood;Le ore inutili: novelle;Guglielminetti, Amalia;PROSE;;"
+In luogo d'una visione di campi devastati, di città incendiate, di
+turbolenti dominazioni, in luogo di quel sogno di sangue e di fumo,
+ch'è retaggio ed incubo del vecchio mondo, la nuova società vede
+disegnarsi l'attività futura dei suoi figli su un fondo sereno di
+pace e di progresso";48;TV;sogno;5;554;3,246;sangue;6;473;4,181;0,676;;;;;;;;;;;;N;Y
+FA_LIT212;Genitive;silenzio di ghiaccio;silence of ice;Vecchie Storie;De Marchi, Emilio;PROSE;;"Gettò un grido, storcendo la bocca, alzando le due mani
+colle dita rigide, adunche, mentre un silenzio profondo, un silenzio
+brutale, un silenzio di ghiaccio sottentrò alla festa";26;TV;silenzio;8;381;3,254;ghiaccio;8;87;4,122;0,819;;;;;;;;;;;;N;Y
+FA_LIT467;Genitive;silenzio di ombre;silence of shadows;L'idolo;Rovetta, Gerolamo;PROSE;;"È un gran silenzio intorno: un
+silenzio di ombre, infinito; la quiete d'ogni cosa viva.";15;TV;silenzio;8;381;3,254;ombre;5;265;3,288;0,76;;;;;;;;;;;;N;Y
+FA_LIT332;Genitive;voce di bronzo;voice of bronze;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Io fui lusingato, o Vulcano, dalla tua voce di bronzo,
+  e ancora ondeggio da un'illusione all'altra
+  nel cupo miraggio del tuo Impero di fuoco";29;TV;voce;4;1023;3,286;bronzo;6;56;4,315;0,828;;;;;;;;;;;;N;Y
+FA_LIT333;Genitive;voce di cristallo;voice of crystal;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"l silenzio è tanto grande
+  e quelle tre nubi d'argento sono tanto vive
+  e tanto attente,
+  che stanno per cantare
+  con la loro più bella voce di cristallo";33;TV;voce;4;1023;3,286;cristallo;9;49;3,965;0,741;;;;;;;;;;;;N;Y
+FA_LIT379;Genitive;sogni di paradiso;dreams of paradise;Al di là;Oriani, Alfredo;PROSE;;"Ho letto già di una fata, che aveva un origliere, sul quale potendo
+dormire si facevano sogni di paradiso e che la fata era obbligata a realizzare";26;TV;sogni;5;1;3,312;paradiso;8;92;3,788;0,825;;;;;;;;;;;;N;Y
+FA_LIT354;Genitive;fronte di rosa;forehead of rose;Tempeste;Negri, Ada;POEM;;"I sogni sfiorano
+    La delicata
+    Fronte di rosa";14;TV;fronte;6;321;3,374;rosa;4;197;4,331;0,758;;;;;;;;;;;;N;Y
+FA_LIT050;Genitive;grido di tempesta;cry of tempest;Odi e Inni;Pascoli;POEM;Questo brano descrive il compositore Giuseppe Verdi come un eroe.;"Dove?... Sull’Alpi d’Italia! \ Forse il Vecchio è un giovinetto. \ Sale un ghiacciaio; s'arresta \ poi ch'una voce gli ha detto, \ con un grido di tempesta: \ Qui c'è nostro!";35;TV;grido;5;150;3,401;tempesta;8;77;3,903;0,728;0;2,933;2,267;2,2;3,533;;;;;;;Y;N
+FA_LIT391;Genitive;luce di zaffiro;light of sapphire;La disfatta;Oriani, Alfredo;PROSE;;"Giorgi invece prendeva per
+la propria musica le mosse dal paradiso di Dante; e se la parola e
+l'immagine avevano rappresentato Cristo, la musica doveva esprimere lo
+spirito, questo inaccessibile rimasto senza culto, e che veglia come
+una luce di zaffiro in fondo a tutte le coscienze";44;TV;luce;4;730;3,437;zaffiro;7;5;4,106;0,868;;;;;;;;;;;;N;Y
+FA_LIT318;Genitive;lingua di fuoco;tongue of fire;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"on la bocca spalancata
+  rasente le onde che sembrano denti
+  su cui, ecco, ora passa una lingua di fuoco giallo";22;TV;lingua;6;289;3,439;fuoco;5;609;4,179;0,755;;;;;;;;;;;;N;Y
+FA_LIT465;Genitive;lingua di piombo;tongue of lead;L'idolo;Rovetta, Gerolamo;PROSE;;"È rimasto
+ad un tratto, per combinazione, per dispetto, col cervello vuoto
+e colla lingua di piombo";16;TV;lingua;6;289;3,439;piombo;6;68;4,616;0,8;;;;;;;;;;;;N;Y
+FA_LIT226;Genitive;membra di piombo;limbs of lead;"La messa di nozze; Un sogno; La bella morte";De Roberto, Federico;PROSE;;"Era rimasto inchiodato sulla
+poltrona, innanzi alla scrivania, con le membra di piombo, con gli occhi
+aridi e bruciati";18;TV;membra;6;245;3,46;piombo;6;68;4,616;0,842;;;;;;;;;;;;N;Y
+FA_LIT026;Genitive;fantasmi di pace;ghosts of peace;Mal Giocondo;Pirandello;POEM;Questo brano descrive la speranza del poeta di poter superare il pessimismo attraverso l'amore terreno.;"Teco sogno passar per la memoria \ de le lontane genti, o  amica terrena, \ quante volte la Terra, de le nebbie \ discolta rinnovallisi;
+sogno passar sì come due fantasmi \ di pace apportatori in mezzo agli uomini \ d'un mio canto perenne ricordevoli \ a la stagione florida;";51;TV;fantasmi;8;114;3,475;pace;4;401;2,756;0,809;0;1,6;1,2;3,2;2,267;;;;;;;Y;N
+FA_LIT450;Genitive;onda di sangue;wave of blood;Le notti degli emigrati a Londra;Petruccelli della Gattina, Ferdinando;PROSE;;"Una scarsa onda di sangue restava a pena circolante pei tessuti; nel
+cervello debolmente irrigato ogni attività ristagnava come in una
+macchina a cui la forza motrice del liquido difetti";28;TV;onda;4;171;3,512;sangue;6;473;4,181;0,803;;;;;;;;;;;;N;Y
+FA_LIT460;Genitive;sguardo di ciel;glance of heaven;Lucifero;Rapisardi, Mario;POEM;;"e sentì allora,
+    Ch'ivi, da canto a lei, sotto quel caro
+    Sguardo di ciel, che le vivea negli occhi,
+    Era la patria sua, l'aurea contrada
+    Dei sogni suoi";42;TV;sguardo;7;375;3,549;ciel;4;321;4,11;0,71;;;;;;;;;;;;N;Y
+FA_LIT252;Genitive;sguardo di fiamma;look of flame;Verso la cuna del mondo: Lettere dall'India;Gozzano, Guido;PROSE;;"Un gruppo di questi miserabili è
+adunato intorno ad un santo ancora giovane, dalla bruna barba divisa,
+dallo sguardo di fiamma";19;TV;sguardo;7;375;3,549;fiamma;6;151;4,013;0,784;;;;;;;;;;;;N;Y
+FA_LIT398;Genitive;sillabe di morte;syllables of death;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"le idee sprizzavano da tutti i cozzi, squillavano dalle incudini, chiassavano nei mercati, prorompevano dalle università, sbucavano dalle botteghe,
+poi, addensandosi nei giornali, vi si incendiavano come fieni estivi, mentre dal fondo oscuro, anonimo della plebe soffiava come un vento gelido e fetido, che sembrava gittare in alto dei singhiozzi di agonia e delle sillabe di morte";56;TV;sillabe;7;10;3,575;morte;5;815;3,138;0,85;;;;;;;;;;;;N;Y
+FA_LIT012;Genitive;brivido di ferro;shiver of iron;Le Canzoni di Re Enzio;Pascoli;POEM;Questo brano parla di una battaglia.;Ma uno squillo suona al ciel, di guerra, \ come uno strillo d'aquila sul monte. \ I cavalieri levano la spada \ ed i gonfalonieri il gonfalone. \ Levano il duro pungolo i biolchi, \ e i trombettieri imboccano le trombe. \ Tutti si son branditi dentro l'arme. \ Per tutto è corso un brivido di ferro. \ Spiccia dagli occhi a donne e vecchi il pianto.;69;TV;brivido;7;91;3,622;ferro;5;206;4,251;0,864;0;2,133;1,8;3,267;2,2;74;0;1,27;1,33;3;2,8;Y;N
+FA_LIT447;Genitive;semi di religione;seeds of religion;Racconti;Percoto, Caterina;PROSE;;Ho peraltro più volte dubitato che l'esser lungi dal tuo paese, il menar vita raminga, e Dio sa con che gente! non distruggesse nel tuo cuore quei semi di religione e di affetto;34;TV;semi;4;1;3,645;religione;9;151;2,138;0,768;;;;;;;;;;;;N;Y
+FA_LIT127;Genitive;fame di spettri;hunger of specters;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Morbo fin allora sconosciuto, che
+respirai, atroce gelosia del passato, fame di spettri";12;TV;fame;4;174;3,657;spettri;7;31;2,963;0,838;;;;;;;;;;;;N;Y
+FA_LIT203;Genitive;vertigine di fiamma;vertigo of flame;La Leda senza cigno;D'Annunzio, Gabriele;PROSE;;"Tocco il fondo della più opaca tristezza. Sono tra
+buio e barbaglio. Ho in un occhio l'orribile ragno nero, e nell'altro
+una vertigine di fiamma";25;TV;vertigine;9;15;3,66;fiamma;6;151;4,013;0,81;;;;;;;;;;;;N;Y
+FA_LIT431;Genitive;corpo di alabastro;body of alabaster;La lanterna di Diogene;Panzini, Alfredo;PROSE;;"Quel suo corpo di
+alabastro pareva soffrire al peso delle troppe vesti.";11;TV;corpo;5;876;3,682;alabastro;9;5;4,644;0,726;;;;;;;;;;;;N;Y
+FA_LIT147;Genitive;cervello di ghiaccio;brain of ice;Nanà  a Milano;Arrighi, Cletto;PROSE;;"dinanzi a lei si trovava di aver il cuore di
+coniglio, il cervello di ghiaccio e la lingua mozza";18;TV;cervello;8;178;3,69;ghiaccio;8;87;4,122;0,666;;;;;;;;;;;;N;Y
+FA_LIT321;Genitive;odore di luna;smell of moon;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"cacciar fuori dai tuoi polmoni
+  quest'odore di luna paludosa
+  e di cipressi civettuoli";16;TV;odore;5;145;3,735;luna;4;181;4,145;0,827;;;;;;;;;;;;N;Y
+FA_LIT439;Genitive;foreste di ametista;forests of amethyst;Prose (1880-1890);Pascarella, Cesare;PROSE;;"La luna di platino, il cielo
+di cobalto, le nubi di madreperla, le foreste di ametista, le radiche
+degli alberi fatte di vipere morte, i pioppi consapevoli e discreti,
+i fiumi fedeli, i cefali bianchi e le altre mille cose straordinarie,
+che io avevo lette tante volte in poesia, ed ero certo di trovare
+qui in prosa, le ho ancora da vedere";57;TV;foreste;7;121;3,778;ametista;8;1;4,107;0,757;;;;;;;;;;;;N;Y
+FA_LIT040;Genitive;foreste d'oro;forests of gold;Myricae;Pascoli;POEM;;;;TV;foreste;7;121;3,778;oro;3;395;4,383;0,865;;1,733;1,933;3;2,4;;;;;;;Y;N
+FA_LIT353;Genitive;man di cera;man of wax;Tempeste;Negri, Ada;POEM;;E voglio qui le stanche, le pallenti Gracili dame da la man di cera.;14;TV;man;3;1595;3,791;cera;4;25;4,834;0,834;;;;;;;;;;;;N;Y
+FA_LIT359;Genitive;man di rosa;man of rose;Maternità;Negri, Ada;POEM;;"a madre veglia—e ancora, nel divino
+    silenzio, ella non osa
+    toglier la sua da quella man di rosa
+    che tiene avvinto tutto il suo destino";34;TV;man;3;1595;3,791;rosa;4;197;4,331;0,806;;;;;;;;;;;;N;Y
+FA_LIT441;Genitive;nubi di madreperla;clouds of mother of pearl;Prose (1880-1890);Pascarella, Cesare;PROSE;;"La luna di platino, il cielo
+di cobalto, le nubi di madreperla, le foreste di ametista, le radiche
+degli alberi fatte di vipere morte, i pioppi consapevoli e discreti,
+i fiumi fedeli, i cefali bianchi e le altre mille cose straordinarie,
+che io avevo lette tante volte in poesia, ed ero certo di trovare
+qui in prosa, le ho ancora da vedere";57;TV;nubi;4;41;3,792;madreperla;10;4;4,657;0,83;;;;;;;;;;;;N;Y
+FA_LIT187;Genitive;sigillo di sangue;seal of blood;Il Miraggio: Romanzo;D'Ambra, Lucio;PROSE;;"ma parlò per colei che ascoltava dietro la
+portiera, per colei che doveva trarre da quelle sue parole l'ultima
+prova di sincerità e di pentimento, per colei che doveva considerarle
+come un sigillo di sangue posto sul passato doloroso e colpevole";39;TV;sigillo;7;13;3,794;sangue;6;473;4,181;0,684;;;;;;;;;;;;N;Y
+FA_LIT383;Genitive;brividi di luce;shivers of light;No;Oriani, Alfredo;PROSE;;"Spesso le pareva di rivederla
+trasfigurata dalla passione, come in quella notte fatale piegando
+Enrico quasi in due nella stretta spasmodica dell'abbraccio, con una
+pallidezza di spettro e tutto il corpo vibrante sotto quella veste di
+raso nero, per la quale correvano brividi di luce elettrica";43;TV;brividi;7;91;3,796;luce;4;730;3,437;0,692;;;;;;;;;;;;N;Y
+FA_LIT423;Genitive;brividi di morte;chills of death;Il codice di Perelà;Palazzeschi, Aldo;PROSE;;"Quello che io ho sofferto in quel giorno, quali spasimi crudeli, quali
+brividi di morte, l'attendente corse all'uscio ma non potè uscire,
+allora si pose in un cantone con due occhi quasi lagrimosi, e guardò,
+guardò come un ebete sino alla fine";41;TV;brividi;7;91;3,796;morte;5;815;3,138;0,803;;;;;;;;;;;;N;Y
+FA_LIT402;Genitive;brividi di stelle;shivers of stars;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"E non il suo talento di attore, quasi sempre fin troppo scarso,
+non la perfezione tecnica della sua gola, agiscono sul vostro spirito
+destandone i sogni, che s'involano lungi tra ombre e trasparenze, tra
+fantasmi e simboli, tra brividi di stelle e di lagrime";42;TV;brividi;7;91;3,796;stelle;6;261;3,77;0,883;;;;;;;;;;;;N;Y
+FA_LIT239;Genitive;mari di sangue;seas of blood;Poesie e novelli in versi;Fontana, Ferdinando;POEM;;"Veggo mari di sangue, e templi, e troni
+Accatastati, e altari, e deliranti
+Moltitudini, e donne, e bare, e fiori,
+E spade luccicanti";20;TV;mari;4;630;3,799;sangue;6;473;4,181;0,601;;;;;;;;;;;;N;Y
+FA_LIT337;Genitive;mari di seta;seas of silk;L'alcova d'acciaio: Romanzo vissuto;Marinetti, F. T.;PROSE;;"Pelle
+divina dell'Italia lambita dai mari di seta e sospiri";10;TV;mari;4;630;3,799;seta;4;116;4,4;0,823;;;;;;;;;;;;N;Y
+FA_LIT407;Genitive;deserto di cristallo;desert of crystal;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Nessuna tentazione di guadagno nel loro proposito, nessuna vanità di
+regno nella conquista dell'impero sconosciuto, lassù, lontano, dove il
+mare si rapprende in un deserto di cristallo, il giorno e la notte si
+dividono l'anno a mezzo";36;TV;deserto;7;110;3,803;cristallo;9;49;3,965;0,626;;;;;;;;;;;;N;Y
+FA_LIT167;Genitive;deserto di luce;desert of light;Storia di un'anima;Bazzero, Ambrogio;PROSE;;"Ma là non c'è la linea, il confine, la nostra
+imbecillità; là regna un deserto di luce, un'amplissima curva che si
+perde in un'altra curva, che finisce alla terra";30;TV;deserto;7;110;3,803;luce;4;730;3,437;0,837;;;;;;;;;;;;N;Y
+FA_LIT308;Genitive;acque di fuoco;waters of fire;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;;;TV;acque;5;1113;3,825;fuoco;5;609;4,179;0,749;;;;;;;;;;;;N;Y
+FA_LIT331;Genitive;vento di cimitero;wind of cemetery;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Vento di cimitero abbandonato,
+  lasciami! lasciami!";7;TV;vento;5;334;3,83;cimitero;8;69;4,438;0,779;;;;;;;;;;;;N;Y
+FA_LIT243;Genitive;vento di paradiso;wind of heaven;Il perduto amore;Fracchia, Umberto;PROSE;;"E a
+poco a poco le palpebre mi si chiusero sul fioco e instabile lume della
+candela, e mi trovai trasportato in quella soffice nube che dolcemente
+si cullava al soffio di un vento di paradiso";33;TV;vento;5;334;3,83;paradiso;8;92;3,788;0,815;;;;;;;;;;;;N;Y
+FA_LIT003;Genitive;alba di perla;dawn of pearl;Myricae;Pascoli;POEM;In questo brano lo scrittore guarda il cielo di notte.;Dov'era la luna? ché il cielo \ notava in un'alba di perla \ ed ergersi il mandorlo e il melo \ parevano a meglio vederla.;27;TV;alba;4;144;3,852;perla;5;30;4,006;0,723;0;1,667;2,133;2,467;2,8;75;0,07;1,33;1,6;1,6;3,8;Y;N
+FA_LIT521;Genitive;tramonto di fiamma;sunset of flame;La freccia nel fianco;Zùccoli, Luciano;PROSE;;"Era Nicla seduta sopra un tronco abbattuto, rossa nel tramonto di fiamma;
+ era Nicla tutta chiusa in un abito color d'acciaio,
+ con un cappello morbido piantato di traverso sulla testa a guisa del feltro d'un arlecchino";38;TV;tramonto;8;68;3,857;fiamma;6;151;4,013;0,796;;;;;;;;;;;;N;Y
+FA_LIT427;Genitive;tramonto di fiamme;sunset of flames;Il Re bello;Palazzeschi, Aldo;PROSE;;"E gli dava
+un'anima, un corpo, tutto un amore, tutta un'angoscia, un dolore, tutta
+una purità. Era l'inaspettato tramonto di fiamme dopo una giornata
+limpida, adamantina";27;TV;tramonto;8;68;3,857;fiamme;6;151;4,007;0,802;;;;;;;;;;;;N;Y
+FA_LIT454;Genitive;gelo di morte;frost of death;Ricordanze;Rapisardi, Mario;POEM;;"Cadran le foglie dal materno stelo,
+    E col manto di gelo
+    Si calerà da l'Etna il verno rio,
+    Cadrò, cadrò pur'io,
+    E calerà su me gelo di morte";42;TV;gelo;4;28;3,87;morte;5;815;3,138;0,894;;;;;;;;;;;;N;Y
+FA_LIT218;Genitive;lettera di fuoco;letter of fire;L'Illusione;De Roberto, Federico;PROSE;;"Guglielmo si avvicinava; ella ebbe paura, e chinò gli occhi. Una
+lettera di fuoco, riletta ogni ora, custodita sulla propria persona;
+delle frasi inaudite che le tornavano a memoria, come una musica";30;TV;lettera;7;633;3,873;fuoco;5;609;4,179;0,754;;;;;;;;;;;;N;Y
+FA_LIT024;Genitive;cuore di diamante;earth of diamond;L’isola del giorno prima;Eco;PROSE;Questo brano contiene delle riflessioni sull’amore verso una donna.;E come gli amorosi identificano, rivisitando un luogo, l’amata con ogni fiore, con ogni stormire di foglie e ogni sentiero, ecco, ora lui sarebbe morto d’amore accarezzando la bocca di un cannone… non celebravano forse i poeti la loro dama lodandone le labbra di rubino, gli occhi di carbone, il seno di marmo, il cuore di diamante?;;TV;cuore;5;672;3,875;diamante;8;30;4,213;0,635;;3,667;2,6;2,267;3,467;;;;;;;Y;N
+FA_LIT206;Genitive;cuore di ferro;heart of iron;Spagna;De Amicis, Edmondo;PROSE;;"e va senza
+posa, e non sa se sogna, o se è desto, o ubriaco, o impazzito; e nel suo
+cuore di ferro comincia a penetrare il terrore";26;TV;cuore;5;672;3,875;ferro;5;206;4,251;0,889;;;;;;;;;;;;N;Y
+FA_LIT424;Genitive;cuore di fumo;heart of smoke;Il codice di Perelà;Palazzeschi, Aldo;PROSE;;"— Quel suo cuore.... ch'ella sempre cercava.
+
+— È quello di Perelà.
+
+— Un cuore di fumo";16;TV;cuore;5;672;3,875;fumo;4;117;3,846;0,691;;;;;;;;;;;;N;Y
+FA_LIT287;Genitive;cuore di fuoco;heart of fire;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"M'afferra la vertigine subitamente alle viscere
+  ed io mi slancio, e lascio a malincuore
+  il gran porto assopito, per attraversare
+  la città dal cuore di fuoco, gonfio d'angoscia,
+  ed il suo soffocato rombar di caldaia";41;TV;cuore;5;672;3,875;fuoco;5;609;4,179;0,721;;;;;;;;;;;;N;Y
+FA_LIT179;Genitive;cuore di ghiaccio;heart of ice;Rassegnazione: Romanzo;Capuana, Luigi;PROSE;;"Con lei il piacere
+supremo doveva consistere nel far vibrare quei nervi ben difesi dalla
+bianca opulenza delle carni, nel riuscire ad infondere almeno un tepore
+di sentimento in quel cuore di ghiaccio";31;TV;cuore;5;672;3,875;ghiaccio;8;87;4,122;0,833;;;;;;;;;;;;N;Y
+FA_LIT182;Genitive;cuore di sasso;heart of stone;Racconti e bozzetti;Castelnuovo, Enrico;PROSE;;"— Ma ella ha dunque un cuore di sasso? — proruppe Vittorio accendendosi
+in volto.";14;TV;cuore;5;672;3,875;sasso;5;73;4,482;0,811;;;;;;;;;;;;N;Y
+FA_LIT296;Genitive;passi di bronzo;steps of bronze;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Che vi libererà dalle sinistre pattuglie
+  scandenti caute il silenzio con passi di bronzo
+  con tintinni di sciabole, con stridor di manette
+  che vi mordono i polsi";30;TV;passi;5;622;3,881;bronzo;6;56;4,315;0,78;;;;;;;;;;;;N;Y
+FA_LIT297;Genitive;passi di piombo;steps of lead;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"tutto,
+  tutto si slancia a galoppo, con grevi passi di piombo";12;TV;passi;5;622;3,881;piombo;6;68;4,616;0,899;;;;;;;;;;;;N;Y
+FA_LIT507;Genitive;prigione di cristallo;prison of crystal;I divoratori: romanzo;Vivanti, Annie;PROSE;;"Molti anni dopo, se talvolta accadde a Nancy di pensare che forse
+sarebbe stato meglio se avesse trattenuta dai concerti e dal pubblico la
+sua bambina--se dubitava di aver errato permettendole di diffondere sul
+mondo tutta la sua giovine anima canora,--il ricordo del Silente
+Violino, chiuso nella sua prigione di cristallo, le tornava alla
+memoria: il Violino che era morto per non aver cantato, morto del suo
+proprio silenzio";63;TV;prigione;8;82;3,89;cristallo;9;49;3,965;0,866;;;;;;;;;;;;N;Y
+FA_LIT114;Genitive;volto di fiamma;face of flame;Alle Soglie;Gozzano;POEM;Questo brano parla di un incontro.;"Giungeva la Zia, ben degna consorte, molto dabbene, \ ligia al passato, sebbene amante del Re di Sardegna... \ ""Baciate la mano alli Zii!"" dicevano il Babbo e la Mamma, \ e alzavano il volto di fiamma ai piccolini restii.";40;TV;volto;5;345;3,899;fiamma;6;151;4,013;0,751;0;1,933;2,333;3,4;2;51;0,07;1,73;1,87;3,27;2,53;Y;N
+FA_LIT532;Genitive;vie di silenzio;ways of silence;Esilio;Negri, Ada;POEM;;"Sorpassata la colpa ed il martirio,
+    ondeggiando or disperditi in lucenti
+    vie di silenzio e d’estasi";23;TV;vie;3;1;3,932;silenzio;8;381;3,254;0,901;;;;;;;;;;;;N;Y
+FA_LIT342;Genitive;nebbia di luce;mist of light;La camicia rossa;Mario, Alberto;PROSE;;"L'Jonio e il Tirreno con onda purpurea, baciando i lidi
+della Sicilia, la quale, avviluppata da una nebbia di luce d'oro,
+pareva palpitasse in quel misterioso amplesso";27;TV;nebbia;6;98;3,959;luce;4;730;3,437;0,69;;;;;;;;;;;;N;Y
+FA_LIT148;Genitive;padiglioni di fuoco;pavilions of fire;"La Principessa Belgiojoso
+ Da memorie mondane inedite o rare e da archivii segreti di Stato";Barbiera, Raffaello;PROSE;;"Solo, in alcune sere, sulle silenziose
+praterie, s'inarcano immensi padiglioni di fuoco";12;TV;padiglioni;10;42;3,977;fuoco;5;609;4,179;0,764;;;;;;;;;;;;N;Y
+FA_LIT516;Genitive;chioma di luce;hair of light;Roberta;Zùccoli, Luciano;PROSE;;"Era la vita, l'anima incoercibile della giovanezza, da cui i raggi si
+espandevano con lunga chioma di luce";18;TV;chioma;6;38;3,978;luce;4;730;3,437;0,774;;;;;;;;;;;;N;Y
+FA_LIT511;Genitive;profumo di notte;scent of night;Roberta;Zuccoli, Luciano;PROSE;;"
+Il giardino susurrava con un brivido ignoto alla vita diurna, e il
+gracidar delle rane era cessato; ma certi fiori che non s'aprono, se
+non nell'umidità dell'ombra, effondevano un profumo di notte romantica
+ed antica";35;TV;profumo;7;159;3,979;notte;5;1152;3,982;0,738;;;;;;;;;;;;N;Y
+FA_LIT525;Genitive;profumo di vecchiezza;scent of old age;;;;;"Abitudini di mezzo secolo vi aveano lasciata la loro
+orma, un profumo di vecchiezza nella mobilia dorata, della quale,
+come i gomiti al soprabito del padrone, lucevano gli angoli logorati,
+una voluta aggiustatezza sulle mensole di marmo bianco, nei cantucci
+in penombra, pieni di mistero";41;TV;profumo;7;159;3,979;vecchiezza;10;1;;0,776;;;;;;;;;;;;N;Y
+FA_LIT298;Genitive;pianure di corallo;plains of coral;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Alito assopente, trascinami
+  per le immense pianure di corallo, sommerse!";11;TV;pianure;7;47;3,981;corallo;7;9;4,309;0,858;;;;;;;;;;;;N;Y
+FA_LIT376;Genitive;febbre di fiamma;fever of flame;La rovina;Novaro, Angiolo Silvio;PROSE;;"E tutto quest'oggi mi son nutrito di questa certezza, ho vissuto di
+questa febbre di fiamma e di abisso";19;TV;febbre;6;69;3,982;fiamma;6;151;4,013;0,766;;;;;;;;;;;;N;Y
+FA_LIT319;Genitive;mare di fuoco;sea of fire;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Nella platea del teatro, che può misurare
+  più di venti chilometri di diametro,
+  si spiega largamente
+  un invitante mare di fuoco";25;TV;mare;4;630;4,007;fuoco;5;609;4,179;0,806;;;;;;;;;;;;N;Y
+FA_LIT339;Genitive;mare di latte;sea of milk;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Lancio così la voce del mio dolore notturno,
+  nel cielo aperto, al largo di questo mare di latte";20;TV;mare;4;630;4,007;latte;5;152;4,824;0,948;;;;;;;;;;;;N;Y
+FA_LIT453;Genitive;fiamma di sogno;flame of dream;Vestire gli ignudi: Commedia in tre atti;Pirandello, Luigi;PROSE;;"Perchè lei non sa che bei tiri le giuoca e che scherzi le
+combina, che graziose sorprese intanto le prepara la sua anima,
+respirando, palpitando nell'aereo fervore di quei momenti, sciolta
+d'ogni freno, destituita d'ogni riflessione, accesa, abbagliata in
+quella fiamma di sogno";42;TV;fiamma;6;151;4,013;sogno;5;554;3,246;0,808;;;;;;;;;;;;N;Y
+FA_LIT264;Genitive;mani di velluto;hands of velvet;Le Seduzioni;Guglielminetti, Amalia;POEM;;"E mi conobbi mani di velluto
+    per le carezze lunghe, e per i nomi
+    cari una voce dolce di lïuto";27;TV;mani;4;1595;4,02;velluto;7;42;4,51;0,73;;;;;;;;;;;;N;Y
+FA_LIT105;Genitive;tramonti di sangue;sunset of blood;Novale-Diario;Tozzi;PROSE;Questo brano parla dei pensieri macabri di un uomo di nome Edgardo.;Edgardo teneva a memoria quello che in quel momento vedeva. Erano abissi inarrivabili, tramonti di sangue, lame di coltello, profili soavi di donna.;23;TV;tramonti;8;68;4,052;sangue;6;473;4,181;0,805;0;2;2;3,467;2,467;62;0;1,53;1,93;3,33;2,47;Y;N
+FA_LIT399;Genitive;ali di fiamma;wings of flame;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"vi sarà uno sfogo alle idee, un controllo
+a certe spese, un veicolo a taluni interessi; da quella sala tratto
+tratto certe parole apriranno le grandi ali di fiamma e si involeranno
+sino ai confini dell'impero, messaggere di resurrezione";38;TV;ali;3;161;4,08;fiamma;6;151;4,013;0,806;;;;;;;;;;;;N;Y
+FA_LIT084;Genitive;rami d'oro;branches of gold;Myricae;Pascoli;POEM;In questo brano una madre descrive al figlio un bel paesaggio.;Quando brillava il vespero vermiglio, \ e il cipresso pareva oro, oro fino, \ la madre disse al piccoletto figlio: \ Così fatto è lassù tutto un giardino. \ Il bimbo dorme, e sogna i rami d'oro \ gli alberi d'oro.;43;TV;rami;4;99;4,093;oro;3;395;4,383;0,825;0;2,667;2,933;3,067;2,6;62;0,47;2,73;2,33;2,27;3;Y;N
+FA_LIT065;Genitive;occhi d'acciaio;eyes of steel;La Vergine Orsola;D’Annunzio;PROSE;Questo brano descrive un uomo, Don Vincenzo, e una donna, Teodora.;Don Vincenzo Bucci, il medico, seduto, guardava il pomo d'argento della bella mazza, le belle corniole incise ch'egli aveva negli anelli delle dita, aspettando. Teodora La Iece, una tessitrice vicina, stava ritta, in silenzio, tutta intenta nell'atteggiare a dolore la faccia bianca e lentigginosa, gli occhi d'acciaio, la bocca crudele.;54;TV;occhi;5;1297;4,098;acciaio;7;77;4,575;0,863;0;2,467;2,467;2,467;2,733;49;0;2,47;2,2;2,4;3,13;Y;N
+FA_LIT066;Genitive;occhi di carbone;eyes of coal;L’isola del giorno prima;Eco;PROSE;Questo brano contiene delle riflessioni sull’amore verso una donna.;E come gli amorosi identificano, rivisitando un luogo, l’amata con ogni fiore, con ogni stormire di foglie e ogni sentiero, ecco, ora lui sarebbe morto d’amore accarezzando la bocca di un cannone… non celebravano forse i poeti la loro dama lodandone le labbra di rubino, gli occhi di carbone, il seno di marmo, il cuore di diamante?;;TV;occhi;5;1297;4,098;carbone;7;48;4,556;0,809;;2,133;2,467;2,933;2,667;49;0;2,2;2,13;1,8;3,73;Y;N
+FA_LIT136;Genitive;occhi di genziana;eyes of gentian;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Mi sono svegliata chiamando Felice, Felice dagli occhi di genziana
+e dai capelli di fiamma, Felice che ha i miei anni e l'alta gentile
+figura che vorrei veder una volta profilata nel cielo su una delle
+nostre balze";36;TV;occhi;5;1297;4,098;genziana;8;1;4,312;0,791;;;;;;;;;;;;N;Y
+FA_LIT320;Genitive;occhi di liquirizia;eyes of licorice;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"E' questa, veramente, la più sorniona e cauta
+  delle sere preferite dai demoni....
+  sera medioevale piena di lampi algebrici
+  in cui colano occhi di liquirizia";29;TV;occhi;5;1297;4,098;liquirizia;10;2;4,079;0,914;;;;;;;;;;;;N;Y
+FA_LIT371;Genitive;occhi di luce;eyes of light;Dal profondo;Negri, Ada;POEM;;"Occhi di luce e di malia,
+    occhioni ardenti ov’io misi una fiamma
+    del rogo mio, voi vi socchiuderete
+    un giorno, per celar l’ombre inquiete
+    d’un sogno agli occhi della vostra mamma";43;TV;occhi;5;1297;4,098;luce;4;730;3,437;0,793;;;;;;;;;;;;N;Y
+FA_LIT519;Genitive;occhi di porcellana;eyes of porcelain;Donne e fanciulle;Zùccoli, Luciano;PROSE;;"Non mi
+dirai che quella pelle di rame con quegli occhi di porcellana e i
+capelli di tutti i colori siano gli attributi d'una bella donna.";26;TV;occhi;5;1297;4,098;porcellana;10;26;4,61;0,837;;;;;;;;;;;;N;Y
+FA_LIT295;Genitive;occhi di porpora;eyes of purple;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Esploro lontano, e vedo tettoie formidabili
+  dagli occhi di porpora, arrotondati dall'attesa,
+  che s'accosciano intorno alla fumida bocca
+  della stazione";25;TV;occhi;5;1297;4,098;porpora;7;9;4,16;0,839;;;;;;;;;;;;N;Y
+FA_LIT370;Genitive;occhi di sole;eyes of sunshine;Dal profondo;Negri, Ada;POEM;;"I tuoi capelli
+    battenti il dorso eran color del rame,
+    tutti a riccioli, vivi uno per uno:
+    e verdastri e mutevoli i tuoi occhi
+    di sole e d’onda";40;TV;occhi;5;1297;4,098;sole;4;485;3,999;0,809;;;;;;;;;;;;N;Y
+FA_LIT130;Genitive;giardino di cristallo;crystal garden;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Indicai Roma, come un giardino di cristallo che stesse appena sorgendo
+sullo sfondo di quell'immensità.";15;TV;giardino;8;310;4,139;cristallo;9;49;3,965;0,773;;;;;;;;;;;;N;Y
+FA_LIT438;Genitive;luna di platino;moon of platinum;Prose (1880-1890);Pascarella, Cesare;PROSE;;"La luna di platino, il cielo
+di cobalto, le nubi di madreperla, le foreste di ametista, le radiche
+degli alberi fatte di vipere morte, i pioppi consapevoli e discreti,
+i fiumi fedeli, i cefali bianchi e le altre mille cose straordinarie,
+che io avevo lette tante volte in poesia, ed ero certo di trovare
+qui in prosa, le ho ancora da vedere";57;TV;luna;4;181;4,145;platino;7;8;3,868;0,726;;;;;;;;;;;;N;Y
+FA_LIT299;Genitive;polmoni di bronzo;lungs of bronze;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Così, così, nudo e tutto grondante,
+  con la pienezza risonante dei miei polmoni di bronzo";18;TV;polmoni;7;58;4,161;bronzo;6;56;4,315;0,799;;;;;;;;;;;;N;Y
+FA_LIT312;Genitive;fiume di latte;river of milk;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"il mio monoplano scivola
+  col leggiero trasalire d'un canotto,
+  alla deriva in questo fiume di latte";19;TV;fiume;5;275;4,169;latte;5;152;4,824;0,812;;;;;;;;;;;;N;Y
+FA_LIT341;Genitive;fiume di gemme;river of gems;La camicia rossa;Mario, Alberto;PROSE;;"Sarebbesi creduto il cono del vulcano semiaperto da un
+punto fisso a guisa di coperchio, e scorrente dall'immensa fessura un
+fiume di gemme colate";23;TV;fiume;5;275;4,169;gemme;5;14;3,779;0,797;;;;;;;;;;;;N;Y
+FA_LIT153;Genitive;carnagione di latte;complexion of milk;I rossi e i neri;Barrilli, Anton Giulio;PROSE;;"Maddalena Torralba, la soave Maddalena,
+dai grand'occhi azzurrognoli, dalla carnagione di latte";13;TV;carnagione;10;12;4,172;latte;5;152;4,824;0,928;;;;;;;;;;;;N;Y
+FA_LIT366;Genitive;culla di fango;cradle of mud;Maternità;Negri, Ada;POEM;;A la tua culla di fango il furïoso uragano s’abbatte.;10;TV;culla;5;33;4,193;fango;5;56;4,697;0,793;;;;;;;;;;;;N;Y
+FA_LIT530;Genitive;carcere di vetro;prison of glass;Esilio;Negri, Ada;POEM;;"Strozza il singulto, e non voltarti indietro.
+    Nulla qui dentro è tuo, nemmeno l’aria,
+    nemmeno quella smorta cineraria
+    che agonizza nel carcere di vetro.";33;TV;carcere;7;412;4,204;vetro;5;198;4,701;0,836;;;;;;;;;;;;N;Y
+FA_LIT083;Genitive;prato di velluto;grass of velvet;Il Giovenile Errore;Gozzano;POEM;In questo brano un uomo si interroga sulla sua esperienza.;Non so se veramente fu vissuto \ quel giorno della prima primavera. \ Ricordo - o sogno? - un prato di velluto \ ricordo - o sogno? - un cielo che si annera, \ e il tuo sgomento e i lampi e la bufera \ livida sul paese sconosciuto...;49;TV;prato;5;94;4,206;velluto;7;42;4,51;0,661;0;3,267;2,867;3,467;2,267;76;0;2,07;2,27;2,67;2,53;Y;N
+FA_LIT309;Genitive;bacio di fuoco;kiss of fire;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;;;TV;bacio;5;135;4,213;fuoco;5;609;4,179;0,745;;;;;;;;;;;;N;Y
+FA_LIT008;Genitive;bacio di marmo;kiss of marble;L’Allegria;Ungaretti;POEM;In questo brano l'autore ricorda una forte emozione.;Appieno infine \ sfrenato \ il solito essere sgomento \ non batte più il tempo col cuore \ non ha tempo né luogo \ è felice \ Ho sulle labbra \ il bacio di marmo.;35;TV;bacio;5;135;4,213;marmo;5;78;4,806;0,856;0;1,533;2,533;2,6;2,8;67;0;1,33;1,8;3,47;3;Y;N
+FA_LIT528;Genitive;cerchi di splendore;circles of splendor;Esilio;Negri, Ada;POEM;;"Da oggi a sempre, o tu che nel tuo viso
+    sol ti rifletti, va per vie d’amore,
+    lieve ondeggiando in cerchi di splendore
+    cosmico, e ardendo in ogni atomo un riso";40;TV;cerchi;6;72;4,234;splendore;9;49;2,764;0,671;;;;;;;;;;;;N;Y
+FA_LIT202;Genitive;palpebra di fuoco;eyelid of fire;La Leda senza cigno;D'Annunzio, Gabriele;PROSE;;"Lampi di calore si succedevano senza pause dietro le sue
+cupole, come il battito incessante d'una palpebra di fuoco";19;TV;palpebra;8;25;4,236;fuoco;5;609;4,179;0,883;;;;;;;;;;;;N;Y
+FA_LIT018;Genitive;cielo d'ambra;sky of amber;Nuovi Poemetti;Pascoli;POEM;Questi versi descrivono l'intima sofferenza di un uomo.;"Non aveva pianto. \ Dicea di quando in quando una preghiera. \ Dormir, sognare, non volea; ché tanto... \ non c'era più! Perché sognar che c'era? \ non saper più, ma per un poco, appena, \ ch'era partita al rosseggiar di sera? \ Quando cantò la prima capinera \ nel puro cielo d'ambra e di viola, \ dormiva, sciolta la gran chioma nera.";67;TV;cielo;5;321;4,245;ambra;5;8;3,922;0,751;0;3,067;2,4;2,2;3,6;77;0;1,67;1,6;2,87;2,8;Y;N
+FA_LIT310;Genitive;cielo di cotone;sky of cotton;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;;;TV;cielo;5;321;4,245;cotone;6;54;4,679;0,782;;;;;;;;;;;;N;Y
+FA_LIT229;Genitive;cielo di cristallo;crystal sky;Dopo il divorzio;Deledda, Grazia;PROSE;;"E sopra, sopra
+l'infinito anello del mare, il cielo di cristallo azzurro-cupo
+incurvavasi come una immensa valle silenziosa, tutta fiorita di stelle
+gialle.";21;TV;cielo;5;321;4,245;cristallo;9;49;3,965;0,729;;;;;;;;;;;;N;Y
+FA_LIT188;Genitive;cielo di farina;sky of flour;Il trampolino per le stelle: Tre dialoghi e due racconti;D'Ambra, Lucio;PROSE;;Fuori nevica da un cielo di farina;7;TV;cielo;5;321;4,245;farina;6;52;4,5;0,695;;;;;;;;;;;;N;Y
+FA_LIT475;Genitive;cielo di ferro;iron sky;Le Aquile della Steppa: Romanzo;Salgari, Emilio;PROSE;;"Gl?indigeni risentono appena questa inclemenza della natura, e non si
+lamentan guari di questo cielo di ferro";16;TV;cielo;5;321;4,245;ferro;5;206;4,251;0,76;;;;;;;;;;;;N;Y
+FA_LIT251;Genitive;cielo di fiamma;sky of flame;Verso la cuna del mondo: Lettere dall'India;Gozzano, Guido;PROSE;;"Per le cose come per gli uomini il tropico
+è deleterio; e sotto questo cielo di fiamma e d'uragano i secoli
+contano per millenni.";23;TV;cielo;5;321;4,245;fiamma;6;151;4,013;0,848;;;;;;;;;;;;N;Y
+FA_LIT020;Genitive;cielo d'oro;sky of gold;Myricae;Pascoli;POEM;In questo brano si descrive un paesaggio naturale con animali e piante.;"Tra gli argini su cui mucche tranquilla- \ mente pascono, bruna si difila \ la via ferrata che lontano brilla; \ e nel cielo di perla dritti, uguali, \ con loro trama delle aeree fila \ digradano in fuggente ordine i pali.";42;TV;cielo;5;321;4,245;oro;3;395;4,383;0,789;0;2,133;2;2,733;3,067;49;0;2,33;1,73;2,33;3,53;Y;N
+FA_LIT019;Genitive;cielo di perla;sky of pearl;Myricae;Pascoli;POEM;Questo brano descrive la partenza di un anziano uomo.;"È un vecchio che parte; e il paese \ gli porta qualcosa che chiese, \ cantando sotto il cielo d’oro: \ O vivo pan del ciel!... \ qualcosa che in tanti e tanti anni, \ cercando tra gioie ed affanni, \ ancora non potè riporre \ da portar via con sè.";51;TV;cielo;5;321;4,245;perla;5;30;4,006;0,714;0;2,333;2,2;2,4;3;;;;;;;Y;N
+FA_LIT260;Genitive;cielo di piombo;sky of lead;Rime di Argia Sbolenfi;Guerrini, Olindo;POEM;;"Si levan sospinti dal vento
+    I bianchi vapori dei monti;
+    Nel cielo di piombo le nubi d'argento
+    Cacciate, travolte, nascondono il sol";32;TV;cielo;5;321;4,245;piombo;6;68;4,616;0,755;;;;;;;;;;;;N;Y
+FA_LIT425;Genitive;stagno di mercurio;pond of mercury;Il codice di Perelà;Palazzeschi, Aldo;PROSE;;"Rimasi ferma, immobile, e immobile lui: lo specchio! E l'imagine sopra
+vi si avvicinò, vi si avvicinò, come ad immergersi in uno stagno di
+mercurio";24;TV;stagno;6;23;4,269;mercurio;8;12;4,056;0,671;;;;;;;;;;;;N;Y
+FA_LIT338;Genitive;nuvole di cristallo;clouds of crystal;L'alcova d'acciaio: Romanzo vissuto;Marinetti, F. T.;PROSE;;"si finisce il pranzo alla rinfusa, sbandati,
+con grande scrosciar di risate nella risata fulva del Tramonto, tutto
+nuvole di cristallo incandescente, bottiglie spumeggianti d'oro, cirri
+di porcellana viola affastellati, luminoso banchetto aereo sospeso a
+picco sulla pianura veneta crepuscolare";37;TV;nuvole;6;79;4,284;cristallo;9;49;3,965;0,851;;;;;;;;;;;;N;Y
+FA_LIT061;Genitive;nuvole di fuoco;clouds of fire;Nuovi Poemetti;Pascoli;POEM;Questo brano descrive una giornata lavorativa che volge al termine.;Avea finito. E stettero alcun poco. \ E teste bianche e teste bionde e nere \ splendean sotto le nuvole di fuoco. \ Udiano le due voci delle sere \ di primavera, limpide e sonore, \ così lontano che parean non vere, \ così vicine che parean del cuore.;49;TV;nuvole;6;79;4,284;fuoco;5;609;4,179;0,736;0;2,8;2,667;2,533;3,267;;;;;;;Y;N
+FA_LIT506;Genitive;fiore di luce;flower of light;I divoratori: romanzo;Vivanti, Annie;PROSE;;"Anni fa, quando la Gloria si era schiusa come un immenso fiore di luce innanzi a lei, e che, all'improvviso fragore del suo successo, tutti i
+poeti d'Italia erano venuti a felicitarla e ad adularla--Uno non era
+venuto";38;TV;fiore;5;410;4,304;luce;4;730;3,437;0,89;;;;;;;;;;;;N;Y
+FA_LIT409;Genitive;fiore di sangue;flower of blood;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Il giglio
+rosso di Firenze spiccava sopra un fondo di argento e pareva un vivo
+fiore di sangue";16;TV;fiore;5;410;4,304;sangue;6;473;4,181;0,777;;;;;;;;;;;;N;Y
+FA_LIT011;Genitive;barba di rame;beard of copper;Nuovi Poemetti;Pascoli;POEM;Questo brano descrive un brodiag (cioè vagabondo) che si rivolge ad alcuni contadini.;"Mancava ormai la legna e l’acquavite. \ Non venne il sonno e ritornò la fame. \ Disse un brodiag ai contadini: ""Udite?"" \ Si lisciava la gran barba di rame \ senza parlare, e si togliea tra il pelo \ le foglie secche e qualche fil di strame.";48;TV;barba;5;70;4,304;rame;4;23;4,595;0,846;0;1,333;1,6;2,933;2,333;;;;;;;Y;N
+FA_LIT122;Genitive;capelli di fiamma;hair of flame;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Mi sono svegliata chiamando Felice, Felice dagli occhi di genziana
+e dai capelli di fiamma, Felice che ha i miei anni e l'alta gentile
+figura che vorrei veder una volta profilata nel cielo su una delle
+nostre balze";36;TV;capelli;7;400;4,361;fiamma;6;151;4,013;0,729;;;;;;;;;;;;N;Y
+FA_LIT356;Genitive;capelli di seta;hair of silk;Tempeste;Negri, Ada;POEM;;"vedo l’abito bianco,
+    vedo i lunghi capelli di seta,
+    e sento l’anima, l’anima,
+    l’anima tua, Nice";25;TV;capelli;7;400;4,361;seta;4;116;4,4;0,736;;;;;;;;;;;;N;Y
+FA_LIT081;Genitive;pioggia di rose;rain of roses;Il Piacere;D’Annunzio;PROSE;Questo brano parla di una donna che piange immersa in un paesaggio naturale.;"Le lacrime le empivano gli occhi socchiusi, le rilucevano tra i cigli; e sogguardando innanzi a sé, ella vedeva il cielo farsi roseo, a traverso il velo del pianto. Era, nel cielo, una pioggia di rose come quando nella sera d'ottobre il sole moriva dietro il colle.";48;TV;pioggia;7;183;4,376;rose;4;197;4,145;0,718;0;2,667;2,533;2,733;3,333;57;0;2;1,67;2,8;3,27;Y;N
+FA_LIT314;Genitive;frecce di luce;arrows of light;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;Impugnai tutti i vostri sussulti esitanti per disciplinarli e per renderli paralleli, così che ora riscoccano avanti! come frecce di luce;21;TV;frecce;6;40;4,383;luce;4;730;3,437;0,838;;;;;;;;;;;;N;Y
+FA_LIT261;Genitive;labbra di rosa;lips of rose;Rime di Argia Sbolenfi;Guerrini, Olindo;POEM;;"Deh, colline ridenti, ombroso bosco
+    Lieto d'acque perenni e di piacer
+  E voi, labbra di rosa, ora conosco
+    In che guai mi travolse un reo pensier";34;TV;labbra;6;158;4,417;rosa;4;197;4,331;0,528;;;;;;;;;;;;N;Y
+FA_LIT051;Genitive;labbra di rubino;lips of ruby;L’isola del giorno prima;Eco;PROSE;Questo brano contiene riflessioni sull'amore verso una donna.;E come gli amorosi identificano, rivisitando un luogo, l'amata con ogni fiore, con ogni stormire di foglie e ogni sentiero, ecco, ora lui sarebbe morto d'amore accarezzando la bocca di un cannone… non celebravano forse i poeti la loro dama lodandone le labbra di rubino, gli occhi di carbone, il seno di marmo, il cuore di diamante?;59;TV;labbra;6;158;4,417;rubino;6;7;4,161;0,685;0;2,333;3,067;2,133;3,533;49;0,07;2,13;2,53;1,6;4,07;Y;N
+FA_LIT284;Genitive;cespugli di rame;bushes of copper;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Non vedo infatti oscillare
+  la tua gran barba dai cespugli di rame";13;TV;cespugli;8;43;4,443;rame;4;23;4,595;0,789;;;;;;;;;;;;N;Y
+FA_LIT449;Genitive;cupola di fuoco;dome of fire;Le notti degli emigrati a Londra;Petruccelli della Gattina, Ferdinando;PROSE;;"Verso sera la burrasca si placò; e la luna emerse come una cupola di fuoco";15;TV;cupola;6;60;4,464;fuoco;5;609;4,179;0,959;;;;;;;;;;;;N;Y
+FA_LIT191;Genitive;baci di fuoco;kisses of fire;L'innocente;D'Annunzio, Gabriele;PROSE;;"Tremante il viso non asconderai;
+    Nell'onda lor come da notte avvolti
+    Baci di fuoco troverem giammai";23;TV;baci;4;135;4,477;fuoco;5;609;4,179;0,701;;;;;;;;;;;;N;Y
+FA_LIT133;Genitive;guance di pesca;cheeks of peach;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Avevo le guance di rosa e lunghi e tanti capelli, avevo dolce la voce
+e apparivo pietosa";16;TV;guance;6;50;4,488;pesca;5;109;4,121;0,765;;;;;;;;;;;;N;Y
+FA_LIT058;Genitive;naso di madreperla;nose of pearl;Novelle per un anno;Pirandello;PROSE;Questo brano descrive i gesti di un uomo che esulta.;Sbuffava, e correva a strappar dal naso alla zia gli occhiali, o ad abbracciare forte forte la madre fin quasi a soffocarlo, o a stringere le braccia alla mogliettina gridandole frenetica, man mano che stringeva vieppiù e la sollevava da terra: Nianò. Nianò, Nianò, naso di madreperla, pettine di tartaruga, pampina di vite!;53;TV;naso;4;131;4,542;madreperla;10;4;4,657;0,806;0;1,533;2,267;3,467;2,133;51;0;1,73;2,33;1,87;3,93;Y;N
+FA_LIT288;Genitive;elmo di fuoco;helmet of fire;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Non dormire, o mia Giulia...
+  Un dio verrebbe a possederti nel sonno,
+  un dio dall'elmo di fuoco";20;TV;elmo;4;5;4,563;fuoco;5;609;4,179;0,767;;;;;;;;;;;;N;Y
+FA_LIT531;Genitive;viso di fiore;face of flower;Esilio;Negri, Ada;POEM;;"—Sei bambina.—Hai viso
+    di fiore, carne che non duole, riso
+    senza doppiezza, cuore senza storia.";21;TV;viso;4;284;4,627;fiore;5;410;4,304;0,777;;;;;;;;;;;;N;Y
+FA_LIT509;Genitive;viso di mela;face of apple;Gioia!;Vivanti, Annie;PROSE;;"Una donnina piccoletta e più rotonda forse del pomo,
+che al terzo atto il padre doveva meravigliosamente con una freccia
+levarle di sopra alla parrucca bionda, spiovente in riccioli intorno al
+suo viso di mela rosa";33;TV;viso;4;284;4,627;mela;4;66;4,136;0,683;;;;;;;;;;;;N;Y
+FA_LIT215;Genitive;viso di porpora;face of purple;La sorte;De Roberto, Federico;PROSE;;Nudo come si trovava, col viso di porpora e le carni bianche, brandendo il raffio, egli comparve in mezzo all'arco buio del portone, dinanzi ad una comitiva di donne sedute per terra sulla spianata;35;TV;viso;4;284;4,627;porpora;7;9;4,16;0,868;;;;;;;;;;;;N;Y
+FA_LIT025;Genitive;faccia di limone;face of lemon;Quaderni di Serafino Gubbio Operatore;Pirandello;PROSE;In questo brano l'autore incontra la famiglia Cavalena.;"Il fatto è, che questa mattina, mentre stavo per entrare alla Kosmograph, ho veduto arrivare in una carrozzella tutt'e quattro i Cavalena: marito, moglie, figliuola e cagnolina: la signorina Luisetta, pallida e convulsa; Piccinì, più che mai rabbuiata; Cavalena, con la solita faccia di limone ammuffito, tra i riccioli della parrucca sotto il cappellaccio a larghe tese.";58;TV;faccia;6;409;4,656;limone;6;103;4,387;0,894;0;2,533;2,6;2,733;2,533;42;0;2,07;2,33;2,67;2,2;Y;N
+FA_LIT513;Genitive;pelle di rame;skin of copper;Donne e fanciulle;Zuccoli, Luciano;PROSE;;"Non mi
+dirai che quella pelle di rame con quegli occhi di porcellana e i
+capelli di tutti i colori siano gli attributi d'una bella donna.";26;TV;pelle;5;425;4,701;rame;4;23;4,595;0,798;;;;;;;;;;;;N;Y
+FA_LIT225;Genitive;bocca di fiamma;mouth of flame;"La messa di nozze; Un sogno; La bella morte";De Roberto, Federico;PROSE;;"Non si
+scorgeva nulla sulle reti di spuma distendentisi e dissolventisi
+incessantemente: solo la bocca di fiamma del salvagente luminoso ardeva
+ancora, sballottata dalle onde";22;TV;bocca;5;322;4,721;fiamma;6;151;4,013;0,813;;;;;;;;;;;;N;Y
+FA_LIT529;Genitive;braccia di velluto;velvet arms;Esilio;Negri, Ada;POEM;;"E lungo e lunge, muto
+    e scalzo, fra le braccia di velluto
+    sorreggendola, il Sonno la portò.";23;TV;braccia;7;480;4,75;velluto;7;42;4,51;0,807;;;;;;;;;;;;N;Y
+FA_LIT286;Genitive;collo di fiamma;neck of flame;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Più tardi, al mio ritorno nella casa paterna,
+  cominciava una dolce serata famigliare,
+  sotto la lampada ch'erge il suo collo di fiamma
+  arrotondando ali di luce sul desco,
+  per covare i miei desideri
+  tra lo scrollìo dei suoi raggi pennuti,
+  simile ad una gallina dall'uova magiche, d'oro.";58;TV;collo;5;179;4,926;fiamma;6;151;4,013;0,75;;;;;;;;;;;;N;Y
+FA_LIT190;Genitive;petto di fuoco;chest of fire;Il trampolino per le stelle: Tre dialoghi e due racconti;D'Ambra, Lucio;PROSE;;"Ora un colpo di tosse, atroce, gli spezza il petto di fuoco. E,
+ricadendo sui cuscini, il malato geme";18;TV;petto;5;102;4,979;fuoco;5;609;4,179;0,86;;;;;;;;;;;;N;Y
+FA_LIT292;Genitive;lagrime di morte;tears of death;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Oh! per un solo momento divertiamoci dunque
+  a singhiozzar sulla voce illusoria
+  d'una zampogna lontana che mi piange
+  in fondo alla memoria melodie
+  appassite e tremanti sulle ciglia
+  come lagrime di morte";38;TV;lagrime;7;176;4,115;morte;5;815;3,138;0,814;;;;;;;;;;;;N;Y
+FA_LIT527;Genitive;lenzuol di luna;sheets of moon;Esilio;Negri, Ada;POEM;;"Voglio dormire in un lenzuol di luna
+    come una principessa di leggenda;
+    e della Lattea Via farmi una benda
+    maravigliosa alla gran chioma bruna.";33;TV;lenzuol;7;61;4,569;luna;4;181;4,145;0,801;;;;;;;;;;;;N;Y
+FA_LIT300;Genitive;rantolo di morte;death rattle;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Chi verrà
+  a morsicar fino al sangue,
+  in un rantolo di morte,
+  le tue mammelle dalle punte di fuoco
+  che scattan contro Dio, nelle tempeste";29;TV;rantolo;7;9;;morte;5;815;3,138;0,908;;;;;;;;;;;;N;Y
+FA_LIT452;Genitive;sudori di sangue;sweat of blood;Un cavallo nella luna: Novelle;Pirandello, Luigi;PROSE;;"di levarlo di catena non era
+neanche da parlarne perchè, sciolto, il cane se ne sarebbe tornato a
+casa, e lui lì aveva da guardarsi quei suoi benefici che gli costavano
+sudori di sangue";31;TV;sudori;6;44;4,282;sangue;6;473;4,181;0,669;;;;;;;;;;;;N;Y
+FA_LIT117;Genitive;fervore di luce;fervor of light;Novelle umoristiche;Albertazzi, Adolfo;PROSE;;"il suo sguardo a poco a poco avvertiva come un
+fervore di luce che s'andava definendo in un miraggio di felicità";21;VT;fervore;4;730;3,437;luce;7;25;2,614;0,772;;;;;;;;;;;;Y;N
+FA_LIT263;Genitive;ombra di felicità;shadow of happiness;Le ore inutili: novelle;Guglielminetti, Amalia;PROSE;;"Ma quella che va sola ancora sa
+    tratto tratto pel suo vagabondare
+    trovar un'ombra di felicità";23;VT;ombra;8;153;2,747;felicità;5;265;2,845;0,713;;;;;;;;;;;;N;Y
+FA_LIT155;Genitive;ombra di dolore;shadow of sorrow;La montanara;Barrilli, Anton Giulio;PROSE;;"È un'ombra di dolore, lo so; ma dovete cacciarla egualmente, come se fosse un'ombra di peccato";18;VT;ombra;6;349;3,288;dolore;5;265;2,845;0,769;;;;;;;;;;;;N;Y
+FA_LIT157;Genitive;ombra di peccato;shadow of sin;La montanara;Barrilli, Anton Giulio;PROSE;;"È un'ombra di dolore, lo so; ma dovete cacciarla egualmente, come se fosse un'ombra di peccato";18;VT;ombra;7;178;2,743;peccato;5;265;2,845;0,776;;;;;;;;;;;;N;Y
+FA_LIT364;Genitive;ombra di sogno;shadow of dream;Maternità;Negri, Ada;POEM;;"T’avvolge la mia chioma nera,
+    ombra di sogno e sfavillìo di spada.";15;VT;ombra;5;554;3,246;sogno;5;265;2,845;0,723;;;;;;;;;;;;N;Y
+FA_LIT434;Genitive;ombra di tedio;shadow of tedium;La lanterna di Diogene;Panzini, Alfredo;PROSE;;"«Concedi — o divina — che io
+pure gusti il sapore delle carni che vestono la tua anima, e di cui già
+altri saziasti». Anima? coscienza? pensiero? ombra di tedio interiore?";29;VT;ombra;5;1;;tedio;5;265;2,845;0,691;;;;;;;;;;;;N;Y
+FA_LIT070;Genitive;ombra di tristezza;shadow of sadness;Una vita;Svevo;PROSE;In questo brano un uomo saluta un collega che va in congedo.;"""Beato lei che va a casa"", e un'ombra di tristezza passò sul suo largo volto. Ah! egli non pensava che a sé stesso, al permesso che aveva avuto il mese innanzi e che gli toglieva il diritto di chiederne altri per ben due anni.";45;VT;ombra;9;55;2,886;tristezza;5;265;2,845;0,645;0;3,867;1,733;2,4;3,8;;;;;;;Y;N
+FA_LIT069;Genitive;ombra del vento;shadow of the wind;Il ritorno;Campana;POEM;Questo brano descrive il vento e il suo potere sulla natura.;L'acqua il vento \ La sanità delle prime cose - \ Il lavoro umano sull'elemento \ Liquido - la natura che conduce \ Strati di rocce su strati - il vento \ Che scherza nella valle - ed ombra del vento \ La nuvola - il lontano ammonimento \ Del fiume nella valle - \ E la rovina del contrafforte - la frana \ La vittoria dell'elemento - il vento \ Che scherza nella valle.;78;VT;ombra;5;334;3,83;vento;5;265;2,845;0,629;0;2,4;2;3,6;2,533;;;;;;;Y;N
+FA_LIT194;Genitive;ribellioni di orgoglio;rebellions of pride;Le Novelle della Pescara;D'Annunzio, Gabriele;PROSE;;"Tutti i villici ruppero l'ordine, e attorniarono La Bravetta; alcuni
+con risa di beffa, altri con parole irose. Le ribellioni di orgoglio
+subitanee e brutali che ha l'onore della gente campestre, le severità
+implacabili della superstizione scoppiarono d'improvviso in una
+tempesta di contumelie";42;VT;ribellioni;8;110;2,596;orgoglio;10;42;2,908;0,633;;;;;;;;;;;;N;Y
+FA_LIT064;Genitive;oblio della valle;oblivion of the valley;Myricae;Pascoli;POEM;Questo brano descrive una passeggiata in una foresta.;"Errai nell'oblio della valle \ tra ciuffi di stipe fiorite, \ tra quercie rigonfie di galle; \ errai nella macchia più sola, \ per dove tra foglie marcite \ spuntava l'azzurra viola; \ errai per i botri solinghi: \ la cincia vedeva dai pini: \ sbuffava i suoi piccoli ringhi \ argentini.";54;VT;oblio;5;83;4,144;valle;5;10;2,947;0,826;0;2;1,8;2,6;3,533;;;;;;;Y;N
+FA_LIT291;Genitive;intreccio di lampi;weave of lightning;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Sei tu ancora, vecchio Sol seminudo,
+  che passi in un intreccio di lampi
+  sull'orizzonte?";17;VT;intreccio;5;61;3,899;lampi;9;48;2,955;0,646;;;;;;;;;;;;N;Y
+FA_LIT401;Genitive;battaglie di idee;battles of ideas;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Invece, dell'uomo nessuna grandezza di pensiero appari dalla sua vita
+di oramai un secolo, quando prete, vescovo e poi cardinale, poteva
+appunto nella minore importanza degli uffici meglio significare
+la propria originalità fra tante battaglie di idee religiose e
+scientifiche";37;VT;battaglie;4;1058;2,155;idee;9;335;3,015;0,575;;;;;;;;;;;;N;Y
+FA_LIT151;Genitive;sapore di comicità;flavor of comedy;Carlo Porta e la sua Milano;Barbiera, Raffaello;PROSE;;"Gli episodi della funebre funzione, fra' quali la comparsa d'un soldato
+francese, che suscita col solo suo aspetto i livori, la bile degli
+officianti, nemici naturali di coloro che li perseguitavano, dànno
+forte sapore di comicità al componimento, il cui fondo è serio e
+lugubre";43;VT;sapore;8;33;2,601;comicità;6;103;3,032;0,708;;;;;;;;;;;;N;Y
+FA_LIT119;Genitive;miraggio di felicità;mirage of happiness;Novelle umoristiche;Albertazzi, Adolfo;PROSE;;"il suo sguardo a poco a poco avvertiva come un
+fervore di luce che s'andava definendo in un miraggio di felicità";21;VT;miraggio;8;153;2,747;felicità;8;23;3,036;0,906;;;;;;;;;;;;Y;N
+FA_LIT131;Genitive;gioia di tetti;joy of roofs;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Ritmo, ritrovata adolescenza,
+    gioia del colore,
+    occhi verdi di sole sul greto,
+    scheggiato turchese immenso dell'onde,
+    biondezza di cirri e di rupi,
+    rosea gioia di tetti,
+    colore, ritmo,
+    come una bianconera rondine
+    l'anima ti solca.";61;VT;gioia;5;154;4,748;tetti;5;235;3,051;0,798;;;;;;;;;;;;N;Y
+FA_LIT095;Genitive;soffio di paura;whiff of fear;Il Giovenile Errore;Gozzano;POEM;Questo brano racconta la fuga da una banchina ghiacciata.;""".... cri.... i.... i.... i.... icch...."" … \ l’incrinatura \ il ghiaccio rabescò, stridula e viva. \ ""A riva!"" Ognuno guadagnò la riva \ disertando la crosta malsicura. \ ""A riva! A riva!..."" Un soffio di paura \ disperse la brigata fuggitiva.";42;VT;soffio;5;698;2,739;paura;6;50;3,079;0,731;0;2,6;1,733;2,667;3,133;;;;;;;Y;N
+FA_LIT271;Genitive;anime di profumi;souls of perfume;L'ora topica di Carlo Dossi;Lucini, Gian Pietro;PROSE;;Dai cofanetti de' ricordi, leviamo viole essicate e suscitiamo anime di profumi trapassati colle ciarpe e le sete di un tempo;22;VT;anime;7;159;3,93;profumi;5;341;3,102;0,735;;;;;;;;;;;;N;Y
+FA_LIT210;Genitive;respiro di luce;breath of light;Nuove storie d'ogni colore;De Marchi, Emilio;PROSE;;"Le cupole bizantine del vicino teatro Dal
+Verme si appiattavano anch'esse nella notte, senza un respiro di luce,
+come la carcassa capovolta di un immane bastimento";25;VT;respiro;4;730;3,437;luce;7;84;3,13;0,668;;;;;;;;;;;;N;Y
+FA_LIT085;Genitive;respiro del mare;breath of the sea;Il Piacere;D’Annunzio;PROSE;In questo brano un uomo, Andrea, riflette guardando il mare.;Andrea Sperelli si riaffacciava all'esistenza in cospetto del mare. Poiché ancora in noi la natura simpatica persiste e poiché la nostra vecchia anima abbracciata dalla grande anima naturale palpita ancora a tal contatto, il convalescente misurava il suo respiro sul largo e tranquillo respiro del mare ergeva il suo corpo a similitudine de' validi alberi.;57;VT;respiro;4;630;4,007;mare;7;84;3,13;0,647;0;2,867;2,2;2,667;3,2;46;0,53;2,6;1,93;2,93;2,8;Y;N
+FA_LIT378;Genitive;onde di fumo;waves of smoke;Al di là;Oriani, Alfredo;PROSE;;"Dall'orlo estremo della
+roccia, sulla quale già irrompeva la lava in onde di fumo e di fuoco,
+spiccare un salto e giù nell'abisso: più nulla, eternamente più nulla.";28;VT;onde;4;117;3,846;fumo;4;171;3,135;0,792;;;;;;;;;;;;N;Y
+FA_LIT078;Genitive;onde di venti;waves of the winds;Poesie Varie;Pascoli;POEM;Questo brano parla dello scoramento di un uomo.;Triste son io: degli uomini i dolori \ e i gridi del mio cuore escono lenti \ senz'eco, e come vaste onde di venti \ dileguan lungi tra inaccessi orrori.;31;VT;onde;5;334;3,457;venti;4;171;3,135;0,685;0;3,133;2,533;3,133;2,467;57;0;2,07;2;2,67;3;Y;N
+FA_LIT014;Genitive;canto dell'acqua;song of the water;Il ritorno;Campana;PROSE;Un uomo ricorda la terra natale.;Conosco un quadro perduto tra lo splendore dell'arte fiorentina colla sua parola di dolce nostalgia: è il figliuol prodigo all'ombra degli alberi della casa paterna. Letteratura? Non so. Il mio ricordo, l'acqua è così. Dopo gli sfondi spirituali senza spirito, dopo l'oro crepuscolare, dolce come il canto dell'onnipresente tenebra è il canto dell'acqua sotto le rocce.;62;VT;canto;5;1113;4,232;acqua;5;143;3,138;0,781;0;2,533;2;2,067;3,6;64;0,07;1,87;1,6;2,87;2,93;Y;N
+FA_LIT375;Genitive;estasi di fiori;ecstasy of flowers;L'Imperatore Giovanni l'Apostata;Negri, Gaetano;PROSE;;"A riva è tutta un'estasi
+        Di fiori e di canzoni.";18;VT;estasi;5;410;4,523;fiori;6;26;3,17;0,626;;;;;;;;;;;;N;Y
+FA_LIT002;Genitive;affanno dei venti;breathlessness of the winds;Primi Poemetti;Pascoli;POEM;In questo brano si fa riferimento alla solitudine delle rondini.;O rondinella nata in oltremare! \ Quando vanno le rondini, e qui resta \ il nido solo, oh! che dolente andare! \ Non c'è più cibo qui per loro, e mesta \ la terra e freddo è il cielo, tra l'affanno \ dei venti e lo scrosciar della tempesta.;51;VT;affanno;5;334;3,457;venti;7;33;3,182;0,809;0;1,867;1,933;3,267;2,533;76;0;1,6;1,4;2,93;2,73;Y;N
+FA_LIT112;Genitive;voci dei fiumi;voices of the rivers;Canti di Castelvecchio;Pascoli;POEM;In questo brano l'autore descrive un paesaggio naturale durante l'inverno.;E chiudo i vetri. Il freddo mi percuote, \ l'acqua mi sferza, mi respinge il vento. \ Non più gli scoppiettii, ma le remote \ voci dei fiumi ma sgrondare io sento \ sempre più l'acqua, rotolare il tuono.;41;VT;voci;5;275;4,039;fiumi;4;1023;3,247;0,734;0;2,333;1,867;2,667;3;71;0;1,73;1,4;3,53;2,27;Y;N
+FA_LIT094;Genitive;silenzio degli occhi;silence of the eyes;L’Allegria;Ungaretti;POEM;Questo brano descrive il risveglio di un soldato.;Dondolo di ali in fumo \ mozza il silenzio degli occhi \ Col vento si spippola il corallo \ di una sete di baci;24;VT;silenzio;5;1297;4,098;occhi;8;381;3,254;0,727;0;3,067;2,333;2,6;3,267;;;;;;;Y;N
+FA_LIT373;Genitive;alone di note;halo of notes;Esilio;Negri, Ada;POEM;;"Canti come ridi,
+    come parli. Hai nel canto una ragione
+    di vita. Ondeggi e splendi in un alone
+    di note";30;VT;alone;4;2;3,353;note;5;15;3,269;0,888;;;;;;;;;;;;N;Y
+FA_LIT372;Genitive;voce di campane;voice of bells;Dal profondo;Negri, Ada;POEM;;"Malinconia delle città lontane
+    ove le sembra d’essere sperduta,
+    ove ogni cosa agli occhi, al cuore è muta,
+    voce di folla e voce di campane";36;VT;voce;7;36;4,516;campane;4;1023;3,286;0,694;;;;;;;;;;;;N;Y
+FA_LIT459;Genitive;ombre di morte;shadows of death;Lucifero;Rapisardi, Mario;POEM;;"Dormite! Una parola
+    Fremono i vostri sonni; e da le chiuse
+    Ombre di morte una gran luce emerge:
+    Vivono al raggio d'una fiamma sola
+    Le umane anime";40;VT;ombre;5;815;3,138;morte;5;265;3,288;0,769;;;;;;;;;;;;N;Y
+FA_LIT071;Genitive;ombre di pace;shadows of peace;Mal Giocondo;Pirandello;POEM;In questo brano si descrive una scena campestre.;Incende il vespro ad onor nostro e gloria \ pacatamente i piani e freschi effluvi, \ quasi sospiri, i novi fior ci mandano \ dai variopinti calici. \ Il fronte molle di sudor da l'opera \ grave gli adusti agricoltori levano \ a noi guardare, e con letizia esclamano: \ Ombre di pace, amateci. \ È sogno pien di luce e pieno d'aria.;65;VT;ombre;4;401;2,756;pace;5;265;3,288;0,826;0;2,067;1,4;2,867;2,4;65;0;1,33;1;3,73;2,93;Y;N
+FA_LIT410;Genitive;fioritura di uomini;bloom of men;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Da Thiers a Waldek-Rousseau, forse la Francia non vide mai alla sommità
+del proprio governo più ricca fioritura di uomini illustri e più
+presto mietuti nelle battaglie parlamentari";26;VT;fioritura;6;3243;3,473;uomini;9;27;3,303;0,854;;;;;;;;;;;;N;Y
+FA_LIT139;Genitive;sogni di pietra;dreams of stone;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Ecco pianeggianti
+giardini, fontane, magnolie in fiore, e anche grigi sogni di pietra,
+castelli grigi tra rami spogli stillanti di pioggia contro il sole come
+portentose ragnatele";24;VT;sogni;6;220;4,602;pietra;5;1;3,312;0,707;;;;;;;;;;;;N;Y
+FA_LIT412;Genitive;groviglio di corruzione;tangle of corruption;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"la sua aristocrazia non ha
+più che partigiani, la sua incomparabile borghesia comunale è appena
+una clientela, il suo popolo un groviglio di corruzione e di barbarie";25;VT;groviglio;10;138;2,317;corruzione;9;21;3,327;0,759;;;;;;;;;;;;N;Y
+FA_LIT137;Genitive;ritmo di disperazione;rhythm of despair;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"piedi che han seguito
+l'infelice nel suo passo oscillante, in un ugual ritmo di violenza e di
+disperazione";17;VT;ritmo;12;102;3,017;disperazione;5;254;3,367;0,752;;;;;;;;;;;;N;Y
+FA_LIT017;Genitive;cecità del sonno;blindness of the sleep;Il Piacere;D’Annunzio;PROSE;Questo brano è l'inizio della pagina del diario di una giovane donna.;"Ho portato su la loggia il vaso delle rose; e son rimasta là qualche minuto ad ascoltare la notte, tenuta là dal rammarico di perdere nella cecità del sonno ore che passano sotto un cielo così bello.";37;VT;cecità;5;193;3,58;sonno;6;9;3,374;0,769;0;2,2;1,4;2,6;3;;;;;;;Y;N
+FA_LIT455;Genitive;abissi di morte;chasms of death;Lucifero;Rapisardi, Mario;POEM;;"Piansi perduto il mio nome, o spronai
+    Negli abissi di morte il mio destriero;
+    Ma tenni fronte al fato reo; mi accinsi
+    Ad imprese più belle, e venni e vinsi";39;VT;abissi;5;815;3,138;morte;6;29;3,398;0,621;;;;;;;;;;;;N;Y
+FA_LIT049;Genitive;grido delle campane;cry of the bells;Canti di Castelvecchio;Pascoli;POEM;Questo brano contiene una riflessione sul passato e il presente della vita umana.;"O ciaramelle degli anni primi, \ d'avanti il giorno, d'avanti il vero, \ or che le stelle son là sublimi, \ conscie del nostro breve mistero; \ che non ancora si pensa al pane, \ che non ancora s'accende il fuoco; \ prima del grido delle campane \ fateci dunque piangere un poco.";56;VT;grido;7;36;4,516;campane;5;150;3,401;0,718;0;3,4;2,733;2,467;2,733;51;0,27;2,2;2;2,27;3,87;Y;N
+FA_LIT048;Genitive;grido dell'anima;cry of the soul;Il Piacere;D’Annunzio;PROSE;Questo brano parla dei tormenti di un uomo durante la guerra.;Da prima, fu come un'angoscia confusa, tumultuaria, piena di palpiti inconsapevoli. Affascinato dal tramonto bellicoso, egli non anche giungeva a veder chiaramente in se medesimo. Ma, quando la cenere del crepuscolo piovve spegnendo ogni guerra e il mare sembrò un'immensa palude plumbea, egli credé udire nell'ombra il grido dell'anima, il grido d'altre anime.;58;VT;grido;5;341;2,726;anima;5;150;3,401;0,763;0,067;3;1,267;2,467;3,133;52;0;2,87;1,67;2,73;2,4;Y;N
+FA_LIT063;Genitive;oasi di capelli;oasis of hair;La coscienza di Zeno;Svevo;PROSE;Questo brano descrive l'aspetto fisico di un uomo.;Non lo avevo visto da anni tanto da vicino ed ora, con l'avversione che mi manifestava, si era conquistata la mia più intensa attenzione. Egli aveva allora circa quarant'anni ed era ben brutto per una calvizie quasi generale interrotta da un'oasi di capelli neri e fitti alla nuca e un'altra alle tempie.;56;VT;oasi;7;400;4,361;capelli;4;24;3,416;0,933;0;1,8;2,467;3,067;1,733;55;0,47;2,33;2,47;2,47;2,47;Y;N
+FA_LIT090;Genitive;scintilla di senape;spark of mustard;L’isola del giorno prima;Eco;PROSE;Questo brano descrive un uomo piccolo.;Soggetto a cui parlare con cautela per tema che il fiato non lo soffi via, sostanza così piccola da non esser passibile di colore, scintilla di senape, corpiciattolo che non ha nulla di più e nulla di meno di quello che mai ebbe.;43;VT;scintilla;6;17;4,651;senape;9;28;3,428;0,836;0;1,4;1,867;4;1,667;53;0;1,4;1,47;4,2;2,2;Y;N
+FA_LIT200;Genitive;luce di gaudio;light of joy;Forse che sì forse che no;D'Annunzio, Gabriele;PROSE;;"Una chiara pace era nell'aria; ma il petto dell'amante si gonfiava d'un fervore grave come un affanno. In tutta quella luce di gaudio pareva ch'ella sentisse la spina di passione custodita nel tabernacolo di marmo
+e di preghiera sospeso su la ripa";45;VT;luce;6;5;3,403;gaudio;4;730;3,437;0,732;;;;;;;;;;;;N;Y
+FA_LIT524;Genitive;luce di poesia;light of poetry;;;;;"Non tutti i fannulloni sono di questa ideale perfezione, ma anche
+i fannulloni volgari sono insopportabili e spandono intorno a sè
+una nebbia di noia, che smorza ogni fuoco d'entusiasmo, che
+appanna ogni luce di poesia";34;VT;luce;6;153;2,934;poesia;4;730;3,437;0,801;;;;;;;;;;;;N;Y
+FA_LIT470;Genitive;luce di sorriso;light of smile;Casta diva;Rovetta, Gerolamo;PROSE;;"Dagli occhi della piccina, che non ha ancora cenato, sparisce a un
+tratto ogni luce di sorriso e non vi restan più che le lacrime.";24;VT;luce;7;309;3,849;sorriso;4;730;3,437;0,986;;;;;;;;;;;;N;Y
+FA_LIT389;Genitive;luce di trionfo;light of triumph;Fino a Dogali;Oriani, Alfredo;PROSE;;"nelle frequenti clamorose discussioni pochi riuscivano
+ad intendersi; ma da tutte il suo carattere sacerdotale usciva
+radiante in una luce di trionfo";20;VT;luce;7;98;2,964;trionfo;4;730;3,437;0,958;;;;;;;;;;;;N;Y
+FA_LIT510;Genitive;ondate di profumo;waves of perfume;L'amore di Loredana;Zuccoli;PROSE;;"E l'aria intorno era divina, rotta
+da lievi ondate di profumo che venivano dai giacinti";15;VT;ondate;7;159;3,979;profumo;6;63;3,44;0,765;;;;;;;;;;;;N;Y
+FA_LIT143;Genitive;eco di luce;echo of light;Momenti: Liriche;Aleramo, Sibilla;POEM;;"Fragranza lenta
+    e guizzi in stanza
+    a sera,
+    pace del fuoco,
+    eco di luce,
+    la pigna in brace,
+    tutte le foreste lungi";40;VT;eco;4;730;3,437;luce;3;77;3,454;0,796;;;;;;;;;;;;N;Y
+FA_LIT518;Genitive;agonia di luce;agony of light;L'amore di Loredana;Zùccoli, Luciano;PROSE;;"Il Lido piaceva a lui, come a tutti i veneziani, per agonia di luce, di
+verde, di spazio, d'aria diffusa";20;VT;agonia;4;730;3,437;luce;6;29;3,461;0,687;;;;;;;;;;;;N;Y
+FA_LIT290;Genitive;fardello di tenebre;burden of darkness;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Le case invecchiaron da un'ora, ed eccole curve
+  sotto un fardello di tenebre";16;VT;fardello;7;30;3,129;tenebre;8;11;3,469;0,795;;;;;;;;;;;;N;Y
+FA_LIT184;Genitive;fantasmi di dolore;ghosts of pain;Il Miraggio: Romanzo;D'Ambra Lucio;PROSE;;"I cattivi sogni marciavano in nero drappello verso di lui, così che,
+quando più tardi egli si destò al fracasso dello sportello spalancato
+alla stazione di Orvieto, un incubo doloroso lo opprimeva, con tanti
+fantasmi di dolore e di tristezza";37;VT;fantasmi;6;349;3,288;dolore;8;114;3,475;0,815;;;;;;;;;;;;N;Y
+FA_LIT344;Genitive;furore di gloria;fury of glory;La giovine Italia;Mazzini;PROSE;;"ma
+dove non è virtú di sagrificio né furore di gloria, dove nei cuori non
+vive un’eco alle grandi passioni";18;VT;furore;6;77;3,403;gloria;6;28;3,49;0,82;;;;;;;;;;;;N;Y
+FA_LIT274;Genitive;folgore di ribellione;thunderbolt of rebellion;L'ora topica di Carlo Dossi;Lucini, Gian Pietro;PROSE;;"il Demone gli porse in mano una penna temprata
+come uno stile, acuta, incisiva, incorruttibile, elastica, inossidabile
+qualunque fosse l'inchiostro dentro cui s'inzuppasse, acqua, lagrime,
+sangue, mota, cielo, coscienza umana, egoismo, folgore di ribellione e
+paradisiache bontà umiliate";36;VT;folgore;10;42;2,726;ribellione;7;8;3,507;0,727;;;;;;;;;;;;N;Y
+FA_LIT442;Genitive;onda di gioventù;wave of youth;Prose (1880-1890);Pascarella, Cesare;PROSE;;"A quell'invito egli si sentì affluire il sangue in faccia; per un
+attimo un'onda di gioventù gli circolò nelle vene";21;VT;onda;8;57;3,317;gioventù;4;171;3,512;0,859;;;;;;;;;;;;N;Y
+FA_LIT504;Genitive;onda di amarezza;wave of bitterness;Lirica;Vivanti, Annie;POEM;;"M'ha invaso l'alma e scolorato il viso
+    Un'onda d'amarezza e di dolore";19;VT;onda;8;59;2,414;amarezza;4;171;3,512;0,82;;;;;;;;;;;;N;Y
+FA_LIT365;Genitive;onda di amore;wave of love;Maternità;Negri, Ada;POEM;;"uno spasimo strano, una diffusa
+    onda di amore irruppe ne la chiusa
+    sua vita";21;VT;onda;5;1153;2,978;amore;4;171;3,512;0,717;;;;;;;;;;;;N;Y
+FA_LIT196;Genitive;onda di angoscia;wave of anguish;Le Novelle della Pescara;D'Annunzio, Gabriele;PROSE;;"il petto esile tra i risvolti dell'abito nero si
+sollevava, quasi a trattenere un'onda di angoscia irrompente";18;VT;onda;8;124;2,792;angoscia;4;171;3,512;0,683;;;;;;;;;;;;N;Y
+FA_LIT074;Genitive;onda di lamento;wave of moan;Poesie Varie;Pascoli;PROSE;Questo brano parla di un'atmosfera angosciante.;Nell'aria grigia e morta \ c'è un'onda di lamento. \ Qualcuno urta la porta.;17;VT;onda;7;30;3,356;lamento;4;171;3,512;0,869;0;2,6;1,667;2,733;2,533;89;0;2;1,8;2,73;3,07;Y;N
+FA_LIT072;Genitive;onda della musica;wave of the music;Il Piacere;D’Annunzio;PROSE;Questo brano descrive la sala appena prima l'inizio di un concerto.;"L'uditorio componevasi, in massima parte, di dame straniere; ed era un uditorio biondo, pieno di modestia nelli abiti, pieno di raccoglimento nelle attitudini, silenzioso e religioso come in un luogo pio. L'onda della musica passava su teste immobili, coperte di cappelli scuri, dilatandosi in una luce aurea, in una luce che fluiva dall'alto, temperata dalle tendine gialle, schiarita dalle pareti bianche e nude.";66;VT;onda;6;568;3,298;musica;4;171;3,512;0,725;0;3,067;2,4;2,467;3,467;;;;;;;Y;N
+FA_LIT073;Genitive;onda della preghiera;wave of the prayer;Il Libro delle Vergini;D’Annunzio;POEM;Questo brano descrive le sensazioni di un uomo e della sua donna, Giacinta.;"Io e Giacinta eravamo stretti l'uno contro l'altra. Una specie di affievolimento cominciava a prendermi, un calore intenso mi saliva alla faccia; aveva una sensazione strana di tutto quell'agglomeramento di uomini sopra cui passava l'onda della preghiera, nell'ombra rotta dai bagliori tremoli dell'altare.";49;VT;onda;9;100;3,498;preghiera;4;171;3,512;0,821;0;2,333;2,133;3,333;2,067;48;0;1,53;1,47;2,87;3,27;Y;N
+FA_LIT076;Genitive;onda di riconoscenza;wave of gratitude;Senilità;Svevo;PROSE;In questo brano una donna, Amalia, trova conforto tra le braccia di un'amica.;"Non subito Amalia comprese che in quel bicchiere le era offerto un refrigerio; poi bevve a piccoli sorsi, avidamente. Quando si lasciò ricadere sul guanciale trovò un nuovo sollievo: il morbido braccio di Elena vi si era steso e la sua testina riposava ora sorretta con pietà. Un'onda di riconoscenza gonfiò il petto ad Emilio.";56;VT;onda;12;18;2,557;riconoscenza;4;171;3,512;0,81;0;1,933;1,533;3,133;2,6;57;0;2,73;1,47;2,53;2,4;Y;N
+FA_LIT414;Genitive;onda di sorriso;wave of smile;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"mentre l'odio, indispensabile nella
+lotta per la vita, si quietava improvvisamente e un'onda di sorriso
+ammolliva tutte le fisonomie";19;VT;onda;7;309;3,849;sorriso;4;171;3,512;0,868;;;;;;;;;;;;N;Y
+FA_LIT077;Genitive;onda di tristezza;wave of sadness;Il Piacere;D’Annunzio;PROSE;Questo brano descrive una giovane donna che si guarda allo specchio.;Quando vide la sua immagine apparire in quel fondo, ebbe un'impressione singolare. Un'onda di tristezza, più densa, le traversò lo spirito.;23;VT;onda;9;55;2,886;tristezza;4;171;3,512;0,717;0;3,867;2,133;2,533;3,067;;;;;;;Y;N
+FA_LIT352;Genitive;onda di vigore;wave of vigor;Tempeste;Negri, Ada;POEM;;"Un rigoglio di vita, un soffio, un’onda
+    Di vigore, una febbre di vittoria,";16;VT;onda;6;109;2,935;vigore;4;171;3,512;0,779;;;;;;;;;;;;N;Y
+FA_LIT075;Genitive;onda di parole;wave of words;Il Piacere;D’Annunzio;PROSE;Questo brano parla di due uomini che camminano insieme.;"Andavamo al passo, nel silenzio. I rari gridi delle gazze, l'andatura e il respiro dei cavalli non turbavano la tranquillità che pareva di minuto in minuto farsi più grande e più magica. \ Perché volle egli rompere la magia da noi stessi generata? \ Egli parlò; egli mi versò sul cuore un'onda di parole ardenti, folli, quasi insensate.";60;VT;onda;6;1452;3,211;parole;4;171;3,512;0,78;0;2,467;2,333;3,067;2,933;63;0,07;2,47;2,13;1,93;4;Y;N
+FA_LIT125;Genitive;costellazioni di occhi;constellations of eyes;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;Rigano il firmamento, s'avventa dalla terra sulla loro molle scìa il desiderio d'infinite costellazioni di occhi, il desiderio, il voto;22;VT;costellazioni;5;1297;4,098;occhi;13;22;3,552;0,627;;;;;;;;;;;;N;Y
+FA_LIT533;Genitive;rete di vene;net of veins;Esilio;Negri, Ada;POEM;;"E ingoia libertà sino a formarne
+    fibre di nervi e succo di midolla:
+    sia essa, in te, fecondo hùmus di zolla,
+    sia qual rete di vene entro la carne!...";38;VT;rete;4;62;4,351;vene;4;436;3,569;0,728;;;;;;;;;;;;N;Y
+FA_LIT457;Genitive;fantasma di amore;ghost of love;Lucifero;Rapisardi, Mario;POEM;;"Il fantasma di amore, che ha eternamente agitato l'Eroe, veste forme
+sensibili";12;VT;fantasma;5;1153;2,978;amore;8;114;3,571;0,745;;;;;;;;;;;;N;Y
+FA_LIT149;Genitive;meteora di sangue;meteor of blood;Carlo Porta e la sua Milano;Barbiera, Raffaello;PROSE;;"Arrivato alla sommità, si lasciò cogliere dalle
+vertigini, passò d'errore in errore, di delitto in delitto verso
+la creatura umana calpestata per il proprio trionfo, e precipitò
+nell'abisso, morendo, meteora di sangue, in un'isola, fra le malinconie
+dell'oceano.";38;VT;meteora;6;473;4,181;sangue;7;6;3,578;0,817;;;;;;;;;;;;N;Y
+FA_LIT141;Genitive;firmamento di corolle;firmament of corollas;Momenti: Liriche;Aleramo, Sibilla;POEM;;"Ed ogni rosa    in sua essenza preziosa
+    chiedeva d'essere adorata
+    e ognuna i nostri sguardi smarrivano
+    nel profuso bel firmamento,
+    terrestre firmamento di corolle";40;VT;firmamento;7;10;3,833;corolle;10;11;3,581;0,847;;;;;;;;;;;;N;Y
+FA_LIT256;Genitive;esplosione di dolore;explosion of pain;L'assedio di Firenze;Guerrazzi, Francesco Domenico;PROSE;;"Il maggiore ed il rappresentante dell'Emiro non sembravano affatto
+commossi, nè per l'esplosione di dolore del disgraziato Hossein, nè
+dello scoppio d'ira di Tabriz";25;VT;esplosione;6;349;3,288;dolore;10;99;3,585;0,767;;;;;;;;;;;;N;Y
+FA_LIT386;Genitive;esplosione di orgoglio;explosion of pride;Quartetto;Oriani, Alfredo;PROSE;;"finalmente se ne sono accorti; hanno applaudito al miracolo! Te lo avevo
+predetto — insistè con una esplosione di orgoglio dispettoso";20;VT;esplosione;8;110;2,596;orgoglio;10;99;3,585;0,716;;;;;;;;;;;;N;Y
+FA_LIT355;Genitive;furia di piogge;fury of rains;Tempeste;Negri, Ada;POEM;;"L’aratro lento:
+    Meriggi torridi,
+    Furia di piogge";13;VT;furia;6;183;3,974;piogge;5;58;3,585;0,792;;;;;;;;;;;;N;Y
+FA_LIT001;Genitive;abbraccio del sonno;embrace of the sleep;Il Libro delle Vergini;D’Annunzio;PROSE;Questo brano descrive i pensieri di una giovane donna mentre si sta addormentando.;Francesca nella notte, dopo il primo turbamento e la prima resistenza contro la tentazione del fantasticare malsano, adescata da quel sottile profumo di colpa che dal fondo di tutto ciò saliva ad irritare il suo senso di donna giovine, a poco a poco si abbandonò per quel pendìo. E come cedeva all'abbraccio del sonno, ondeggiando in quel punto in cui l'attività della coscienza si affievolisce nel rilasciamento dei nervi e non ha più virtù di dirigere e di moderare le espansioni della fantasia, ella per quel pendio scese in fondo languida col desiderio al dolce peccato della figliuola di Guido.;102;VT;abbraccio;5;193;3,58;sonno;9;47;3,591;0,854;0;2,6;2,333;1,933;3,733;;;;;;;Y;N
+FA_LIT272;Genitive;briciole di conversazioni;crumbs of conversations;L'ora topica di Carlo Dossi;Lucini, Gian Pietro;PROSE;;"Artisti letterati, follajuoli gli si affollavano in torno,
+racimolandogli giudizii sul momento, briciole di conversazioni e di
+aneddoti pepati sul libro a pena uscito, sul quadro in voga, sulla
+comedia e sull'opera datesi la sera prima";34;VT;briciole;13;107;3,743;conversazioni;8;22;3,611;0,687;;;;;;;;;;;;N;Y
+FA_LIT227;Genitive;raggio di gloria;ray of glory;"La messa di nozze; Un sogno; La bella morte";De Roberto, Federico;PROSE;;"Pensa quanti navigano da tanti anni, stupidamente, senza
+che un raggio di gloria";12;VT;raggio;6;77;3,403;gloria;6;136;3,612;0,794;;;;;;;;;;;;N;Y
+FA_LIT126;Genitive;ebbrezza di luce;intoxication of light;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"la storia di questa Rina è
+    la storia di ogni lirismo che vuole ascendere, liberarsi e
+    divenire puro spirito; e poi, in una ebbrezza di luce e di
+    musica, dissolversi ed annientarsi";41;VT;ebbrezza;4;730;3,437;luce;8;16;3,618;0,756;;;;;;;;;;;;N;Y
+FA_LIT254;Genitive;trono di gloria;throne of glory;La battaglia di Benevento: Storia del secolo XIII;Guerrazzi, Francesco Domenico;PROSE;;"Nello abisso della miseria ove ci getta
+la tua perfidia io contemplo il tuo fine, e parmi sedere sopra un
+trono di gloria... Ahimè! fuggono le parole alle labbra... padre, è
+salva Yole";30;VT;trono;6;77;3,403;gloria;5;74;3,628;0,836;;;;;;;;;;;;N;Y
+FA_LIT091;Genitive;semi di dolore;seeds of sorrow;Il Piacere;D’Annunzio;PROSE;In questo brano una donna esprime il timore di ascoltare un uomo.;Tutto il giorno, tutto il giorno egli ha cercato un momento per parlarmi. La sua sofferenza era manifesta. E tutto il giorno io ho cercato di sfuggirgli, perché egli non mi gittasse nell'anima altri semi di dolore, di desiderio, di rimpianto, di rimorso.;44;VT;semi;6;349;3,288;dolore;4;1;3,645;0,824;0;2;1,133;2,733;2,733;63;0,07;2,2;1,6;2,87;3,6;Y;N
+FA_LIT173;Genitive;semi di re;seeds of kings;Novelle e riviste drammatiche;Boito, Arrigo;PROSE;;"Bimbi
+leggiadri ed augusti, siete fiorellini di re, siete semi di re";11;VT;semi;2;377;3,344;re;4;1;3,645;0,573;;;;;;;;;;;;N;Y
+FA_LIT334;Genitive;inferno di complotti;hell of plots;Democrazia futurista: dinamismo politico;Marinetti, F. T.;PROSE;;"Se la famiglia funziona male è un inferno di complotti, liti,
+tradimenti, dispetti, bassezze e relativo desiderio di evasione e di
+rivolta in tutti";22;VT;inferno;9;32;2,779;complotti;7;113;3,655;0,824;;;;;;;;;;;;N;Y
+FA_LIT176;Genitive;inferno di fumo;hell of smoke;Dallo Stelvio al mare;Bontempelli, Massimo;PROSE;;"Un inferno di fumo, di scoppi, di rombi; nugoli spessi spaccati da
+lame di fiamma e squarciati di grida";18;VT;inferno;4;117;3,846;fumo;7;113;3,655;0,724;;;;;;;;;;;;N;Y
+FA_LIT445;Genitive;inferno di linee;hell of lines;Prose (1880-1890);Pascarella, Cesare;PROSE;;"Il giorno dopo, difatti, mantenne la promessa e mi portò
+a far vedere una cartella piena zeppa di fogli di carta di tutti i
+colori, sui quali tra un inferno di linee c'erano disegnate centinaia
+e centinaia di figure geometriche contornate da migliaia di punti, di
+virgole e di parole incomprensibili";48;VT;inferno;5;647;3,612;linee;7;113;3,655;0,851;;;;;;;;;;;;N;Y
+FA_LIT028;Genitive;fiati delle rose;breaths of the roses;Il Piacere;D’Annunzio;PROSE;Questo brano parla di un uomo che ricorda una storia d'amore conclusa.;"Gli tornarono nella mente le angosce durate un anno innanzi, quando egli l'aveva perduta, e le gelosie, e le collere, e gli sconforti inesprimibili. Anche allora le notti erano chiare, tranquille, solcate di profumi; e come gli pesavano! Aspirò l'aria, per ove salivano i fiati delle rose fiorite ne' piccoli giardini laterali.";55;VT;fiati;4;197;4,145;rose;5;123;3,655;0,868;0;1,4;1,533;3,4;2,4;56;0,07;1,53;1,27;3,13;3,27;Y;N
+FA_LIT382;Genitive;fame di luce;hunger of light;Monotonie;Oriani, Alfredo;POEM;;"Canta la fame dei poppanti, orrenda
+    fame di vecchi e di malati, orrenda
+    fame di luce, di saper, d'amore,
+                la fame della vita";45;VT;fame;4;730;3,437;luce;4;174;3,657;0,768;;;;;;;;;;;;N;Y
+FA_LIT456;Genitive;fame di strage;hunger of carnage;Lucifero;Rapisardi, Mario;POEM;;"Già il vincitor superbo di Sadòva
+    De la reggia di Francia urge a le porte,
+    E l'accerchia, e la serra, e con orrenda
+    Fame di strage intorno a lei si attenda";41;VT;fame;6;145;3,761;strage;4;174;3,657;0,662;;;;;;;;;;;;N;Y
+FA_LIT418;Genitive;tempeste di rivoluzioni;storm of revolutions;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"
+In questa fine di secolo, dopo tanto straripare di correnti
+democratiche e tempeste di rivoluzioni e avvento di genti nuove, egli
+era riuscito a questo originale capolavoro di apparire ancora un re";30;VT;tempeste;11;181;2,452;rivoluzioni;8;77;3,659;0,864;;;;;;;;;;;;N;Y
+FA_LIT277;Genitive;vertigine di novità;vertigo of novelty;L'ora topica di Carlo Dossi;Lucini, Gian Pietro;PROSE;;"Bruno, che ha
+ridotto ad idee ed a pensieri le sue emozioni, le sue impressionabilità
+squisite, la sua vertigine di novità e di indagini eccezionali";23;VT;vertigine;6;281;2,707;novità;9;15;3,66;0,761;;;;;;;;;;;;N;Y
+FA_LIT266;Genitive;vertigine di desiderio;vertigo of desire;Le Seduzioni;Guglielminetti, Amalia;POEM;;"Una sùbita vertigine di desiderio mi prese un giorno, quando vidi una
+goccia di sangue su la mano di Violante ferita da uno spino a traverso i
+fiori nivei di una siepe";30;VT;vertigine;9;359;2,659;desiderio;9;15;3,66;0,778;;;;;;;;;;;;N;Y
+FA_LIT250;Genitive;lingue di nebbia;tongues of fog;Novelle e paesi valdostani;Giacosa, Giuseppe;PROSE;;"Vedete lassù quel seno, dove c’è un muro grigio di pietre? quello è il
+colle, signore.
+
+—Là, dove spuntano quelle lingue di nebbia";21;VT;lingue;6;98;3,959;nebbia;6;289;3,666;0,699;;;;;;;;;;;;N;Y
+FA_LIT240;Genitive;vel di sangue;veils of blood;Poesie e novelli in versi;Fontana, Ferdinando;POEM;;"Pur ch'io più non ti vegga!... o un vel di sangue
+""M'offuscherà dell'intelletto il lume";17;VT;vel;6;473;4,181;sangue;3;102;3,666;0,738;;;;;;;;;;;;N;Y
+FA_LIT289;Genitive;esplosioni di luce;explosions of light;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Poichè la Terra, credetemi,
+  sarà gravida presto... (sì gravida da scoppiarne!)
+  di una Stella sublime dalle esplosioni di luce";21;VT;esplosioni;4;730;3,437;luce;10;99;3,672;0,879;;;;;;;;;;;;N;Y
+FA_LIT303;Genitive;sospiro di luna;sigh of moon;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Abbassa le tue palpebre rosee,
+  perchè l'agile fiamma dei tuoi occhi vi scivoli
+  come sospiro di luna tra persiane socchiuse.";23;VT;sospiro;4;181;4,145;luna;7;56;3,703;0,815;;;;;;;;;;;;N;Y
+FA_LIT211;Genitive;sospiro di natura;sigh of nature;Vecchie cadenze e nuove;De Marchi, Emilio;POEM;;"Ove manchi il sospiro di Natura,
+    Irrigidite larve e di cuor vuote
+    Stan le passate immagini
+    Di questa labil vita, che si oscura
+    Di giorno in giorno in disperato oblìo";42;VT;sospiro;6;525;2,275;natura;7;56;3,703;0,636;;;;;;;;;;;;N;Y
+FA_LIT258;Genitive;sospiro di profumo;sigh of perfume;Beatrice Cenci: Storia del secolo XVI;Guerrazzi, Francesco Domenico;PROSE;;"I più bei fiori la inghirlandarono,
+contenti di alitarvi sopra l'ultimo sospiro di profumo";14;VT;sospiro;7;159;3,979;profumo;7;56;3,703;0,696;;;;;;;;;;;;N;Y
+FA_LIT464;Genitive;sospiro di vento;sigh of wind;Manfredo Palavicino, o, I Francesi e gli Sforzeschi: Storia Italiana;Rovani, Giuseppe;PROSE;;"A un tratto ode un sospiro, nè già un sospiro di vento, ma d'un
+essere animato";17;VT;sospiro;5;334;3,83;vento;7;56;3,703;0,756;;;;;;;;;;;;N;Y
+FA_LIT294;Genitive;nodi di fiamma;knots of flame;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"per placare il lor cuore dai rigidi nodi di fiamma,
+  per calmare l'ardore
+  delle loro braccia di luce";22;VT;nodi;6;151;4,013;fiamma;4;95;3,713;0,783;;;;;;;;;;;;N;Y
+FA_LIT281;Genitive;arcipelaghi di nuvole;archipelagos of clouds;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Vieni!... le mie labbra folli attireranno
+  il tuo volto pensoso e i tuoi grandi occhi dolenti
+  verso le spiagge abbagliate del Sogno...
+  verso divini arcipelaghi di nuvole!";30;VT;arcipelaghi;6;79;4,284;nuvole;11;18;3,728;0,831;;;;;;;;;;;;N;Y
+FA_LIT201;Genitive;paradiso di fiori;paradise of flowers;Forse che sì forse che no;D'Annunzio, Gabriele;PROSE;;"Le nuvole erano un'architettura e una stirpe, una materia
+foggiata dallo statuario e dal fìgulo, una gerarchia di angeli, una
+genia di mostri, un paradiso di fiori";26;VT;paradiso;5;410;4,523;fiori;8;92;3,788;0,605;;;;;;;;;;;;N;Y
+FA_LIT228;Genitive;squilli di gloria;ring of glory;"La messa di nozze; Un sogno; La bella morte";De Roberto, Federico;PROSE;;"un supplice
+ardore, uno slancio di tutta l'anima sulle ali della speranza; poi
+queruli gridi soffocati di dolore e di rimorso, la prostrazione,
+l'abbattimento; e poi ancora il richiamo potente della fede sicura,
+squilli di gloria trionfale";36;VT;squilli;6;77;3,403;gloria;7;16;3,789;0,821;;;;;;;;;;;;N;Y
+FA_LIT067;Genitive;occhio del pensiero;eye of the thought;Myricae;Pascoli;POEM;In questo brano un uomo si immerge nei suoi pensieri lontano da tutti.;Salì pensoso la romita altura \ ove ha il suo nido l'aquila e il torrente, \ e centro della lontananza oscura \ sta, sapiente. \ Oh! scruta intorno gl'ignorati abissi: \ più ti va lungi l'occhio del pensiero \ più presso viene quello che tu fissi: \ ombra e mistero.;53;VT;occhio;8;426;1,998;pensiero;6;1297;3,789;0,658;0;2;1,333;3,067;2,533;64;0,07;1,53;1,4;3,2;2,27;Y;N
+FA_LIT068;Genitive;occhio di stelle;eye of  stars;L'Allegria;Ungaretti;POEM;Questo brano descrive una notte in galleria.;Un occhio di stelle \ ci spia da quello stagno \ e filtra la sua benedizione ghiacciata \ su quest'acquario \ di sonnambula noia.;25;VT;occhio;6;261;3,77;stelle;6;1297;3,789;0,796;0;1,8;1,667;3,333;2,533;;;;;;;Y;N
+FA_LIT443;Genitive;festa di colori;festival of colors;Prose (1880-1890);Pascarella, Cesare;PROSE;;"I trilli dei mandolini si avvicinano; il chiarore cresce e
+all'improvviso una festa di luce e di colori, una allegrezza di suoni
+e di canti invade la stradicciuola";27;VT;festa;6;615;3,958;colori;5;501;3,792;0,811;;;;;;;;;;;;N;Y
+FA_LIT116;Genitive;brividi di delizia;shivers of delight;Novelle umoristiche;Albertazzi, Adolfo;PROSE;;"mentre l'aria, risentita dell'autunno e rinfrescata dalla recente
+pioggia, al veloce incontro suscitava nel loro sangue brividi di
+delizia.";19;VT;brividi;7;14;3,165;delizia;7;91;3,796;0,747;;;;;;;;;;;;Y;N
+FA_LIT267;Genitive;lampo di collera;flash of wrath;La trovatella di Milano;Invernizio, Carolina;PROSE;;"La prima impressione provata da Gabriele era scomparsa: nei suoi occhi
+brillava un lampo di collera";15;VT;lampo;7;33;3,163;collera;5;61;3,799;0,763;;;;;;;;;;;;N;Y
+FA_LIT224;Genitive;lampo di confidenza;flash of confidence;L'Illusione;De Roberto, Federico;PROSE;;"Ancora una volta mi venne dal buon fratello un lampo di confidenza;
+ancora una volta per lui s'allargò un poco il duro cerchio che mi
+serrava il cuore";27;VT;lampo;10;44;2,852;confidenza;5;61;3,799;0,788;;;;;;;;;;;;N;Y
+FA_LIT396;Genitive;lampo di desiderio;flash of desire;Ombre di occaso;Oriani, Alfredo;PROSE;;"Nelle sue pupille bruciò un
+lampo di desiderio, ma il suo sorriso fu senza invidia";14;VT;lampo;9;359;2,659;desiderio;5;61;3,799;0,841;;;;;;;;;;;;N;Y
+FA_LIT236;Genitive;lampo di dolore;flash of pain;Il mistero del poeta;Fogazzaro, Antonio;PROSE;;"Si svegliava a un tratto, tocco da questo fuoco nuovo dell'animo, si
+rizzava, mi batteva. Un lampo di dolore, un impeto di lotta, una vampa
+vincitrice";25;VT;lampo;6;349;3,288;dolore;5;61;3,799;0,72;;;;;;;;;;;;N;Y
+FA_LIT481;Genitive;lampo di gelosia;flash of jealousy;Dal vero;Serao, Matilde;PROSE;;"Sarò gelosa, gelosa, gelosa_, gli occhi della
+bionda mandarono tale un lampo di gelosia da far tremare i due
+colpevoli.";18;VT;lampo;7;65;3,252;gelosia;5;61;3,799;0,651;;;;;;;;;;;;N;Y
+FA_LIT472;Genitive;lampo di malumore;flash of discontent;Mater dolorosa;Rovetta. Gerolamo;PROSE;;"Prospero Anatolio entrò nella camera sorridendo: ma negli occhiettini
+bigi ebbe un lampo di malumore, vedendo la moglie ancora vestita";19;VT;lampo;8;19;2,574;malumore;5;61;3,799;0,842;;;;;;;;;;;;N;Y
+FA_LIT384;Genitive;lampo di orgoglio;flash of pride;No;Oriani, Alfredo;PROSE;;"Ida fremè: un lampo di orgoglio
+le bruciò negli occhi neri, come un lampo di saetta in fondo alla
+notte";18;VT;lampo;8;110;2,596;orgoglio;5;61;3,799;0,825;;;;;;;;;;;;N;Y
+FA_LIT512;Genitive;lampo di persuasione;flash of persuasion;Donne e fanciulle;Zuccoli, Luciano;PROSE;;?;1;VT;lampo;11;7;1,973;persuasione;5;61;3,799;0,844;;;;;;;;;;;;N;Y
+FA_LIT166;Genitive;lampo di poesia;flash of poetry;Storia di un'anima;Bazzero, Ambrogio;PROSE;;"con stringicore ci sovveniamo di
+qualcosa, di qualcuno, di qualcuna: è un lampo di poesia, la chiusa, la
+consacrazione della giornata";19;VT;lampo;6;153;2,934;poesia;5;61;3,799;0,737;;;;;;;;;;;;N;Y
+FA_LIT180;Genitive;lampo di sdegno;flash of disdain;Il Benefattore;Capuana, Luigi;PROSE;;"A quelle parole che finalmente svelavano il pensiero del gesuita, un
+lampo di sdegno illuminò il volto della marchesa di Priamar";20;VT;lampo;6;32;2,852;sdegno;5;61;3,799;0,714;;;;;;;;;;;;N;Y
+FA_LIT495;Genitive;lampo di speranza;flash of hope;Il Cavaliere dello Spirito Santo: Storia d'una giornata;Verona, Guido da;PROSE;;"Nella sua ingenuità di scienziato, non riusciva a persuadersi che la
+malvagità umana potesse arrivare fin là!
+
+Ebbi un lampo di speranza.";20;VT;lampo;8;480;2,595;speranza;5;61;3,799;0,739;;;;;;;;;;;;N;Y
+FA_LIT436;Genitive;lampo di tenerezza;flash of tenderness;La Madonna di Mamà : Romanzo del tempo della guerra;Panzini, Alfredo;PROSE;;Ma la pupilla di lei ravvolse il fanciullo di un lampo di tenerezza;13;VT;lampo;9;65;2,905;tenerezza;5;61;3,799;0,672;;;;;;;;;;;;N;Y
+FA_LIT268;Genitive;lampo di trionfo;flash of triumph;La trovatella di Milano;Invernizio, Carolina;PROSE;;Ella non vide il lampo di trionfo, che solcò le pupille del conte;13;VT;lampo;7;98;2,964;trionfo;5;61;3,799;0,66;;;;;;;;;;;;N;Y
+FA_LIT144;Genitive;frammento di natura;fragment of nature;Momenti: Liriche;Aleramo, Sibilla;POEM;;"Nuda nel sole ed immobile,
+    frammento di natura,
+    ti miro orante ed oprante";19;VT;frammento;6;525;2,275;natura;9;71;3,799;0,788;;;;;;;;;;;;N;Y
+FA_LIT207;Genitive;deserto di ghiaccio;desert of ice;Olanda;De Amicis, Edmondo;PROSE;;"L'isola era disabitata; nessun popolo del nord v'aveva mai posto piede;
+era tutta un deserto di ghiaccio e di neve";21;VT;deserto;8;87;4,122;ghiaccio;7;110;3,803;0,828;;;;;;;;;;;;N;Y
+FA_LIT232;Genitive;deserto di neve;desert of snow;L'ignoto: Novelle;Di Giacomo, Salvatore;PROSE;;"riferiva le
+fantasie, le stranezze che avevano avute alcune, le sensazioni che gli
+avevano procurato altre: una corsa di notte, in islitta, a Bucarest,
+sotto le pelliccie, in un deserto di neve; la visita fatta con la
+moglie del suo ambasciatore a un museo secreto";41;VT;deserto;4;190;4,616;neve;7;110;3,803;0,802;;;;;;;;;;;;N;Y
+FA_LIT377;Genitive;deserto di uomini;desert of men;Al di là;Oriani, Alfredo;PROSE;;"Sinonimo fiacco, indegno di Victor Hugo, perchè la solitudine non è già nel cimitero o nella Tebaide, sibbene in un deserto di uomini, quando nella folla che vi circonda non sorge grido che vi scuota, non spicca fisonomia che vi commuova; quando gli edifizii che vi rovinano intorno non hanno più forza di farvi rivolgere il capo,
+quando la morte che vi ammazza dappresso non vi dà nè piacere nè dolore; quando in questo oceano umano le onde si accavallano senza sollevarvi o si appianano senza rivelarvi nulla, quando niente e nessuno vi tocca e
+vi si associa.";96;VT;deserto;6;3243;3,473;uomini;7;110;3,803;0,841;;;;;;;;;;;;N;Y
+FA_LIT486;Genitive;banchetto di povertà;banquet of poverty;Suor Giovanna della Croce: romanzo;Serao, Matilde;PROSE;;"Forse, ella era già pentita di esser venuta, in uno
+slancio spontaneo e ingenuo, ad assistere a quel banchetto di povertà e
+di dolore; forse, già affrettava col desiderio il momento di andarsene";31;VT;banchetto;7;50;3,051;povertà;9;53;3,812;0,768;;;;;;;;;;;;N;Y
+FA_LIT363;Genitive;vento di libertà;wind of freedom;Maternità;Negri, Ada;POEM;;"vento di libertà, di giovinezza,
+    soffio di primavere
+    sepolte, belle come messaggere
+    di gloria, piene d’ali e di bufere
+    vïolente e d’immemore dolcezza!";35;VT;vento;7;393;2,215;libertà;5;334;3,83;0,82;;;;;;;;;;;;N;Y
+FA_LIT395;Genitive;vento di catastrofe;wind of catastrophe;Ombre di occaso;Oriani, Alfredo;PROSE;;Ma un vento di catastrofe ne faceva già oscillare l'immenso scenario;12;VT;vento;10;39;3,225;catastrofe;5;334;3,83;0,776;;;;;;;;;;;;N;Y
+FA_LIT120;Genitive;vento di follia;wind of madness;Una Donna;Aleramo, Sibilla;PROSE;;E a tratti come un vento di follia m’investiva;9;VT;vento;6;129;2,962;follia;5;334;3,83;0,724;;;;;;;;;;;;N;Y
+FA_LIT419;Genitive;vento di gioia;wind of joy;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Un vento di gloria e di gioia solleva l'anima d'Italia. Il duca degli
+Abruzzi è ritornato dal polo dopo un lungo viaggio attraverso l'ultima
+regione dell'inconoscibile";28;VT;vento;5;235;3,051;gioia;5;334;3,83;0,75;;;;;;;;;;;;N;Y
+FA_LIT205;Genitive;vento di lode;wind of praise;La vita di Cola di Rienzo;D'Annunzio, Gabriele;PROSE;;"
+Vento di lode tanto impetuoso gonfiò smisuratamente il figlio del
+tavernaio e dell’acquaiuola, immemore omai del giubberello sbrandellato
+che nei giorni della disgrazia avignonese mal gli ricopriva il fianco
+scarnito dalla fame insonne";30;VT;vento;4;27;3,168;lode;5;334;3,83;0,776;;;;;;;;;;;;N;Y
+FA_LIT420;Genitive;vento di paura;wind of fear;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Pare che un
+vento di paura sia calato dalla bassa barriera degli Urali soffiando
+sulle immense terre nere, che adesso maturano il miglior grano
+d'Europa";23;VT;vento;5;698;2,739;paura;5;334;3,83;0,75;;;;;;;;;;;;N;Y
+FA_LIT222;Genitive;vento di pazzia;wind of madness;L'Illusione;De Roberto, Federico;PROSE;;"Un vento di pazzia soffiava anche su lei; ella sentiva fiaccarsi ogni
+sua forza di resistenza, si stupiva ogni volta che opponeva delle
+parole di preghiera e di supplicazione alle insistenze di lui";31;VT;vento;6;28;2,911;pazzia;5;334;3,83;0,883;;;;;;;;;;;;N;Y
+FA_LIT307;Genitive;vento di porpora;wind of purple;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;Viene sul vento di porpora e d'oro!;10;VT;vento;7;9;4,16;porpora;5;334;3,83;0,83;;;;;;;;;;;;N;Y
+FA_LIT480;Genitive;vento di retorica;wind of rhetoric;Il libro di Don Chisciotte;Scarfoglio, Edoardo;PROSE;;"Ahimè, quanto vento di retorica, e quanta academia, e quanta imbecillità
+in quei rimescolamenti della democrazia officiale";16;VT;vento;8;31;2,548;retorica;5;334;3,83;0,742;;;;;;;;;;;;N;Y
+FA_LIT140;Genitive;vento di volontà;wind of will;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"L'investe, essa sospesa come
+veramente disgregati atomi, il vento di volontà strane";12;VT;vento;7;262;1,635;volontà;5;334;3,83;0,925;;;;;;;;;;;;N;Y
+FA_LIT241;Genitive;turbine di miserie;whirlwind of misery;Poesie e novelli in versi;Fontana, Ferdinando;POEM;;"O modesto filosofo,
+Che giunto a quarant'anni,
+Fra l'incessante turbine
+Di miserie e d'affanni,
+Vivi solingo e povero";17;VT;turbine;7;72;2,888;miserie;7;7;3,832;0,673;;;;;;;;;;;;N;Y
+FA_LIT204;Genitive;turbine di dolore;whirlwind of pain;Il ferro;D'Annunzio, Gabriele;PROSE;;"La sua cortesia è misurata e guardinga. Ma le tre creature del
+    medesimo sangue sembrano avvolte da un turbine di dolore che
+    d’attimo in attimo s’acceleri";32;VT;turbine;6;349;3,288;dolore;7;7;3,832;0,883;;;;;;;;;;;;N;Y
+FA_LIT461;Genitive;turbine di guerra;whirlwind of war;Lucifero;Rapisardi, Mario;POEM;;"Non vedi tu qual turbine di guerra
+    Del provocato Reno agita i lidi,
+    E, al suon de le fatali armi di Brenno,
+    Tutte d'Europa impallidir le genti";37;VT;turbine;6;954;3,083;guerra;7;7;3,832;0,763;;;;;;;;;;;;N;Y
+FA_LIT526;Genitive;vampa di felicità;blaze of happiness;Tra cielo e terra: Romanzo;Barrilli, Anton Giulio;PROSE;;"
+Maurizio sorrise; una vampa di felicità gli corse alle guance, gli
+brillò dagli occhi accesi.";14;VT;vampa;8;153;2,747;felicità;5;1;3,834;0,877;;;;;;;;;;;;N;Y
+FA_LIT242;Genitive;nembo di canti;cloud of songs;Poesie e novelli in versi;Fontana, Ferdinando;POEM;;"Quand'ei moveva per le nostre vie
+Parlava sempre del supremo giorno,
+Ed un nembo di canti e d'armonie
+Al grosso capo gli aleggiava intorno";23;VT;nembo;5;143;3,538;canti;5;3;3,843;0,826;;;;;;;;;;;;N;Y
+FA_LIT041;Genitive;fumo dei pensieri;smoke of the thoughts;Poesie Sparse;Pirandello;POEM;Questo brano descrive le sensazioni all'alba.;Vedi tu come, non ancor dal fumo \ dei pensieri il cervello annebbiato, \ al tuo spirito (l'alba t'ha destato) \ io vita, io mondo un altro aspetto assumo?;31;VT;fumo;8;426;3,059;pensieri;4;117;3,846;0,765;0;2,2;1,4;2,667;2,6;;;;;;;Y;N
+FA_LIT006;Genitive;alito di sepolcro;breath of grave;Il Libro delle Vergini;D’Annunzio;PROSE;In questo brano una donna descrive le proprie emozioni.;"Ella non comprendeva; ma qualche cosa di lontanamente profondo e di solenne era in quel mormorio interrotto, quasi un mistero di fenomeno soprannaturale si levava da quel corpo inerte e inconsapevole che parlava senza udire la propria voce. Nella stanza passava come un alito di sepolcro; per la fantasia sconvolta di Giuliana, le ombre oscillanti prendevano forme spaventose.";58;VT;alito;8;10;3,912;sepolcro;5;8;3,853;0,823;0;1,867;2,067;2,533;2,867;45;0;1,53;1,47;3,6;2,67;Y;N
+FA_LIT276;Genitive;vena di ruscello;vein of stream;L'ora topica di Carlo Dossi;Lucini, Gian Pietro;PROSE;;"si era imbevuta dell'ambiguo, del pauroso, del
+cinereo verbale, di quella trepidazione continuativa, di quei vocaboli
+massicci come i cantarani del tempo, o scorrevoli inafferrabili, come
+una vena di ruscello rapidissima";29;VT;vena;8;13;4,561;ruscello;4;62;3,856;0,733;;;;;;;;;;;;N;Y
+FA_LIT349;Genitive;colonne di polvere;columns of dust;L'Amuleto;Neera;PROSE;;"Si forma
+un esercito di cavalli che passa come un ciclone sollevando immense
+colonne di polvere";14;VT;colonne;7;139;4,429;polvere;7;133;3,867;0,708;;;;;;;;;;;;N;Y
+FA_LIT106;Genitive;uragano di sangue;hurricane of blood;Odi e Inni;Pascoli;POEM;Questo brano descrive la depressione armata contro un manifestazione pacifica.;"Erano figli del piccolo \ padre; sono, o Zar, tua cosa! \ C'è qualche cosa di vergine... \ che fa tutto rosa. \ Sangue! Sangue! Sangue! Sangue! \ Tu non puoi passare; è troppo! \ Quale uragano di sangue, \ i tuoi Cosacchi al galoppo!";46;VT;uragano;6;473;4,181;sangue;7;14;3,874;0,869;0;2,067;1,6;3,4;2,333;;;;;;;Y;N
+FA_LIT060;Genitive;nodo d'angoscia;knot of anguish;Il fu Mattia Pascal;Pirandello;PROSE;Questo brano descrive lo stato d'animo di una donna.;"Ella si portò agli occhi il fazzolettino lacerato, e... 
+""Io avrei piuttosto bisogno di morire!"" gemette con accoramento così profondo e intenso, che mi sentii subito un nodo d'angoscia alla gola.";32;VT;nodo;8;124;2,792;angoscia;4;95;3,882;0,815;0;3;1,6;2,667;3,267;;;;;;;Y;N
+FA_LIT135;Genitive;nodo di tormento;knot of torment;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Nodo di tormento oscuro, sonnambolico tedio insensato è nelle parole
+che odo, stanche, e nulla esse m'insegnano";17;VT;nodo;8;35;3,071;tormento;4;95;3,882;0,857;;;;;;;;;;;;N;Y
+FA_LIT317;Genitive;laghi di fuoco;lakes of fire;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Addio, care rondinelle dal corpo bipartito di bragia e di carbone, che volate via sfiorando coll'ala
+  quei lontani laghi di fuoco";23;VT;laghi;5;609;4,179;fuoco;5;131;3,889;0,778;;;;;;;;;;;;N;Y
+FA_LIT340;Genitive;castelli di fiamme;castles of flames;Tempeste;Negri, Ada;POEM;;"Son ruggiti di belva giù in fondo ai ciechi scavi,
+    Son castelli di fiamme, son rimbombi di frane,
+    È l’inferno che s’apre su quelle teste umane";32;VT;castelli;6;151;4,007;fiamme;8;145;3,89;0,864;;;;;;;;;;;;N;Y
+FA_LIT416;Genitive;tempesta di controversie;storm of controversy;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Forse ella ancora non capì tutta la profonda originalità
+della Comune, oggi pure incompresa dopo tanta tempesta di controversie
+e partigiana intensità di studi";22;VT;tempesta;12;24;2,491;controversie;8;77;3,903;0,767;;;;;;;;;;;;N;Y
+FA_LIT172;Genitive;tempesta di dolore;storm of sorrow;La donna nella vita e nelle opere di Giacomo Leopardi;Boghen Conigliani, Emma;PROSE;;"il poeta è sconvolto
+piuttosto da una tempesta di dolore che d'amore";12;VT;tempesta;6;349;3,288;dolore;8;77;3,903;0,747;;;;;;;;;;;;N;Y
+FA_LIT417;Genitive;tempesta di nuvole;storm of clouds;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"indarno il medio evo parve una tempesta di nuvole entro un tramonto funereo, mentre i lineamenti del nuovo uomo e della nuova
+società rigavano la sua tenebra come una sottile rete luminosa";31;VT;tempesta;6;79;4,284;nuvole;8;77;3,903;0,8;;;;;;;;;;;;N;Y
+FA_LIT380;Genitive;tempesta di rammarichi;storm of regrets;Al di là;Oriani, Alfredo;PROSE;;"Se verrete una volta sul mio letto sarò consolata per sempre, perchè ad
+ogni tempesta di rammarichi mi vi andrò a sdraiare, e baciando i
+cuscini, dove affondò la vostra testa, mi sembrerà di baciarvi sulle
+labbra";34;VT;tempesta;10;29;2,192;rammarichi;8;77;3,903;0,654;;;;;;;;;;;;N;Y
+FA_LIT466;Genitive;monte di elogi;mountain of praise;L'idolo;Rovetta, Gerolamo;PROSE;;"Il Giordano?... Ma se anche adesso, in
+questo punto, leggevo la _Perseveranza_... Ne fa un monte di elogi";17;VT;monte;5;27;3,021;elogi;5;66;3,946;0,728;;;;;;;;;;;;N;Y
+FA_LIT444;Genitive;gregge di foglie;flock of leaves;Prose (1880-1890);Pascarella, Cesare;PROSE;;"Ella appena è arrivata
+sulla sponda della riviera prima, per necessità della rima, si mette
+a fiutare il vento come una levriera, e poi si gitta nel fiume e vi si
+immerge, fra un gregge di foglie, fino all'ombelico";37;VT;gregge;6;190;4,246;foglie;6;16;3,956;0,766;;;;;;;;;;;;N;Y
+FA_LIT429;Genitive;nebbia di convenzionalismo;fog of conventionalism;Morti e viventi;Panzacchi, Enrico;PROSE;;"O che aveva mai di così singolarmente diverso dagli
+altri italiani infuso madre natura in questo uomo che, mentre gli altri
+correvano alla imitazione servile, all'artificiato e al falso e mentre
+per gli altri una gran nebbia di convenzionalismo si interponeva fra la
+mente e la vita, da solo, riesce a prendere tranquillamente la via del
+naturale, come se nessuna altra via fosse aperta dinanzi a lui";63;VT;nebbia;16;;;convenzionalismo;6;98;3,959;0,599;;;;;;;;;;;;N;Y
+FA_LIT255;Genitive;nebbia di dolore;mist of sorrow;L'assedio di Firenze;Guerrazzi, Francesco Domenico;PROSE;;"Questi concetti voglionsi considerare come stridi di
+anima inasprita dalle tribolazioni, e nulla più; nebbia di dolore che
+ogni aura di conforto porta via";22;VT;nebbia;6;349;3,288;dolore;6;98;3,959;0,769;;;;;;;;;;;;N;Y
+FA_LIT216;Genitive;nebbia di malinconia;mist of melancholy;Documenti umani;De Roberto, Federico;PROSE;;"Ella lo aveva
+amato di più per quella nebbia di malinconia che velava il suo viso,
+per quel gran dolore che lo aveva atterrato e che sarebbe toccato a
+lei di far dimenticare!";30;VT;nebbia;10;53;2,639;malinconia;6;98;3,959;0,715;;;;;;;;;;;;N;Y
+FA_LIT159;Genitive;nebbia di noia;fog of boredom;L'Argentina vista come è;Barzini, Luigi;PROSE;;"Non tutti i fannulloni sono di questa ideale perfezione, ma anche
+i fannulloni volgari sono insopportabili e spandono intorno a sè
+una nebbia di noia, che smorza ogni fuoco d'entusiasmo, che
+appanna ogni luce di poesia";34;VT;nebbia;4;63;2,825;noia;6;98;3,959;0,771;;;;;;;;;;;;N;Y
+FA_LIT478;Genitive;nebbia di ottimismo;fog of optimism;Il libro di Don Chisciotte;Scarfoglio, Edoardo;PROSE;;"Ora, confrontando i frutti della nostra attività presente
+con quelli che ci furono lasciati in eredità, giudicando una singola
+opera d'arte non in sè, ma nello sviluppo complessivo di quella forma
+dell'arte, accade che la dolce nebbia di ottimismo tanto cara agli
+scribacchiatori italiani si disperda per l'aria";47;VT;nebbia;9;69;2,048;ottimismo;6;98;3,959;0,822;;;;;;;;;;;;N;Y
+FA_LIT270;Genitive;nebbia di profumo;mist of perfume;Dal mio verziere : saggi di polemica e di critica;Jolanda;PROSE;;"Così passano i poeti nella prosa, elevandola fino ad essi per non
+scendere fino a lei: facendola evaporare tutta in una nebbia di profumo,
+in un’irradiazione di bellezza che serba della prosa la sincerità
+gentile, che ha della poesia lo splendore regale.";39;VT;nebbia;7;159;3,979;profumo;6;98;3,959;0,698;;;;;;;;;;;;N;Y
+FA_LIT178;Genitive;nebbia di sdegni;mist of disdain;Storia degli Italiani, vol. 7 (di 15);Cantù, Cesare;PROSE;;"tale
+la _gloriosa colonna_ a cui s’appoggia nostra speranza, e il vento
+angoscioso de’ sospiri, e il fuoco de’ martiri, e le chiavi amorose, e
+il lauro a cui coltivare adopera _vomer di penna con sospir di fuoco;_
+e la nebbia di sdegni che _rallenta le stanche sarte della nave sua";47;VT;nebbia;6;32;2,852;sdegni;6;98;3,959;0,835;;;;;;;;;;;;N;Y
+FA_LIT189;Genitive;nebbia di sogno;mist of dream;Il trampolino per le stelle: Tre dialoghi e due racconti;D'Ambra, Lucio;PROSE;;"Rieccomi a te, Duchessa, luce rossa, nebbia rosea, nebbia di sogno,
+sempre uguale, così al tramonto come all'aurora";18;VT;nebbia;5;554;3,246;sogno;6;98;3,959;0,805;;;;;;;;;;;;N;Y
+FA_LIT446;Genitive;nebbia di stelle;fog of stars;Miei Pensieri di varia Umanità;Pascoli, Giovanni;PROSE;;"Sopra il monte ardente, il
+cielo stellato. Guardate quelle stelle, poi quella nebbia di stelle,
+concepitene la grandezza";17;VT;nebbia;6;261;3,77;stelle;6;98;3,959;0,826;;;;;;;;;;;;N;Y
+FA_LIT146;Genitive;nebbia di menzogne;fog of lies;Danza macabra;Antona-Traversi, Camillo;PROSE;;"Io, in questa nebbia di menzogne e di vigliaccherie, ho perduto ogni
+energia";12;VT;nebbia;8;32;2,79;menzogne;6;98;3,959;0,785;;;;;;;;;;;;N;Y
+FA_LIT079;Genitive;pianto di stelle;tears of stars;Myricae;Pascoli;POEM;Questo brano descrive il cielo nella notte di San Lorenzo dopo un lutto.;E tu, Cielo, dall'alto dei mondi \ sereni, infinito, immortale, \ Oh! d'un pianto di stelle lo inondi \ quest'atomo opaco del Male!;26;VT;pianto;6;261;3,77;stelle;6;35;3,973;0,818;0,067;3,2;2,333;3;3,133;;;;;;;Y;N
+FA_LIT175;Genitive;corona di fuoco;crown of fire;Dallo Stelvio al mare;Bontempelli, Massimo;PROSE;;"anno gareggiato coi muli nel ripire i sentieri
+infernali appena scavati tra le rocce, per trascinar su rifornimenti,
+salmerie d'ogni genere, e soprattutto i gravi pezzi d'artiglieria che
+vanno disegnando un'inquieta corona di fuoco lungo il confine sempre
+più avanzato della patria";41;VT;corona;5;609;4,179;fuoco;6;61;3,974;0,705;;;;;;;;;;;;N;Y
+FA_LIT023;Genitive;corona di nebbia;crown of fog;Primi Poemetti;Pascoli;POEM;In questo brano un uomo riflette guardando il mare.;Sedeva sopra un masso di granito \ ciclopico. Pensava. Il suo pensiero \ come il mare infinito era infinito. \ Lontani, i falchi sopra il capo austero \ roteavano. Stava la Gorgona, \ come nave che aspetti il suo nocchiero. \ E la Capraia uscìa d'una corona \ di nebbia, appena. Or Egli dritto stante, \ imperiale sopra la persona.;61;VT;corona;6;98;3,959;nebbia;6;61;3,974;0,755;0;2,333;2,667;3,533;2,467;80;0;1,93;1,87;1,67;4,4;Y;N
+FA_LIT469;Genitive;corona di spuma;crown of froth;L'idolo;Rovetta, Gerolamo;PROSE;;"Il mare era formidabile, cingeva la
+riva d'una corona di spuma";11;VT;corona;5;7;4,089;spuma;6;61;3,974;0,925;;;;;;;;;;;;N;Y
+FA_LIT174;Genitive;corona di ghiacciai;crown of glaciers;Dallo Stelvio al mare;Bontempelli, Massimo;PROSE;;"Tutta una corona di
+ghiacciai protegge ivi il confine";8;VT;corona;9;23;3,99;ghiacciai;6;61;3,974;0,761;;;;;;;;;;;;N;Y
+FA_LIT138;Genitive;singhiozzo di felicità;sob of happiness;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"sul letto
+dove ha soffocato tanti gridi per il suo dolore di madre, una donna si
+abbatte un pomeriggio con un singhiozzo di felicità, tremendo";24;VT;singhiozzo;8;153;2,747;felicità;10;19;3,977;0,738;;;;;;;;;;;;N;Y
+FA_LIT007;Genitive;anello delle labbra;ring of the lips;San Laimo Navigatore;D’Annunzio;PROSE;In questo brano si parla di un bambino nutrito da una cerva.;Si cibava di fogliami teneri, di funghi, di fromento, e beveva in un vaso di murra linfe pure. Al suo bramito tremulo e dolce, una gioia di movimenti vivaci animava le membra del poppante, e il piccolo anello delle labbra si schiudeva spontaneamente nel riso.;45;VT;anello;6;158;4,417;labbra;6;90;3,978;0,775;0;1,667;2,667;3,6;1,8;56;0,13;1,87;2,4;3,07;1,6;Y;N
+FA_LIT430;Genitive;profumo di eleganze;scent of elegances;Donne e poeti;Panzacchi, Enrico;PROSE;;"Nei versi a Gino
+Rocchi, tutti squisitezza e profumo di eleganze e di ricordi classici,
+questa idea ritorna ed è svolta e colorita più precisamente.";23;VT;profumo;8;74;2,581;eleganze;7;159;3,979;0,816;;;;;;;;;;;;N;Y
+FA_LIT235;Genitive;profumo di amore;scent of love;Due amori;Farina, Salvatore;PROSE;;"La sua lettera era mesta, esalava un profumo di amore, di dolcezza, di
+entusiasmo melanconico";14;VT;profumo;5;1153;2,978;amore;7;159;3,979;0,854;;;;;;;;;;;;N;Y
+FA_LIT150;Genitive;profumo di gentilezza;scent of kindness;Carlo Porta e la sua Milano;Barbiera, Raffaello;PROSE;;"Il dialetto, che par creato allo sdegnoso comando,
+emana un profumo di gentilezza che avvolge il dolore.";16;VT;profumo;10;25;2,688;gentilezza;7;159;3,979;0,744;;;;;;;;;;;;N;Y
+FA_LIT485;Genitive;profumo di innocenza;scent of innocence;Gli amanti: pastelli;Serao, Matilde;PROSE;;"e pagine si fanno inquiete; a quel profumo di innocenza che
+    aveva fin qui accompagnato il racconto si mescola uno strano e
+    tentante odor di peccato";32;VT;profumo;9;36;2,605;innocenza;7;159;3,979;0,83;;;;;;;;;;;;N;Y
+FA_LIT154;Genitive;profumo di modestia;scent of modesty;Arrigo il savio;Barrilli, Anton Giulio;PROSE;;"c'è, infine, il buono e compiacente giovanotto, che ambisce gli uffici del
+servitore, non aspettando altra ricompensa che il titolo d'amico, e
+lascia intorno a sè un profumo di modestia, che può farlo ricercare, in
+un momento di poetica tenerezza, come si ricerca all'odore la violetta
+de' campi";48;VT;profumo;8;21;2,099;modestia;7;159;3,979;0,754;;;;;;;;;;;;N;Y
+FA_LIT192;Genitive;profumo di poesia;scent of poetry;Le vergini delle rocce;D'Annunzio, Gabriele;PROSE;;"Delizioso!... ma questo è un Eden.... un paradiso! esclama
+enfaticamente la signora--qual profumo di poesia";14;VT;profumo;6;153;2,934;poesia;7;159;3,979;0,848;;;;;;;;;;;;N;Y
+FA_LIT169;Genitive;profumo di sentimento;scent of feeling;Tre racconti: Il cane del cieco - Un genio sconosciuto - Galatea;Bersezio, Vittorio;PROSE;;"Benchè la sua voce non fosse punto
+commossa, pure c'era un non so che, leggiero, leggiero, ma
+apprensibile, un'aura direi, un profumo di sentimento che Anna ne fu
+tocca";29;VT;profumo;10;266;1,978;sentimento;7;159;3,979;0,803;;;;;;;;;;;;N;Y
+FA_LIT244;Genitive;febbre di orgoglio;fever of pride;La lotta politica in Italia, Volume 3 (of 3);Fumagalli, Giuseppe;PROSE;;"Una febbre di orgoglio e di lavoro
+lo spingeva a nuove conquiste per interrompere con qualche fatto
+glorioso l'ignominiosa tradizione di Sedan";22;VT;febbre;8;110;2,596;orgoglio;6;69;3,982;1,008;;;;;;;;;;;;N;Y
+FA_LIT351;Genitive;febbre di vittoria;fever of victory;Tempeste;Negri, Ada;POEM;;"Un rigoglio di vita, un soffio, un’onda
+    Di vigore, una febbre di vittoria,";16;VT;febbre;8;419;3,059;vittoria;6;69;3,982;0,78;;;;;;;;;;;;N;Y
+FA_LIT096;Genitive;squillo di vetri;ring of glasses;Myricae;Pascoli;POEM;Questo brano descrive una notte di vento.;Allora sentii che non c'era, \ che non ci sarebbe mai più... \ La tenebra vidi più nera, \ più lugubre udii la bufera... \ uuh... uuuh... uuuh... \ Venìa come un volo di spetri, \ gridando ad ogni émpito più: \ un fragile squillo di vetri \ seguiva quelli ululi tetri…;53;VT;squillo;5;198;4,36;vetri;7;16;3,985;0,861;0;1,267;1,667;3,867;2;;;;;;;Y;N
+FA_LIT387;Genitive;incendio di colori;fire of colors;Quartetto;Oriani, Alfredo;PROSE;;"E saliremmo sempre: gli abeti bruni come
+la folla degli uomini ed egualmente clamorosi stormirebbero al basso; i
+ghiacciai arderebbero in alto con un incendio di colori e di scintille";28;VT;incendio;6;615;3,958;colori;8;91;3,986;0,727;;;;;;;;;;;;N;Y
+FA_LIT390;Genitive;incendio di gloria;fire of glory;Fino a Dogali;Oriani, Alfredo;PROSE;;"e quando il sole
+tramonta pare illuminarsi per le vetriate di un incendio di gloria";14;VT;incendio;6;77;3,403;gloria;8;91;3,986;0,728;;;;;;;;;;;;N;Y
+FA_LIT156;Genitive;incendio di orgoglio;fire of pride;Il ponte del paradiso: racconto;Barrilli, Anton Giulio;PROSE;;"era stato un incendio di orgoglio offeso, di collera feroce,
+all’udire che un certo matrimonio era imminente";16;VT;incendio;8;110;2,596;orgoglio;8;91;3,986;0,847;;;;;;;;;;;;N;Y
+FA_LIT223;Genitive;incendio di passione;fire of passion;L'Illusione;De Roberto, Federico;PROSE;;"Chi fece scattar la scintilla, che ha poi messo fuoco a tutto il mondo
+cristiano, ed ha avvolto, per più di un secolo, l’umanità in un
+terribile incendio di passione teologica";29;VT;incendio;8;327;3,217;passione;8;91;3,986;0,769;;;;;;;;;;;;N;Y
+FA_LIT361;Genitive;urlo di mare;howl of the sea;Maternità;Negri, Ada;POEM;;"mpie la stretta valle che s’infossa
+    fra i monti—e sale, e pare urlo di mare,
+    l’eco de gli opifici a soverchiare
+    come rombo di popoli in sommossa";36;VT;urlo;4;630;4,007;mare;4;81;3,997;0,865;;;;;;;;;;;;N;Y
+FA_LIT503;Genitive;iride di gloria;iris of glory;Lirica;Vivanti, Annie;POEM;;"Non lo circonda un'iride di gloria,
+    Nè siede tra gli eletti in paradiso";18;VT;iride;6;77;3,403;gloria;5;3;3,999;0,934;;;;;;;;;;;;N;Y
+FA_LIT129;Genitive;frantumi di visione;shatters of vision;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"La nave riportandomi traeva per sempre con me a riva frantumi di
+visione";12;VT;frantumi;7;173;2,674;visione;8;17;4,006;0,816;;;;;;;;;;;;N;Y
+FA_LIT177;Genitive;mare di cristallo;sea of crystal;Margherita Pusterla: Racconto storico;Cantù, Cesare;PROSE;;"Ma calmo affatto era il cielo, e se
+non fosse stato l'argenteo solco che la chiglia lasciavasi dietro,
+sarebbesi potuto credere il legno fermo in un mare di cristallo";28;VT;mare;9;49;3,965;cristallo;4;630;4,007;1,004;;;;;;;;;;;;N;Y
+FA_LIT275;Genitive;mare di miele;sea of honey;L'ora topica di Carlo Dossi;Lucini, Gian Pietro;PROSE;;"si faceva a gridare «contro le svenevolezze degli amori poetici passati, che
+tendevano a fare dell'arte un mare di latte e miele";23;VT;mare;5;63;4,747;miele;4;630;4,007;0,78;;;;;;;;;;;;N;Y
+FA_LIT219;Genitive;mare di ricordi;sea of memories;L'Illusione;De Roberto, Federico;PROSE;;"ella continuava a procedere a caso,
+dimenticando la sua via, col cuore tumultuante, la mente inondata da un
+mare di ricordi.";20;VT;mare;7;314;3,458;ricordi;4;630;4,007;0,819;;;;;;;;;;;;N;Y
+FA_LIT170;Genitive;fiamma di carità;flame of charity;La donna nella vita e nelle opere di Giacomo Leopardi;Boghen Conigliani, Emma;PROSE;;"da la bellissima bionda
+Ranieri, che non s'accorge de le passioni che desta, del mondo che le
+sorride ed ha ne gli occhi miti e profondi tutta la fiamma di carità
+che la esalta";32;VT;fiamma;6;39;3,029;carità;6;151;4,013;0,77;;;;;;;;;;;;N;Y
+FA_LIT451;Genitive;fiamma di fede;flame of faith;L'umorismo;Pirandello, Luigi;PROSE;;"Coraggio a tutta prova, animo nobilissimo, fiamma di
+fede; ma quel coraggio non gli frutta che volgari bastonate";17;VT;fiamma;4;231;2,356;fede;6;151;4,013;0,833;;;;;;;;;;;;N;Y
+FA_LIT027;Genitive;fiamma dell'idea;flame of the idea;Il fu Mattia Pascal;Pirandello;PROSE;In questo brano l'autore parla del concetto di idea.;"Il lume d'una idea comune è alimentato dal sentimento collettivo; se questo sentimento però si scinde, rimane sì in piedi la lanterna del termine astratto, ma la fiamma dell'idea vi crepita dentro e vi guizza e vi singhiozza.";40;VT;fiamma;4;1058;2,486;idea;6;151;4,013;0,766;0;2,267;1,333;3,667;2,267;50;0,4;1,67;1,33;1,27;4,33;Y;N
+FA_LIT492;Genitive;fiamma di lirismo;flame of lyricism;La vita comincia domani: romanzo;Verona, Guido da;PROSE;;"Talvolta, nell’ore di maggior lucentezza, quando una fiamma di lirismo
+traversava il suo povero spirito rabbuiato, o quando più forte pulsavan
+nella sua carne d’adolescente l’arterie della vita, quando
+inconsciamente vedeva succedere intorno a sè qualcosa d’insolito";34;VT;fiamma;7;6;2,42;lirismo;6;151;4,013;0,577;;;;;;;;;;;;N;Y
+FA_LIT422;Genitive;fiamma di nuvole;flame of clouds;Il codice di Perelà;Palazzeschi, Aldo;PROSE;;"Talvolta nei giorni d'estate, quando l'ora scende tra una fiamma
+di nuvole dagli orli di fuoco ed il colore dell'ombra pénetra per
+l'emisfero dondolante come le ventate immense di profumi che dalle
+praterie di montagna salgono per invadere l'azzurrità";41;VT;fiamma;6;79;4,284;nuvole;6;151;4,013;0,54;;;;;;;;;;;;N;Y
+FA_LIT265;Genitive;fiamma di orgoglio;flame of pride;Le Seduzioni;Guglielminetti, Amalia;POEM;;"Forse nella mia solitudine laboriosa — se bene io non temessi nè
+l'infermità nè la demenza nè la morte possedendo questa tutelare fiamma
+di orgoglio di pensiero e di fede — forse talvolta la mia malinconia
+celava in sè un verace bisogno di comunioni con il fraterno spirito";46;VT;fiamma;8;110;2,596;orgoglio;6;151;4,013;0,714;;;;;;;;;;;;N;Y
+FA_LIT118;Genitive;fiamma di tentazione;flame of temptation;Novelle umoristiche;Albertazzi, Adolfo;PROSE;;"Ora gli occhi si riempirono di lagrime e fiammeggiarono; a un tempo,
+lagrime di duolo e fiamma di tentazione";19;VT;fiamma;10;101;2,587;tentazione;6;151;4,013;0,852;;;;;;;;;;;;Y;N
+FA_LIT197;Genitive;bocche di fuoco;mouths of fire;Più che l'amore: Tragedia moderna;D'Annunzio, Gabriele;PROSE;;"le rivoltelle di gran calibro nelle loro
+  fonde, le tasche e le cintole da cartucce — bocche di fuoco
+  infallibili e munizioni eccellenti — tutta la batteria già
+  sperimentata nel cammino da Bèrbera a Bardèra, ora riforbita
+  e pronta";44;VT;bocche;5;609;4,179;fuoco;6;322;4,018;0,708;;;;;;;;;;;;N;Y
+FA_LIT128;Genitive;fibre di sogno;fibers of dreams;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Anche se l'amore fosse altro, fosse quale l'ho contemplato in me
+meraviglioso di virtù, c'è qualcosa ch'esso non attinge, non attingerà
+mai, nodo fondo del mio essere, fibre di sogno, fibre segrete, corde di
+volontà invisibili fra la mia prima e la mia ultima giornata";46;VT;fibre;5;554;3,246;sogno;5;57;4,025;0,828;;;;;;;;;;;;N;Y
+FA_LIT160;Genitive;bufera di cannonate;blizzard of gunfire;Al fronte (maggio-ottobre 1915);Barzini, Luigi;PROSE;;"Era una bufera di cannonate; gli _shrapnells_ arrivavano a raffiche
+continue, volteggiavano in aria foglie e rami d'albero stroncati dalle
+esplosioni, il piombo grandinava.";23;VT;bufera;9;7;4,245;cannonate;6;34;4,038;0,814;;;;;;;;;;;;N;Y
+FA_LIT499;Genitive;bufera di anime;blizzard of souls;Sciogli la treccia, Maddalena romanzo;Verona, Guido da;PROSE;;"Roma costruttrice
+d’anfiteatri e di codici, di templi e di strade militari, non vedeva
+sorgere questa immensa bufera di anime, che infine soverchiò la sua
+medesima potenza";24;VT;bufera;5;341;3,102;anime;6;34;4,038;0,74;;;;;;;;;;;;N;Y
+FA_LIT278;Genitive;bufera di ferro;blizzard of iron;L'arte di prender marito;Mantegazza, Paolo;PROSE;;"ad ogni scarica lanciava la morte dentro quelle spesse
+colonne di uomini, i quali, trattenuti dal contegno dei capi, dalla
+disciplina severa ed anche dall'amore della reputazione acquistata
+nelle guerre trascorse, stavano a riparare con le membra loro cotesta
+bufera di ferro e di fuoco non senza mormorare però ed accennare che
+per poco non si sbarattavano dandosi alla fuga";56;VT;bufera;5;206;4,251;ferro;6;34;4,038;0,768;;;;;;;;;;;;N;Y
+FA_LIT162;Genitive;bufera di fuoco;blizzard of fire;Al fronte (maggio-ottobre 1915);Barzini, Luigi;PROSE;;"Le batterie nemiche da cui veniva quella bufera di fuoco dovevano
+trovarsi in parte sulle pendici del monte Kuk, uno dei tanti monti
+Kuk della regione, distante tre chilometri e mezzo da Plava, in parte
+sul Monte Santo, dal quale i medî calibri tempestavano.";41;VT;bufera;5;609;4,179;fuoco;6;34;4,038;0,819;;;;;;;;;;;;N;Y
+FA_LIT403;Genitive;bufera di guerra;blizzard of war;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"e Napoleone, pallido, enorme,
+chiuso in una bufera di guerra, che sconvolge il mondo e lo rinnova,
+rigido nella volontà di un sogno falso e irresistibile, senza pietà
+per gli uomini, che lo adorano e che egli gitta alla morte come un
+pulviscolo fecondatore";41;VT;bufera;6;954;3,083;guerra;6;34;4,038;0,762;;;;;;;;;;;;N;Y
+FA_LIT163;Genitive;bufera di piombo;blizzard of lead;Al fronte (maggio-ottobre 1915);Barzini, Luigi;PROSE;;"L'assalto era arrivato a meno di
+trecento metri.
+
+Una scrosciante bufera di piombo rasentò i declivî.";15;VT;bufera;6;68;4,616;piombo;6;34;4,038;0,614;;;;;;;;;;;;N;Y
+FA_LIT490;Genitive;bufera di polvere;blizzard of dust;La vita comincia domani: romanzo;Verona, Guido da;PROSE;;"Alte, nel miracolo della notte, le stelle così numerose che parevan nel deserto cosmico una bufera di polvere in combustione, infuriavano di splendore come fosforo avvampato, come resina in fiamme, come cristallo
+frantumato nella sabbia e balenante sotto lo sfarzo del sole";41;VT;bufera;7;139;4,429;polvere;6;34;4,038;0,834;;;;;;;;;;;;N;Y
+FA_LIT404;Genitive;bufera di sangue;blizzard of blood;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"La Convenzione atterriva ancora le anime coi ricordi tragici del suo avvento simile ad una bufera di sangue e di fango, che aveva tutto
+rovesciato struggendo e fecondando, contrapponendo la Francia a sè
+medesima e al mondo";35;VT;bufera;6;473;4,181;sangue;6;34;4,038;0,748;;;;;;;;;;;;N;Y
+FA_LIT405;Genitive;bufera di tenebre;blizzard of darkness;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"Alla negra porta ombre scettrate e ombre illustri arrivano da gran
+tempo con un segno speciale, e passano come da un mistero ad un altro più profondo, mentre un clamore lungo e sinistro si diffonde per l'impero percosso da una bufera di tenebre e di lampi";46;VT;bufera;7;30;3,129;tenebre;6;34;4,038;0,614;;;;;;;;;;;;N;Y
+FA_LIT523;Genitive;bufera di commenti;blizzard of comments;;;;;"In quell'inverno la giovane era andata più
+volte a teatro, ora con la Teobaldi, ora con Filippo, scatenando una
+bufera di commenti e di discussioni";24;VT;bufera;8;171;3,074;commenti;6;34;4,038;0,853;;;;;;;;;;;;N;Y
+FA_LIT489;Genitive;bufera di domande;blizzard of questions;La vita comincia domani: romanzo;Verona, Guido da;PROSE;;"Una bufera di domande l’avvolse, ond’egli per difendersi protese un
+braccio";10;VT;bufera;7;680;3,491;domande;6;34;4,038;0,709;;;;;;;;;;;;N;Y
+FA_LIT161;Genitive;bufera di esplosioni;blizzard of explosions;Al fronte (maggio-ottobre 1915);Barzini, Luigi;PROSE;;"Una mattina uno
+dei nostri generali doveva far cominciare un bombardamento di calibri
+pesanti per aprire il varco nel reticolato di un trinceramento che ci
+era di fronte; ma proprio sotto a quel reticolato che stava per essere
+sconvolto da una bufera di esplosioni, giaceva un ferito nostro.";44;VT;bufera;10;99;3,672;esplosioni;6;34;4,038;0,757;;;;;;;;;;;;N;Y
+FA_LIT385;Genitive;bufera di gesti;blizzard of gestures;Quartetto;Oriani, Alfredo;PROSE;;"Questa violenta diatriba pronunciata con voce stridula e accompagnata da
+una bufera di gesti sbaragliò per un momento tutto il coro degli elogi";22;VT;bufera;5;330;3,286;gesti;6;34;4,038;0,858;;;;;;;;;;;;N;Y
+FA_LIT520;Genitive;nube di sogni;cloud of dreams;La freccia nel fianco;Zùccoli, Luciano;PROSE;;"Ella aveva recitato per giuoco, supponendo ch'egli non sentisse la
+parola sacra del poeta; ed egli era stato colto d'un subito, strappato
+alla realtà, avvolto in una nube di sogni";30;VT;nube;5;554;3,312;sogni;4;41;4,047;0,673;;;;;;;;;;;;N;Y
+FA_LIT393;Genitive;nube di merletti;cloud of lace;Ombre di occaso;Oriani, Alfredo;PROSE;;"Qualche ricordo gli ondeggiava nella memoria di
+un'altra grande città tumultuante, di qualcuno che veniva a guardarlo
+nella cuna ravvolta entro una nube di merletti";24;VT;nube;8;4;4,327;merletti;4;41;4,047;0,771;;;;;;;;;;;;N;Y
+FA_LIT517;Genitive;nube di sonnambulismo;cloud of somnambulism;Roberta;Zùccoli, Luciano;PROSE;;"La casa era piena
+di silenzio, e le donne camminavano in una lieve nube di
+sonnambulismo, senza parlarsi; e spesse volte calava la sera e l'ombra
+si faceva sempre più densa e nessuna delle due sorelle pensava a
+difendersi da quell'oscurità";39;VT;nube;13;;;sonnambulismo;4;41;4,047;0,718;;;;;;;;;;;;N;Y
+FA_LIT285;Genitive;ciglia di fuoco;eyelashes of fire;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Innumerevoli sono i grandi occhi
+  violetti, verdi e rossi dei fantastici tram
+  i grandi occhi che scivolano,
+  che affondano in folla, cozzando fra loro
+  ed incrociando le loro ciglia di fuoco";36;VT;ciglia;5;609;4,179;fuoco;6;2;4,049;0,833;;;;;;;;;;;;N;Y
+FA_LIT115;Genitive;zuffa di clamori;browl of clamors;Poemetti;Pirandello;POEM;In questo brano un diavoletto infastidisce il dio Pluto e poi scappa.;E ciò detto, via di furia! \ sollevando in cento cori per quell'aer denso, tangibile, \ una zuffa di clamori. \ Resto? il dio come una statua, \ resto? li? muto, intontito... \ Forse mai, come in quell'attimo, \ si sentì tanto marito.;46;VT;zuffa;7;26;2,779;clamori;5;4;4,057;0,85;0;2,333;2,467;4,067;1,933;;;;;;;Y;N
+FA_LIT311;Genitive;colline di vapori;hills of steam;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Coroniamo di batterie solari
+  quelle colline di vapori incendiati";11;VT;colline;6;54;3,817;vapori;7;126;4,06;0,856;;;;;;;;;;;;N;Y
+FA_LIT022;Genitive;colore di pianto;color of tears;L'Allegria;Ungaretti;POEM;In questo brano un uomo parla di un paesaggio notturno.;Quando \ la notte è a svanire \ poco prima di primavera \ e di rado \ qualcuno passa \ Su Parigi s'addensa \ un oscuro colore \ di pianto \ In un canto \ di ponte \ contemplo \ l'illimitato silenzio \ di una ragazza \ tenue.;50;VT;colore;6;35;3,973;pianto;6;615;4,068;0,757;0;1,8;1,4;3,6;1,933;69;0;1,8;1,4;3,33;3,2;Y;N
+FA_LIT369;Genitive;larve di minaccia;larvae of menace;Maternità;Negri, Ada;POEM;;"Strisciano larve di minaccia avvolte
+    Lungo il viscido e freddo orror de’ muri";17;VT;larve;8;174;3,156;minaccia;5;28;4,07;0,709;;;;;;;;;;;;N;Y
+FA_LIT280;Genitive;ali di luce;wings of light;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Più tardi, al mio ritorno nella casa paterna,
+  cominciava una dolce serata famigliare,
+  sotto la lampada ch'erge il suo collo di fiamma
+  arrotondando ali di luce sul desco,
+  per covare i miei desideri
+  tra lo scrollìo dei suoi raggi pennuti,
+  simile ad una gallina dall'uova magiche, d'oro.";58;VT;ali;4;730;3,437;luce;3;161;4,08;0,779;;;;;;;;;;;;N;Y
+FA_LIT005;Genitive;ali del ramo;wings of the branch;Zampogna;Pirandello;POEM;In questo brano un uomo rievoca il suo passato.;Il gelso? Non c'è più. C'è solo il masso \ tigrato, ov'io sedea, nascosto, all'ombra. \ Vaghi pensieri indefiniti, come \ un'aura lieve, l'anima infantile \ mi commoveano. Arcani godimenti, \ ansie d'ignota attesa! Eran le foglie \ l'ali del ramo? e di volar la brama \ non le facea cosí forse brillare?;62;VT;ali;4;99;3,713;ramo;3;161;4,08;0,765;0;1,867;2,733;3,2;2,067;85;0;1,8;2;3,07;3,07;Y;N
+FA_LIT121;Genitive;ali di conchiglie;wings of shells;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Ali di ciclami, ali di conchiglie. Foreste dall'ombra bionda, dune
+lunari. In un giorno di tempesta, senza traccia in cielo di colore,
+scorsi d'improvviso il più vago iride in un breve lembo di schiuma
+lasciato da un'onda sulla rena";39;VT;ali;10;35;4,719;conchiglie;3;161;4,08;0,745;;;;;;;;;;;;N;Y
+FA_LIT145;Genitive;recinto di dolore;fence of pain;Una Donna;Aleramo, Sibilla;PROSE;;"Ero uscita dal recinto di dolore con un tremito interno, senza poter
+piangere nè parlare, sentendo una sofferenza fisica che mi prostrava
+e rivoltava insieme";23;VT;recinto;6;349;3,288;dolore;7;17;4,081;0,757;;;;;;;;;;;;N;Y
+FA_LIT092;Genitive;siepe di granito;hedge of granite;Odi e Inni;Pascoli;POEM;In questo brano l'autore si rivolge ad un essere supremo.;"Termine santo, che noi, stirpe dura \ d'agricoltori, col vetusto rito \ piantammo a vista dell'età futura; \ presso una siepe viva; o tu, che il dito \ intendi, il dito che non sa l'oblio, \ verso la nostra siepe di granito \ grida, verso la grande Alpe di Dio.";53;VT;siepe;7;14;4,591;granito;5;27;4,094;0,803;0;2,267;2,8;3,933;2;53;0;2,13;2,2;1,67;4,27;Y;N
+FA_LIT093;Genitive;siepe di scrupoli;hedge of scruples;I Vecchi e i Giovani;Pirandello;PROSE;Questo brano contiene una critica ai falsi moralismi.;"Forse all'apertura della nuova Camera lo scandalo sarebbe scoppiato. Prevedeva lo spettacolo che avrebbero offerto tutti i gelosi irsuti guardiani dell'onestà, a cui il timore di commettere qualche atto men che corretto aveva sempre impedito di far qualche cosa oltre alle insulse chiacchiere retoriche; egoisti meschini e miopi, diligenti coltivatori dell'arido giardinetto del loro senso morale, cinto tutt'intorno da un'irta siepe di scrupoli, la quale non aveva poi nulla da custodire.";76;VT;siepe;8;36;3,063;scrupoli;5;27;4,094;0,94;0;1,867;1,333;3,667;2,2;42;0;1,53;1,4;1,53;4,47;Y;N
+FA_LIT433;Genitive;occhi di fuoco;eyes of fire;La lanterna di Diogene;Panzini, Alfredo;PROSE;;"Oh, ma fu lo stesso la notte del terrore quella! Due occhi di fuoco
+avanzavano, lenti lenti, per la via, bianca sotto la luna; e un grido
+ogni tanto, un grido che riempiva la notte e le impaurite si buttavano
+contro la siepi";40;VT;occhi;5;609;4,179;fuoco;5;1297;4,098;0,832;;;;;;;;;;;;N;Y
+FA_LIT113;Genitive;volo del cuore;flight of the hearth;Canti di Castelvecchio;Pascoli;POEM;Questo brano descrive la nebbia.;Nascondi le cose lontane, \ nascondile, involale al volo \ del cuore! Ch'io veda il cipresso là, solo, \ qui, solo quest'orto, cui presso sonnecchia il mio cane.;30;VT;volo;5;672;3,875;cuore;4;241;4,102;0,8;0;2;1,333;2,867;2,733;;;;;;;Y;N
+FA_LIT021;Genitive;cime dello spirito;tops of the soul;Il Piacere;D’Annunzio;PROSE;Questo brano descrive le sensazioni di un uomo nel conquistare una donna.;Poi, tra il desiderio e il rimpianto era nato un altro sentimento, quasi di compiacenza, direi quasi d'elevazione lirica. Gli piaceva che la sua avventura terminasse così, per sempre. Quella donna non posseduta, pel cui acquisto egli era stato sul punto di rimanere ucciso, quella donna quasi sconosciuta gli si levava unica intatta su le cime dello spirito, nella divina idealità della morte.;64;VT;cime;7;324;2,374;spirito;4;61;4,108;0,843;0,067;1,4;1,333;3,667;2,467;;;;;;;Y;N
+FA_LIT432;Genitive;lacrime di polvere;tears of dust;La lanterna di Diogene;Panzini, Alfredo;PROSE;;"pesanti
+mobili — cassapanche, canterani, tracantoni — i quali, se fossero stati
+smossi, avrebbero fatto piangere lacrime di polvere e di calcinaccio
+alle pareti";21;VT;lacrime;7;139;4,429;polvere;7;176;4,115;0,877;;;;;;;;;;;;N;Y
+FA_LIT080;Genitive;piede di vento;foot of wind;Poemi conviviali;Pascoli;POEM;Questo brano contiene un incitamento.;Nulla sta! \ Tutto nel mondo si muove, \ corre, o giovinetto atleta, \ come nell'inclito stadio \ tu col piede di vento alla meta: \ di che la prima delle tue corone \ tu riporti all'Euxantide Ceo.;40;VT;piede;5;334;3,83;vento;5;704;4,116;0,733;0;1,267;1,533;3,667;2,2;71;0;1,53;1,67;3,67;3;Y;N
+FA_LIT039;Genitive;folla di pietra;crowd of stone;Sarcofaghi;Montale;POEM;In questo brano un uomo si pone degli interrogativi.;"Ma dove cercare la tomba \ dell'amico fedele e dell'amante; \ quella del mendicante e del fanciullo; \ dove trovare un asilo \ per codesti che accolgono la brace \ dell'originale fiammata; \ oh da un segnale di pace lieve come un trastullo \ l'urna ne sia effigiata! \ Lascia la taciturna folla di pietra \ per le derelitte lastre \ ch'ànno talora inciso \ il simbolo che più turba.";75;VT;folla;6;220;4,602;pietra;5;174;4,116;0,809;0;1,6;2,333;3,467;2,2;51;0;1,4;1,87;2,67;2,87;Y;N
+FA_LIT124;Genitive;cornici di ghiaccio;frames of ice;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Oro levante dal mare, cornici di ghiaccio verso sera incandescenti,
+solchi di voli: in quello sguardo mai più";17;VT;cornici;8;87;4,122;ghiaccio;7;60;4,119;0,844;;;;;;;;;;;;N;Y
+FA_LIT004;Genitive;albero di nuvole;tree of clouds;Ossi di Seppia;Montale;POEM;Questo brano accenna al peggioramento del tempo atmosferico.;Sale un'ora d'attesa in cielo, vacua, \ dal mare che s'ingrigia. \ Un albero di nuvole sull'acqua \ cresce, poi crolla come di cinigia.;28;VT;albero;6;79;4,284;nuvole;6;305;4,125;0,754;0;1,8;2,267;2,533;2,667;71;0,13;1,8;1,87;1,93;4;Y;N
+FA_LIT029;Genitive;fiato di primavera;breath of spring;Il Piacere;D’Annunzio;PROSE;Questo brano parla di sensazioni olfattive legate all'arrivo di una nuova stagione.;D'intorno, i fiorai andavano offerendo in canestri le giunchiglie gialle e bianche, le violette doppie, lunghi rami di mandorlo. Un fiato di primavera passava nell'aria.;27;VT;fiato;9;210;3,645;primavera;5;123;4,13;0,889;0;2,333;1,8;2,867;2,933;59;0,07;1,8;1,8;3,4;2,73;Y;N
+FA_LIT400;Genitive;armatura di ghiaccio;armor of ice;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"La vita vegetale non ha potuto penetrarvi, perchè la terra vi è
+coperta di una armatura di ghiaccio";17;VT;armatura;8;87;4,122;ghiaccio;8;14;4,141;0,693;;;;;;;;;;;;N;Y
+FA_LIT437;Genitive;valle di dolore;valley of sorrow;Io cerco moglie;Panzini, Alfredo;PROSE;;"Questo sono io!
+
+In questa valle di dolore e di lagrime ho l’onore di trovarmi bene";15;VT;valle;6;349;3,288;dolore;5;83;4,144;0,714;;;;;;;;;;;;N;Y
+FA_LIT107;Genitive;valle del sonno;valley of the sleep;Il Piacere;D’Annunzio;PROSE;Questo brano descrive il tramonto a Roma.;Si udivano di tratto in tratto i gridi delle cornacchie trasvolanti in gruppi a riunirsi su i tetti della Villa Medici per discender poi nella Villa Borghese, nella piccola valle del sonno.;32;VT;valle;5;193;3,58;sonno;5;83;4,144;0,828;0;2;1,533;2,8;2,867;;;;;;;Y;N
+FA_LIT102;Genitive;tessuto di fumi;fabric of smokes;La misteriosa fiamma della Regina Loana;Eco;PROSE;Questo brano descrive il passaggio dentro la nebbia.;Sono quasi allo sbocco del tunnel, s'insinuano i vapori che si addensano al di là. In quelli mi crogiolo, e quasi senza accorgermene transito in un fragile tessuto di fumi che fluttuano. Questa è nebbia: non letta, non raccontata da altri, nebbia vera e io ci sono dentro.;49;VT;tessuto;4;117;4,016;fumi;7;163;4,148;0,815;0;1,8;2,4;3,667;2;;;;;;;Y;N
+FA_LIT185;Genitive;impronte di dolore;footprints of pain;Il Miraggio: Romanzo;D'Ambra Lucio;PROSE;;"presenza ch'era di già sufficiente a che
+l'onda del suo memore, vagabondo e tormentoso pensiero non dilagasse,
+portando intorno funeste vestigie di tristezza e di rimpianto,
+incancellabili impronte di dolore e di pentimento";32;VT;impronte;6;349;3,288;dolore;8;62;4,149;0,765;;;;;;;;;;;;N;Y
+FA_LIT089;Genitive;schermo di stoffa;screen of cloth;La coscienza di Zeno;Svevo;PROSE;Questo brano descrive una serata tra quattro giovani.;La scena che si ripeté all'infinito, s'impresse nella mia mente così: tutt'e quattro eravamo seduti intorno al fine tavolo veneziano su cui ardeva una grande lampada a petrolio coperta da uno schermo di stoffa verde che metteva tutto nell'ombra, meno i lavori di ricamo cui le due fanciulle attendevano, Ada su un fazzoletto di seta che teneva libero in mano, Augusta su un piccolo telaio rotondo.;70;VT;schermo;6;46;4,962;stoffa;7;182;4,156;0,785;0;1,933;2,533;3,4;2,2;;;;;;;Y;N
+FA_LIT042;Genitive;fuochi di gioia;fires of joy;Le Canzoni di Re Enzio;Pascoli;POEM;Questo brano descrive la diffusione del cristianesimo.;Via, biondi falchi, dal castello al bosco! \ E della vostra fiera gioia empite \ la solitudine dell'aria. \ Fuochi di gioia, ardete sulle cime! \ Dov'ora sola la Limentra scroscia \ e muglia il Reno, e il vento urta nei faggi \ simile a un folle, fumeranno grigi, \ in mezzo all'albeggiare della neve, \ nuovi tuguri.;61;VT;fuochi;5;235;3,051;gioia;6;609;4,166;0,806;0;2,2;1,533;2,467;2,933;;;;;;;Y;N
+FA_LIT335;Genitive;fiume di delizia;river of delight;L'alcova d'acciaio: Romanzo vissuto;Marinetti, F. T.;PROSE;;"Poi dopo il primo
+amplesso riapparve la fragorosa luce dei suoi occhi di carnevale che
+ridevano offrendo la bocca come un fiume di delizia nel paradiso";25;VT;fiume;7;14;3,165;delizia;5;275;4,169;0,844;;;;;;;;;;;;N;Y
+FA_LIT357;Genitive;fiume di gioia;river of joy;Maternità;Negri, Ada;POEM;;"Espande
+    or la stirpe selvaggia un irruente
+    fiume di gioia per le arterie spente
+    de gli uomini";26;VT;fiume;5;235;3,051;gioia;5;275;4,169;0,789;;;;;;;;;;;;N;Y
+FA_LIT198;Genitive;fiume di gloria;river of glory;Più che l'amore: Tragedia moderna;D'Annunzio, Gabriele;PROSE;;"Tutto è silenzio. Più non canta lungo il fiume di gloria la viatrice
+dalla chioma irta di fronda: si ferma su la sacra foce e aspetta,
+poggiata a una spada larga come la pala d'un remo";35;VT;fiume;6;77;3,403;gloria;5;275;4,169;0,814;;;;;;;;;;;;N;Y
+FA_LIT037;Genitive;fiume di luce;river of light;La coscienza di Zeno;Svevo;PROSE;In questo brano una donna, Augusta, osserva i particolari di un paesaggio.;"Augusta, come sempre, guardava le cose e accuratamente le registrava: un giardino verde e fresco che sorgeva da una base sucida lasciata all'aria dall'acqua che s'era ritirata; un campanile che si rifletteva nell'acqua torbida; una viuzza lunga e oscura con in fondo un fiume di luce e di gente.";53;VT;fiume;4;730;3,437;luce;5;275;4,169;0,794;0;2,533;2,333;2,933;2,467;49;0,07;2,13;1,93;2,13;3,8;Y;N
+FA_LIT279;Genitive;fiume di piombo;river of lead;L'arte di prender marito;Mantegazza, Paolo;PROSE;;"la Senna mi apparve a guisa di un fiume di piombo che senza fremito
+di acque, senza riflesso d'immagini, unito, opaco, si accostasse
+pesantemente al mare";25;VT;fiume;6;68;4,616;piombo;5;275;4,169;0,721;;;;;;;;;;;;N;Y
+FA_LIT493;Genitive;fiume di polvere;river of dust;La vita comincia domani: romanzo;Verona, Guido da;PROSE;;i suoi occhi affascinanti rimasero avvinti a quel fascio di luce rossastra, a quel lento fiume di polvere che scaturiva dalla finestra del morto;24;VT;fiume;7;139;4,429;polvere;5;275;4,169;0,86;;;;;;;;;;;;N;Y
+FA_LIT500;Genitive;fiume di popoli;river of peoples;Sciogli la treccia, Maddalena romanzo;Verona, Guido da;PROSE;;"La valle per dove passò tanto fiume di popoli, e dove tanta forza
+d’invasori contese la bella terra di Francia, era quel giorno tutta
+scapigliata";23;VT;fiume;6;330;2,732;popoli;5;275;4,169;0,718;;;;;;;;;;;;N;Y
+FA_LIT336;Genitive;fiume di prigionieri;river of prisoners;L'alcova d'acciaio: Romanzo vissuto;Marinetti, F. T.;PROSE;;"Il quattro novembre al tramonto, sulla strada di Chiusaforte, nella mia
+blindata ferma prua che divideva il nerastro filosofico puzzolente fiume
+di prigionieri austriaci";22;VT;fiume;11;63;3,755;prigionieri;5;275;4,169;0,91;;;;;;;;;;;;N;Y
+FA_LIT477;Genitive;fiume di sangue;river of blood;Una sfida al Polo;Salgari, Emilio;PROSE;;"Fu una serie di salti spaventosi che mise a dura prova i muscoli
+dei tre esploratori, poichè l'automobile passava, insieme al pesante
+carrozzone, sopra i disgraziati anfibi, lasciandosi dietro un vero
+fiume di sangue e d'olio";35;VT;fiume;6;473;4,181;sangue;5;275;4,169;0,685;;;;;;;;;;;;N;Y
+FA_LIT468;Genitive;fiume di soldati;river of soldiers;L'idolo;Rovetta, Gerolamo;PROSE;;"Le due donne, attonite, irresolute, scesero dal marciapiedi. Ma quel
+fiume di soldati che le aveva rincorso fu sopra di loro d'un subito, e
+le sospinse, e le separò";28;VT;fiume;7;195;3,614;soldati;5;275;4,169;0,625;;;;;;;;;;;;N;Y
+FA_LIT038;Genitive;fiume di sole;river of sun;Il Piacere;D’Annunzio;PROSE;Questo brano descrive una passeggiata per le vie di Roma.;S'incamminarono in giù, verso la via de' Condotti. Il Corso era un lietissimo fiume di sole, dalla piazza di Venezia alla piazza del Popolo.;26;VT;fiume;4;485;3,999;sole;5;275;4,169;0,739;0;1,867;1,667;3,667;2,333;;;;;;;Y;N
+FA_LIT505;Genitive;fiume di lacrime;river of tears;I divoratori: romanzo;Vivanti, Annie;PROSE;;"Spesso, nelle sue ore desolate, egli aveva pensato di andare a
+piangere colà, solo, solo, solo, sperando che quel fiume di lacrime
+avrebbe deterso la torbida anima sua e l'avrebbe rinnovata";30;VT;fiume;7;176;4,115;lacrime;5;275;4,169;0,743;;;;;;;;;;;;N;Y
+FA_LIT329;Genitive;treni di nebbia;trains of fog;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Guardate
+  quei treni di nebbia violacea
+  che passano all'orizzonte";12;VT;treni;6;98;3,959;nebbia;5;230;4,176;0,77;;;;;;;;;;;;N;Y
+FA_LIT195;Genitive;fuoco di sincerità;fire of sincerity;Le Novelle della Pescara;D'Annunzio, Gabriele;PROSE;;"Lo fece senza grazia, con parole e con gesti impacciati, ma con un tale
+fuoco di sincerità negli occhi e tale tremore d'emozione nella voce
+che Anna-Maria, la quale si scalzava lentamente i guanti a capo chino
+mentre egli parlava, alzò d'improvviso il capo e si pose ad osservarlo
+con una attenzione fra pietosa e meravigliata";54;VT;fuoco;9;28;1,957;sincerità;5;609;4,179;0,832;;;;;;;;;;;;N;Y
+FA_LIT088;Genitive;sangue dei vulcani;blood of the volcanoes;Le farfalle;Gozzano;POEM;Questo brano descrive il lavoro del baco nel tessere la seta.;"Discende il vaso dall'estrema bocca, \ come fiume che va, poi si biparte; \ dall'una e l'altra banda i rami pari \ s'avvolgono ai precordi intimi e dove \ l'uno si fa maggior pur l'altro è tale; \ poi, quasi giunti al fin, piegano e al capo \ ascendono e giù tornano ed ascendono, \ elaborato alfin recano al labbro \ l'umor tenace che diventa seta; \ non altrimenti il sangue dei vulcani \ s'addensa all'aria in rivoli di lava.";89;VT;sangue;7;30;4,071;vulcani;6;473;4,181;0,855;0;2,2;2,333;2,333;2,867;;;;;;;Y;N
+FA_LIT055;Genitive;matassa di pasta;hank of pasta;Canti di Castelvecchio;Pascoli;POEM;Questo brano descrive il lavoro in una cucina.;"È l'ora, in cucina, che troppi \ due sono, ed un solo non basta: \ si cuoce, tra murmuri e scoppi, \ la bionda matassa di pasta. \ Qua, nella cucina, lo svolo \ di piccole grida d'impero; \ là, in sala, il ronzare, ormai solo, \ d'un ospite molto ciarliero.";54;VT;matassa;5;99;4,811;pasta;7;13;4,183;0,711;0;2,6;3,4;3,733;2,067;;;;;;;Y;N
+FA_LIT428;Genitive;vulcano di gioia;volcano of joy;Il Re bello;Palazzeschi, Aldo;PROSE;;"er quanto i festeggiamenti, che
+avrebbero dovuto avvenire strepitosi, fossero stati rimandati per la
+malattia del Re, i cittadini tutti fino dai grigiori dell'alba si
+aggiravano cupamente sopra la piazza dei Settantasette che avrebbe
+dovuto essere una giostra di colori, un vulcano di gioia e di felicità,
+ed era invece grigia e muta in quell'alba";52;VT;vulcano;5;235;3,051;gioia;7;30;4,191;0,768;;;;;;;;;;;;N;Y
+FA_LIT052;Genitive;lama di buio;blade of dark;Marcovaldo;Calvino;PROSE;Questo brano descrive la chiusura serale di alcuni esercizi commerciali.;"L'ora era tarda ma certo era aperto ancora qualche caffè, qualche osteria; l'insegna luminosa che cominciava a decifrarsi diceva: Bar… E si spense; su quello che doveva essere un vetro illuminato calò una lama di buio, come una saracinesca.";42;VT;lama;4;126;3,942;buio;4;46;4,2;0,765;0;1,467;1,467;3,667;2,2;48;0,33;1,93;1,87;2,73;3,67;Y;N
+FA_LIT515;Genitive;maschera di dolore;mask of pain;La volpe di Sparta;Zuccoli, Luciano;PROSE;;"Folco vide una maschera di dolore arcigno cader dal volto di Gioconda:
+i colori le tornarono alle guancie, la luce agli occhi; le sue labbra
+sorrisero";24;VT;maschera;6;349;3,288;dolore;8;93;4,211;0,859;;;;;;;;;;;;N;Y
+FA_LIT426;Genitive;giostra di colori;carousel of colors;Il Re bello;Palazzeschi, Aldo;PROSE;;"er quanto i festeggiamenti, che
+avrebbero dovuto avvenire strepitosi, fossero stati rimandati per la
+malattia del Re, i cittadini tutti fino dai grigiori dell'alba si
+aggiravano cupamente sopra la piazza dei Settantasette che avrebbe
+dovuto essere una giostra di colori, un vulcano di gioia e di felicità,
+ed era invece grigia e muta in quell'alba";52;VT;giostra;6;615;3,958;colori;7;21;4,212;0,807;;;;;;;;;;;;N;Y
+FA_LIT350;Genitive;torrenti di case;torrents of houses;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"In modo strano si torce e s'ammucchia il paesaggio,
+  poi cade a pezzi, a poco a poco,
+  crollando in torrenti di case, in ruscelli di verde,  interminabilmente, sotto di me, a rovescio";36;VT;torrenti;4;1;4,013;case;8;33;4,219;0,732;;;;;;;;;;;;N;Y
+FA_LIT483;Genitive;torrenti di diplomazia;torrents of diplomacy;Dal vero;Serao, Matilde;PROSE;;"Come la fanciulla potè vederlo, conoscerlo, portarselo in casa,
+persuadere i parenti, sarebbe lunghissimo il narrare: giorno per
+giorno, per la parola matrimonio, si disperdono nell'oceano della vita
+torrenti di diplomazia femminile.";30;VT;torrenti;10;34;2,692;diplomazia;8;33;4,219;0,761;;;;;;;;;;;;N;Y
+FA_LIT474;Genitive;torrenti di lettere;torrents of letters;I Robinson italiani;Salgari, Emilio;PROSE;;"Torrenti di lettere le piovevano
+in casa, e tutte domandavano delle risposte; diluvi di estranei le
+invadevano il tranquillo appartamento nel Vinohrady e tutti
+s'aspettavano di essere ricevuti.";26;VT;torrenti;7;4;3,97;lettere;8;33;4,219;0,746;;;;;;;;;;;;N;Y
+FA_LIT165;Genitive;torrenti di melodia;torrents of melody;Pietro Mascagni, con nota delle opere e ritratto;Bastianelli, Giannotto;PROSE;;"La vena lirica del
+Mascagni si riapre, versa torrenti di melodia";10;VT;torrenti;7;44;3,286;melodia;8;33;4,219;0,748;;;;;;;;;;;;N;Y
+FA_LIT328;Genitive;torrenti di stelle;torrents of stars;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Ecco già che il Vulcano,
+  per inebbriarti,
+  versa copiosi torrenti di stelle";14;VT;torrenti;6;261;3,77;stelle;8;33;4,219;0,971;;;;;;;;;;;;N;Y
+FA_LIT208;Genitive;torrenti di vita;torrents of life;Ricordi di Parigi;De Amicis, Edmondo;PROSE;;"Per me, penso ai suoi cinquanta volumi, pieni d'ispirazioni e di
+fatiche, in cui si rivela col genio prepotente una volontà
+indomabile o una tempra fisica d'acciaio; penso ai torrenti di vita
+che uscirono dal suo petto, all'amore immenso che profuse";41;VT;torrenti;4;2829;2,883;vita;8;33;4,219;0,756;;;;;;;;;;;;N;Y
+FA_LIT030;Genitive;fili di pioggia;threads of rain;Il turno;Pirandello;PROSE;Il brano si parla di un gruppo di giovani che trovno riparo dalla pioggia.;"La furia dell'acqua scemo? d'un tratto: per un momento parve che raggiornasse.
+""Ma che! piove... guardate…""
+I fili di pioggia cadevano si più? esili e radi, ma continui.";29;VT;fili;7;183;4,376;pioggia;4;272;4,243;0,819;0;3,333;3,533;2,133;3,733;;;;;;;Y;N
+FA_LIT097;Genitive;stagno di buio;pond of dark;L’Allegria;Ungaretti;POEM;In questo brano un uomo descrive i suoi sentimenti  notturni.;Quale canto s'è levato stanotte \ che intesse \ di cristallina eco del cuore \ le stelle \ Quale foresta sorgiva \ di cuore a nozze \ Sono stato \ uno stagno di buio \ Ora mordo \ come un bambino la mammella \ lo spazio \ Ora sono ubriaco \ d'universo. \;56;VT;stagno;4;126;3,942;buio;6;23;4,269;0,723;0;1,533;1,2;3,667;2;79;0;1,53;1,4;3,6;3,27;Y;N
+FA_LIT458;Genitive;globi di fumo;globes of smoke;Lucifero;Rapisardi, Mario;POEM;;"Là un ebbro vil, che a lo straniero inneggia,
+    Qui un eroe che ancor pugna, e cade esangue;
+    Ed armi infrante e sparse membra ed adri
+    Globi di fumo ed ulular di madri";43;VT;globi;4;117;3,846;fumo;5;15;4,284;0,719;;;;;;;;;;;;N;Y
+FA_LIT358;Genitive;nuvole di fiori;clouds of flowers;Maternità;Negri, Ada;POEM;;"Coi rosei figli su le forti braccia
+    di te veniam, fra sterpi e fango, in traccia;
+
+    su te gettando, con l’amor che ignori,
+    gioia di baci e nuvole di fiori;";39;VT;nuvole;5;410;4,523;fiori;6;79;4,284;0,757;;;;;;;;;;;;N;Y
+FA_LIT164;Genitive;nuvole di polvere;clouds of dust;Al fronte (maggio-ottobre 1915);Barzini, Luigi;PROSE;;"Lunghe nuvole di polvere sorgevano basse, a strisce, mettendo qua e
+là dei veli sulle piantagioni, avvolgendo villaggi, dissipandosi per
+risorgere più vicino";21;VT;nuvole;7;139;4,429;polvere;6;79;4,284;0,784;;;;;;;;;;;;N;Y
+FA_LIT501;Genitive;nuvole di profumo;clouds of perfume;Sciogli la treccia, Maria Maddalena;Verona, Guido da;PROSE;;"Gli alberi, gonfi di notte, carichi d’autunno,
+facevano stridere sotto i nostri piedi qualche foglia gialla. Nei
+giardini della terra di Guipuzcoa la vecchia estate si andava consumando
+in nuvole di profumo";29;VT;nuvole;7;159;3,979;profumo;6;79;4,284;0,815;;;;;;;;;;;;N;Y
+FA_LIT062;Genitive;nuvole di rami;clouds of branches;Il sentimento del tempo;Ungaretti;POEM;Questo brano descrive la crisi spirituale del poeta in guerra.;E tu non saresti che un sogno, Dio? \ Almeno un sogno, temerari, vogliamo ti somigli. \ E? parto della demenza più chiara. \ Non trema in nuvole di rami \ come passeri di mattina \ al filo delle palpebre.;41;VT;nuvole;4;99;4,093;rami;6;79;4,284;0,732;0;1,933;2,2;3,4;1,8;;;;;;;Y;N
+FA_LIT045;Genitive;gradini del pensiero;stairs of the thought;Il fanciullino;Pascoli;PROSE;In questo brano l'autore descrive il dialogo con la sua voce interna.;Fanciullo, che non sai ragionare se non a modo tuo, un modo fanciullesco che si chiama profondo, perché d'un tratto, senza farci scendere a uno a uno i gradini del pensiero, ci trasporta nell'abisso della verità...;38;VT;gradini;8;426;1,998;pensiero;7;59;4,292;0,886;0;1,8;1,333;3,267;2,467;;;;;;;Y;N
+FA_LIT101;Genitive;teschio di corallo;skull of coral;L’isola del giorno prima;Eco;PROSE;Questo brano descrive un ritrovamento su un pontile.;Io ed essa ridotti a cosa fossile come questo corallo. Perché il teschio di corallo era ancor lì sul ponte, indenne dalla universale consunzione e quindi, poiché sottratto alla morte, unica cosa viva.;33;VT;teschio;7;9;4,309;corallo;7;20;4,302;0,586;0;1,933;2,8;3,2;2,6;;;;;;;Y;N
+FA_LIT035;Genitive;fiore di fede;flower of faith;Il Libro delle Vergini;D’Annunzio;PROSE;Questo brano parla dei timori di una donna.;Ella si compresse in una specie di accoglimento cupo, quasi direi sorvegliando sé stessa, sorvegliando i propri atti, i propri pensieri, i minimi moti, pe ‘l timore che quella veemenza di pentimento si esalasse, per l'ansia di conservare intatto dentro di sé quel fiore di fede rigermogliato d'improvviso.;50;VT;fiore;4;231;2,356;fede;5;410;4,304;0,862;0;1,8;1,333;3,933;2,067;45;0;1,53;1,27;3,13;3,6;Y;N
+FA_LIT034;Genitive;fiore della fiamma;flower of the flame;Poemi conviviali;Pascoli;POEM;Questo brano descrive la nascita di Tiberio, figlio dell'imperatore Claudio.;Lottano i pini coi disvincolanti \ frassini, e l'elci su la stessa roccia \ coi faggi urtano i vecchi tronchi infranti. \ E il fiore della fiamma apresi e sboccia.;31;VT;fiore;6;151;4,013;fiamma;5;410;4,304;0,78;0;1,6;1,533;3,667;1,6;;;;;;;Y;N
+FA_LIT522;Genitive;acquazzone di piombo;downpour of lead;;;;;"Già essi
+hanno occupato la spianata, che hai notato anche tu, munita di
+artiglierie, di lì hanno rovesciato un acquazzone di piombo e di fuoco
+sopra Ampola";25;VT;acquazzone;6;68;4,616;piombo;10;11;4,308;0,783;;;;;;;;;;;;N;Y
+FA_LIT086;Genitive;ruggine del fiato;rust of the breath;Poemi conviviali;Pascoli;POEM;Questo brano descrive i pensieri di un uomo che cammina nel bosco.;"Ma trito e secco gli venia da tergo \ sempre lo stesso calpestio discorde, \ misto a uno scabro anelito; né forse \ egli pensò che fosse il picchiar duro \ del taglialegna in echeggiante forra, \ misto alla rauca ruggine del fiato \ era Ate, Ate la zoppa, Ate la vecchia, \ che lo inseguiva con stridente lena, \ veloce, infaticabile.";62;VT;ruggine;5;123;4,13;fiato;7;11;4,313;0,8;0;1,4;1,4;3,667;2,133;47;0;1,6;1,6;3,53;2,2;Y;N
+FA_LIT109;Genitive;velo d'acqua;veil of water;Il Libro delle Vergini;D’Annunzio;PROSE;Questo brano parla di una donna che si specchia.;"Poi scese dal letto, staccò dalla parete uno di quelli specchi rococò a cornice d'oro appannati di macchie verdi; con un lembo della coperta tolse la polvere e si guardò dentro, sorridendo. Ella restò a guardarsi a lungo; e godeva allontanare lentamente lo specchio e veder sparire l'immagine in quella luce un po' glauca come in un velo d'acqua marina e quindi riemergere.";67;VT;velo;5;1113;4,232;acqua;4;102;4,318;0,738;0,133;3,133;3,2;2,333;3,267;51;0,4;1,93;1,8;2,33;2,67;Y;N
+FA_LIT110;Genitive;velo d'ombra;veil of shadow;I Vecchi e i Giovani;Pirandello;POEM;Questo brano parla di un pastore che raduna il suo gregge.;Ma il pastore si leva, ecco, e per nome \ le chiama e le raduna: quasi un velo \ d'ombra è calato fin sopra le chiome \ degli alberi.;30;VT;velo;5;265;2,845;ombra;4;102;4,318;0,687;0,2;2,8;2,133;2,533;3,133;63;0,2;3,4;2,87;1,4;4,07;Y;N
+FA_LIT508;Genitive;sentiero di sangue;path of blood;I divoratori: romanzo;Vivanti, Annie;PROSE;;"Nino fissò gli occhi sul rosso tappeto nuziale che stendeva la sua
+striscia scarlatta fino all'orlo della strada. E gli parve un sentiero
+di sangue";24;VT;sentiero;6;473;4,181;sangue;8;67;4,33;0,784;;;;;;;;;;;;N;Y
+FA_LIT498;Genitive;lembi di desiderio;flaps of desire;Mimi Bluette, fiore del mio giardino: romanzo;Verona, Guido da;PROSE;;"Immaginazioni distanti rinascevano con felicità nel suo confuso
+pensiero; lembi di desiderio, staccatisi da lei come petali da una
+rosa, tornavano con profumo a ravvolgere le sue vene";26;VT;lembi;9;359;2,659;desiderio;5;25;4,331;0,673;;;;;;;;;;;;N;Y
+FA_LIT059;Genitive;nidi d'illusione;nests of illusion;Il sentimento del tempo;Ungaretti;POEM;Questo brano descrive lo scorrere del tempo.;O gioventù, \ Passata è appena l'ora del distacco. \ Cieli alti della gioventù, \ Libero slancio. \ E già sono deserto. \ Preso in questa curva malinconia. \ Ma la notte sperde le lontananze. \ Oceanici silenzi, \ Astrali nidi d'illusione \ O notte.;47;VT;nidi;9;118;2,615;illusione;4;59;4,338;0,82;0;2,733;2;2,867;2,867;95;0;1,53;1,47;2,2;3,53;Y;N
+FA_LIT103;Genitive;torrente di gioia;torrent of joy;Il Piacere;D’Annunzio;PROSE;Questo brano descrive il lavoro del poeta.;Maggior poeta è dunque colui che sa discoprire, disviluppare, estrarre un maggior numero di codeste preformazioni ideali. Quando il poeta è prossimo alla scoperta d'uno di tali versi eterni, è avvertito da un divino torrente di gioia che gli invade d'improvviso tutto l'essere.;46;VT;torrente;5;235;3,051;gioia;8;33;4,344;0,818;0,067;2,4;1,8;2,4;3,267;52;0;1,6;1,67;2,33;3,6;Y;N
+FA_LIT362;Genitive;torrente di vita;torrent of life;Maternità;Negri, Ada;POEM;;"Torrente di vita che rompi
+    le viscere d’Eva, a nutrire
+    la gioia e il vigor de la terra,
+      maternità";30;VT;torrente;4;2829;2,883;vita;8;33;4,344;0,62;;;;;;;;;;;;N;Y
+FA_LIT104;Genitive;torrente di voci;stream of voices;Sogno di Prigione;Campana;PROSE;In questo brano un uomo si sofferma sulle sensazioni legate alla notte.;Nel viola della notte odo canzoni bronzee. La cella è bianca, il giaciglio è bianco. La cella è bianca, piena di un torrente di voci che muoiono nelle angeliche cune.;30;VT;torrente;4;1023;3,247;voci;8;33;4,344;0,83;0;3,267;2,933;2,667;2,867;75;0;2,2;1,67;2,67;2,47;Y;N
+FA_LIT142;Genitive;vene di melodia;veins of melody;Momenti: Liriche;Aleramo, Sibilla;POEM;;"In quest'alba,
+    ricche le vene di melodia e dolenti,
+    che tutti aduno e mesco i desideri eterni";24;VT;vene;7;44;3,286;melodia;4;62;4,351;0,794;;;;;;;;;;;;N;Y
+FA_LIT111;Genitive;vene della terra;veins of the earth;Odi e Inni;Pascoli;POEM;Questo brano descrive colline ricche di vegetazione.;La vegetazione impedisce all'acqua piovana di evaporar subito, e questa circola così nelle vene della terra, donde geme in polle e scorre in ruscelli.;25;VT;vene;5;933;4,117;terra;4;62;4,351;0,782;0;2,6;2,867;3;3;;;;;;;Y;N
+FA_LIT497;Genitive;zattere di nebbia;raft of fog;Mimi Bluette, fiore del mio giardino: romanzo;Verona, Guido da;PROSE;;"Le sagome ampie degli edifici incastellavano di bianco
+la notte invernale; pesanti zattere di nebbia nuotavano su la Senna
+invisibile";18;VT;zattere;6;98;3,959;nebbia;7;15;4,36;0,828;;;;;;;;;;;;N;Y
+FA_LIT248;Genitive;pioggia di confetti;rain of confetti;Abrakadabra;Ghislanzoni, Antonio;PROSE;;"Una popolazione di oltre
+cinquecentomila viaggiatori salutava la città ospitale dall'altezza di
+ottocento metri cogli spari delle bombe _fraterne_, le quali,
+scoppiando, sviluppavano una pioggia di confetti e di fiori.";28;VT;pioggia;8;5;4,69;confetti;7;183;4,376;0,836;;;;;;;;;;;;N;Y
+FA_LIT343;Genitive;pioggia di granate;rain of grenades;La camicia rossa;Mario, Alberto;PROSE;;"Visibile a tutti gli sguardi,
+vedevalo anche il nemico e salutavalo con una pioggia di granate che
+cadevangli intorno o scoppiavano in alto";21;VT;pioggia;7;36;4,52;granate;7;183;4,376;0,756;;;;;;;;;;;;N;Y
+FA_LIT482;Genitive;pioggia di astri;rain of stars;Dal vero;Serao, Matilde;PROSE;;"Lontan lontano, sulla fine
+dell'orizzonte, dappresso, da tutte le parti, il firmamento è solcato,
+quasi ferito da strisce luminose; sono innumerevoli stelle che cadono,
+è una pioggia di astri, è un lusso, una prodigalità di splendori: è
+uno spettacolo pieno di vita";39;VT;pioggia;5;32;3,204;astri;7;183;4,376;0,777;;;;;;;;;;;;N;Y
+FA_LIT259;Genitive;pioggia di bombe;rain of bombs;Lo assedio di Roma;Guerrazzi, Francesco Domenico;PROSE;;"tra i miei ricordi noto
+come un mio amico passando per una contrada presso ponte Sisto di Roma
+vide due fanciulle bellissime intente a cucire panni in certa stanza
+terrena senza curarsi della pioggia di bombe, che mandavano i
+Francesi; di un tratto una bomba lì presso sfonda una casa, e
+cascata sul letto dove riposavano due vecchi gli ammazza";55;VT;pioggia;5;210;4,612;bombe;7;183;4,376;0,773;;;;;;;;;;;;N;Y
+FA_LIT171;Genitive;pioggia di fiori;rain of flowers;La donna nella vita e nelle opere di Giacomo Leopardi;Boghen Conigliani, Emma;PROSE;;"come la Laura petrarchesca
+sotto la pioggia di fiori cadente da l'albero";12;VT;pioggia;5;410;4,523;fiori;7;183;4,376;0,806;;;;;;;;;;;;N;Y
+FA_LIT249;Genitive;pioggia di fuoco;rain of fire;Abrakadabra;Ghislanzoni, Antonio;PROSE;;"Ma allorquando una delle tante sette politico-sociali-religiose che
+fremono nelle viscere corrose della _Unione_, riuscirà ad ottenere una
+prevalenza assoluta; allora, o signori, aspettatevi il diluvio... la
+pioggia di fuoco, l'inferno...!";30;VT;pioggia;5;609;4,179;fuoco;7;183;4,376;0,73;;;;;;;;;;;;N;Y
+FA_LIT234;Genitive;pioggia di lagrime;rain of tears;Frutti proibiti;Farina, Salvatore;PROSE;;Nuova pioggia di lagrime sulle mani tremanti e carezzevoli di fratel Biagio;12;VT;pioggia;7;176;4,115;lagrime;7;183;4,376;0,674;;;;;;;;;;;;N;Y
+FA_LIT230;Genitive;pioggia di pietre;rain of stones;Dopo il divorzio;Deledda, Grazia;PROSE;;"Il paesello
+era già deserto e silenzioso; sul selciato rozzo delle strade il passo
+dei cavalli risuonava come pioggia di pietre.";19;VT;pioggia;6;220;4,39;pietre;7;183;4,376;0,864;;;;;;;;;;;;N;Y
+FA_LIT479;Genitive;pioggia di piombo;rain of lead;Il libro di Don Chisciotte;Scarfoglio, Edoardo;PROSE;;"Io veggo ancora Guglielmo Oberdank
+afferrare le cassette piene di caratteri e sbalzarle lietamente per
+l'aria, e Umberto Dal Medico mezzo sepolto sotto una pioggia di piombo
+frugar tuttavia con le mani cercando qualcosa da fracassare";34;VT;pioggia;6;68;4,616;piombo;7;183;4,376;0,735;;;;;;;;;;;;N;Y
+FA_LIT257;Genitive;pioggia di polvere;rain of dust;L'assedio di Firenze;Guerrazzi, Francesco Domenico;PROSE;;"I prigionieri, non abituati a marciare a piedi, essendo i turchestani
+tutti cavalieri, non si reggevano più e avevano le gole arse da quella
+continua pioggia di polvere finissima, e le palpebre rosse e gonfie";33;VT;pioggia;7;139;4,429;polvere;7;183;4,376;0,717;;;;;;;;;;;;N;Y
+FA_LIT245;Genitive;pioggia di pugni;rain of fists;Cantoni il volontario;Garibaldi, Giuseppe;PROSE;;"Gaudenzio si credette spacciato e stava veramente fresco, se la
+moltitudine, come abbiam narrato, in luogo di schiamazzare,
+confondersi, ondeggiare e rovesciarsi gli uni sugli altri avesse
+imitato la pacatezza di Franchi, e somministrato almeno al prete una
+pioggia di pugni";37;VT;pioggia;5;168;4,251;pugni;7;183;4,376;0,763;;;;;;;;;;;;N;Y
+FA_LIT473;Genitive;pioggia di raggi;rain of rays;La favorita del Mahdi;Salgari, Emilio;PROSE;;"Vista così, sotto una pioggia di raggi solari che si
+riflettevano sui monili e sui braccialetti d'oro che le cingevano il
+collo e le nude braccia, la si sarebbe presa per una apparizione
+celeste, per una urì del paradiso di Mohammed il profeta";41;VT;pioggia;5;136;4,082;raggi;7;183;4,376;0,683;;;;;;;;;;;;N;Y
+FA_LIT231;Genitive;pioggia di rame;rain of copper;Dopo il divorzio;Deledda, Grazia;PROSE;;"La
+pioggia di rame ed in conseguenza l'assalto dei monelli, che crescevano
+sempre più di numero, proseguì fino all'arrivo del corteo alla
+chiesetta, dove prete Elias aspettava, scambiando qualche parola col
+sagrestano vestito di rosso.";33;VT;pioggia;4;23;4,595;rame;7;183;4,376;0,888;;;;;;;;;;;;N;Y
+FA_LIT158;Genitive;pioggia di ricchezze;rain of riches;L'Argentina vista come è;Barzini, Luigi;PROSE;;"Un'infinità di famiglie va avanti
+impegolandosi sempre più nei debiti in attesa della _volada_--un colpo
+di fortuna--o di una nuova pioggia di ricchezze";22;VT;pioggia;9;112;3,025;ricchezze;7;183;4,376;0,802;;;;;;;;;;;;N;Y
+FA_LIT484;Genitive;pioggia di riccioli;rain of curls;La conquista di Roma;Serao, Matilde;PROSE;;"Che sentimento!» esclamò la moglie di un deputato pugliese, una
+grassona con una pioggia di riccioli neri sulla fronte rossa e lucida";21;VT;pioggia;8;17;4,643;riccioli;7;183;4,376;0,852;;;;;;;;;;;;N;Y
+FA_LIT152;Genitive;pioggia di rottami;rain of scrap;I rossi e i neri;Barrilli, Anton Giulio;PROSE;;"Per alcuni istanti una enorme nuvola ondeggiò sull'oceano, poi una
+pioggia di rottami incandescenti piombò sulle onde sibilando, e
+la carcassa del veliero, sventrata, invasa dalle acque irrompenti
+attraverso alle squarciature, scomparve nei profondi baratri del mare
+di Sulu";36;VT;pioggia;7;8;4,428;rottami;7;183;4,376;0,939;;;;;;;;;;;;N;Y
+FA_LIT186;Genitive;pioggia di rubini;rain of rubies;Il Miraggio: Romanzo;D'Ambra, Lucio;PROSE;;"Claudina, poggiata al davanzale della finestra, guardava il mare
+che s'andava tingendo di rosa al riflesso del cielo, che sempre più
+rosseggiava per la magnifica pioggia di rubini del tramonto";29;VT;pioggia;6;7;4,295;rubini;7;183;4,376;0,658;;;;;;;;;;;;N;Y
+FA_LIT269;Genitive;pioggia di sangue;rain of blood;Il processo Bartelloni;Jarro;PROSE;;"I primi ad entrar nel palco, dal quale cadeva la pioggia di sangue,
+videro un uomo con la testa tutta sfracellata, appoggiata al davanzale
+del palco e il cui corpo si era ripiegato nell'angustia dello spazio,
+cadendo, dopo la spaventevole ferita";39;VT;pioggia;6;473;4,181;sangue;7;183;4,376;0,804;;;;;;;;;;;;N;Y
+FA_LIT246;Genitive;pioggia di sassate;rain of stones;In chiave di baritono;Ghislanzoni, Antonio;PROSE;;"oichè vidi che ogni cosa volgeva alla peggio,
+e pareva decretata dai fati la mala riuscita di quella intrapresa,
+io pensai bene d'andarmene a pranzo, indi sdraiato sovra un divano,
+attendere l'ora dello spettacolo, che, secondo tutte le probabilità,
+doveva terminarsi con una pioggia di sassate";44;VT;pioggia;7;7;;sassate;7;183;4,376;0,753;;;;;;;;;;;;N;Y
+FA_LIT388;Genitive;pioggia di sorrisi;rain of smiles;Quartetto;Oriani, Alfredo;PROSE;;"Allora era un trionfo, una demenza di evviva, una
+girandola di sguardi, una pioggia di sorrisi bianchi come i gelsomini; i
+cortigiani erano scomparsi e le musiche tacevano";26;VT;pioggia;7;309;3,876;sorrisi;7;183;4,376;0,797;;;;;;;;;;;;N;Y
+FA_LIT348;Genitive;pioggia di stelle;rain of stars;Storie da ridere… e da piangere;Morselli, Ercole Luigi;PROSE;;"S’alzò pian piano, andò a guardare dai vetri dell’uscio, poi l’aprì:
+stette a contemplare la sua casetta lì di faccia, che sembrava un
+giocattolo dimenticato da un bambino sotto una pioggia di stelle";31;VT;pioggia;6;261;3,77;stelle;7;183;4,376;0,667;;;;;;;;;;;;N;Y
+FA_LIT325;Genitive;sipario di fumo;curtain of smoke;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Dobbiamo attraversare la platea o salire,
+  sotto i fuochi, convergenti dei palchi
+  che lancian folgori,
+  salire su fino all'invisibile palcoscenico
+  dal sipario di fumo";30;VT;sipario;4;117;3,846;fumo;7;28;4,379;0,874;;;;;;;;;;;;N;Y
+FA_LIT346;Genitive;sipario di nuvole;curtain of clouds;Mar sanguigno (Offerta al nostro buon vecchio Dio);Milanesi, Guido;PROSE;;"Un vento freddo ed umido arrischiava di quando in
+quando qualche ululato, come un mostruoso cantante da tregenda che
+si preparasse dietro un sipario di nuvole";24;VT;sipario;6;79;4,284;nuvole;7;28;4,379;0,543;;;;;;;;;;;;N;Y
+FA_LIT253;Genitive;manto di gloria;mantle of glory;La battaglia di Benevento: Storia del secolo XIII;Guerrazzi, Francesco Domenico;PROSE;;"così, se vivi senza onore, morrai senza
+infamia, e sarai degno che l'Eterno trami nell'arcano dei secoli ai tuoi
+tardi nepoti un nuovo manto di gloria";26;VT;manto;6;77;3,403;gloria;5;22;4,389;0,721;;;;;;;;;;;;N;Y
+FA_LIT183;Genitive;manto di luce;mantle of light;Racconti e bozzetti;Castelnuovo, Enrico;PROSE;;"Il sole era tramontato, lasciando parte del suo manto di luce a
+certe nubi rossastre che si disegnavano nelle più pittoresche fogge
+del mondo sugli ultimi lembi dell'orizzonte";27;VT;manto;4;730;3,437;luce;5;22;4,389;0,645;;;;;;;;;;;;N;Y
+FA_LIT057;Genitive;morso del pettine;bite of the comb;La figlia della Borea;D’Annunzio;PROSE;In questo brano descrive una giovane donna assiste la protagonista Vijenda.;"""Sedetevi su quella pietra, bella signora,"" le disse la femminetta. Ella si mise a sedere su la pietra, e l'altra sul margine della fontana. ""Posate la testa su le mie ginocchia."" Vijenda poso? la testa meravigliosa su le ginocchia della fanciulla che incomincio? a pettinarla. Cadevano, sotto il morso del pettine, le foglie a una a una. ""Perché, signora, non mi raccontate la vostra storia, mentre io vi pettino?""";71;VT;morso;7;20;4,606;pettine;5;24;4,391;0,754;0;2;2,333;3,533;2,2;;;;;;;Y;N
+FA_LIT046;Genitive;grappoli di mondi;bunch of worlds;Nuovi Poemetti;Pascoli;POEM;Il brano descrive l'alba di domenica mattina in un convento.;Spariva sotto i baratri profondi \ colmi di stelle il tacito convento. \ Mucchi di stelle, grappoli di mondi, \ nebbie di cosmi.;23;VT;grappoli;5;2193;2,964;mondi;8;8;4,4;0,807;0;1,333;1,533;3,933;1,8;;;;;;;Y;N
+FA_LIT327;Genitive;tappeti di nebbia;carpets of fog;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Io scivolo con angoscia
+  sui tuoi profondi tappeti di nebbia violetta";12;VT;tappeti;6;98;3,959;nebbia;7;106;4,402;0,874;;;;;;;;;;;;N;Y
+FA_LIT082;Genitive;ponte d'argento;bridge of silver;Myricae;Pascoli;POEM;In questo brano un uomo osserva un paesaggio marino.;"M'affaccio alla finestra, e vedo il mare; \ vanno le stelle, tremolano l'onde. \ Vedo stelle passare, onde passare; \ un guizzo chiama, alito risponde. \ Ecco, sospira l'acqua, alita il vento: \ sul mare è apparso un bel ponte d'argento. \ Ponte gettato sui laghi sereni, \ per chi dunque sei fatto e dove meni?";60;VT;ponte;7;122;4,331;argento;5;166;4,404;0,828;0;2,4;2,733;3,133;2,8;67;0,33;2,13;1,87;2,73;3,13;Y;N
+FA_LIT347;Genitive;carne di fiori;flesh of flowers;Le origini degli Stati Uniti d'America;Mondaini, Gennaro;PROSE;;"Carne di fiori d'un pallor sì molle
+    da sembrar carne di delizia, nata
+    in tepori di serra o in cima a un colle";30;VT;carne;5;410;4,523;fiori;5;232;4,412;0,746;;;;;;;;;;;;N;Y
+FA_LIT488;Genitive;polvere di seta;dust of silk;L'amore che torna: romanzo;Verona, Guido da;PROSE;;"Il copripiedi soffice, di bella seta chermisi, spiumava da invisibili
+scuciture ad ogni moto che si facesse, e tanti piccoli fili, colore
+della luce, lievi come una polvere di seta, navigavano via, piano piano,
+salendo nel raggio di sole";36;VT;polvere;4;116;4,4;seta;7;139;4,429;0,761;;;;;;;;;;;;N;Y
+FA_LIT047;Genitive;grappolo di nidi;bunch of nests;Il Libro delle Vergini;D’Annunzio;PROSE;Questo brano descrive i ricordi di un giovane.;"Il ricordo, per esempio, di tanti gigli dai grandi calici argentei che mi assopirono co 'l profumo una sera di giugno nella stanza di mia sorella; il ricordo di un grappolo di nidi che io feci cadere con una canna dalla grondaia, una mattina di primavera, per rubare le piccole ova perlate alle rondini covanti.";56;VT;grappolo;4;59;4,338;nidi;8;8;4,441;0,737;0;2,333;3,2;3,733;1,933;;;;;;;Y;N
+FA_LIT123;Genitive;corde di volontà;ropes of will;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Anche se l'amore fosse altro, fosse quale l'ho contemplato in me
+meraviglioso di virtù, c'è qualcosa ch'esso non attinge, non attingerà
+mai, nodo fondo del mio essere, fibre di sogno, fibre segrete, corde di
+volontà invisibili fra la mia prima e la mia ultima giornata";46;VT;corde;7;262;1,635;volontà;5;115;4,441;0,573;;;;;;;;;;;;N;Y
+FA_LIT324;Genitive;serbatoio di tenebre;tank of darkness;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Dovrai diventar bianco, serbatoio di tenebre,
+  per non far macchia sulla brina radiosa,
+  che imbrillanta la pianura";20;VT;serbatoio;7;30;3,129;tenebre;9;37;4,462;0,813;;;;;;;;;;;;N;Y
+FA_LIT491;Genitive;cupola di fumo;dome of smoke;La vita comincia domani: romanzo;Verona, Guido da;PROSE;;"
+Al ritorno, la città riappariva, dapprima obliqua, sollevata su la
+pianura circostante; poi man mano si delineava più ferma sotto una
+cupola di fumo rossastro";23;VT;cupola;4;117;3,846;fumo;6;60;4,464;0,739;;;;;;;;;;;;N;Y
+FA_LIT514;Genitive;cupola di nebbia;dome of fog;La freccia nel fianco;Zuccoli, Luciano;PROSE;;"Era quasi l'intero giorno in istrada, sotto la cupola di nebbia che
+incombeva d'inverno perennemente sulla città";18;VT;cupola;6;98;3,959;nebbia;6;60;4,464;0,851;;;;;;;;;;;;N;Y
+FA_LIT345;Genitive;cupola di nuvole;dome of clouds;Mar sanguigno (Offerta al nostro buon vecchio Dio);Milanesi, Guido;PROSE;;"Dalle giallastre foci del Po al massiccio di
+Pesaro dal color di lavagna, fin dove giungeva lo sguardo, sotto una
+bassa cupola di nuvole stracciate dal vento";25;VT;cupola;6;79;4,284;nuvole;6;60;4,464;0,835;;;;;;;;;;;;N;Y
+FA_LIT217;Genitive;grumo di nuvole;lump of clouds;L'Illusione;De Roberto, Federico;PROSE;;"Cielo ed acqua, una cinerea uniformità da per tutto;
+ma come un grumo di nuvole più scure, Ustica appariva sullo sfondo
+nebbioso";20;VT;grumo;6;79;4,284;nuvole;5;10;4,469;0,787;;;;;;;;;;;;N;Y
+FA_LIT132;Genitive;grumo di pietà;lump of pity;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Così quella ch'io fui per Andrea e quella che fui per la donna di cui
+non dico il nome, rimane per sempre, cosa bianca, grumo di pietà";27;VT;grumo;5;57;3,365;pietà;5;10;4,469;0,913;;;;;;;;;;;;N;Y
+FA_LIT032;Genitive;fiocchi di nuvole;flocks of clouds;Il cavaliere inesistente;Calvino;PROSE;Questo brano parla di una riflessione sulla volontà.;Era un'epoca in cui la volontà e l'ostinazione d'esserci, di marcare un'impronta, di fare attrito con tutto ciò che c'è, non veniva usata interamente, dato che molti non se ne facevano nulla per miseria o ignoranza o perché invece tutto riusciva loro bene lo stesso e quindi una certa quantità ne andava persa nel vuoto. Poteva pure darsi allora che in un punto questa volontà e coscienza di sé, così diluita, si condensasse, facesse grumo, come l'impercettibile pulviscolo acquoreo si condensa in fiocchi di nuvole, e questo groppo, per caso o per istinto, s'imbattesse in un nome e in un casato.;108;VT;fiocchi;6;79;4,284;nuvole;7;30;4,478;0,58;0;3,333;3;1,933;3,333;49;0;3,07;2,33;2,4;3,07;Y;N
+FA_LIT213;Genitive;aghi di pioggia;needles of rain;La sorte;De Roberto, Federico;PROSE;;"Donna Vincenza andò a vuotare il corbello all'angolo della via, sotto
+gli aghi di pioggia che cominciavano a fendere silenziosamente l'aria
+buia";22;VT;aghi;7;183;4,376;pioggia;4;58;4,48;0,824;;;;;;;;;;;;N;Y
+FA_LIT306;Genitive;strade di luce;streets of light;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Lo so: io devo raggiungere in un angolo dello spazio
+  le vostre corse disinvolte, o Stelle,
+  e sorpassarvi, poichè lasciaste le strade di luce
+  che vi son consuete";31;VT;strade;4;730;3,437;luce;6;1293;4,48;0,678;;;;;;;;;;;;N;Y
+FA_LIT214;Genitive;tappeto di erbe;carpet of grass;La sorte;De Roberto, Federico;PROSE;;"
+Alfio corse a staccare il ramo più fiorito, e venne ad offrirlo ad
+Anna, che si era distesa per terra, sopra un tappeto di erbe";24;VT;tappeto;4;160;4,157;erbe;7;106;4,502;0,683;;;;;;;;;;;;N;Y
+FA_LIT108;Genitive;velluto dell'ombra;velvet of the shadow;Novelle per un anno;Pirandello;PROSE;Questo brano descrive le sensazioni di una donna durante il suo soggiorno a Venezia.;Volle tuttavia avere il suo giorno di Venezia. Fino alla sera, fino alla notte, per i canali silenziosi, in gondola. E tutta la notte rimase sveglia, con una strana impressione di quel giorno: un giorno di velluto. Il velluto della gondola? Il velluto dell'ombra di certi canali? Chi sa! Il velluto della bara.;54;VT;velluto;5;265;2,845;ombra;7;42;4,51;0,778;0;1,4;1,667;3,8;1,933;82;0;1,33;1,6;1,93;4,2;Y;N
+FA_LIT043;Genitive;goccia di luce;drop of light;La giornata di un nevrastenico;Campana;PROSE;Questo brano descrive i pensieri notturni di un uomo che soffre di sbalzi d'umore.;Passeggio sotto l'incubo dei portici. Una goccia di luce sanguigna, poi l'ombra, poi una goccia di luce sanguigna, la dolcezza dei seppelliti. ;24;VT;goccia;4;730;3,437;luce;6;81;4,52;0,62;0;2,533;2;2,867;2,733;;;;;;;Y;N
+FA_LIT273;Genitive;fiori di ghiaccio;flowers of ice;L'ora topica di Carlo Dossi;Lucini, Gian Pietro;PROSE;;Valicava il pensiero di lui, caprioleggiando, sopra le culmini di montagne rocciose, per poter offrire al veniente fiori di ghiaccio insospettati e rarissimo bottino d'alpinista-ideologo;26;VT;fiori;8;87;4,122;ghiaccio;5;410;4,523;0,695;;;;;;;;;;;;N;Y
+FA_LIT368;Genitive;fiori di neve;flowers of snow;Maternità;Negri, Ada;POEM;;"La Morta è vestita di bianco
+    come una fanciulla, con fiori
+    di neve sul petto, sul fianco;";23;VT;fiori;4;190;4,616;neve;5;410;4,523;0,748;;;;;;;;;;;;N;Y
+FA_LIT036;Genitive;fiori del sangue;flowers of the blood;Il Libro delle Vergini;D’Annunzio;PROSE;Questo brano descrive l'impegno nello studio di un giovane.;Fu l'opera lenta della consuetudine, fu l'opera di quella luce mite in cui egli viveva, di quel crepuscolo ove li occhi suoi miopi languivano quasi di continuo, ove su la sua faccia i fiori del sangue impallidivano.;39;VT;fiori;6;473;4,181;sangue;5;410;4,523;0,76;0;1,4;1,467;3,2;2,133;;;;;;;Y;N
+FA_LIT044;Genitive;gomito di ramo;elbow of branch;Il barone rampante;Calvino;PROSE;Questo brano descrive i dispetti di un gruppo di ladruncoli a due bambini.;"Al giro d'un dosso ecco si leva una minuta violenta sassaiola di ghiaino. La bambina protegge il capo dietro il collo del cavallino e scappa; mio fratello, su un gomito di ramo ben in vista, rimane sotto il tiro.";40;VT;gomito;4;99;3,713;ramo;6;32;4,524;0,708;0;1,8;2,6;3,933;1,867;;;;;;;Y;N
+FA_LIT053;Genitive;lampadina di fede;lamp of faith;Il fu Mattia Pascal;Pirandello;PROSE;Questo brano descrive un dialogo tra due personaggi sul tema della morte.;"""Il criterio direttivo delle nostre azioni, il filo per uscir da questo labirinto, il lume insomma, signor Meis, il lume deve venirci di là, dalla morte.""
+""Col bujo che vi fa?""
+""Bujo? Bujo per lei! Provi ad accendervi una lampadina di fede, con l'olio puro dell'anima.""";46;VT;lampadina;4;231;2,356;fede;9;24;4,53;0,8;0;1,933;1,333;3,533;1,867;;;;;;;Y;N
+FA_LIT313;Genitive;fontana di sangue;fountain of blood;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Nulla può fermare, oramai,
+  il getto forte della fontana di sangue";12;VT;fontana;6;473;4,181;sangue;7;40;4,531;0,755;;;;;;;;;;;;N;Y
+FA_LIT421;Genitive;girandola di sguardi;pinwheel of gazes;Quartetto;Oriani, Alfredo;PROSE;;"Allora era un trionfo, una demenza di evviva, una
+girandola di sguardi, una pioggia di sorrisi bianchi come i gelsomini; i
+cortigiani erano scomparsi e le musiche tacevano";26;VT;girandola;7;375;3,639;sguardi;9;15;4,553;0,586;;;;;;;;;;;;N;Y
+FA_LIT448;Genitive;sudario di nebbia;shroud of fog;Il re dei re: Convoglio diretto nell'XI secolo;Petruccelli della Gattina, Ferdinando;PROSE;;"Tutti i comignoli
+di Roma, a quel riverbero, sembrano fiaccole immense che illuminano
+una città involta in un bianco sudario di nebbia come uno spettro
+che vien fuori da una tomba";28;VT;sudario;6;98;3,959;nebbia;7;7;4,558;0,852;;;;;;;;;;;;N;Y
+FA_LIT330;Genitive;unghie di pioggia;nails of rain;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"allorchè vi fermate
+  bruscamente, per eccitarmi con uno sguardo obliquo,
+  o per graffiarmi colle vostre unghie di pioggia lucente";21;VT;unghie;7;183;4,376;pioggia;6;45;4,559;0,856;;;;;;;;;;;;N;Y
+FA_LIT087;Genitive;ruscello di rose;brook of roses;Novale-Diario;Tozzi;PROSE;In questo brano il poeta descrive una donna.;Come un ruscello di rose vermiglie, che scorra olezzante, \ lungo il mio verso nuoti radiante d'amore: \ ridono i denti più bianchi di neve, la chioma respira \ dentro la luce, e il cielo splende su la tua fronte.;41;VT;ruscello;4;197;4,145;rose;8;13;4,561;0,658;0;2;2,267;3,133;2,6;;;;;;;Y;N
+FA_LIT463;Genitive;lenzuolo di ghiaccio;sheet of ice;Nel paese dei dollari;Rossi, Adolfo;PROSE;;"«Il villaggio giaceva sepolto sotto un lenzuolo di ghiaccio, e il
+silenzio della notte non era turbato che dal rumore del torrente";21;VT;lenzuolo;8;87;4,122;ghiaccio;8;61;4,569;0,729;;;;;;;;;;;;N;Y
+FA_LIT476;Genitive;lenzuolo di neve;sheet of snow;Le Aquile della Steppa: Romanzo;Salgari, Emilio;PROSE;;Un funebre lenzuolo di neve copriva il mondo a perdita di vista;12;VT;lenzuolo;4;190;4,616;neve;8;61;4,569;0,726;;;;;;;;;;;;N;Y
+FA_LIT494;Genitive;lenzuolo di polvere;sheet of dust;La vita comincia domani: romanzo;Verona, Guido da;PROSE;;"E qualcosa tuttavia di
+solenne, di solenne anche per l’incredulo, si rinnovava nell’atto
+semplice che nasconde per sempre sotto il lenzuolo di polvere una
+spoglia supina e còrica l’uomo anchilosato, putrescente, nella divina
+zolla piena di palpito che domani rifiorirà";36;VT;lenzuolo;7;139;4,429;polvere;8;61;4,569;0,697;;;;;;;;;;;;N;Y
+FA_LIT440;Genitive;nastro di fumo;ribbon of smoke;Prose (1880-1890);Pascarella, Cesare;PROSE;;"Di quando in quando
+però qualche dormiente offeso dal freddo si sveglia, rabbrividisce, si
+accosta alla cenere, vi allunga il piede e ne fa scaturire un nastro
+di fumo azzurro";28;VT;nastro;4;117;3,846;fumo;6;84;4,574;0,766;;;;;;;;;;;;N;Y
+FA_LIT304;Genitive;spicchi di stelle;slices of stars;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Il vento solleva e travolge
+  grani di sabbia mostruosi,
+  che sembran spicchi di stelle";16;VT;spicchi;6;261;3,77;stelle;7;34;4,592;0,749;;;;;;;;;;;;N;Y
+FA_LIT033;Genitive;fiocco di luna;flock of moon;Canti di Castelvecchio;Pascoli;POEM;In questo brano un uomo osserva un carretto immerso in un paesaggio campestre.;"È un muletto per il sentiero, \ che s'arrampica su su su; \ che tra i faggi piccolo e nero \ si vede e non si vede più. \ Ma il suo campanaccio si sente \ sonare continuamente. \ È forse anco un'ora di giorno. \ C'è nell'aria un fiocco di luna \ Come è dolce questo ritorno \ nella sera che non imbruna!";68;VT;fiocco;4;181;4,145;luna;6;30;4,604;0,812;0;1,8;1,867;3,267;2,2;76;0;1,4;1,2;2,67;2,6;Y;N
+FA_LIT496;Genitive;fiocco di nebbia;flake of fog;Mimi Bluette, fiore del mio giardino: romanzo;Verona, Guido da;PROSE;;"E finalmente, un mattino, su l?estrema via del sud, egli vide nascere
+un confuso tenue disegno azzurro, come un fiocco di nebbia che
+rasentasse la terra, come una rupe d?aria nello sconfinato sole";31;VT;fiocco;6;98;3,959;nebbia;6;30;4,604;0,864;;;;;;;;;;;;N;Y
+FA_LIT168;Genitive;fiocco di nube;flake of cloud;Storia di un'anima;Bazzero, Ambrogio;PROSE;;"Il cielo è del più intenso azzurro,
+profondo senza un fiocco di nube";12;VT;fiocco;4;41;4,047;nube;6;30;4,604;0,56;;;;;;;;;;;;N;Y
+FA_LIT100;Genitive;terrazza di desolazione;terrace of desolation;L’Allegria;Ungaretti;POEM;Questo brano descrive il risveglio di un soldato.;Mi copro di un tiedipo manto \ di lind'oro. \ Da questa terrazza di desolazione \ in braccio mi sporgo \ al buon tempo;25;VT;terrazza;11;11;2,847;desolazione;8;26;4,609;0,782;0;2,133;1,467;3,333;2,6;;;;;;;Y;N
+FA_LIT134;Genitive;masso di dolore;boulder of pain;Il passaggio: Romanzo;Aleramo, Sibilla;PROSE;;"Questo mio
+masso di dolore — va in schegge su voi — le schegge vi lacerano, lo so";17;VT;masso;6;349;3,288;dolore;5;19;4,627;0,691;;;;;;;;;;;;N;Y
+FA_LIT322;Genitive;riccioli di fumo;curls of smoke;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Grovigli d'argentei serpenti che guizzano,
+  uscendo flessuosamente
+  da riccioli di fumo biondo
+  o scoppiando da sacchi di cenere nivea";23;VT;riccioli;4;117;3,846;fumo;8;17;4,643;0,801;;;;;;;;;;;;N;Y
+FA_LIT010;Genitive;bara di ghiaccio;coffin of ice;L’isola del giorno prima;Eco;PROSE;Questo brano descrive una tempesta in mare.;Li fece scoppiare fuori tutti a un tratto. Al gemito dei fasciami facevano bordone i lamenti dei marinai, il mare vomitava su di essi ed essi vomitavano nel mare, e talora un'onda li avviluppava in tale maniera che dalle rive qualcuno avrebbe potuto scambiare quel ponte con una bara di ghiaccio intorno a cui le folgori si accendevano come ceri.;61;VT;bara;8;87;4,122;ghiaccio;4;40;4,661;0,732;0;2,133;2,8;2,733;2,733;52;0;2,67;2,4;2;4,13;Y;N
+FA_LIT054;Genitive;lava di ghiaccio;lava of ice;L’isola del giorno prima;Eco;PROSE;Questo brano descrive la vetta di una montagna.;In breve però le nuvole avevano ceduto all'invito della luce, e si erano sgravate di sé abbandonandosi sopra le vette, e da un lato aderivano alle falde condensandosi e depositandosi come panna, soffice là dove colava verso il basso, più compatta al sommo, formando un nevaio, e dall'altro, facendosi il nevaio al vertice una sola lava di ghiaccio, esplodevano nell'aria in forma di fungo.;67;VT;lava;8;87;4,122;ghiaccio;4;12;4,668;0,632;0,067;2,2;2,667;3,467;2,4;46;0,07;2,13;2,07;3;3,73;Y;N
+FA_LIT415;Genitive;tappezzeria di sassi;tapestry of stones;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"è più piccola di una stanza, ha dinanzi una cancellata, dentro una
+tappezzeria di sassi, un pavimento di sabbia, un santo che sembra un
+efebo, un Gesù bambino tagliato nello zucchero";29;VT;tappezzeria;5;73;4,73;sassi;11;17;4,704;0,807;;;;;;;;;;;;N;Y
+FA_LIT305;Genitive;stracci di nebbia;rags of fog;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Essa, pezzente scarnita sotto i suoi stracci di nebbia,
+  è là da sempre, seduta a una tavola,
+  e tende al visitatore predestinato
+  la sua faccia d'incandescente cenere,
+  in cui sfavillano occhi di stagnante putredine!";39;VT;stracci;6;98;3,959;nebbia;7;20;4,733;0,941;;;;;;;;;;;;N;Y
+FA_LIT098;Genitive;stracci di nubi;tatters of clouds;Myricae;Pascoli;POEM;Questo brano parla dell'arrivo di un temporale.;Un bubbolìo lontano... \ Rosseggia l'orizzonte, \ come affocato, a mare: \ nero di pece, a monte, \ stracci di nubi chiare \ tra il nero un casolare.;29;VT;stracci;4;41;3,792;nubi;7;20;4,733;0,701;0;2,867;2,467;2,8;2,867;81;0;2,07;2,2;1,33;4,27;Y;N
+FA_LIT056;Genitive;miele dell'oblio;honey of the oblivion;Poemi conviviali;Pascoli;POEM;Questo brano descrive una parte del viaggio di Ulisse.;"Ed ecco giunse all'isola dei loti. \ E sedean sulla riva uomini e donne, \ sazi di loto, in dolce oblìo composti. \ E sorsero, ai canuti remiganti \ offrendo pii la floreal vivanda. \ ""O così vecchi erranti per il mare, \ mangiate il miele dell'oblio ch'è tempo!"" \ Passò la nave, e lento per il cielo \ il sonnolento lor grido vanì.";67;VT;miele;5;10;2,947;oblio;5;63;4,747;0,818;0;1,6;1,267;3,867;1,933;;;;;;;Y;N
+FA_LIT282;Genitive;braccia di fuoco;arms of fire;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Poichè un sublime annegato (incandescente sole
+  o moribondo pianeta) affondava all'orizzonte,
+  dopo aver lungamente battuta l'aria
+  con le sue grandi braccia di fuoco,
+  nell'amarezza atroce di quella sera maledet";37;VT;braccia;5;609;4,179;fuoco;7;480;4,75;0,894;;;;;;;;;;;;N;Y
+FA_LIT283;Genitive;braccia di luce;arms of light;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Intanto gli Astri imperiosi dagli elmi aguzzi di fuoco,
+  agili in lor guaìne di smeraldo,
+  s'ergon sulle tue spiagge, stendendo sui flutti
+  le loro braccia di luce,
+  per benedirti, o Mare che t'avventuri
+  via per le azzurre praterie del cielo";49;VT;braccia;4;730;3,437;luce;7;480;4,75;0,83;;;;;;;;;;;;N;Y
+FA_LIT435;Genitive;ombrelli di verdura;umbrellas of vegetables;La lanterna di Diogene;Panzini, Alfredo;PROSE;;"i pini, ogni volta che il vapore vi passa,
+sembrano occhieggiare, con curiosità, e paura insieme, il mostro di
+fuoco dall'alto dei loro ombrelli di verdura, e se non avessero le
+radici, fuggirebbero";32;VT;ombrelli;7;81;4,661;verdura;8;31;4,788;0,759;;;;;;;;;;;;N;Y
+FA_LIT302;Genitive;soffitto di nuvole;ceiling of clouds;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Il Sole scarlatto agonizza
+  sotto un soffitto di nuvole…";10;VT;soffitto;6;79;4,284;nuvole;8;64;4,801;0,873;;;;;;;;;;;;N;Y
+FA_LIT031;Genitive;finestra dell'anima;window of the soul;Il fanciullino;Pascoli;PROSE;Questo brano parla dell'indole fanciullesca.;Si trovino poveri e ricchi, gli esasperati e gli annoiati, in un teatro a una bella musica: ecco tutti i loro fanciullini alla finestra dell'anima illuminati da un sorriso o aspersi d'una lagrima.;35;VT;finestra;5;341;2,726;anima;8;287;4,962;0,785;0,267;2,533;1,333;2,533;3,533;51;0;1,87;1,47;1,93;4,4;Y;N
+FA_LIT233;Genitive;bottone di fuoco;fire button;Novelle Napolitane;Di Giacomo, Salvatore;PROSE;;"Qualche resezione di ginocchio, qualche incisione alla spalla, una
+disarticolazione, un bottone di fuoco che arrostisce la carne, ecco,
+questo sarà";19;VT;bottone;5;609;4,179;fuoco;7;44;5,149;0,598;;;;;;;;;;;;N;Y
+FA_LIT009;Genitive;balbettio del mare;stammering of the sea;Crepuscolo Mediterraneo;Campana;PROSE;Questo brano descrive una città mediterranea in una notte d'estate.;Le insegne rosse delle botteghe promettevano vini d'oriente dal profondo splendore opalino mentre a me trepidante la vita passava avanti nelle immortali forme serene. E l'amaro, l'acuto, balbettio del mare subito spento all'angolo di una via: spento, apparso e subito spento!;45;VT;balbettio;4;630;4,007;mare;9;3;;0,849;0;1,867;2,133;2,667;2,4;;;;;;;Y;N
+FA_LIT502;Genitive;bufere di baci;blizzards of kisses;Sciogli la treccia, Maddalena romanzo;Verona, Guido da;PROSE;;"Nuvole d’estate nel cielo sereno
+dell’amore; violente irritazioni che si risolvono in bufere di baci";14;VT;bufere;4;135;4,477;baci;6;34;4,038;0,855;;;;;;;;;;;;N;Y
+FA_LIT397;Genitive;bufere di collere;blizzards of wrath;Ombre di occaso;Oriani, Alfredo;PROSE;;"Quell'anarca cencioso, che la vita non aveva potuto ospitare,
+l'attraversava dentro a una muta bufera di collere e di pietà";21;VT;bufere;7;33;3,163;collere;6;34;4,038;0,907;;;;;;;;;;;;N;Y
+FA_LIT016;Genitive;capriole di fumo;somersaults of smoke;L'Allegria;Ungaretti;POEM;Questo brano contiene le riflessioni di un uomo in solitudine.;Lasciatemi così \ come una \ cosa \ posata \ in un \ angolo \ e dimenticata \ Qui \ non si sente \ altro \ che il caldo buono \ Sto \ con le quattro \ capriole \ di fumo \ del focolare.;44;VT;capriole;4;117;3,846;fumo;8;2;;0,809;0,133;2;1,733;2,733;2,8;76;0,13;1,4;1,67;2,67;3,6;Y;N
+FA_LIT406;Genitive;coagulazioni di popoli;coagulations of peoples;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"La loro mastodontica struttura, talvolta il rapido crescere, la continuità delle guerre, le coagulazioni di popoli alle loro frontiere,
+l'unità dinastica e religiosa burocratica dei lori governi esprimono un
+segreto, compiono una volontà della storia";34;VT;coagulazioni;6;330;2,732;popoli;12;3;3,497;0,83;;;;;;;;;;;;N;Y
+FA_LIT367;Genitive;crepuscoli di pace;twilight of peace;Maternità;Negri, Ada;POEM;;E ancor nel sogno l’accarezzi, come ne gli spenti crepuscoli di pace;12;VT;crepuscoli;4;401;2,756;pace;10;9;3,662;0,783;;;;;;;;;;;;N;Y
+FA_LIT408;Genitive;effervescenza di amore;effervescence of love;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"una improvvisa convulsa effervescenza di amore patrio, quando la
+esistenza di nazione era minacciata all'interno o alle frontiere, una
+gloria di olocausto, che si alzava nell'anima di qualcuno lanciandolo
+alla morte nella tragica persuasione di giovare così alla salvezza
+della propria gente";40;VT;effervescenza;5;1153;2,978;amore;13;3;;0,854;;;;;;;;;;;;N;Y
+FA_LIT411;Genitive;giogaia di nuvole;dewlap of clouds;Fuochi di bivacco;Oriani, Alfredo;PROSE;;"tutta la nostra arte, ogni qualvolta si
+volga a guardare indietro, incontra il sacro poema, che le sbarra
+l'orizzonte come una giogaia di nuvole fiammeggianti nell'altezza senza
+misura del cielo";29;VT;giogaia;6;79;4,284;nuvole;7;;;0,704;;;;;;;;;;;;N;Y
+FA_LIT316;Genitive;gomitolo di cadaveri;ball of corpses;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;sembrano colossali grumi di sangue staccati dal sole, fantastico gomitolo di cadaveri roteante nell'infinito;15;VT;gomitolo;8;180;4,223;cadaveri;8;;;0,77;;;;;;;;;;;;N;Y
+FA_LIT199;Genitive;gomitolo di sangue;ball of blood;Forse che sì forse che no;D'Annunzio, Gabriele;PROSE;;"A ogni accusa, ella sentiva in sé un tonfo
+sordo, come se le piombasse giù un gomitolo di sangue";18;VT;gomitolo;6;473;4,181;sangue;8;;;0,877;;;;;;;;;;;;N;Y
+FA_LIT193;Genitive;indigestione di gelosia;indigestion of jealousy;Le vergini delle rocce;D'Annunzio, Gabriele;PROSE;;"NINO (_colla voce grossa per un'indigestione di gelosia_) =Io= le
+pianto e me ne vado";15;VT;indigestione;7;65;3,252;gelosia;12;6;;0,798;;;;;;;;;;;;N;Y
+FA_LIT392;Genitive;lagrime di ghiaccio;tears of ice;Ombre di occaso;Oriani, Alfredo;PROSE;;"Tu avesti un nido, io no;
+tu potesti amare la mia grondaia, alla quale l'inverno sospende così
+lunghe lagrime di ghiaccio";21;VT;lagrime;8;87;4,122;ghiaccio;7;176;4,115;0,749;;;;;;;;;;;;N;Y
+FA_LIT293;Genitive;macigni di voce;boulders of voice;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Il mio vasto cuore affamato
+  che un tempo abbaiava alla luna
+  come un cane, vomitando macigni di voce arrogante
+  nelle tenebre fonde";25;VT;macigni;4;1023;3,286;voce;7;15;4,423;0,749;;;;;;;;;;;;N;Y
+FA_LIT360;Genitive;sussurro di foglie;whisper of leaves;Maternità;Negri, Ada;POEM;;"il frondoso giardino
+    è tutto un cantare di passeri,
+    è tutto un susurro di foglie
+      nel fresco mattino";29;VT;sussurro;6;190;4,246;foglie;8;16;3,119;0,64;;;;;;;;;;;;N;Y
+FA_LIT323;Genitive;sbadiglio di luce;yawn of light;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Qua e là, in uno sbadiglio di luce totale,
+  il ponte si copre tutto
+  di ardenti pupille che mi fissano";22;VT;sbadiglio;4;730;3,437;luce;9;2;;0,675;;;;;;;;;;;;N;Y
+FA_LIT247;Genitive;indigestione di lodi;indigestion of praise;Libro allegro;Ghislanzoni, Antonio;PROSE;;"La sua superbia s'è rannicchiata dentro di lui; sembra
+dormicchiare, beatamente soddisfatta, dopo una lauta indigestione di
+lodi";17;VT;indigestione;4;27;3,47;lodi;12;6;;0,748;;;;;;;;;;;;N;Y
+FA_LIT301;Genitive;singhiozzi di bronzo;bronze sobs;Distruzione: Poema Futurista;Marinetti, F. T.;POEM;;"Sono allora singhiozzi di bronzo e rimbalzi
+  d'artiglierie gettate giù dai bastioni, in un fossato";18;VT;singhiozzi;6;56;4,315;bronzo;10;19;3,977;0,844;;;;;;;;;;;;N;Y
+FA_LIT394;Genitive;soffi di follia;breaths of madness;Ombre di occaso;Oriani, Alfredo;PROSE;;"non era bella, ma il suo sorriso aveva
+talvolta dei rossori di fiamma e la sua parola dei soffi di follia";20;VT;soffi;6;129;2,962;follia;5;50;3,079;0,915;;;;;;;;;;;;N;Y
+FA_LIT487;Genitive;soffi di primavera;breaths of spring;L'amore che torna: romanzo;Verona, Guido da;PROSE;;"In
+quella luce ambigua, in quell’aria tepida, ventilata da qualche alito
+intermittente, come soffi di primavera nell’estate, sotto il cielo ancor
+rosso e tra la pallidezza dei lampioni, tutte le forme, tutti gli
+avvenimenti mi si vestirono d’irrealità";34;VT;soffi;9;210;3,645;primavera;5;50;3,079;0,904;;;;;;;;;;;;N;Y
+FA_LIT326;Genitive;sorsata di luce;sip of light;L'aeroplano del papa: Romanzo profetico in versi liberi;Marinetti, F. T.;POEM;;"Vedo la schiuma delle loro gracili nudità intrecciate,
+  chine a bere l'ultima inebbriante sorsata di luce
+  nel tondo deserto del cielo";25;VT;sorsata;4;730;3,437;luce;7;2;;0,758;;;;;;;;;;;;N;Y
+FA_LIT099;Genitive;sussurro dei rami;whisper of the branches;Ossi di Seppia;Montale;POEM;In questo brano l'autore descrive un paesaggio naturale.;Le viuzze che seguono i ciglioni, \ discendono tra i ciuffi delle canne \ e mettono negli orti, tra gli alberi dei limoni. \ Meglio se le gazzarre degli uccelli \ si spengono inghiottite dall'azzurro: \ più chiaro si ascolta il sussurro \ dei rami amici nell'aria che quasi non si muove, \ e i sensi di quest'odore \ che non sa staccarsi da terra.;68;VT;sussurro;4;99;4,093;rami;8;16;3,119;0,78;0;2,733;2,4;3;2,733;54;0,07;1,93;1,93;2,8;3,07;Y;N
+FA_LIT462;Genitive;vampo di guerra;vamp of war;Lucifero;Rapisardi, Mario;POEM;;"Grido di oppressi
+    Non vi chiamò, non amor patrio accese
+    Tanto vampo di guerra";20;VT;vampo;6;954;3,083;guerra;5;1;3,834;0,722;;;;;;;;;;;;N;Y
+FA_LIT374;Genitive;voragini di luce;chasms of light;Esilio;Negri, Ada;POEM;;"Ella, ella sola t’è fedele: abissi
+    d’ombra, immense voragini di luce
+    ti scopre: a regni d’èstasi t’adduce
+    per mano, e, s’ella vuole, il sol tu fissi.";35;VT;voragini;4;730;3,437;luce;8;17;4,005;0,765;;;;;;;;;;;;N;Y
