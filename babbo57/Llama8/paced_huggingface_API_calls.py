@@ -216,10 +216,9 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
             if MEMORY:
                 
                 conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
+                if len(conversation) > 11:
+                    del conversation[1:3]
                 conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
-
-                if len(conversation) > 13:
-                    del conversation[1:11]
 
                 with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                     f.write(str(conversation))
@@ -275,7 +274,7 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(1 * minuto)
+            time.sleep(0.5 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
