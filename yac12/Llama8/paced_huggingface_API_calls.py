@@ -11,7 +11,7 @@ import numpy as np
 def reply_to_values(response):
     values_list = response.split(",")
     for idx, value in enumerate(values_list):
-        values_list[idx] = "".join([c for c in value if c.isdigit()])
+        values_list[idx] = "".join([int(c) for c in value if c.isdigit()])
     return values_list
 
 def write_out(out_file_name, results_dict):
@@ -26,7 +26,7 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
+def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memory, test):
 
     DATASET = str(dataset)
     DATASET_ID = DATASET[-6:-4]
@@ -34,6 +34,7 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
     TASK_INSTRUCTIONS = open(Path("instructions", DATASET_ID + "_task_instructions.txt"), "r", encoding="utf-8").read()
     RATERS = raters
     TEMPERATURE = temperature
+    LOGPROBS = logprobs
     DATA_PATH = "data"
     TRACKING_DATA_PATH = "tracking_data"
     MEMORY = memory
@@ -83,6 +84,12 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
     ]
 
     if not checkpoint_file.exists():
+
+        if MEMORY:
+            dataset_df = dataset_df.sample(frac = 1, random_state = 42)
+            if not Path("conversations").exists():
+                Path("conversations").mkdir()
+
         dataset_df.to_csv(checkpoint_file, index = False)
         checkpoint_df = pd.read_csv(checkpoint_file, encoding="utf-8")
 
@@ -126,73 +133,82 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
             else:
                 pref = "Frase: "
 
-            conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
-
             if DATASET_ID in ["MB", "BA", "ME"]:
                 max_tokens = 7 # "n1, n2, n3"
             else:
                 max_tokens = 4 # "n1, n2"
+
+            if LOGPROBS:
+                TOP_LOGPROBS = 3
+            else:
+                TOP_LOGPROBS = None
+                
+            conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
 
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
                 max_tokens = max_tokens,
                 temperature = TEMPERATURE,
-                logprobs = True,
-                top_logprobs = 3
+                logprobs = LOGPROBS,
+                top_logprobs = TOP_LOGPROBS
             )
 
             reply = completion.choices[0].message.content
             print("output: ", reply)
 
-            weighted_values = list()
-            
-            for i in range(0, max_tokens, 3):
-
-                top_three_logprobs = completion.choices[0].logprobs.content[i].top_logprobs
-                print("\n", top_three_logprobs)
-                tokens = []
-                logprobs = []
-
-                for logprob in top_three_logprobs:
+            if LOGPROBS:
+                final_values = list()
                 
-                    tokens.append(logprob.token)
-                    logprobs.append(logprob.logprob)
+                for i in range(0, max_tokens, 3):
 
-                print ("tokens: ", tokens)
-                print("logprobs: ",logprobs)
+                    top_three_logprobs = completion.choices[0].logprobs.content[i].top_logprobs
+                    print("\n", top_three_logprobs)
+                    tokens = []
+                    logprobs = []
 
-                # Conversione dei logprobs in probabilità lineari
-                linear_probs = np.exp(logprobs)
-                print("linear_probs: ", linear_probs)
+                    for logprob in top_three_logprobs:
+                    
+                        tokens.append(logprob.token)
+                        logprobs.append(logprob.logprob)
 
-                # Normalizzazione delle probabilità per ottenere i pesi
-                normalized_weights = linear_probs / np.sum(linear_probs)
-                print("normalized_weights: ", normalized_weights)
+                    print ("tokens: ", tokens)
+                    print("logprobs: ",logprobs)
 
-                # Calcolo della media ponderata dei token usando le probabilità normalizzate come pesi
-                tokens_as_floats = []
-                for token in tokens:
-                    try:
-                        tokens_as_floats.append(float(token))
-                    except ValueError:
-                        print("Il token generato non è numerico")
-    
-                numeric_token_weights = [
-                    (float(token), weight)
-                    for token, weight in zip(tokens, normalized_weights)
-                    if token.replace('.', '', 1).isdigit() or (token.startswith('-') and token[1:].replace('.', '', 1).isdigit())
-                ]
+                    # Conversione dei logprobs in probabilità lineari
+                    linear_probs = np.exp(logprobs)
+                    print("linear_probs: ", linear_probs)
 
-                # Ensure the list is not empty to avoid errors when calculating the weighted mean
-                if numeric_token_weights:
-                    values, weights = zip(*numeric_token_weights)
-                    weighted_mean_token = np.average(values, weights = weights)
-                    weighted_values.append(round(weighted_mean_token, 9))
-                else:
-                    print(f"No valid numeric tokens found for metaphor '{metaphor}'")
+                    # Normalizzazione delle probabilità per ottenere i pesi
+                    normalized_weights = linear_probs / np.sum(linear_probs)
+                    print("normalized_weights: ", normalized_weights)
 
-            print("weighted_values: ", weighted_values)
+                    # Calcolo della media ponderata dei token usando le probabilità normalizzate come pesi
+                    tokens_as_floats = []
+                    for token in tokens:
+                        try:
+                            tokens_as_floats.append(float(token))
+                        except ValueError:
+                            print("Il token generato non è numerico")
+        
+                    numeric_token_weights = [
+                        (float(token), weight)
+                        for token, weight in zip(tokens, normalized_weights)
+                        if token.replace('.', '', 1).isdigit() or (token.startswith('-') and token[1:].replace('.', '', 1).isdigit())
+                    ]
+
+                    # Ensure the list is not empty to avoid errors when calculating the weighted mean
+                    if numeric_token_weights:
+                        values, weights = zip(*numeric_token_weights)
+                        weighted_mean_token = np.average(values, weights = weights)
+                        final_values.append(round(weighted_mean_token, 9))
+                    else:
+                        print(f"No valid numeric tokens found for metaphor '{metaphor}'")
+
+                print("weighted_values: ", final_values)
+                
+            else:
+                final_values = reply_to_values(reply)
 
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
@@ -200,10 +216,9 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
             if MEMORY:
                 
                 conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
-                conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
-
-                if len(conversation) > 13:
+                if len(conversation) > 11:
                     del conversation[1:3]
+                conversation.append({"role" : "user", "content": [{"type": "text", "text": ""}]})
 
                 with open((Path("conversations", f"rater_{rater}_conversation_" + out_file_name + ".txt")), "w", encoding = "utf-8") as f:
                     f.write(str(conversation))
@@ -213,9 +228,9 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "FAMILIARITY_synthetic" : weighted_values[0],
-                    "MEANINGFULNESS_synthetic" : weighted_values[1],
-                    "BODY_RELATEDNESS_synthetic" : weighted_values[2]
+                    "FAMILIARITY_synthetic" : final_values[0],
+                    "MEANINGFULNESS_synthetic" : final_values[1],
+                    "BODY_RELATEDNESS_synthetic" : final_values[2]
                 }
 
             if DATASET_ID == "ME":
@@ -223,9 +238,9 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "FAMILIARITY_synthetic" : weighted_values[0],
-                    "MEANINGFULNESS_synthetic" : weighted_values[1],
-                    "DIFFICULTY_synthetic" : weighted_values[2]
+                    "FAMILIARITY_synthetic" : final_values[0],
+                    "MEANINGFULNESS_synthetic" : final_values[1],
+                    "DIFFICULTY_synthetic" : final_values[2]
                 }
 
             if DATASET_ID == "MI":
@@ -233,8 +248,8 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "PHISICALITY_synthetic" : weighted_values[0],
-                    "IMAGEABILITY_synthetic" : weighted_values[1],
+                    "PHISICALITY_synthetic" : final_values[0],
+                    "IMAGEABILITY_synthetic" : final_values[1],
                 }
 
             if DATASET_ID == "MM":
@@ -242,8 +257,8 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "FAMILIARITY_synthetic" : weighted_values[0],
-                    "MEANINGFULNESS_synthetic" : weighted_values[1],
+                    "FAMILIARITY_synthetic" : final_values[0],
+                    "MEANINGFULNESS_synthetic" : final_values[1],
                 }
 
             if DATASET_ID == "BA":
@@ -251,15 +266,15 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
                 row = {
                     "annotator": rater,
                     "metaphor": metaphor,
-                    "FAMILIARITY_synthetic" : weighted_values[0],
-                    "DIFFICULTY_synthetic" : weighted_values[1],
-                    "MEANINGFULNESS_synthetic" : weighted_values[2],
+                    "FAMILIARITY_synthetic" : final_values[0],
+                    "DIFFICULTY_synthetic" : final_values[1],
+                    "MEANINGFULNESS_synthetic" : final_values[2],
                 }
 
             write_out(out_annotation_file, row)
 
             minuto = 60
-            time.sleep(1 * minuto)
+            time.sleep(0.5 * minuto)
 
         print(f"{rater} rated all metaphors\n")
 
