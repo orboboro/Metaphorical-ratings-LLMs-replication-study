@@ -38,9 +38,9 @@ def main():
     )
 
     parser.add_argument(
-        "--temperature",
-        type = float,
-        help="Temperature value",
+        "--logprobs",
+        type = bool,
+        help="whether to extract the log probabilities",
         default = True
     )
 
@@ -63,7 +63,7 @@ def main():
 
     while not end:
     
-        end = huggingface_API_calling(args.dataset, args.model, args.raters, args.temperature, args.memory, args.test)
+        end = huggingface_API_calling(args.dataset, args.model, args.raters, args.temperature, args.logprobs, args.memory, args.test)
 
 if __name__ == "__main__": # La variabile speciale __name__ viene inizializzata uguale a "__main__" quando un file python viene eseguito
     main()                 # direttamente. Dunque la condizione __name__ == "__main__ è rispettata e quindi il contenuto delle funzione
