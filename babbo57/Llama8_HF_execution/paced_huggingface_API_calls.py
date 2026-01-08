@@ -26,7 +26,7 @@ def write_out(out_file_name, results_dict):
             writer = csv.DictWriter(f, fieldnames=results_dict.keys())
             writer.writerow(results_dict)
 
-def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
+def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memory, test):
 
     DATASET = str(dataset)
     DATASET_ID = DATASET[-6:-4]
@@ -34,6 +34,7 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
     TASK_INSTRUCTIONS = open(Path("instructions", DATASET_ID + "_task_instructions.txt"), "r", encoding="utf-8").read()
     RATERS = raters
     TEMPERATURE = temperature
+    LOGPROBS = logprobs
     DATA_PATH = "data"
     TRACKING_DATA_PATH = "tracking_data"
     MEMORY = memory
@@ -126,20 +127,25 @@ def huggingface_API_calling(dataset, model, raters, temperature, memory, test):
             else:
                 pref = "Frase: "
 
-            conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
-
             if DATASET_ID in ["MB", "BA", "ME"]:
                 max_tokens = 7 # "n1, n2, n3"
             else:
                 max_tokens = 4 # "n1, n2"
+
+            if LOGPROBS:
+                TOP_LOGPROBS = 3
+            else:
+                TOP_LOGPROBS = None
+                
+            conversation[-1]["content"][0]["text"] = pref + '"' + metaphor + '"'
 
             completion = client.chat.completions.create(
                 model = MODEL,
                 messages = conversation,
                 max_tokens = max_tokens,
                 temperature = TEMPERATURE,
-                logprobs = True,
-                top_logprobs = 3
+                logprobs = LOGPROBS,
+                top_logprobs = TOP_LOGPROBS
             )
 
             reply = completion.choices[0].message.content

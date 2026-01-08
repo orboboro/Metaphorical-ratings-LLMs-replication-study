@@ -36,6 +36,14 @@ def main():
         help="Temperature value",
         default = 0
     )
+
+    parser.add_argument(
+        "--temperature",
+        type = float,
+        help="Temperature value",
+        default = True
+    )
+
     
     parser.add_argument(
         "--memory",
