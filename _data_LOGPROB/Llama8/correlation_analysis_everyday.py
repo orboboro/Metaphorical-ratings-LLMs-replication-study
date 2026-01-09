@@ -18,6 +18,7 @@ import os
 import pandas as pd
 from scipy.stats import spearmanr
 from collections import defaultdict
+from pathlib import Path
 
 # Percorsi (come indicato dall'utente)
 human_path = "human_datasets/"
@@ -33,10 +34,10 @@ human_files = {
 }
 
 synthetic_files = {
-    'MB': 'synthetic_MB_meta-llama-Llama-3.1-8B-Instruct_.csv',
-    'ME': 'synthetic_ME_meta-llama-Llama-3.1-8B-Instruct_.csv',
-    'MI': 'synthetic_MI_meta-llama-Llama-3.1-8B-Instruct_.csv',
-    'MM': 'synthetic_MM_meta-llama-Llama-3.1-8B-Instruct_.csv',
+    'MB': 'synthetic_MB_meta-llama-Meta-Llama-3-8B-Instruct_.csv',
+    'ME': 'synthetic_ME_meta-llama-Meta-Llama-3-8B-Instruct_.csv',
+    'MI': 'synthetic_MI_meta-llama-Meta-Llama-3-8B-Instruct_.csv',
+    'MM': 'synthetic_MM_meta-llama-Meta-Llama-3-8B-Instruct_.csv',
 }
 
 raw_files = {
@@ -58,6 +59,9 @@ dimensions_map = {
 
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
+
+# crea un dizionario vuoto in cui quando creo una chiave questa in automatico ha come valore una lista vuota
+rows_by_dimension = defaultdict(list)
 
 # Rintracciare le metafore gia' usate in altri studi
 
@@ -109,19 +113,18 @@ for ds_name in ['MB','ME','MI','MM']:
         # converto valori in numerici (ignorando errori -> NaN)
         human_vals = human_df[['metaphor', human_col]].copy()
         human_vals.rename(columns={human_col: 'human'}, inplace=True)
-        # pulizia banale: rimuovere spazi e quotes
         human_vals['metaphor'] = human_vals['metaphor'].astype(str).str.strip()
         human_vals['human'] = pd.to_numeric(human_vals['human'], errors='coerce')
 
         synth_vals = synth_df[['metaphor', synth_col]].copy()
         synth_vals.rename(columns={synth_col: 'synthetic'}, inplace=True)
         synth_vals['metaphor'] = synth_vals['metaphor'].astype(str).str.strip()
-        synth_vals['synthetic'] = pd.to_numeric(synth_vals[synth_col], errors='coerce')
+        synth_vals['synthetic'] = pd.to_numeric(synth_vals['synthetic'], errors='coerce')
 
         merged = human_vals.merge(synth_vals, on='metaphor', how='left')
 
         # salvare righe per questa dimensione
-        rows_by_dimension = defaultdict(list) # crea un dizionario vuoto in cui quando creo una chiave questa in automatico ha come valore una lista vuota
+    
         for _, r in merged.iterrows():
             rows_by_dimension[dim].append({
                 'dataset': ds_name,
@@ -130,7 +133,7 @@ for ds_name in ['MB','ME','MI','MM']:
                 'synthetic': r.get('synthetic')
             })
 
-# Per ogni dimensione, separare metafore usate vs non usate e calcolare Spearman
+# Per ogni dimensione calcolare Spearman globalmente, poi separare metafore usate vs non usate e calcolare Spearman separatamente
 results = []
 for dim, rows in rows_by_dimension.items():
     df_dim = pd.DataFrame(rows)
@@ -143,37 +146,23 @@ for dim, rows in rows_by_dimension.items():
         label = 'used' if used_flag else 'not_used'
 
         sub = group_df[['human','synthetic']].dropna()
-        if len(sub) >= 2:
-            corr, p = spearmanr(sub['human'], sub['synthetic'])
-            n = len(sub)
-        else:
-            corr, p, n = float('nan'), float('nan'), len(sub)
-
-        # mean
-        subm = group_df[['human','synthetic_mean']].dropna()
-        if len(subm) >= 2:
-            corrm, pm = spearmanr(subm['human'], subm['synthetic_mean'])
-            nm = len(subm)
-        else:
-            corrm, pm, nm = float('nan'), float('nan'), len(subm)
+        corr, p = spearmanr(sub['human'], sub['synthetic'])
+        n = len(sub)
 
         # misura del cambiamento (corr non-used minus corr used): qui calcolo semplice delta e percentuale relativa
         results.append({
             'dimension': dim,
             'group': label,
-            'n_run': n,
-            'corr_run': corr,
-            'p_run': p,
-            'n_mean': nm,
-            'corr_mean': corrm,
-            'p_mean': pm,
+            'n_item': n,
+            'corr': corr,
+            'p_value': p,
         })
 
 # organizzo risultati in DataFrame e calcolo differenze tra used e not_used per ogni dimensione
 res_df = pd.DataFrame(results)
 summary_rows = []
 for dim in res_df['dimension'].unique():
-    sub = res_df[res_df['dimension']==dim].set_index('group')
+    sub = res_df[res_df['dimension']==dim].set_index('group') # la colonna 'group' (che contiene stringhe: 'used' o ' not_used") diventa l’indice invece dei numeri predefiniti
     used_row = sub.loc['used'] if 'used' in sub.index else None
     not_used_row = sub.loc['not_used'] if 'not_used' in sub.index else None
 
@@ -184,35 +173,28 @@ for dim in res_df['dimension'].unique():
             return float('nan')
 
     if used_row is not None and not_used_row is not None:
-        # delta absolute and percent change for run and mean
-        delta_run = safe(not_used_row['corr_run']) - safe(used_row['corr_run'])
-        pct_run = (delta_run / abs(safe(used_row['corr_run']))) * 100 if pd.notna(used_row['corr_run']) and used_row['corr_run']!=0 else float('nan')
-
-        delta_mean = safe(not_used_row['corr_mean']) - safe(used_row['corr_mean'])
-        pct_mean = (delta_mean / abs(safe(used_row['corr_mean']))) * 100 if pd.notna(used_row['corr_mean']) and used_row['corr_mean']!=0 else float('nan')
+        # calcolo della differenza in percentuale della correlazione coi giudizi umani delle metafore used vs not_used
+        delta = safe(not_used_row['corr']) - safe(used_row['corr'])
+        pct = (delta / abs(safe(used_row['corr']))) * 100 if pd.notna(used_row['corr']) and used_row['corr']!=0 else float('nan')
     else:
-        delta_run = pct_run = delta_mean = pct_mean = float('nan')
+        delta = pct = float('nan')
 
     summary_rows.append({
         'dimension': dim,
-        'used_corr_run': used_row['corr_run'] if used_row is not None else float('nan'),
-        'not_used_corr_run': not_used_row['corr_run'] if not_used_row is not None else float('nan'),
-        'delta_corr_run': delta_run,
-        'pct_change_run': pct_run,
-        'used_corr_mean': used_row['corr_mean'] if used_row is not None else float('nan'),
-        'not_used_corr_mean': not_used_row['corr_mean'] if not_used_row is not None else float('nan'),
-        'delta_corr_mean': delta_mean,
-        'pct_change_mean': pct_mean,
+        'used_corr': used_row['corr'] if used_row is not None else float('nan'),
+        'used_p_value' : used_row['p_value'] if used_row is not None else float('nan'),
+        'not_used_corr': not_used_row['corr'] if not_used_row is not None else float('nan'),
+        'not_used_p_value' : not_used_row['p_value'] if used_row is not None else float('nan'),
+        'pct_change': pct,
     })
 
 summary_df = pd.DataFrame(summary_rows)
 
-# stampa e salvataggio
-print('\n=== Risultati dettagliati per gruppo (used / not_used) ===')
-print(res_df)
 print('\n=== Sintesi delta tra metafore used vs not_used ===')
 print(summary_df)
 
-out_path = 'results_correlations.csv'
-summary_df.to_csv(out_path, index=False)
-print(f"\nSintesi salvata in: {out_path}")
+out_dir = 'results_everyday'
+if not Path(out_dir).exists():
+    Path(out_dir).mkdir()
+
+summary_df.to_csv(out_dir + '/results_used_VS_not_used.csv', index=False)
