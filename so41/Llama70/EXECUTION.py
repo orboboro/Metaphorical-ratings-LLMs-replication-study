@@ -39,7 +39,7 @@ def main():
 
     parser.add_argument(
         "--logprobs",
-        type = bool,
+        type=lambda x: x.lower() == "true",
         help="whether to extract the log probabilities",
         default = True
     )

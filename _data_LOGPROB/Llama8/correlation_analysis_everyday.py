@@ -17,11 +17,12 @@ per il calcolo di Spearman.
 import os
 import pandas as pd
 from scipy.stats import spearmanr
+from collections import defaultdict
 
 # Percorsi (come indicato dall'utente)
-human_path = "data/human_datasets/"
-synthetic_path = "data/synthetic_datasets/"
-raw_path = "data/original_datasets/"
+human_path = "human_datasets/"
+synthetic_path = "synthetic_datasets/"
+raw_path = "original_datasets/"
 
 # File mapping (nomi come forniti dall'utente)
 human_files = {
@@ -53,89 +54,58 @@ dimensions_map = {
     'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
 }
 
+# Funzione per normalizzare i giudizi dati tra 1 e 5 come se fosssero tra 1 e 7
+
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
 
-# --- 1) Rintracciare le metafore gia' usate in altri studi (codice fornito dall'utente adattato) ---
+# Rintracciare le metafore gia' usate in altri studi
+
 used_metaphors = {dim: set() for dims in dimensions_map.values() for dim in dims}
-# Assumo che i raw CSV contengano colonne con esattamente questi nomi come indicato dallo user
+
 for name, fname in raw_files.items():
     path = os.path.join(raw_path, fname)
-    if not os.path.exists(path):
-        # Se i file raw non esistono, continuiamo: used_metaphors resteranno vuoti
-        continue
     raw_df = pd.read_csv(path)
     for idx, row in raw_df.iterrows():
-        # Le colonne esaminate sono prese dal codice dell'utente
-        try:
-            if row.get("Bambini et al. (2013)") == "Y":
-                used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
-                used_metaphors["MEANINGFULNESS"].add(row["Metaphor"]) 
-                used_metaphors["DIFFICULTY"].add(row["Metaphor"]) 
 
-            if row.get("Canal et al. (2022)") == "Y":
-                used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
-                used_metaphors["PHISICALITY"].add(row["Metaphor"]) 
+        if row.get("Bambini et al. (2013)") == "Y":
+            used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
+            used_metaphors["MEANINGFULNESS"].add(row["Metaphor"]) 
+            used_metaphors["DIFFICULTY"].add(row["Metaphor"]) 
 
-            if row.get("Bambini et al. (2024)") == "Y":
-                used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
-                used_metaphors["IMAGEABILITY"].add(row["Metaphor"]) 
-                used_metaphors["DIFFICULTY"].add(row["Metaphor"]) 
+        if row.get("Canal et al. (2022)") == "Y":
+            used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
+            used_metaphors["PHISICALITY"].add(row["Metaphor"])
 
-            if row.get("Lago et al. (2024)") == "Y":
-                used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
-        except Exception:
-            # manteniamo il codice semplice: ignoro righe malformate
-            pass
+        if row.get("Lago et al. (2024)") == "Y":
+            used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
 
-# --- 2) Caricare i dataset umani e sintetici e costruire tabelle per dimensione ---
-# Per ogni dimensione creeremo una lista di righe con: metaphor, human_value, synthetic_run1, synthetic_mean
-from collections import defaultdict
-rows_by_dimension = defaultdict(list)
+# Caricare i dataset umani e sintetici e costruire tabelle per dimensione
+# Per ogni dimensione creeremo una lista di righe con: metaphor, human_value, synthetic_value
 
 for ds_name in ['MB','ME','MI','MM']:
-    # leggi human
+    
     hfile = os.path.join(human_path, human_files[ds_name])
-    if not os.path.exists(hfile):
-        # skip se mancante
-        continue
-    # molti campioni usano virgola come separatore decimale. pandas supporta decimal=','
-    human_df = pd.read_csv(hfile, decimal=',')
-    # normalize metaphor column name: alcune tabelle hanno 'metaphor' minuscolo come nell'esempio
-    human_df.rename(columns=lambda c: c.strip(), inplace=True)
-
-    # leggi synthetic
+    human_df = pd.read_csv(hfile, decimal=',') # molti campioni usano virgola come separatore decimale. pandas supporta decimal=','
     sfile = os.path.join(synthetic_path, synthetic_files[ds_name])
-    if not os.path.exists(sfile):
-        continue
     synth_df = pd.read_csv(sfile, decimal=',')
-    synth_df.rename(columns=lambda c: c.strip(), inplace=True)
 
-    # --- Normalizzazione ME (scala 1–5 → 1–7) ---
+    # Normalizzazione ME 
+
     if ds_name == 'ME':
         for col in human_df.columns:
             if col.endswith('_human'):
                 human_df[col] = normalize_me(pd.to_numeric(human_df[col], errors='coerce'))
-
         for col in synth_df.columns:
             if col.endswith('_synthetic'):
                 synth_df[col] = normalize_me(pd.to_numeric(synth_df[col], errors='coerce'))
-
 
     dims = dimensions_map[ds_name]
     for dim in dims:
         human_col = f"{dim}_human"
         synth_col = f"{dim}_synthetic"
-        if human_col not in human_df.columns or synth_col not in synth_df.columns:
-            # se la dimensione non è presente nei file, salto
-            continue
 
         # costruisco tabella sintetica: per metafora prendo il valore dell'annotator==1 e la media su tutti gli annotatori
-        # assicurarmi che 'annotator' esista
-        if 'annotator' not in synth_df.columns:
-            # se non c'è la colonna annotator, assumo che ogni riga sia un annotatore diverso
-            synth_df['annotator'] = 1
-
         # converto valori in numerici (ignorando errori -> NaN)
         human_vals = human_df[['metaphor', human_col]].copy()
         human_vals.rename(columns={human_col: 'human'}, inplace=True)
@@ -143,47 +113,41 @@ for ds_name in ['MB','ME','MI','MM']:
         human_vals['metaphor'] = human_vals['metaphor'].astype(str).str.strip()
         human_vals['human'] = pd.to_numeric(human_vals['human'], errors='coerce')
 
-        synth_vals = synth_df[['annotator','metaphor', synth_col]].copy()
+        synth_vals = synth_df[['metaphor', synth_col]].copy()
+        synth_vals.rename(columns={synth_col: 'synthetic'}, inplace=True)
         synth_vals['metaphor'] = synth_vals['metaphor'].astype(str).str.strip()
-        synth_vals[synth_col] = pd.to_numeric(synth_vals[synth_col], errors='coerce')
+        synth_vals['synthetic'] = pd.to_numeric(synth_vals[synth_col], errors='coerce')
 
-        # mean across annotators
-        synth_mean = synth_vals.groupby('metaphor')[synth_col].mean().reset_index().rename(columns={synth_col:'synthetic_mean'})
-        # annotator 1 values (run1)
-        run1 = synth_vals[synth_vals['annotator']==1][['metaphor', synth_col]].rename(columns={synth_col:'synthetic_run1'})
-        # merge
-        merged = human_vals.merge(run1, on='metaphor', how='left').merge(synth_mean, on='metaphor', how='left')
+        merged = human_vals.merge(synth_vals, on='metaphor', how='left')
 
         # salvare righe per questa dimensione
+        rows_by_dimension = defaultdict(list) # crea un dizionario vuoto in cui quando creo una chiave questa in automatico ha come valore una lista vuota
         for _, r in merged.iterrows():
             rows_by_dimension[dim].append({
                 'dataset': ds_name,
                 'metaphor': r['metaphor'],
                 'human': r['human'],
-                'synthetic_run1': r.get('synthetic_run1'),
-                'synthetic_mean': r.get('synthetic_mean'),
+                'synthetic': r.get('synthetic')
             })
 
-# --- 3) Per ogni dimensione, separare metafore usate vs non usate e calcolare Spearman ---
+# Per ogni dimensione, separare metafore usate vs non usate e calcolare Spearman
 results = []
 for dim, rows in rows_by_dimension.items():
     df_dim = pd.DataFrame(rows)
-    # rimuovere righe con human NaN (spec richiesto)
-    df_dim = df_dim[~df_dim['human'].isna()].copy()
-
-    # aggiungere flag used
-    df_dim['used'] = df_dim['metaphor'].apply(lambda m: m in used_metaphors.get(dim, set()))
+    # rimuovere righe con human NaN
+    df_dim = df_dim.dropna(subset=['human']).copy()
+    # aggiungere colonna used
+    df_dim['used'] = df_dim['metaphor'].apply(lambda m: m in used_metaphors.get(dim, set())) # il secondo parametro è il valore da restituiore se nel dizionario non c'è la chiave (dim) specificata
 
     for used_flag, group_df in df_dim.groupby('used'):
         label = 'used' if used_flag else 'not_used'
 
-        # run1
-        sub = group_df[['human','synthetic_run1']].dropna()
+        sub = group_df[['human','synthetic']].dropna()
         if len(sub) >= 2:
-            corr1, p1 = spearmanr(sub['human'], sub['synthetic_run1'])
-            n1 = len(sub)
+            corr, p = spearmanr(sub['human'], sub['synthetic'])
+            n = len(sub)
         else:
-            corr1, p1, n1 = float('nan'), float('nan'), len(sub)
+            corr, p, n = float('nan'), float('nan'), len(sub)
 
         # mean
         subm = group_df[['human','synthetic_mean']].dropna()
@@ -197,9 +161,9 @@ for dim, rows in rows_by_dimension.items():
         results.append({
             'dimension': dim,
             'group': label,
-            'n_run1': n1,
-            'corr_run1': corr1,
-            'p_run1': p1,
+            'n_run': n,
+            'corr_run': corr,
+            'p_run': p,
             'n_mean': nm,
             'corr_mean': corrm,
             'p_mean': pm,
@@ -220,21 +184,21 @@ for dim in res_df['dimension'].unique():
             return float('nan')
 
     if used_row is not None and not_used_row is not None:
-        # delta absolute and percent change for run1 and mean
-        delta_run1 = safe(not_used_row['corr_run1']) - safe(used_row['corr_run1'])
-        pct_run1 = (delta_run1 / abs(safe(used_row['corr_run1']))) * 100 if pd.notna(used_row['corr_run1']) and used_row['corr_run1']!=0 else float('nan')
+        # delta absolute and percent change for run and mean
+        delta_run = safe(not_used_row['corr_run']) - safe(used_row['corr_run'])
+        pct_run = (delta_run / abs(safe(used_row['corr_run']))) * 100 if pd.notna(used_row['corr_run']) and used_row['corr_run']!=0 else float('nan')
 
         delta_mean = safe(not_used_row['corr_mean']) - safe(used_row['corr_mean'])
         pct_mean = (delta_mean / abs(safe(used_row['corr_mean']))) * 100 if pd.notna(used_row['corr_mean']) and used_row['corr_mean']!=0 else float('nan')
     else:
-        delta_run1 = pct_run1 = delta_mean = pct_mean = float('nan')
+        delta_run = pct_run = delta_mean = pct_mean = float('nan')
 
     summary_rows.append({
         'dimension': dim,
-        'used_corr_run1': used_row['corr_run1'] if used_row is not None else float('nan'),
-        'not_used_corr_run1': not_used_row['corr_run1'] if not_used_row is not None else float('nan'),
-        'delta_corr_run1': delta_run1,
-        'pct_change_run1': pct_run1,
+        'used_corr_run': used_row['corr_run'] if used_row is not None else float('nan'),
+        'not_used_corr_run': not_used_row['corr_run'] if not_used_row is not None else float('nan'),
+        'delta_corr_run': delta_run,
+        'pct_change_run': pct_run,
         'used_corr_mean': used_row['corr_mean'] if used_row is not None else float('nan'),
         'not_used_corr_mean': not_used_row['corr_mean'] if not_used_row is not None else float('nan'),
         'delta_corr_mean': delta_mean,
