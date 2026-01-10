@@ -1,0 +1,37 @@
+dimension,rank_type,metaphor,human,synthetic,abs_diff
+BODY_RELATEDNESS,top_3_min_diff,quel viso è una seta,5.961538462,6.0,0.03846153799999996
+BODY_RELATEDNESS,top_3_min_diff,quei peli sono aghi,5.916666667,6.007371471,0.09070480399999958
+BODY_RELATEDNESS,top_3_min_diff,quella pelle è una porcellana,5.846153846,6.004507504,0.15835365800000023
+BODY_RELATEDNESS,bottom_3_max_diff,quel vestito è una tenda,3.458333333,1.001171642,2.457161691
+BODY_RELATEDNESS,bottom_3_max_diff,quel pannolino è una diga,3.5,1.000558579,2.499441421
+BODY_RELATEDNESS,bottom_3_max_diff,quel sorriso è una stella,5.153846154,1.119635617,4.034210537
+DIFFICULTY,top_3_min_diff,specialmente nel genere femminile certe voci sono trombe squillanti e fastidiose.,2.5,2.5000080175,8.017499999901645e-06
+DIFFICULTY,top_3_min_diff,nelle scelte di vita i dubbi sono ombre che offuscano la via.,2.56,2.49774823,0.06225177000000004
+DIFFICULTY,top_3_min_diff,nelle persone creative le menti sono vulcani di idee e progetti.,1.2500000005,1.3340502205,0.08405021999999995
+DIFFICULTY,bottom_3_max_diff,alle finali olimpioniche di atletica i ginnasti sono grilli agilissimi.,2.0000000005,5.980940198500001,3.9809401980000008
+DIFFICULTY,bottom_3_max_diff,per i faccendieri del tribunale le borse sono macigni traboccanti di documenti.,1.4999999995,5.5078267975,4.007826798
+DIFFICULTY,bottom_3_max_diff,se non curati con farmaci specifici certi malditesta sono trapani continui.,1.446526606,5.5002583375,4.0537317315
+FAMILIARITY,top_3_min_diff,per i soggetti depressi le crisi sono tunnel senza fine.,5.508994654,5.4997459495,0.009248704500000038
+FAMILIARITY,top_3_min_diff,l' adolescente girovaga nei sogni di successo,4.233333333,4.182101321,0.05123201199999983
+FAMILIARITY,top_3_min_diff,quell'aiuola è un arcobaleno,2.916666667,2.969358313,0.05269164599999998
+FAMILIARITY,bottom_3_max_diff,per i bambini maltrattati le carezze sono balsami che curano il trauma.,1.8571428564999999,5.980990343499999,4.123847486999999
+FAMILIARITY,bottom_3_max_diff,secondo l'opinione del generale quegli eserciti sono dighe insormontabili.,1.0,5.4102604075,4.4102604075
+FAMILIARITY,bottom_3_max_diff,nell'educazione dei giovani certi maestri sono lanterne che illuminano la via.,1.0,5.642816378500001,4.642816378500001
+IMAGEABILITY,top_3_min_diff,alcuni atleti sono statue,6.157894737,6.294276442,0.1363817049999998
+IMAGEABILITY,top_3_min_diff,certi nasi sono uncini,6.421052632,6.622024434,0.20097180199999976
+IMAGEABILITY,top_3_min_diff,certi insegnanti sono ghiaccioli,3.368421053,3.079965455,0.2884555980000001
+IMAGEABILITY,bottom_3_max_diff,quei cuochi sono mongolfiere,3.944444444,1.00020412,2.944240324
+IMAGEABILITY,bottom_3_max_diff,certi fruttivendoli sono megafoni,4.578947368,1.00012418,3.5788231879999994
+IMAGEABILITY,bottom_3_max_diff,quelle labbra sono canotti,6.5,1.107345757,5.392654243
+MEANINGFULNESS,top_3_min_diff,marta giunge alla conclusione del discorso,6.103448276,6.11830472,0.014856444000000302
+MEANINGFULNESS,top_3_min_diff,quella pancia è una mongolfiera,5.291666667,5.32105333,0.02938666299999948
+MEANINGFULNESS,top_3_min_diff,l' uomo raggiunge la felicità per un istante,5.966666667,6.00012337,0.0334567029999997
+MEANINGFULNESS,bottom_3_max_diff,quelle labbra sono un canotto,5.666666667,2.002242692,3.6644239750000005
+MEANINGFULNESS,bottom_3_max_diff,alle finali olimpioniche di atletica i ginnasti sono grilli agilissimi.,4.75,1.007831098,3.742168902
+MEANINGFULNESS,bottom_3_max_diff,nei condomini del centro i portinai sono archivi pronti a spettegolare.,2.9999999995,6.9971098135,3.997109814
+PHISICALITY,top_3_min_diff,alcune segretarie sono agende,1.95,2.003661492,0.05366149200000003
+PHISICALITY,top_3_min_diff,alcuni atleti sono statue,6.1,6.000292792,0.09970720799999988
+PHISICALITY,top_3_min_diff,alcuni anziani sono lumache,4.157894737,4.016259255,0.14163548200000076
+PHISICALITY,bottom_3_max_diff,alcune suocere sono vipere,1.526315789,3.964004016,2.4376882269999998
+PHISICALITY,bottom_3_max_diff,alcuni cantanti sono usignoli,3.105263158,5.810051827,2.7047886689999996
+PHISICALITY,bottom_3_max_diff,quelle labbra sono canotti,6.578947368,1.71778219,4.861165177999999
