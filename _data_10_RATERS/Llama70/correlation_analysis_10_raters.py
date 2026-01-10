@@ -77,8 +77,9 @@ for ds_name in ['MB','ME','MI','MM']:
         human_vals['human'] = pd.to_numeric(human_vals['human'], errors='coerce')
 
         synth_vals = synth_df[['annotator','metaphor', synth_col]].copy()
+        synth_vals.rename(columns={synth_col: 'synthetic'}, inplace=True)
         synth_vals['metaphor'] = synth_vals['metaphor'].astype(str).str.strip()
-        synth_vals[synth_col] = pd.to_numeric(synth_vals[synth_col], errors='coerce')
+        synth_vals[synth_col] = pd.to_numeric(synth_vals['synthetic'], errors='coerce')
 
         # mean across annotators
         synth_mean = synth_vals.groupby('metaphor')[synth_col].mean().reset_index().rename(columns={synth_col:'synthetic_mean'})
@@ -91,13 +92,13 @@ for ds_name in ['MB','ME','MI','MM']:
                 'dataset': ds_name,
                 'metaphor': r['metaphor'],
                 'human': r['human'],
-                'synthetic_mean': r.get('synthetic_mean'),
+                'synthetic': r.get('synthetic_mean'),
             })
 
 LLAMA_DIR = Path(__file__).resolve().parent
 MEMORY_DIR = LLAMA_DIR.parent
 GENERAL_DIR = MEMORY_DIR.parent
-TARGET_FILE = GENERAL_DIR / "_data_LOGPROB" / "Llama8" / "_results" / "results_everyday_global.csv"
+TARGET_FILE = GENERAL_DIR / "_data_LOGPROB" / "Llama70" / "_results" / "results_everyday_global.csv"
 every_day_df = pd.read_csv(TARGET_FILE, decimal=',')
 every_day_df = every_day_df.set_index('dimension')
 results = []
@@ -132,6 +133,6 @@ out_dir = '_results'
 if not Path(out_dir).exists():
     Path(out_dir).mkdir()
 
-print('\n=== Correlazioni con memoria: ===', '\n=== "pct_change" indica in percentuale quanto la correlazione nella strategia con memoria incrementa o decresce rispetto a quella senza memoria')
+print('\n=== Correlazioni con memoria: ===', '\n=== "pct_change" indica in percentuale quanto la correlazione nella strategia con 10 raters incrementa o decresce rispetto a quella con le log probabilities')
 print(res_df)
-res_df.to_csv(out_dir + '/results_memory.csv', index=False)
+res_df.to_csv(out_dir + '/results_10_raters.csv', index=False)
