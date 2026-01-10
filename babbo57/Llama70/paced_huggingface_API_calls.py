@@ -126,7 +126,7 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
         for idx, metaphor in list(enumerate(metaphors_list)):
             print("\n", rater, idx + 1, "of", len(metaphors_list))
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN_BABBO"], provider = "novita")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN_MAMMA"], provider = "novita")
 
             if DATASET_ID in ["MB", "BA"]:
                 pref = "Espressione: "

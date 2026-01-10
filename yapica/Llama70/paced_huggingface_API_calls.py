@@ -11,7 +11,7 @@ import numpy as np
 def reply_to_values(response):
     values_list = response.split(",")
     for idx, value in enumerate(values_list):
-        values_list[idx] = "".join([int(c) for c in value if c.isdigit()])
+        values_list[idx] = int("".join([c for c in value if c.isdigit()]))
     return values_list
 
 def write_out(out_file_name, results_dict):
@@ -126,7 +126,7 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
         for idx, metaphor in list(enumerate(metaphors_list)):
             print("\n", rater, idx + 1, "of", len(metaphors_list))
 
-            client = InferenceClient(api_key=os.environ["HF_TOKEN_YAPICA"], provider = "novita")
+            client = InferenceClient(api_key=os.environ["HF_TOKEN"], provider = "novita")
 
             if DATASET_ID in ["MB", "BA"]:
                 pref = "Espressione: "
@@ -159,6 +159,7 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
 
             if LOGPROBS:
                 final_values = list()
+                print("Sto usando logprobs")
                 
                 for i in range(0, max_tokens, 3):
 
@@ -209,6 +210,8 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
                 
             else:
                 final_values = reply_to_values(reply)
+                print("final values: ", final_values)
+                print("NON sto usando logprobs")
 
             checkpoint_df = checkpoint_df[1:]
             checkpoint_df.to_csv(checkpoint_file, index = False)
