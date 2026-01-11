@@ -157,6 +157,9 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
             reply = completion.choices[0].message.content
             print("output: ", reply)
 
+            if TEMPERATURE == 0.8:
+                print("Sto usando temeperatura 0.8")
+
             if LOGPROBS:
                 final_values = list()
                 print("Sto usando logprobs")
