@@ -98,7 +98,7 @@ for ds_name in ['MB','ME','MI','MM']:
 LLAMA_DIR = Path(__file__).resolve().parent
 MEMORY_DIR = LLAMA_DIR.parent
 GENERAL_DIR = MEMORY_DIR.parent
-TARGET_FILE = GENERAL_DIR / "_data_LOGPROB" / "Llama70" / "_results" / "results_everyday_global.csv"
+TARGET_FILE = GENERAL_DIR / "_data_LOGPROB" / "Llama8" / "_results" / "results_everyday_global.csv"
 every_day_df = pd.read_csv(TARGET_FILE, decimal=',')
 every_day_df = every_day_df.set_index('dimension')
 results = []
@@ -122,7 +122,7 @@ for dim, rows in rows_by_dimension.items():
     results.append({
         'dimension' : dim,
         'n_item': n,
-        'corr_poetic': corr_10_raters,
+        'corr': corr_10_raters,
         'p_value': p,
         'pct change' : pct
     })

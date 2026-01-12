@@ -122,7 +122,7 @@ for dim, rows in rows_by_dimension.items():
     results.append({
         'dimension' : dim,
         'n_item': n,
-        'corr_poetic': corr_10_raters,
+        'corr': corr_10_raters,
         'p_value': p,
         'pct change' : pct
     })
