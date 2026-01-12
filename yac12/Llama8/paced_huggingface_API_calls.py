@@ -213,9 +213,6 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
                 print("final values: ", final_values)
                 print("NON sto usando logprobs")
 
-            checkpoint_df = checkpoint_df[1:]
-            checkpoint_df.to_csv(checkpoint_file, index = False)
-
             if MEMORY:
                 
                 conversation.append({"role" : "assistant", "content": [{"type": "text", "text": reply}]})
@@ -274,6 +271,9 @@ def huggingface_API_calling(dataset, model, raters, temperature, logprobs, memor
                     "MEANINGFULNESS_synthetic" : final_values[2],
                 }
 
+            checkpoint_df = checkpoint_df[1:]
+            checkpoint_df.to_csv(checkpoint_file, index = False)
+            
             write_out(out_annotation_file, row)
 
             minuto = 60
