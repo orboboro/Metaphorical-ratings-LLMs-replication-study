@@ -9,7 +9,11 @@ from huggingface_hub import InferenceClient
 import numpy as np
 
 def reply_to_values(response):
-    values_list = response.split(",")
+
+    splitter = ","
+    if response[1] == ";":
+        splitter = ";"
+    values_list = response.split(splitter)
     for idx, value in enumerate(values_list):
         values_list[idx] = int("".join([c for c in value if c.isdigit()]))
     return values_list

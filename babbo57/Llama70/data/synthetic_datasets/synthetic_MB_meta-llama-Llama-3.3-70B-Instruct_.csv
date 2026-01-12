@@ -199,3 +199,152 @@ annotator,metaphor,FAMILIARITY_synthetic,MEANINGFULNESS_synthetic,BODY_RELATEDNE
 4,Quel bacio è un peperoncino,4,6,1
 4,Quella bocca è una fragola,3,5,7
 4,Quella locomotiva è un drago,2,5,1
+4,Quella ruga è un burrone,5,6,7
+4,Quel vestito è una tenda,3,5,1
+4,Quel lago è un cristallo,3,6,1
+4,Quel sorriso è una stella,3,5,1
+4,Quella pelle è una porcellana,4,6,6
+4,Quel prato è un velluto,3,6,1
+4,Quel mento è un precipizio,2,5,6
+4,Quel viso è una seta,2,5,6
+4,Quella nebbia è un muro,3,6,1
+4,Quell'orecchio è una padella,3,2,7
+4,Quella mano è una grattugia,3,5,6
+4,Quel naso è un uncino,6,6,7
+4,Quei denti sono una ghigliottina,5,6,7
+4,Quelle palpebre sono serrande,5,6,6
+4,Quelle ciglia sono un ventaglio,3,5,6
+4,Quei piedi sono zattere,5,6,7
+4,Quella pancia è una mongolfiera,3,5,6
+4,Quella barba è un batuffolo,3,5,6
+4,Quegli zigomi sono montagne,4,6,7
+4,Quelle gambe sono trampoli,6,7,7
+4,Quella caviglia è un pallone,2,3,6
+4,Quel braccio è una sbarra,4,6,6
+4,Quei capelli sono spaghetti,2,4,6
+4,Quella fronte è una pianura,3,5,6
+4,Quegli addominali sono marmo,6,7,7
+4,Quelle labbra sono un canotto,1,2,6
+4,Quei bicipiti sono sassi,5,6,7
+4,Quelle unghie sono ruspe,6,7,7
+4,Quelle dita sono tentacoli,3,5,6
+4,Quei peli sono aghi,4,5,6
+4,Quel brufolo è un vulcano,5,6,6
+4,Quel neo è una mora,5,6,7
+4,Quell'autostrada è un serpente,4,7,1
+4,Quella fabbrica è un alveare,4,6,1
+4,Quella luna è un palloncino,3,5,1
+4,Quella sigaretta è un proiettile,4,6,1
+4,Quella stanza è una discarica,4,6,1
+4,Quel computer è una tartaruga,4,6,1
+4,Quel libro è una lanterna,2,4,1
+4,Quell'automobile è un missile,4,7,1
+4,Quel cavo è un gomitolo,4,6,1
+4,Quel cappello è un fungo,4,5,1
+4,Quella grondaia è uno scolapasta,4,6,1
+4,Quella casa è un gioiello,5,6,1
+4,Quell'ospedale è un labirinto,4,6,1
+4,Quel diario è una miniera,4,6,1
+4,Quell'aiuola è un arcobaleno,3,5,1
+4,Quel sonaglio è una camomilla,1,2,1
+4,Quella nuvola è una perla,2,4,1
+4,Quella firma è un geroglifico,3,6,1
+4,Quegli abiti sono petali,2,4,1
+4,Quel mare è uno smeraldo,4,7,1
+4,Quella piscina è un brodo,2,2,1
+4,Quel pannolino è una diga,3,5,1
+4,Quell'aspirapolvere è un'astronave,2,3,1
+4,Quel bar è un cimitero,3,6,1
+5,Quell'alito è una fogna,5,6,7
+5,Quell'uragano è un carrarmato,2,5,1
+5,Quella borsa è un macigno,4,6,1
+5,Quella città è una giungla,4,7,1
+5,Quelle guance sono pesche,6,7,7
+5,Quel bacio è un peperoncino,4,5,6
+5,Quella bocca è una fragola,4,6,7
+5,Quella locomotiva è un drago,2,5,1
+5,Quella ruga è un burrone,5,6,7
+5,Quel vestito è una tenda,4,6,1
+5,Quel lago è un cristallo,3,6,1
+5,Quel sorriso è una stella,2,5,1
+5,Quella pelle è una porcellana,5,6,6
+5,Quel prato è un velluto,4,6,1
+5,Quel mento è un precipizio,2,4,6
+5,Quel viso è una seta,2,4,6
+5,Quella nebbia è un muro,4,6,1
+5,Quell'orecchio è una padella,2,2,7
+5,Quella mano è una grattugia,4,6,7
+5,Quel naso è un uncino,5,6,7
+5,Quei denti sono una ghigliottina,4,6,6
+5,Quelle palpebre sono serrande,5,6,6
+5,Quelle ciglia sono un ventaglio,4,6,6
+5,Quei piedi sono zattere,4,6,7
+5,Quella pancia è una mongolfiera,3,5,6
+5,Quella barba è un batuffolo,3,5,6
+5,Quegli zigomi sono montagne,4,6,7
+5,Quelle gambe sono trampoli,6,7,7
+5,Quella caviglia è un pallone,3,2,6
+5,Quel braccio è una sbarra,5,6,7
+5,Quei capelli sono spaghetti,4,5,6
+5,Quella fronte è una pianura,3,5,6
+5,Quegli addominali sono marmo,6,7,7
+5,Quelle labbra sono un canotto,2,2,4
+5,Quei bicipiti sono sassi,6,7,7
+5,Quelle unghie sono ruspe,6,7,7
+5,Quelle dita sono tentacoli,3,5,6
+5,Quei peli sono aghi,4,6,6
+5,Quel brufolo è un vulcano,4,6,6
+5,Quel neo è una mora,4,5,6
+5,Quell'autostrada è un serpente,4,7,1
+5,Quella fabbrica è un alveare,4,6,1
+5,Quella luna è un palloncino,2,3,1
+5,Quella sigaretta è un proiettile,4,6,1
+5,Quella stanza è una discarica,4,6,1
+5,Quel computer è una tartaruga,4,6,1
+5,Quel libro è una lanterna,2,3,1
+5,Quell'automobile è un missile,4,7,1
+5,Quel cavo è un gomitolo,4,6,2
+5,Quel cappello è un fungo,3,5,1
+5,Quella grondaia è uno scolapasta,3,5,1
+5,Quella casa è un gioiello,5,6,1
+5,Quell'ospedale è un labirinto,4,6,1
+5,Quel diario è una miniera,4,6,1
+5,Quell'aiuola è un arcobaleno,3,5,1
+5,Quel sonaglio è una camomilla,1,2,1
+5,Quella nuvola è una perla,3,5,1
+5,Quella firma è un geroglifico,3,5,1
+5,Quegli abiti sono petali,2,4,1
+5,Quel mare è uno smeraldo,4,7,1
+5,Quella piscina è un brodo,2,2,1
+5,Quel pannolino è una diga,2,4,1
+5,Quell'aspirapolvere è un'astronave,2,3,1
+5,Quel bar è un cimitero,4,6,1
+6,Quell'alito è una fogna,6,7,7
+6,Quell'uragano è un carrarmato,2,5,1
+6,Quella borsa è un macigno,4,6,1
+6,Quella città è una giungla,4,7,1
+6,Quelle guance sono pesche,4,6,6
+6,Quel bacio è un peperoncino,4,5,6
+6,Quella bocca è una fragola,3,5,6
+6,Quella locomotiva è un drago,2,5,1
+6,Quella ruga è un burrone,5,6,7
+6,Quel vestito è una tenda,4,6,1
+6,Quel lago è un cristallo,3,6,1
+6,Quel sorriso è una stella,3,5,1
+6,Quella pelle è una porcellana,5,6,6
+6,Quel prato è un velluto,4,6,1
+6,Quel mento è un precipizio,2,4,6
+6,Quel viso è una seta,2,5,6
+6,Quella nebbia è un muro,4,6,1
+6,Quell'orecchio è una padella,3,2,7
+6,Quella mano è una grattugia,4,5,6
+6,Quel naso è un uncino,6,7,7
+6,Quei denti sono una ghigliottina,4,6,6
+6,Quelle palpebre sono serrande,4,6,6
+6,Quelle ciglia sono un ventaglio,3,5,6
+6,Quei piedi sono zattere,6,5,7
+6,Quella pancia è una mongolfiera,3,5,6
+6,Quella barba è un batuffolo,3,5,6
+6,Quegli zigomi sono montagne,3,5,6
+6,Quelle gambe sono trampoli,6,7,7
+6,Quella caviglia è un pallone,6,5,7
