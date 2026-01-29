@@ -1,6 +1,7 @@
 import os
 import pandas as pd
-from scipy.stats import spearmanr
+from scipy.stats import spearmanr, pearsonr
+
 from pathlib import Path
 
 human_path = "human_datasets/"
@@ -84,13 +85,16 @@ df_all = pd.DataFrame(all_rows)
 
 # Calcolo correlazione Spearman globale
 sub = df_all[['human', 'synthetic']].dropna()
-corr, p_value = spearmanr(sub['human'], sub['synthetic'])
+s_corr, s_p_value = spearmanr(sub['human'], sub['synthetic'])
+p_corr, p_p_value = pearsonr(sub['human'], sub['synthetic'])
 n_items = len(sub)
 
 results_global = pd.DataFrame([{
     'n_item': n_items,
-    'spearman_corr': corr,
-    'p_value': p_value
+    'spearman_corr': s_corr,
+    's_p_value': s_p_value,
+    'pearson_corr': p_corr,
+    'p_p_value': p_p_value
 }])
 
 print('\n=== Correlazione generale (senza distinguere per dimensione) ===')

@@ -49,35 +49,36 @@ for ds_name in ['MB', 'MI']:
     split_df = human_df[['metaphor', split_col]].copy()
     split_df[split_col] = pd.to_numeric(split_df[split_col], errors='coerce')
 
-    high_metaphors = set(split_df.loc[split_df[split_col] > 4.5, 'metaphor'])
-    low_metaphors = set(split_df.loc[split_df[split_col] < 3.5, 'metaphor'])
+    high_metaphors = set(split_df.loc[split_df[split_col] > 5, 'metaphor'])
+    low_metaphors = set(split_df.loc[split_df[split_col] < 3, 'metaphor'])
 
     rows_high = []
     rows_low = []
 
-    human_col = f"{split_dim}_human"
-    synth_col = f"{split_dim}_synthetic"
+    for dim in dims:
+        human_col = f"{dim}_human"
+        synth_col = f"{dim}_synthetic"
 
-    human_vals = human_df[['metaphor', human_col]].copy()
-    human_vals.rename(columns={human_col: 'human'}, inplace=True)
-    human_vals['human'] = pd.to_numeric(human_vals['human'], errors='coerce')
+        human_vals = human_df[['metaphor', human_col]].copy()
+        human_vals.rename(columns={human_col: 'human'}, inplace=True)
+        human_vals['human'] = pd.to_numeric(human_vals['human'], errors='coerce')
 
-    synth_vals = synth_df[['metaphor', synth_col]].copy()
-    synth_vals.rename(columns={synth_col: 'synthetic'}, inplace=True)
-    synth_vals['synthetic'] = pd.to_numeric(synth_vals['synthetic'], errors='coerce')
+        synth_vals = synth_df[['metaphor', synth_col]].copy()
+        synth_vals.rename(columns={synth_col: 'synthetic'}, inplace=True)
+        synth_vals['synthetic'] = pd.to_numeric(synth_vals['synthetic'], errors='coerce')
 
-    merged = human_vals.merge(
-        synth_vals,
-        on='metaphor',
-        how='inner',
-        validate='one_to_one'
-    ).dropna(subset=['human', 'synthetic'])
+        merged = human_vals.merge(
+            synth_vals,
+            on='metaphor',
+            how='inner',
+            validate='one_to_one'
+        ).dropna(subset=['human', 'synthetic'])
 
-    for _, r in merged.iterrows():
-        if r['metaphor'] in high_metaphors:
-            rows_high.append(r)
-        elif r['metaphor'] in low_metaphors:
-            rows_low.append(r)
+        for _, r in merged.iterrows():
+            if r['metaphor'] in high_metaphors:
+                rows_high.append(r)
+            elif r['metaphor'] in low_metaphors:
+                rows_low.append(r)
 
     # correlazioni
     for label, rows in [('high', rows_high), ('low', rows_low)]:
