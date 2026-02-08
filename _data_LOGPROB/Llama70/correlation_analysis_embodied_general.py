@@ -91,7 +91,6 @@ for ds_name in ['MB', 'MI']:
             corr, p_value = float('nan'), float('nan')
 
         results.append({
-            'study': ds_name,
             'group': f'{split_dim}_{label}',
             'n_item': n,
             'spearman_corr': corr,

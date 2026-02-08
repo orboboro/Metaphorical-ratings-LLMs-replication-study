@@ -8,22 +8,32 @@ synthetic_path = "synthetic_datasets/"
 
 human_files = {
     'MB': 'human_MB.csv',
-    'MI': 'human_MI.csv',
+    'ME': 'human_ME.csv',
+    'MM': 'human_MM.csv',
+    'BA': 'human_BA.csv'
 }
 
 synthetic_files = {
     'MB': 'synthetic_MB.csv',
-    'MI': 'synthetic_MI.csv',
+    'ME': 'synthetic_ME.csv',
+    'MM': 'synthetic_MM.csv',
+    'BA': 'synthetic_BA.csv'
 }
 
 dimensions_map = {
     'MB': ['FAMILIARITY', 'MEANINGFULNESS', 'BODY_RELATEDNESS'],
-    'MI': ['PHISICALITY', 'IMAGEABILITY'],
+    'ME': ['FAMILIARITY', 'MEANINGFULNESS', 'DIFFICULTY'],
+    'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
+    'BA': ['FAMILIARITY', 'MEANINGFULNESS', 'DIFFICULTY']
 }
 
-results = []
+# -------------------------
+# accumulatori globali
+# -------------------------
 
-for ds_name in ['MB', 'MI']:
+agg_data = {}
+
+for ds_name in ['MB', 'MM', 'ME', 'BA']:
 
     human_df = pd.read_csv(
         os.path.join(human_path, human_files[ds_name]),
@@ -36,11 +46,9 @@ for ds_name in ['MB', 'MI']:
 
     dims = dimensions_map[ds_name]
 
-    # dimensione di split
-    split_dim = 'BODY_RELATEDNESS' if ds_name == 'MB' else 'PHISICALITY'
+    split_dim = 'FAMILIARITY'
     split_col = f"{split_dim}_human"
 
-    # conversione numerica
     human_df[split_col] = pd.to_numeric(human_df[split_col], errors='coerce')
 
     high_metaphors = set(
@@ -77,39 +85,63 @@ for ds_name in ['MB', 'MI']:
             .dropna()
         )
 
+        # inizializza struttura aggregata
+        agg_data.setdefault(dim, {
+            'high_human': [],
+            'high_synth': [],
+            'low_human': [],
+            'low_synth': []
+        })
+
         for label, metaphor_set in [
             ('high', high_metaphors),
             ('low', low_metaphors)
         ]:
 
             subset = merged[merged['metaphor'].isin(metaphor_set)]
-            n = len(subset)
 
-            if n >= 2:
-                corr, p_value = spearmanr(
-                    subset['human'], subset['synthetic']
-                )
-            else:
-                corr, p_value = float('nan'), float('nan')
+            if len(subset) > 0:
+                agg_data[dim][f'{label}_human'].extend(subset['human'].tolist())
+                agg_data[dim][f'{label}_synth'].extend(subset['synthetic'].tolist())
 
-            results.append({
-                'split_dimension': split_dim,
-                'group': label,
-                'target_dimension': dim,
-                'n_item': n,
-                'spearman_corr': corr,
-                'p_value': p_value
-            })
+
+# -------------------------
+# calcolo finale aggregato
+# -------------------------
+
+results = []
+
+for dim, data in agg_data.items():
+
+    for label in ['high', 'low']:
+
+        h = data[f'{label}_human']
+        s = data[f'{label}_synth']
+        n = len(h)
+
+        if n >= 2:
+            corr, p_value = spearmanr(h, s)
+        else:
+            corr, p_value = float('nan'), float('nan')
+
+        results.append({
+            'split_dimension': 'FAMILIARITY',
+            'group': label,
+            'target_dimension': dim,
+            'n_item': n,
+            'spearman_corr': corr,
+            'p_value': p_value
+        })
 
 results_df = pd.DataFrame(results)
 
-print('\n=== Correlazioni per dimensione e gruppo ===')
+print('\n=== Correlazioni aggregate per dimensione ===')
 print(results_df)
 
 out_dir = '_results'
 Path(out_dir).mkdir(exist_ok=True)
 
 results_df.to_csv(
-    f'{out_dir}/results_embodied_by_dimension.csv',
+    f'{out_dir}/results_familiarity_by_dimension.csv',
     index=False
 )
