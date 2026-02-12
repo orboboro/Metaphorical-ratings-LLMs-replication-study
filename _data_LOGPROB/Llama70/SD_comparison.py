@@ -136,16 +136,38 @@ for dim in dimensions:
     h_vals = merged[hcol].dropna() if hcol in merged.columns else pd.Series(dtype=float)
     s_vals = merged[scol].dropna() if scol in merged.columns else pd.Series(dtype=float)
 
-    std_h = h_vals.std() if len(h_vals) > 1 else np.nan
-    std_s = s_vals.std() if len(s_vals) > 1 else np.nan
+    n_h = len(h_vals)
+    n_s = len(s_vals)
+
+    std_h = h_vals.std() if n_h > 1 else np.nan
+    std_s = s_vals.std() if n_s > 1 else np.nan
 
     f_stat, p_val = (np.nan, np.nan)
-    if len(h_vals) > 1 and len(s_vals) > 1:
+    if n_h > 1 and n_s > 1:
         f_stat, p_val = f_test(h_vals, s_vals)
 
-    rows.append([dim, std_h, std_s, f_stat, p_val])
+    rows.append([
+        dim,
+        n_h,
+        n_s,
+        std_h,
+        std_s,
+        f_stat,
+        p_val
+    ])
 
-std_df = pd.DataFrame(rows, columns=["dimension", "std_human", "std_synthetic", "F_stat", "p_value"])
+std_df = pd.DataFrame(
+    rows,
+    columns=[
+        "dimension",
+        "n_human",
+        "n_synthetic",
+        "std_human",
+        "std_synthetic",
+        "F_stat",
+        "p_value"
+    ]
+)
 std_df.to_csv("_results/std_and_f_test_summary.csv", index=False)
 
 print(std_df)
