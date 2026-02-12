@@ -48,14 +48,15 @@ for ds_name in ['MB', 'MM', 'ME', 'BA']:
 
     split_dim = 'FAMILIARITY'
     split_col = f"{split_dim}_human"
+    median = 2.93
 
     human_df[split_col] = pd.to_numeric(human_df[split_col], errors='coerce')
 
     high_metaphors = set(
-        human_df.loc[human_df[split_col] > 4, 'metaphor']
+        human_df.loc[human_df[split_col] > float(median), 'metaphor']
     )
     low_metaphors = set(
-        human_df.loc[human_df[split_col] < 3, 'metaphor']
+        human_df.loc[human_df[split_col] < float(median), 'metaphor']
     )
 
     for dim in dims:

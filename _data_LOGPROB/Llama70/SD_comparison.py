@@ -124,7 +124,7 @@ def f_test(x, y):
     return f_stat, p_val
 
 # -----------------------
-# STD E F-TEST
+# STD, MEDIANE E F-TEST
 # -----------------------
 
 rows = []
@@ -142,6 +142,9 @@ for dim in dimensions:
     std_h = h_vals.std() if n_h > 1 else np.nan
     std_s = s_vals.std() if n_s > 1 else np.nan
 
+    median_h = h_vals.median() if n_h > 0 else np.nan
+    median_s = s_vals.median() if n_s > 0 else np.nan
+
     f_stat, p_val = (np.nan, np.nan)
     if n_h > 1 and n_s > 1:
         f_stat, p_val = f_test(h_vals, s_vals)
@@ -152,11 +155,13 @@ for dim in dimensions:
         n_s,
         std_h,
         std_s,
+        median_h,
+        median_s,
         f_stat,
         p_val
     ])
 
-std_df = pd.DataFrame(
+summary_df = pd.DataFrame(
     rows,
     columns=[
         "dimension",
@@ -164,13 +169,15 @@ std_df = pd.DataFrame(
         "n_synthetic",
         "std_human",
         "std_synthetic",
+        "median_human",
+        "median_synthetic",
         "F_stat",
         "p_value"
     ]
 )
-std_df.to_csv("_results/std_and_f_test_summary.csv", index=False)
+summary_df.to_csv("std_median_and_f_test_summary.csv", index=False)
 
-print(std_df)
+print(summary_df)
 
 # -----------------------
 # BOXPLOT
