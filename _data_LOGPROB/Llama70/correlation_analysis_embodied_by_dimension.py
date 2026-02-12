@@ -44,10 +44,10 @@ for ds_name in ['MB', 'MI']:
     human_df[split_col] = pd.to_numeric(human_df[split_col], errors='coerce')
 
     high_metaphors = set(
-        human_df.loc[human_df[split_col] > 5, 'metaphor']
+        human_df.loc[human_df[split_col] > 4, 'metaphor']
     )
     low_metaphors = set(
-        human_df.loc[human_df[split_col] < 3, 'metaphor']
+        human_df.loc[human_df[split_col] < 4, 'metaphor']
     )
 
     for dim in dims:
