@@ -3,6 +3,9 @@ import pandas as pd
 from scipy.stats import spearmanr
 from collections import defaultdict
 from pathlib import Path
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 human_path = "human_datasets/"
 synthetic_path = "synthetic_datasets/"
@@ -66,6 +69,7 @@ def safe(val):
 for dim, rows in rows_by_dimension.items():
     df_dim = pd.DataFrame(rows)
     sub = df_dim[['human','synthetic']].dropna()
+
     corr_poetic, p = spearmanr(sub['human'], sub['synthetic'])
     n = len(sub)
 
@@ -81,8 +85,26 @@ for dim, rows in rows_by_dimension.items():
         'pct change' : pct
     })
 
-res_df = pd.DataFrame(results)
+    # =========================
+    # GRAFICO CORRELAZIONE
+    # =========================
+    if len(sub) > 1:
+        x = sub['human'].values
+        y = sub['synthetic'].values
 
-print('\n=== Correlazioni metafore poetiche: ===', '\n=== "pct_change" indica in percentuale quanto la correlazione delle metafore poetiche incrementa o decresce rispetto a quella delle non poetiche')
-print(res_df)
-res_df.to_csv(out_dir + '/results_poetic.csv', index=False)
+        plt.figure()
+
+        # scatter
+        plt.scatter(x, y)
+
+        # retta di regressione lineare
+        m, b = np.polyfit(x, y, 1)
+        plt.plot(x, m*x + b)
+
+        plt.xlabel("Human score")
+        plt.ylabel("Synthetic score")
+        plt.title(f"{dim} — Spearman={corr_poetic:.3f}  n={n}")
+
+        plt.tight_layout()
+        plt.savefig(f"{out_dir}/corr_{dim.lower()}.png", dpi=300)
+        plt.close()
