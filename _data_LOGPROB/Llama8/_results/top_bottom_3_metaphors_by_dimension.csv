@@ -1,0 +1,37 @@
+dimension,rank_type,metaphor,human,synthetic,abs_diff
+BODY_RELATEDNESS,top_3_min_diff,quel cappello è un fungo,2.615384615,2.63689312,0.0215085049999999
+BODY_RELATEDNESS,top_3_min_diff,quella sigaretta è un proiettile,2.923076923,2.952791564,0.029714640999999986
+BODY_RELATEDNESS,top_3_min_diff,quel diario è una miniera,1.666666667,1.631050601,0.035616066
+BODY_RELATEDNESS,bottom_3_max_diff,quelle labbra sono un canotto,6.375,2.477478217,3.897521783
+BODY_RELATEDNESS,bottom_3_max_diff,quell'orecchio è una padella,5.346153846,1.44344867,3.902705176
+BODY_RELATEDNESS,bottom_3_max_diff,quel viso è una seta,5.961538462,2.030475783,3.931062679
+DIFFICULTY,top_3_min_diff,dopo un grave lutto certi ricordi sono spine dolorose.,1.9375,1.9090304320000002,0.02846956799999978
+DIFFICULTY,top_3_min_diff,nelle scelte di vita i dubbi sono ombre che offuscano la via.,2.56,2.5305299695000003,0.029470030499999744
+DIFFICULTY,top_3_min_diff,nei condomini del centro i portinai sono archivi pronti a spettegolare.,2.9999999995,2.937448336,0.06255166349999985
+DIFFICULTY,bottom_3_max_diff,durante la gara di formula uno le automobili sono frecce velocissime.,2.2499999995,5.0400503035,2.790050304
+DIFFICULTY,bottom_3_max_diff,a volte nell'educazione degli adolescenti gli schiaffi sono medicine efficaci.,2.5,5.336111194,2.836111194
+DIFFICULTY,bottom_3_max_diff,durante gli scandali nazionali i giornalisti sono avvoltoi senza morale.,1.1875,4.9031236135,3.7156236135
+FAMILIARITY,top_3_min_diff,nel corso della vita le emozioni sono fulmini che sconvolgono la routine.,3.9361819029999996,3.9372964674999995,0.001114564499999915
+FAMILIARITY,top_3_min_diff,vittorio spezza la noia con un film,4.2,4.211515515,0.011515515000000143
+FAMILIARITY,top_3_min_diff,franco scalcia i rimorsi di coscienza,4.566666667,4.598164808,0.031498141000000146
+FAMILIARITY,bottom_3_max_diff,le tasche delle giacche dei nonni sono banche zeppe di monete.,1.1500000000000001,3.827865964,2.6778659639999995
+FAMILIARITY,bottom_3_max_diff,secondo l'opinione del generale quegli eserciti sono dighe insormontabili.,1.0,3.9789509709999997,2.9789509709999997
+FAMILIARITY,bottom_3_max_diff,nell'educazione dei giovani certi maestri sono lanterne che illuminano la via.,1.0,4.9537370095,3.9537370095
+IMAGEABILITY,top_3_min_diff,certi nasi sono uncini,6.421052632,6.49241598,0.07136334799999933
+IMAGEABILITY,top_3_min_diff,certi insegnanti sono ghiaccioli,3.368421053,3.126804216,0.24161683700000003
+IMAGEABILITY,top_3_min_diff,alcuni colleghi sono zecche,2.833333333,3.083117052,0.24978371899999985
+IMAGEABILITY,bottom_3_max_diff,alcuni cantanti sono usignoli,4.5,1.554691413,2.945308587
+IMAGEABILITY,bottom_3_max_diff,alcuni anziani sono lumache,4.833333333,1.808578278,3.024755055
+IMAGEABILITY,bottom_3_max_diff,certi leader sono fari,3.111111111,6.537980387,3.426869276
+MEANINGFULNESS,top_3_min_diff,il giovane coglie l' opportunità con entusiasmo,6.166666667,6.171334482,0.0046678149999994645
+MEANINGFULNESS,top_3_min_diff,quel bar è un cimitero,5.166666667,5.161180389,0.005486278000000233
+MEANINGFULNESS,top_3_min_diff,davanti ad una punizione certi bambini sono fontane inarrestabili.,3.8333333334999997,3.8488844679999996,0.015551134499999897
+MEANINGFULNESS,bottom_3_max_diff,durante la gara di formula uno le automobili sono frecce velocissime.,5.7500000005,1.9019863075,3.848013693
+MEANINGFULNESS,bottom_3_max_diff,durante gli scandali nazionali i giornalisti sono avvoltoi senza morale.,6.333333334,2.4491739295,3.8841594044999996
+MEANINGFULNESS,bottom_3_max_diff,se non curati con farmaci specifici certi malditesta sono trapani continui.,5.6771304475,1.5078136764999999,4.169316771
+PHISICALITY,top_3_min_diff,quei degenti sono mummie,4.85,4.783362634,0.06663736599999925
+PHISICALITY,top_3_min_diff,quei cuochi sono mongolfiere,3.789473684,4.136327493,0.34685380899999974
+PHISICALITY,top_3_min_diff,quelle ballerine sono libellule,4.5,4.136327493,0.3636725070000004
+PHISICALITY,bottom_3_max_diff,quei chitarristi sono mitraglie,1.7,5.033275513,3.3332755130000002
+PHISICALITY,bottom_3_max_diff,certi leader sono fari,1.368421053,4.970831304,3.602410251
+PHISICALITY,bottom_3_max_diff,alcuni amici sono ancore,1.263157895,5.0,3.736842105
