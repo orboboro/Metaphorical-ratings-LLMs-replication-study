@@ -1,4 +1,0 @@
-pandas
-huggingface_hub
-groq
-scipy
