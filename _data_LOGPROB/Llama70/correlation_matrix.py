@@ -23,9 +23,6 @@ synthetic_files = {
 
 datasets = ['MB','ME','MI','MM','BA']
 
-# ---------------------------
-# UTILITY
-# ---------------------------
 
 def fix_commas(df):
     for c in df.columns:
@@ -51,9 +48,6 @@ def spearman_corr_long(df):
             })
     return pd.DataFrame(records)
 
-# ---------------------------
-# PROCESSO PRINCIPALE
-# ---------------------------
 
 all_corrs = []
 
@@ -61,7 +55,6 @@ for dataset in datasets:
     human_df = pd.read_csv(human_files[dataset]).dropna()
     synth_df = pd.read_csv(synthetic_files[dataset]).dropna()
 
-    # rimuovi colonne non numeriche
     human_drop_cols = ["metaphor"]
     synth_drop_cols = ["metaphor", "annotator"]
     human_df = human_df.drop(columns=[c for c in human_drop_cols if c in human_df.columns])
@@ -70,7 +63,6 @@ for dataset in datasets:
     human_df = fix_commas(human_df)
     synth_df = fix_commas(synth_df)
 
-    # Matrici di correlazione in formato tidy
     human_corr_long = spearman_corr_long(human_df)
     human_corr_long["dataset"] = dataset
     human_corr_long["rater_type"] = "human"
@@ -79,14 +71,10 @@ for dataset in datasets:
     synth_corr_long["dataset"] = dataset
     synth_corr_long["rater_type"] = "synthetic"
 
-    # concatena
     all_corrs.append(human_corr_long)
     all_corrs.append(synth_corr_long)
 
-# Unisci tutti i dataset
 all_corrs_df = pd.concat(all_corrs, ignore_index=True)
-
-# Salva CSV
 os.makedirs("_results", exist_ok=True)
 all_corrs_df.to_csv("_results/all_spearman_correlations.csv", index=False)
 

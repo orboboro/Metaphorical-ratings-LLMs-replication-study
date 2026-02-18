@@ -19,11 +19,10 @@ out_dir = '_results'
 if not Path(out_dir).exists():
     Path(out_dir).mkdir()
 
-# crea un dizionario vuoto in cui quando creo una chiave questa in automatico ha come valore una lista vuota
 rows_by_dimension = defaultdict(list)
 
 hfile = os.path.join(human_path, human_file)
-human_df = pd.read_csv(hfile, decimal=',') # molti campioni usano virgola come separatore decimale. pandas supporta decimal=','
+human_df = pd.read_csv(hfile, decimal=',')
 sfile = os.path.join(synthetic_path, synthetic_file)
 synth_df = pd.read_csv(sfile, decimal=',')
 
@@ -31,8 +30,6 @@ for dim in dimensions:
     human_col = f"{dim}_human"
     synth_col = f"{dim}_synthetic"
 
-    # costruisco tabella sintetica: per metafora prendo il valore dell'annotator==1 e la media su tutti gli annotatori
-    # converto valori in numerici (ignorando errori -> NaN)
     human_vals = human_df[['metaphor', human_col]].copy()
     human_vals.rename(columns={human_col: 'human'}, inplace=True)
     human_vals['metaphor'] = human_vals['metaphor'].astype(str).str.strip()
@@ -45,7 +42,6 @@ for dim in dimensions:
 
     merged = human_vals.merge(synth_vals, on='metaphor', how='left')
 
-    # salvare righe per questa dimensione
 
     for _, r in merged.iterrows():
         rows_by_dimension[dim].append({
@@ -54,7 +50,6 @@ for dim in dimensions:
             'synthetic': r.get('synthetic')
         })
 
-# Per ogni dimensione calcolare Spearman e percentage change rispetto a quello delle everyday metaphors
 
 every_day_df = pd.read_csv(out_dir + '/results_everyday_global.csv', decimal=',')
 every_day_df = every_day_df.set_index('dimension')
@@ -85,19 +80,14 @@ for dim, rows in rows_by_dimension.items():
         'pct change' : pct
     })
 
-    # =========================
-    # GRAFICO CORRELAZIONE
-    # =========================
     if len(sub) > 1:
         x = sub['human'].values
         y = sub['synthetic'].values
 
         plt.figure()
 
-        # scatter
         plt.scatter(x, y)
 
-        # retta di regressione lineare
         m, b = np.polyfit(x, y, 1)
         plt.plot(x, m*x + b)
 

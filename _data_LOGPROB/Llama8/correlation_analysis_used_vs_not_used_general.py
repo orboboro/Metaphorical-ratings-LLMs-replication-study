@@ -3,10 +3,6 @@ import pandas as pd
 from scipy.stats import spearmanr
 from pathlib import Path
 
-# =====================
-# PATHS E FILE
-# =====================
-
 human_path = "human_datasets/"
 synthetic_path = "synthetic_datasets/"
 raw_path = "original_datasets/"
@@ -39,16 +35,9 @@ dimensions_map = {
     'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
 }
 
-# =====================
-# NORMALIZZAZIONE ME
-# =====================
-
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
 
-# =====================
-# METAFRE USED (IDENTICO AL CODICE ORIGINALE)
-# =====================
 
 used_metaphors = {dim: set() for dims in dimensions_map.values() for dim in dims}
 
@@ -70,12 +59,7 @@ for name, fname in raw_files.items():
         if row.get("Lago et al. (2024)") == "Y":
             used_metaphors["FAMILIARITY"].add(row["Metaphor"])
 
-# insieme globale di tutte le metafore used (indipendente dalla dimensione)
 used_metaphors_global = set().union(*used_metaphors.values())
-
-# =====================
-# RACCOLTA DATI (SENZA DISTINZIONE PER DIMENSIONE)
-# =====================
 
 all_rows = []
 
@@ -84,7 +68,6 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
     human_df = pd.read_csv(os.path.join(human_path, human_files[ds_name]), decimal=',')
     synth_df = pd.read_csv(os.path.join(synthetic_path, synthetic_files[ds_name]), decimal=',')
 
-    # normalizzazione solo per ME
     if ds_name == 'ME':
         for col in human_df.columns:
             if col.endswith('_human'):
@@ -124,10 +107,6 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
 
 df_all = pd.DataFrame(all_rows)
 
-# =====================
-# CORRELAZIONI USED VS NOT USED (GLOBALI)
-# =====================
-
 results = []
 
 for used_flag, group in df_all.groupby('used'):
@@ -146,9 +125,6 @@ for used_flag, group in df_all.groupby('used'):
 
 results_df = pd.DataFrame(results).set_index('group')
 
-# =====================
-# DIFFERENZA PERCENTUALE
-# =====================
 
 if 'used' in results_df.index and 'not_used' in results_df.index:
     delta = results_df.loc['not_used', 'corr'] - results_df.loc['used', 'corr']
@@ -164,9 +140,6 @@ summary_df = pd.DataFrame([{
     'pct_change': pct_change
 }])
 
-# =====================
-# OUTPUT
-# =====================
 
 print("\n=== Correlazioni globali (tutte le dimensioni insieme) ===")
 print(results_df)

@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Dati
 data = {
     "split_dimension": ["BODY_RELATEDNESS","BODY_RELATEDNESS","BODY_RELATEDNESS","BODY_RELATEDNESS",
                         "BODY_RELATEDNESS","BODY_RELATEDNESS","PHISICALITY","PHISICALITY",
@@ -18,11 +17,9 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Colori
 color_high = "#1f77b4"
-color_low = "#ff7f0e"  # stesso colore tra split_dimension
+color_low = "#ff7f0e"
 
-# Facet per split_dimension
 split_dims = df['split_dimension'].unique()
 fig, axes = plt.subplots(1, len(split_dims), figsize=(12,5), sharey=True)
 
@@ -43,7 +40,6 @@ for ax, split in zip(axes, split_dims):
     rects1 = ax.bar(x - width/2, high_vals, width, label='High', color=color_high)
     rects2 = ax.bar(x + width/2, low_vals, width, label='Low', color=color_low)
 
-    # aggiungi asterischi sopra le barre
     for i, pv in enumerate(high_p):
         if pv > 0.1:
             ax.text(x[i] - width/2, high_vals[i]+0.05, '**', ha='center', va='bottom', fontsize=12)

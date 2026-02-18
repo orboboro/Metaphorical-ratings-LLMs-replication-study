@@ -36,25 +36,17 @@ dimensions_map = {
     'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
 }
 
-# Funzione per normalizzare i giudizi dati tra 1 e 5 come se fosssero tra 1 e 7
-
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
 
-# crea un dizionario vuoto in cui quando creo una chiave questa in automatico ha come valore una lista vuota
 rows_by_dimension = defaultdict(list)
-
-# Caricare i dataset umani e sintetici e costruire tabelle per dimensione
-# Per ogni dimensione creeremo una lista di righe con: metaphor, human_value, synthetic_value
 
 for ds_name in ['MB','ME','MI','MM']:
     
     hfile = os.path.join(human_path, human_files[ds_name])
-    human_df = pd.read_csv(hfile, decimal=',') # molti campioni usano virgola come separatore decimale. pandas supporta decimal=','
+    human_df = pd.read_csv(hfile, decimal=',')
     sfile = os.path.join(synthetic_path, synthetic_files[ds_name])
     synth_df = pd.read_csv(sfile, decimal=',')
-
-    # Normalizzazione ME 
 
     if ds_name == 'ME':
         for col in human_df.columns:
@@ -68,9 +60,6 @@ for ds_name in ['MB','ME','MI','MM']:
     for dim in dims:
         human_col = f"{dim}_human"
         synth_col = f"{dim}_synthetic"
-
-        # costruisco tabella sintetica: per metafora prendo il valore dell'annotator==1 e la media su tutti gli annotatori
-        # converto valori in numerici (ignorando errori -> NaN)
         human_vals = human_df[['metaphor', human_col]].copy()
         human_vals.rename(columns={human_col: 'human'}, inplace=True)
         human_vals['metaphor'] = human_vals['metaphor'].astype(str).str.strip()
@@ -82,8 +71,6 @@ for ds_name in ['MB','ME','MI','MM']:
         synth_vals['synthetic'] = pd.to_numeric(synth_vals['synthetic'], errors='coerce')
 
         merged = human_vals.merge(synth_vals, on='metaphor', how='left')
-
-        # salvare righe per questa dimensione
     
         for _, r in merged.iterrows():
             rows_by_dimension[dim].append({

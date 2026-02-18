@@ -27,10 +27,6 @@ dimensions_map = {
     'BA': ['FAMILIARITY', 'MEANINGFULNESS', 'DIFFICULTY']
 }
 
-# -------------------------
-# accumulatori globali
-# -------------------------
-
 agg_data = {}
 
 for ds_name in ['MB', 'MM', 'ME', 'BA']:
@@ -86,7 +82,6 @@ for ds_name in ['MB', 'MM', 'ME', 'BA']:
             .dropna()
         )
 
-        # inizializza struttura aggregata
         agg_data.setdefault(dim, {
             'high_human': [],
             'high_synth': [],
@@ -105,10 +100,6 @@ for ds_name in ['MB', 'MM', 'ME', 'BA']:
                 agg_data[dim][f'{label}_human'].extend(subset['human'].tolist())
                 agg_data[dim][f'{label}_synth'].extend(subset['synthetic'].tolist())
 
-
-# -------------------------
-# calcolo finale aggregato
-# -------------------------
 
 results = []
 

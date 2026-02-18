@@ -21,7 +21,6 @@ dimensions_map = {
     'MI': ['PHISICALITY', 'IMAGEABILITY'],
 }
 
-# Funzione per normalizzare i giudizi dati tra 1 e 5 come se fossero tra 1 e 7
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
 
@@ -37,15 +36,14 @@ for ds_name in ['MB', 'MI']:
 
     dims = dimensions_map[ds_name]
 
-    # dimensione di split
+
     if ds_name == 'MB':
         split_dim = 'BODY_RELATEDNESS'
-    else:  # MI
+    else:
         split_dim = 'PHISICALITY'
 
     split_col = f"{split_dim}_human"
 
-    # tabella per identificare le metafore >4 e <4
     split_df = human_df[['metaphor', split_col]].copy()
     split_df[split_col] = pd.to_numeric(split_df[split_col], errors='coerce')
 
@@ -80,7 +78,6 @@ for ds_name in ['MB', 'MI']:
             elif r['metaphor'] in low_metaphors:
                 rows_low.append(r)
 
-    # correlazioni
     for label, rows in [('high', rows_high), ('low', rows_low)]:
         df = pd.DataFrame(rows)
         n = len(df)

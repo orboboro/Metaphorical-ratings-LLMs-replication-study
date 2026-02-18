@@ -10,10 +10,6 @@ out_path = "_results/boxplots"
 
 os.makedirs(out_path, exist_ok=True)
 
-# -----------------------
-# FILE LISTE ESPLICITE
-# -----------------------
-
 human_files = [
     "human_BA.csv",
     "human_MB.csv",
@@ -30,10 +26,6 @@ synthetic_files = [
     "synthetic_MM.csv"
 ]
 
-# -----------------------
-# LETTURA HUMAN
-# -----------------------
-
 def read_human_csv(path):
     df = pd.read_csv(path)
 
@@ -49,10 +41,6 @@ def read_human_csv(path):
     df.columns = [c.replace("_human", "") for c in df.columns]
     return df
 
-# -----------------------
-# LETTURA SYNTHETIC
-# -----------------------
-
 def read_synth_csv(path):
     df = pd.read_csv(path)
 
@@ -65,10 +53,6 @@ def read_synth_csv(path):
 
     df.columns = [c.replace("_synthetic", "") for c in df.columns]
     return df
-
-# -----------------------
-# CARICAMENTO
-# -----------------------
 
 human_dfs = []
 for fname in human_files:
@@ -83,10 +67,6 @@ for fname in synthetic_files:
 human_all = pd.concat(human_dfs, ignore_index=True)
 synthetic_all = pd.concat(synthetic_dfs, ignore_index=True)
 
-# -----------------------
-# MERGE
-# -----------------------
-
 merged = pd.merge(
     human_all,
     synthetic_all,
@@ -94,10 +74,6 @@ merged = pd.merge(
     how="outer",
     suffixes=("_human", "_synthetic")
 )
-
-# -----------------------
-# DIMENSIONI
-# -----------------------
 
 dimensions = sorted({
     c.replace("_human","")
@@ -107,9 +83,6 @@ dimensions = sorted({
 
 print("Dimensioni:", dimensions)
 
-# -----------------------
-# FUNZIONE F-TEST
-# -----------------------
 
 def f_test(x, y):
     x = np.array(x)
@@ -122,10 +95,6 @@ def f_test(x, y):
     dfd = y.size-1
     p_val = 2 * min(scipy.stats.f.cdf(f_stat, dfn, dfd), 1-scipy.stats.f.cdf(f_stat, dfn, dfd))
     return f_stat, p_val
-
-# -----------------------
-# STD, MEDIANE E F-TEST
-# -----------------------
 
 rows = []
 
@@ -178,10 +147,6 @@ summary_df = pd.DataFrame(
 summary_df.to_csv("std_median_and_f_test_summary.csv", index=False)
 
 print(summary_df)
-
-# -----------------------
-# BOXPLOT
-# -----------------------
 
 for dim in dimensions:
 

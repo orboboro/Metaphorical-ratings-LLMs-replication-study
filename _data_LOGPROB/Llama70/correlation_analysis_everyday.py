@@ -36,15 +36,12 @@ dimensions_map = {
     'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
 }
 
-# Funzione per normalizzare i giudizi dati tra 1 e 5 come se fosssero tra 1 e 7
 
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
 
-# crea un dizionario vuoto in cui quando creo una chiave questa in automatico ha come valore una lista vuota
 rows_by_dimension = defaultdict(list)
 
-# Rintracciare le metafore gia' usate in altri studi
 
 used_metaphors = {dim: set() for dims in dimensions_map.values() for dim in dims}
 
@@ -65,17 +62,14 @@ for name, fname in raw_files.items():
         if row.get("Lago et al. (2024)") == "Y":
             used_metaphors["FAMILIARITY"].add(row["Metaphor"]) 
 
-# Caricare i dataset umani e sintetici e costruire tabelle per dimensione
-# Per ogni dimensione creeremo una lista di righe con: metaphor, human_value, synthetic_value
 
 for ds_name in ['MB','ME','MI','MM']:
     
     hfile = os.path.join(human_path, human_files[ds_name])
-    human_df = pd.read_csv(hfile, decimal=',') # molti campioni usano virgola come separatore decimale. pandas supporta decimal=','
+    human_df = pd.read_csv(hfile, decimal=',')
     sfile = os.path.join(synthetic_path, synthetic_files[ds_name])
     synth_df = pd.read_csv(sfile, decimal=',')
 
-    # Normalizzazione ME 
 
     if ds_name == 'ME':
         for col in human_df.columns:
@@ -90,8 +84,7 @@ for ds_name in ['MB','ME','MI','MM']:
         human_col = f"{dim}_human"
         synth_col = f"{dim}_synthetic"
 
-        # costruisco tabella sintetica: per metafora prendo il valore dell'annotator==1 e la media su tutti gli annotatori
-        # converto valori in numerici (ignorando errori -> NaN)
+    
         human_vals = human_df[['metaphor', human_col]].copy()
         human_vals.rename(columns={human_col: 'human'}, inplace=True)
         human_vals['metaphor'] = human_vals['metaphor'].astype(str).str.strip()
@@ -104,8 +97,6 @@ for ds_name in ['MB','ME','MI','MM']:
 
         merged = human_vals.merge(synth_vals, on='metaphor', how='left')
 
-        # salvare righe per questa dimensione
-    
         for _, r in merged.iterrows():
             rows_by_dimension[dim].append({
                 'dataset': ds_name,
@@ -114,7 +105,6 @@ for ds_name in ['MB','ME','MI','MM']:
                 'synthetic': r.get('synthetic')
             })
 
-# Per ogni dimensione calcolare Spearman globalmente, poi separare metafore usate vs non usate e calcolare Spearman separatamente
 results_global = []
 results_vs = []
 for dim, rows in rows_by_dimension.items():
@@ -130,15 +120,12 @@ for dim, rows in rows_by_dimension.items():
         'p_value': p_global,
     })
 
-    # aggiungere colonna used
-    df_dim['used'] = df_dim['metaphor'].apply(lambda m: m in used_metaphors.get(dim, set())) # il secondo parametro è il valore da restituiore se nel dizionario non c'è la chiave (dim) specificata
-
+    df_dim['used'] = df_dim['metaphor'].apply(lambda m: m in used_metaphors.get(dim, set()))
     for used_flag, group_df in df_dim.groupby('used'):
         label = 'used' if used_flag else 'not_used'
         sub = group_df[['human','synthetic']].dropna()
         corr_vs, p_vs = spearmanr(sub['human'], sub['synthetic'])
         n_vs = len(sub)
-        # misura del cambiamento (corr non-used minus corr used): qui calcolo semplice delta e percentuale relativa
         results_vs.append({
             'dimension': dim,
             'group': label,
@@ -150,11 +137,10 @@ for dim, rows in rows_by_dimension.items():
 res_global_df = pd.DataFrame(results_global)
 res_vs_df = pd.DataFrame(results_vs)
 
-# calcolo della differenza in percentuale della correlazione coi giudizi umani delle metafore used vs not_used
 
 summary_rows = []
 for dim in res_vs_df['dimension'].unique():
-    sub = res_vs_df[res_vs_df['dimension']==dim].set_index('group') # la colonna 'group' (che contiene stringhe: 'used' o ' not_used") diventa l’indice invece dei numeri predefiniti
+    sub = res_vs_df[res_vs_df['dimension']==dim].set_index('group')
     used_row = sub.loc['used'] if 'used' in sub.index else None
     not_used_row = sub.loc['not_used'] if 'not_used' in sub.index else None
 

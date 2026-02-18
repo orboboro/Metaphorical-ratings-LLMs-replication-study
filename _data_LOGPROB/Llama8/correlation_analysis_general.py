@@ -27,14 +27,11 @@ dimensions_map = {
     'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
 }
 
-# Funzione per normalizzare i giudizi dati tra 1 e 5 come se fossero tra 1 e 7
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
 
-# Lista che conterrà TUTTE le coppie human–synthetic
 all_rows = []
 
-# Caricare i dataset umani e sintetici
 for ds_name in ['MB', 'ME', 'MI', 'MM']:
 
     hfile = os.path.join(human_path, human_files[ds_name])
@@ -43,7 +40,6 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
     sfile = os.path.join(synthetic_path, synthetic_files[ds_name])
     synth_df = pd.read_csv(sfile, decimal=',')
 
-    # Normalizzazione ME
     if ds_name == 'ME':
         for col in human_df.columns:
             if col.endswith('_human'):
@@ -79,10 +75,9 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
                 'synthetic': r['synthetic']
             })
 
-# DataFrame globale
+
 df_all = pd.DataFrame(all_rows)
 
-# Calcolo correlazione Spearman globale
 sub = df_all[['human', 'synthetic']].dropna()
 corr, p_value = spearmanr(sub['human'], sub['synthetic'])
 n_items = len(sub)
@@ -96,7 +91,6 @@ results_global = pd.DataFrame([{
 print('\n=== Correlazione generale (senza distinguere per dimensione) ===')
 print(results_global)
 
-# Salvataggio risultati
 out_dir = '_results'
 if not Path(out_dir).exists():
     Path(out_dir).mkdir()

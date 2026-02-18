@@ -36,12 +36,10 @@ for ds_name in ['MB', 'MI']:
 
     dims = dimensions_map[ds_name]
 
-    # dimensione di split
     split_dim = 'BODY_RELATEDNESS' if ds_name == 'MB' else 'PHISICALITY'
     median = 3.8 if ds_name == 'MB'else 2.97
     split_col = f"{split_dim}_human"
 
-    # conversione numerica
     human_df[split_col] = pd.to_numeric(human_df[split_col], errors='coerce')
 
     high_metaphors = set(

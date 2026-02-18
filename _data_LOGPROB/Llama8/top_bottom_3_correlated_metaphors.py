@@ -26,7 +26,6 @@ dimensions_map = {
     'MM': ['FAMILIARITY', 'MEANINGFULNESS'],
 }
 
-# normalizzazione ME (1–5 → 1–7)
 def normalize_me(series):
     return 1 + (series - 1) * (6 / 4)
 
@@ -48,11 +47,9 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
     human_df = pd.read_csv(hfile, decimal=',')
     synth_df = pd.read_csv(sfile, decimal=',')
 
-    # normalizza metafore
     human_df['metaphor'] = normalize_metaphor(human_df['metaphor'])
     synth_df['metaphor'] = normalize_metaphor(synth_df['metaphor'])
 
-    # normalizzazione ME
     if ds_name == 'ME':
         for col in human_df.columns:
             if col.endswith('_human'):
@@ -93,7 +90,6 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
                 'abs_diff': abs(r['human'] - r['synthetic'])
             })
 
-# dataframe globale
 df = pd.DataFrame(rows)
 
 results = []
@@ -102,9 +98,7 @@ for dim, sub_df in df.groupby('dimension'):
 
     sub_df = sub_df.sort_values('abs_diff')
 
-    # top 3: differenza minima
     best = sub_df.head(3)
-    # bottom 3: differenza massima
     worst = sub_df.tail(3)
 
     for _, r in best.iterrows():

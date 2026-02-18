@@ -35,7 +35,6 @@ def normalize_metaphor(series):
 
 all_rows = []
 
-# Carica tutti i dataset e aggrega
 for ds_name in ['MB', 'ME', 'MI', 'MM']:
 
     human_df = pd.read_csv(os.path.join(human_path, human_files[ds_name]), decimal=',')
@@ -44,7 +43,6 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
     human_df['metaphor'] = normalize_metaphor(human_df['metaphor'])
     synth_df['metaphor'] = normalize_metaphor(synth_df['metaphor'])
 
-    # Normalizzazione ME
     if ds_name == 'ME':
         for col in human_df.columns:
             if col.endswith('_human'):
@@ -65,7 +63,6 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
         synth_vals = synth_df[['annotator', 'metaphor', synth_col]].copy()
         synth_vals[synth_col] = pd.to_numeric(synth_vals[synth_col], errors='coerce')
 
-        # media dei sintetici per metafora
         synth_mean = synth_vals.groupby('metaphor')[synth_col].mean().reset_index()
         synth_mean.rename(columns={synth_col:'synthetic'}, inplace=True)
 
@@ -79,11 +76,8 @@ for ds_name in ['MB', 'ME', 'MI', 'MM']:
                 'human': r['human'],
                 'synthetic': r['synthetic']
             })
-
-# dataframe globale
 df_all = pd.DataFrame(all_rows)
 
-# correlazione generale
 sub = df_all[['human','synthetic']].dropna()
 corr, p_value = spearmanr(sub['human'], sub['synthetic'])
 n_items = len(sub)
@@ -97,7 +91,6 @@ results_df = pd.DataFrame([{
 print('\n=== Correlazione generale tra giudizi umani e sintetici ===')
 print(results_df)
 
-# salvataggio CSV
 out_dir = '_results'
 Path(out_dir).mkdir(exist_ok=True)
 results_df.to_csv(os.path.join(out_dir, 'results_general.csv'), index=False)

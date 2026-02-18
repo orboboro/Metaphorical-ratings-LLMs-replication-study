@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-# Dati
 data = {
     "familiarity": ["high","low","high","low","high","low","high","low"],
     "dimension": ["Familiarity","Familiarity","Meaningfulness","Meaningfulness",
@@ -17,44 +16,38 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Barre per ogni dimensione
 dimensions = df['dimension'].unique()
-x = np.arange(len(dimensions))  # posizioni delle dimensioni
-width = 0.35  # larghezza barre
+x = np.arange(len(dimensions))
+width = 0.35 
 
-# Creazione figura
 fig, ax = plt.subplots(figsize=(10,6))
 
-# Barre high e low
 high_corr = df[df['familiarity']=='high'].set_index('dimension')['spearman_corr'].reindex(dimensions)
 low_corr = df[df['familiarity']=='low'].set_index('dimension')['spearman_corr'].reindex(dimensions)
 
-# Disegna le barre
 bars1 = ax.bar(x - width/2, high_corr, width, label='High Familiarity', color='skyblue')
 bars2 = ax.bar(x + width/2, low_corr, width, label='Low Familiarity', color='salmon')
 
-# Aggiungi asterischi sopra le barre se p_value > 0.05 o > 0.1
 for i, dim in enumerate(dimensions):
-    # High
+
     p = df[(df['familiarity']=='high') & (df['dimension']==dim)]['p_value'].values[0]
     if p > 0.1:
         ax.text(i - width/2, high_corr[i]+0.03, '**', ha='center', va='bottom', fontsize=12)
     elif p > 0.05:
         ax.text(i - width/2, high_corr[i]+0.03, '*', ha='center', va='bottom', fontsize=12)
-    # Low
+
     p = df[(df['familiarity']=='low') & (df['dimension']==dim)]['p_value'].values[0]
     if p > 0.1:
         ax.text(i + width/2, low_corr[i]+0.03, '**', ha='center', va='bottom', fontsize=12)
     elif p > 0.05:
         ax.text(i + width/2, low_corr[i]+0.03, '*', ha='center', va='bottom', fontsize=12)
 
-# Etichette e titolo
 ax.set_ylabel('Spearman Correlation')
 ax.set_xticks(x)
 ax.set_xticklabels(dimensions, rotation=30, ha='right')
 ax.set_title('Spearman Correlations by Familiarity Level')
 ax.legend()
-ax.set_ylim(0, 1.1)  # lascia spazio per asterischi
+ax.set_ylim(0, 1.1) 
 
 plt.tight_layout()
 plt.savefig("spearman_correlations.png", dpi=300)
