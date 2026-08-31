@@ -1,6 +1,6 @@
 # Metaphotical-ratings-LLMs-replication-study
 
-Il codice contenuto nella repository è stato scritto per realizzare l'esperimento previsto dal mio progetto di tesi in Linguistica computazionale. "Il titolo della tesi è: Large Language Model e simulazione della cognizione umana: il caso della valutazione automatica di espressioni metaforiche". Qua di seguito espongo in breve il framework dell'esperimento e l'esperimento stesso, ma lascio per chi avesse voglia anche il [testo integrale della tesi](https://github.com/orboboro/Metaphorical-ratings-LLMs-replication-study/integral_thesis_text.pdf)
+Il codice contenuto nella repository è stato scritto per realizzare l'esperimento previsto dal mio progetto di tesi in Linguistica computazionale. "Il titolo della tesi è: Large Language Model e simulazione della cognizione umana: il caso della valutazione automatica di espressioni metaforiche". Qua di seguito espongo in breve il framework dell'esperimento e l'esperimento stesso, ma lascio per chi avesse voglia anche il [testo integrale della tesi](https://github.com/orboboro/Metaphorical-ratings-LLMs-replication-study/blob/main/integral_thesis_text.pdf)
 
 
 
