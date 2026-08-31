@@ -71,8 +71,8 @@ Veniamo poi alla questione centrale, quella che poneva la domanda di ricerca da 
 partiti: quanto è fattibile la sostituzione dei partecipanti umani con dei modelli linguistici?
 
 Allora, abbiamo visto che modelli di linguaggio possono produrre giudizi che convergono con quelli umani, ma tale convergenza non è ancora abbastanza forte né uniforme lungo tutte le dimensioni del significato perché sia legittimo usare in modo generalizzato i janguage models in esperimenti psicolinguistici. L'unica correlazione al di sopra della sogli ideale infatti è stata quella di Llama 70 per la body relatedness.
-![slide1](/presentation_slides/slide10.png)
 
 Inoltre, lo studio di sostituzione ha dimostrato che i modelli tendono a preservare la struttura relazionale dei dati umani, pur amplificando o attenuando l'intensità di queste relazioni.
 
 Nella pratica, quindi, la prospettiva che si delinea non è tanto quella di una sostituzione, ma di una integrazione controllata, mantenendo come condizione incrollabile quella di non interrompere mai il confronto con i dati umani, perché una ricerca sperimentale condotta esclusivamente su dati sintetici rischierebbe di portare alla deriva le nostre teorie sull'elaborazione linguistica e sulla cognizione umana in generale.
+![slide1](/presentation_slides/slide10.png)
