@@ -67,10 +67,10 @@ def main():
 
 if __name__ == "__main__": # La variabile speciale __name__ viene inizializzata uguale a "__main__" quando un file python viene eseguito
     main()                 # direttamente. Dunque la condizione __name__ == "__main__ è rispettata e quindi il contenuto delle funzione
-                            # main viene eseguito. invece, se il file .py viene importato in un altro file, il suo contenuto non verrà
+                            # main viene eseguito. Invece, se il file .py viene importato in un altro file, il suo contenuto non verrà
                             # eseguito, perché dal momento che il file non è eseguito direttamente, __name__ non sarà uguale alla stringa
                             # "__main__", ma al nome stesso del file .py. Insomma questa condizione serve a far sì che una funzione
-                            # contenuta in un file venga eseguita solo quando è chiamata firettamente da terminale e nonquando è importata
+                            # contenuta in un file venga eseguita solo quando è chiamata direttamente da terminale e non quando è importata
                             # come modulo da altri file. 
                             # Reference: https://www.youtube.com/watch?v=sugvnHA7ElY
     
